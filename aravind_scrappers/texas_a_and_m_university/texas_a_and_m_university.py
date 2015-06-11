@@ -31,6 +31,10 @@ def extract_details(details_url):
     print title
     
     work_department = "".join(re.findall(r'<th>Work Department:</th>.*?<td>(.*?)</td>', details_html)).replace('&amp;', '&')
+    if len(work_department) > 0:
+        work_department = work_department
+    else:
+        work_department = 'Student'
     print work_department
     
     major = "".join(re.findall(r'<th>Major:</th>.*?<td>(.*?)</td>', details_html))
@@ -63,7 +67,7 @@ def get_details_url(search_url):
     return details_url_list
     
 if __name__ == "__main__":
-
+    
     file_name = raw_input('Enter name of file to save data(need not to enter file extension)......\n')
     csv_file_name = file_name+'.csv'
     
@@ -85,7 +89,6 @@ if __name__ == "__main__":
             data_writer.writerow(data_list)
             print '*'*78
     """
-    url = 'https://services.tamu.edu/directory-search/people/323272924fb452a0def393858b75e964/'
+    url = 'https://services.tamu.edu/directory-search/people/58c35015542f9eb7ce207c678bbf2fca/'
     extract_details(url)
     """
-    

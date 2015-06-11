@@ -31,7 +31,7 @@ br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
 br.addheaders = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
 
 def extract_information(url, number_of_pages, data_writer):
-    for page in range(1,number_of_pages+1):
+    for page in range(1563, number_of_pages+1):
         pagination_url = url+'&page='+str(page)
         print pagination_url
         
@@ -109,6 +109,7 @@ def extract_details(details_url, file_name):
     data_writer.writerow([details_url, title, phone_number, street_address, address_locality, address_region, address_country, postal_code])
     print '*'*78
 
+"""
 def validate_url(url, data_writer):
     req = Request(url)
     try:
@@ -130,7 +131,8 @@ def validate_url(url, data_writer):
         except:
             raise
             print "Not able to get pages....."
-        
+"""
+    
 if __name__ == "__main__":
     
     #http://www.apontador.com.br/local/search.html?q=S%C3%A3o+Jos%C3%A9+do+Rio+Preto&loc_z=S%C3%A3o+Paulo&loc=S%C3%A3o+Paulo%2C+SP&loc_y=S%C3%A3o+Paulo%2C+SP
@@ -139,7 +141,8 @@ if __name__ == "__main__":
     #f = open('imported_data/'+csv_file_name, "wb")
     #data_writer = csv.writer(f)
 
-    data_writer = csv.writer(open('imported_data/'+csv_file_name, 'wb'))
-    data_writer.writerow(['URL', 'Title', 'Phone', 'Street Address', 'Locality', 'Region', 'Country', 'Postal Code'])
-    url = raw_input('Enter search URL to extract information......\n')
-    validate_url(url, data_writer)
+    data_writer = csv.writer(open('imported_data/'+csv_file_name, 'ab'))
+    #data_writer.writerow(['URL', 'Title', 'Phone', 'Street Address', 'Locality', 'Region', 'Country', 'Postal Code'])
+    #url = raw_input('Enter search URL to extract information......\n')
+    #validate_url(url, data_writer)
+    extract_information('http://www.apontador.com.br/local/search.html?q=&loc_z=S%C3%A3o+Jos%C3%A9+do+Rio+Preto%2C+SP&loc=S%C3%A3o+Jos%C3%A9+do+Rio+Preto%2C+SP&loc_y=S%C3%A3o+Jos%C3%A9+do+Rio+Preto%2C+SP', 1733, data_writer)
