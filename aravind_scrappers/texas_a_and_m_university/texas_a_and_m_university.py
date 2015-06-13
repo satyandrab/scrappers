@@ -65,16 +65,16 @@ def get_details_url(search_url):
         details_url_list.append('https://services.tamu.edu'+detail_url)
     
     return details_url_list
-    
+
 if __name__ == "__main__":
     
     file_name = raw_input('Enter name of file to save data(need not to enter file extension)......\n')
     csv_file_name = file_name+'.csv'
     
-    data_writer = csv.writer(open('imported_data/'+csv_file_name, 'wb'))
-    data_writer.writerow(['First Name', 'Last Name', 'Title', 'Work Department',
-                          'Major', 'Classification', 'Web Page', 'Office Phone',
-                          'Email Address', 'Institution'])
+    data_writer = csv.writer(open('imported_data/'+csv_file_name, 'ab'))
+    #data_writer.writerow(['First Name', 'Last Name', 'Title', 'Work Department',
+    #                      'Major', 'Classification', 'Web Page', 'Office Phone',
+    #                      'Email Address', 'Institution'])
     
     last_name_list = open('last_names.txt', 'rb').readlines()
     for last_name in last_name_list:
@@ -84,7 +84,7 @@ if __name__ == "__main__":
         for detail_url in profile_url_list:
             print 'Extracting data from URL '+detail_url
             data_list = extract_details(detail_url)
-            print "Writing data into CSV"
+            print "Writing data into CSV for last name ", last_name
             print data_list
             data_writer.writerow(data_list)
             print '*'*78

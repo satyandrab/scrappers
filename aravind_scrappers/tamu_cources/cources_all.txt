@@ -1,3 +1,103 @@
+ACCT - Accounting
+ADDM - Dental Materials
+AEDH - Adv Ed Dental Hygiene
+AEGD - Adv Ed Gen Dentistry
+AERO - Aerospace Engineering
+AERS - Aerospace Studies
+AFST - Africana Studies
+AGCJ - Ag Comm & Journalism
+AGEC - Agricultural Economics
+AGLS - Ag & Life Sciences
+AGSC - Agricultural Science
+AGSM - Agricultrl Systems Mgmt
+ALEC - Ag Leadrshp, Ed & Comm
+ALED - Ag Leadership & Dev
+ANSC - Animal Science
+ANTH - Anthropology
+ARAB - Arabic
+ARCH - Architecture
+ARTS - Art
+ASIA - Asian Studies
+ASTR - Astronomy
+ATMO - Atmospheric Sciences
+ATTR - Athletic Training
+BAEN - Biological & Ag Engr
+BEFB - Bilingual Ed Field Based
+BESC - Bioenvironmental Sci
+BICH - Biochemistry
+BIED - Bilingual Education
+BIMS - Biomedical Science
+BIOL - Biology
+BIOT - Biotechnology
+BMEN - Biomedical Engineering
+BUAD - Business Administration
+BUSH - Geo. Bush School of Gov
+BUSN - Mays Business School
+CARC - College of Architecture
+CEHD - Coll of Ed & Human Dev
+CHEM - Chemistry
+CHEN - Chemical Engineering
+CHIN - Chinese
+CLAS - Classics
+COMM - Communication
+COSC - Construction Science
+CPSY - Counseling Psychology
+CSCE - Computer Sci & Engr
+CVEN - Civil Engineering
+DASC - Dairy Science
+DCED - Dance Education
+DDHS - Dental Hygiene
+ECEN - Electrical & Comp Engr
+ECMT - Econometrics
+ECON - Economics
+EDAD - Educational Administrtn
+EDCI - Educ Curriculum & Dev
+EDHP - Ed Healthcare Prof
+EDTC - Educational Technology
+EHRD - Ed Human Res Develop
+ELIC - Composition
+ELID - Directed Lab
+ELIG - Grammar
+ELIL - Skills Lab
+ELIM - Math
+ELIO - Oral Skills
+ELIR - Reading/Writing
+ELIT - TOEFL Preparation
+ELIV - Vocabulary
+ENDG - Engr Design Graphics
+ENDO - Endodontics
+ENDS - Environmental Design
+ENGL - English
+ENGR - Engineering
+ENTC - Engineering Technology
+ENTO - Entomology
+EPFB - Educ Psyc Field Based
+EPSY - Educational Psychology
+ESET - Electronic Sys Eng Tech
+ESSM - Ecosystem Science & Mgmt
+EURO - European Studies
+FILM - Film Studies
+FINC - Finance
+FIVS - Forensic & Inv Science
+FREN - French
+FSTC - Food Science & Tech
+GENE - Genetics
+GEOG - Geography
+GEOL - Geology
+GEOP - Geophysics
+GEOS - Geosciences
+GERM - German
+HCPI - Healthcare Prof Core In
+HEFB - Health Ed Field Based
+HISP - Hispanic Studies
+HIST - History
+HLTH - Health
+HORT - Horticultural Sciences
+HPCH - Health Promo Comm Hlth
+HPED - Health Professions Ed
+HUMA - Humanities
+IBST - Institute Biosci & Tech
+IBUS - International Business
 IDIS - Industrial Distribution
 INST - Interdisciplinary Studies
 INTA - International Affairs
