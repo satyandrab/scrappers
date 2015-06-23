@@ -23,8 +23,8 @@ def extract_details_link(search_url, school_data):
     course_name = title[0][2].strip()
     
     return [category, school, course_number, course_category, course_name]
-    
-def get_details_url(url, data_writer):
+
+def get_details_url(url, data_writer, page):
     req = Request(url)
     response = urlopen(req)
     html = response.read().replace('\r', '').replace('\n', '').split('<td colspan="2"><br>')
@@ -37,7 +37,7 @@ def get_details_url(url, data_writer):
             for details_url in  detail_urls:
                 d_url = 'http://catalog.uh.edu/'+details_url
                 data_list = extract_details_link(d_url, school)
-                print "Writing data to CSV"
+                print "Writing data to CSV for page ", str(page)
                 print data_list
                 data_writer.writerow(data_list)
                 print '*'*78
@@ -47,10 +47,10 @@ if __name__ == "__main__":
     file_name = raw_input('Enter name of file to save data(need not to enter file extension)......\n')
     csv_file_name = file_name+'.csv'
     
-    data_writer = csv.writer(open('imported_data/'+csv_file_name, 'wb'))
-    data_writer.writerow(['First Name', 'Last Name', 'Department'])
+    data_writer = csv.writer(open('imported_data/'+csv_file_name, 'ab'))
+    #data_writer.writerow(['First Name', 'Last Name', 'Department'])
     
-    for page in range(1, 37):
+    for page in range(29, 37):
         url = 'http://catalog.uh.edu/content.php?catoid=8&catoid=8&navoid=1557&filter%5Bitem_type%5D=3&filter%5Bonly_active%5D=1&filter%5B3%5D=1&filter%5Bcpage%5D='+str(page)
         print url
-        get_details_url(url, data_writer)
+        get_details_url(url, data_writer, page)
