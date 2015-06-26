@@ -36,24 +36,7 @@ def mechanize_br():
     br.addheaders = [('User-agent', 'Mozilla/'+(random.choice(version_list))+' (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1'), ('Accept', '*/*')]
     
     return br
-"""
-def extract_information(url, number_of_pages, data_writer):
-    for page in range(1563, number_of_pages+1):
-        pagination_url = url+'&page='+str(page)
-        print pagination_url
-        
-        html_response = br.open(pagination_url)
-        html_source = html_response.read()
-        pagination_html = html_source.replace('\n', '').replace('\r', '')
-    
-        #req = Request(pagination_url)
-        #response = urlopen(req)
-        #pagination_html = response.read().replace('\r', '').replace('\n', '')
-        
-        get_details_page_url = re.findall(r'<h3 class="poi name">.*?<a href="(.*?)"', pagination_html)
-        for details_url in get_details_page_url:
-            extract_details(details_url, data_writer)
-"""
+
 def extract_details(details_url, file_name):
     try:
         print details_url
@@ -70,6 +53,8 @@ def extract_details(details_url, file_name):
         
         try:
             phone = "".join(re.findall(r'Tel: (.*?) <', details_html))
+            if len(phone) == 0:
+                phone = " !! ".join(re.findall(r'Cel: (.*?) <', details_html))
         except:
             phone = ''
         print phone
@@ -98,29 +83,78 @@ def extract_details(details_url, file_name):
             postal_code = ''
         print postal_code
         
-        #print "writing data into csv file for url.."+details_url
-        #print [details_url, title, phone_number, street_address, address_locality, address_region, address_country, postal_code]
-        #data_writer.writerow([details_url, title, phone_number, street_address, address_locality, address_region, address_country, postal_code])
-        #print '*'*78
+        print "writing data into csv file for url.."+details_url
+        print [details_url, title, phone, street_address, address_locality, address_region, postal_code]
+        data_writer.writerow([details_url, title, phone, street_address, address_locality, address_region, postal_code])
+        print '*'*78
     except Exception, e:
-        print str(e)
-        print "error"
+        if str(e) == 'HTTP Error 403: Forbidden':
+            extract_details(details_url, file_name)
+            
+def get_pagination(search_url):
+    number_of_pages = 0
+    try:
+        print search_url
+        br_instance = mechanize_br()
+        html_response = br_instance.open(search_url)
+        html_source = html_response.read()
+        details_html = html_source.replace('\n', '').replace('\r', '')
+        
+        number_of_results = "".join(re.findall(r'padBottom_10">(.*?) Empresas', details_html))
+        print number_of_results
+        number_of_pages = (int(number_of_results)/10)+1
+#        print number_of_pages
+        return number_of_pages
+    except Exception, e:
+        if str(e) == 'HTTP Error 403: Forbidden':
+            pages = get_pagination(search_url)
+            return pages
+    except:
+        raise
+    
+def get_landing_pages(url, data_writer):
+    try:
+        print url
+        br_instance = mechanize_br()
+        html_response = br_instance.open(url)
+        html_source = html_response.read()
+        details_html = html_source.replace('\n', '').replace('\r', '')
+        
+        #
+        details_results = re.findall(r'<a href="http://www.123achei.com.br/classificados/conta.php.*?url=(http://www.123achei.com.br/.*?)"', details_html)
+        for det_url in details_results:
+            extract_details(det_url, data_writer)
+    except Exception, e:
+        if str(e) == 'HTTP Error 403: Forbidden':
+            get_landing_pages(url, data_writer)
+            
+def get_details_pages(pages, data_writer):
+    for i in range(pages):
+        url = 'http://www.123achei.com.br/classificados/resultado.php?tipo=&ncidade=&rele=&pagina='+str(i)+'&idatividade=7527&atividade=Restaurantes&codLocal=11562&sreg=801&zona='
+        get_landing_pages(url, data_writer)
+        
     
 if __name__ == "__main__":
-    
-    url = 'http://www.123achei.com.br/servicos/bares-e-restaurantes/restaurantes/sao-jose-do-rio-preto/disk-marmitex-e-restaurante-frangao-frango-assado-na-brasa-aberto1.html'
-    extract_details(url, 'abc')
     """
-    #http://www.apontador.com.br/local/search.html?q=S%C3%A3o+Jos%C3%A9+do+Rio+Preto&loc_z=S%C3%A3o+Paulo&loc=S%C3%A3o+Paulo%2C+SP&loc_y=S%C3%A3o+Paulo%2C+SP
+    url1 = 'http://www.123achei.com.br/servicos/bares-e-restaurantes/restaurantes/sao-jose-do-rio-preto/emporio-multi-sabores.html'
+    url = 'http://www.123achei.com.br/servicos/bares-e-restaurantes/restaurantes/sao-jose-do-rio-preto/di-carlos-restaurante2.html'
+    extract_details(url1, 'abc')
+    """
+    #url = 'http://www.123achei.com.br/classificados/resultado.php?suf=SP&sreg=801x11562&idatividade=7527'
+    #pages = get_pagination(url)
+    #print pages
+    #pages = 2
+    #get_details_pages(pages)
+    
+    
     file_name = raw_input('Enter name of file to save data(need not to enter file extension)......\n')
     csv_file_name = file_name+'.csv'
-    #f = open('imported_data/'+csv_file_name, "wb")
-    #data_writer = csv.writer(f)
 
     data_writer = csv.writer(open('imported_data/'+csv_file_name, 'ab'))
-    #data_writer.writerow(['URL', 'Title', 'Phone', 'Street Address', 'Locality', 'Region', 'Country', 'Postal Code'])
-    #url = raw_input('Enter search URL to extract information......\n')
-    #validate_url(url, data_writer)
-    extract_information('http://www.apontador.com.br/local/search.html?q=&loc_z=S%C3%A3o+Jos%C3%A9+do+Rio+Preto%2C+SP&loc=S%C3%A3o+Jos%C3%A9+do+Rio+Preto%2C+SP&loc_y=S%C3%A3o+Jos%C3%A9+do+Rio+Preto%2C+SP', 1733, data_writer)
-    """
-
+    data_writer.writerow(['URL', 'Title', 'Phone', 'Street Address', 'Locality', 'Region', 'Postal Code'])
+    category_file = open('categories.txt', 'rb')
+    for category in category_file.readlines():
+        url = 'http://www.123achei.com.br/classificados/resultado.php?suf=SP&sreg=801x11562&idatividade='+str(category.strip())
+        pages = get_pagination(url)
+        get_details_pages(pages, data_writer)
+    
