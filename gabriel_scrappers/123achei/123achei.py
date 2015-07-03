@@ -101,14 +101,24 @@ def get_pagination(search_url):
         details_html = html_source.replace('\n', '').replace('\r', '')
         
         number_of_results = "".join(re.findall(r'padBottom_10">(.*?) Empresas', details_html))
-        print number_of_results
+        #print number_of_results
         number_of_pages = (int(number_of_results)/10)+1
+        
+        if number_of_pages > 1:
+            try:
+                pagination_url = 'http://www.123achei.com.br'+str(re.findall(r'<a href="(/classificados/resultado.php?.*?)" class="txt12 txt666 lineH15">\d+</a>', details_html)[0])
+            except:
+                pass
+        elif number_of_pages == 1:
+            pagination_url = search_url
+        else:
+            pagination_url = None
 #        print number_of_pages
-        return number_of_pages
+        return number_of_pages, pagination_url
     except Exception, e:
         if str(e) == 'HTTP Error 403: Forbidden':
-            pages = get_pagination(search_url)
-            return pages
+            pages, url = get_pagination(search_url)
+            return pages, url
     except:
         raise
     
@@ -120,7 +130,6 @@ def get_landing_pages(url, data_writer):
         html_source = html_response.read()
         details_html = html_source.replace('\n', '').replace('\r', '')
         
-        #
         details_results = re.findall(r'<a href="http://www.123achei.com.br/classificados/conta.php.*?url=(http://www.123achei.com.br/.*?)"', details_html)
         for det_url in details_results:
             extract_details(det_url, data_writer)
@@ -128,11 +137,10 @@ def get_landing_pages(url, data_writer):
         if str(e) == 'HTTP Error 403: Forbidden':
             get_landing_pages(url, data_writer)
             
-def get_details_pages(pages, data_writer):
-    for i in range(pages):
-        url = 'http://www.123achei.com.br/classificados/resultado.php?tipo=&ncidade=&rele=&pagina='+str(i)+'&idatividade=7527&atividade=Restaurantes&codLocal=11562&sreg=801&zona='
+def get_details_pages(pages, page_url, data_writer):
+    for i in range(1, pages+1):
+        url = page_url.replace('pagina=2', 'pagina='+str(i))
         get_landing_pages(url, data_writer)
-        
     
 if __name__ == "__main__":
     """
@@ -150,11 +158,14 @@ if __name__ == "__main__":
     file_name = raw_input('Enter name of file to save data(need not to enter file extension)......\n')
     csv_file_name = file_name+'.csv'
 
-    data_writer = csv.writer(open('imported_data/'+csv_file_name, 'ab'))
+    data_writer = csv.writer(open('imported_data/'+csv_file_name, 'wb'))
     data_writer.writerow(['URL', 'Title', 'Phone', 'Street Address', 'Locality', 'Region', 'Postal Code'])
     category_file = open('categories.txt', 'rb')
     for category in category_file.readlines():
         url = 'http://www.123achei.com.br/classificados/resultado.php?suf=SP&sreg=801x11562&idatividade='+str(category.strip())
-        pages = get_pagination(url)
-        get_details_pages(pages, data_writer)
+        pages, page_url = get_pagination(url)
+        if pages == 1:
+            get_landing_pages(page_url, data_writer)
+        else:
+            get_details_pages(pages, page_url, data_writer)
     
