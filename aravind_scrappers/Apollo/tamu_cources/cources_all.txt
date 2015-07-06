@@ -1,0 +1,206 @@
+ACCT - Accounting
+ADDM - Dental Materials
+AEDH - Adv Ed Dental Hygiene
+AEGD - Adv Ed Gen Dentistry
+AERO - Aerospace Engineering
+AERS - Aerospace Studies
+AFST - Africana Studies
+AGCJ - Ag Comm & Journalism
+AGEC - Agricultural Economics
+AGLS - Ag & Life Sciences
+AGSC - Agricultural Science
+AGSM - Agricultrl Systems Mgmt
+ALEC - Ag Leadrshp, Ed & Comm
+ALED - Ag Leadership & Dev
+ANSC - Animal Science
+ANTH - Anthropology
+ARAB - Arabic
+ARCH - Architecture
+ARTS - Art
+ASIA - Asian Studies
+ASTR - Astronomy
+ATMO - Atmospheric Sciences
+ATTR - Athletic Training
+BAEN - Biological & Ag Engr
+BEFB - Bilingual Ed Field Based
+BESC - Bioenvironmental Sci
+BICH - Biochemistry
+BIED - Bilingual Education
+BIMS - Biomedical Science
+BIOL - Biology
+BIOT - Biotechnology
+BMEN - Biomedical Engineering
+BUAD - Business Administration
+BUSH - Geo. Bush School of Gov
+BUSN - Mays Business School
+CARC - College of Architecture
+CEHD - Coll of Ed & Human Dev
+CHEM - Chemistry
+CHEN - Chemical Engineering
+CHIN - Chinese
+CLAS - Classics
+COMM - Communication
+COSC - Construction Science
+CPSY - Counseling Psychology
+CSCE - Computer Sci & Engr
+CVEN - Civil Engineering
+DASC - Dairy Science
+DCED - Dance Education
+DDHS - Dental Hygiene
+ECEN - Electrical & Comp Engr
+ECMT - Econometrics
+ECON - Economics
+EDAD - Educational Administrtn
+EDCI - Educ Curriculum & Dev
+EDHP - Ed Healthcare Prof
+EDTC - Educational Technology
+EHRD - Ed Human Res Develop
+ELIC - Composition
+ELID - Directed Lab
+ELIG - Grammar
+ELIL - Skills Lab
+ELIM - Math
+ELIO - Oral Skills
+ELIR - Reading/Writing
+ELIT - TOEFL Preparation
+ELIV - Vocabulary
+ENDG - Engr Design Graphics
+ENDO - Endodontics
+ENDS - Environmental Design
+ENGL - English
+ENGR - Engineering
+ENTC - Engineering Technology
+ENTO - Entomology
+EPFB - Educ Psyc Field Based
+EPSY - Educational Psychology
+ESET - Electronic Sys Eng Tech
+ESSM - Ecosystem Science & Mgmt
+EURO - European Studies
+FILM - Film Studies
+FINC - Finance
+FIVS - Forensic & Inv Science
+FREN - French
+FSTC - Food Science & Tech
+GENE - Genetics
+GEOG - Geography
+GEOL - Geology
+GEOP - Geophysics
+GEOS - Geosciences
+GERM - German
+HCPI - Healthcare Prof Core In
+HEFB - Health Ed Field Based
+HISP - Hispanic Studies
+HIST - History
+HLTH - Health
+HORT - Horticultural Sciences
+HPCH - Health Promo Comm Hlth
+HPED - Health Professions Ed
+HUMA - Humanities
+IBST - Institute Biosci & Tech
+IBUS - International Business
+IDIS - Industrial Distribution
+INST - Interdisciplinary Studies
+INTA - International Affairs
+INTS - International Studies
+ISEN - Indust & Systems Engr
+ISYS - Mgmt Info Systems
+ITAL - Italian
+JAPN - Japanese
+JOUR - Journalism
+KINE - Kinesiology
+KNFB - Kinesiology Field Based
+LAND - Landscape Architecture
+LAW - Law
+LBAR - College of Liberal Arts
+LCSE - Learning Comm Shared Ex
+LDEV - Land Development
+LING - Linguistics
+MASC - Integrated Math & Sci
+MATH - Mathematics
+MCMD - Molecular Cell Medicine
+MEEN - Mechanical Engineering
+MEFB - Mid Grds Ed Field Based
+MEMA - Mechanics and Materials
+MEPS - Molecular & Env Plant Sci
+MGMT - Management
+MKTG - Marketing
+MLSC - Military Science
+MMET - Mfg & Mech Engr Tech
+MODL - Modern Languages
+MPHY - Medical Physiology
+MSCI - Medical Sciences
+MSEN - Materials Science & Engr
+MUSC - Music
+NEXT - Neuro Exper Therapeutic
+NRSC - Neuroscience
+NUEN - Nuclear Engineering
+NURS - Nursing
+NUTR - Nutrition
+NVSC - Naval Science
+OCEN - Ocean Engineering
+OCNG - Oceanography
+OMFP - Oral & Maxillofac Path
+OMFR - Oral & Maxillofac Radio
+OMSF - Oral & Maxillofac Surg
+ORTH - Orthodontics
+PEDD - Pediatric Dentistry
+PERF - Performance Studies
+PERI - Peridontics
+PETE - Petroleum Engineering
+PHAR - Pharmacy
+PHEB - Public Hlth Epide Biost
+PHEO - Public Hlth Enviro Occu
+PHIL - Philosophy
+PHLT - Public Health
+PHPM - Public Hlth Pol & Mgmt
+PHYS - Physics
+PLAN - Urban Planning
+PLPA - Plant Pathology
+POLS - Political Science
+POSC - Poultry Science
+PROS - Prosthodontics
+PSAA - Public Service & Admin
+PSYC - Psychology
+RDNG - Reading
+RELS - Religious Studies
+RENR - Renewable Natural Resrces
+RPTS - Rec, Park & Tourism Sci
+RUSS - Russian
+SABR - Study Abroad
+SCEN - College of Science
+SCMT - Supply Chain Mgmt
+SCSC - Soil and Crop Sciences
+SEFB - Special Ed Field Based
+SENG - Safety Engineering
+SLCX - Student Learning Center
+SOCI - Sociology
+SOMS - Schl of Military Sciences
+SOPH - School of Public Health
+SPAN - Spanish
+SPED - Special Education
+SPMT - Sport Management
+SPSY - School Psychology
+STAT - Statistics
+STLC - Student Learning Center
+TAMU - Study Abroad/Consortium
+TCMG - Technology Management
+TEED - Teacher Education
+TEFB - Teacher Ed Field Based
+THAR - Theatre Arts
+UGST - Undergraduate Studies
+URPN - Urban & Reg Planning
+URSC - Urban Science
+VIBS - Vet Integrative Biosci
+VIST - Visual Studies
+VIZA - Visualization
+VLCS - Vet Large Animal Clin Sc
+VMID - Vet Medicine-Interdisc
+VPAR - Veterinary Parasitology
+VPAT - Veterinary Pathology
+VSCS - Vet Small Animal Clin Sc
+VTMI - Veterinary Microbiology
+VTPB - Veterinary Pathobiology
+VTPP - Vet Physiology & Pharm
+WFSC - Wildlife & Fisheries Sci
+WGST - Women's &Gender Studies
+WMHS - Water Mgmt & Hydrol Sci

@@ -2,6 +2,7 @@
 
 
 from urllib2 import Request, urlopen, URLError
+import urllib
 import re, math, csv, mechanize, cookielib
 import random
 
@@ -37,7 +38,7 @@ def mechanize_br():
     
     return br
 
-def extract_details(details_url, file_name):
+def extract_details(details_url, file_name, category, category_id):
     try:
         print details_url
         br_instance = mechanize_br()
@@ -84,12 +85,12 @@ def extract_details(details_url, file_name):
         print postal_code
         
         print "writing data into csv file for url.."+details_url
-        print [details_url, title, phone, street_address, address_locality, address_region, postal_code]
-        data_writer.writerow([details_url, title, phone, street_address, address_locality, address_region, postal_code])
+        print [details_url, title, phone, street_address, address_locality, address_region, postal_code, category, category_id]
+        data_writer.writerow([details_url, title, phone, street_address, address_locality, address_region, postal_code, category, category_id.strip()])
         print '*'*78
     except Exception, e:
         if str(e) == 'HTTP Error 403: Forbidden':
-            extract_details(details_url, file_name)
+            extract_details(details_url, file_name, category, category_id)
             
 def get_pagination(search_url):
     number_of_pages = 0
@@ -113,16 +114,19 @@ def get_pagination(search_url):
             pagination_url = search_url
         else:
             pagination_url = None
+            
+        category_name = "".join(re.findall(r'<span class="txt0E5BC5 bold">(.*?)</span>', details_html))
+        
 #        print number_of_pages
-        return number_of_pages, pagination_url
+        return number_of_pages, pagination_url, category_name
     except Exception, e:
         if str(e) == 'HTTP Error 403: Forbidden':
-            pages, url = get_pagination(search_url)
-            return pages, url
+            pages, url, category_name = get_pagination(search_url)
+            return pages, url, category_name
     except:
         raise
     
-def get_landing_pages(url, data_writer):
+def get_landing_pages(url, data_writer, category, category_id):
     try:
         print url
         br_instance = mechanize_br()
@@ -132,15 +136,16 @@ def get_landing_pages(url, data_writer):
         
         details_results = re.findall(r'<a href="http://www.123achei.com.br/classificados/conta.php.*?url=(http://www.123achei.com.br/.*?)"', details_html)
         for det_url in details_results:
-            extract_details(det_url, data_writer)
+            extract_details(det_url, data_writer, category, category_id)
     except Exception, e:
         if str(e) == 'HTTP Error 403: Forbidden':
-            get_landing_pages(url, data_writer)
+            get_landing_pages(url, data_writer, category, category_id)
             
-def get_details_pages(pages, page_url, data_writer):
+def get_details_pages(pages, page_url, data_writer, category, category_id):
     for i in range(1, pages+1):
         url = page_url.replace('pagina=2', 'pagina='+str(i))
-        get_landing_pages(url, data_writer)
+        url = url.replace(' ', '%20D')
+        get_landing_pages(url, data_writer, category, category_id)
     
 if __name__ == "__main__":
     """
@@ -159,13 +164,26 @@ if __name__ == "__main__":
     csv_file_name = file_name+'.csv'
 
     data_writer = csv.writer(open('imported_data/'+csv_file_name, 'wb'))
-    data_writer.writerow(['URL', 'Title', 'Phone', 'Street Address', 'Locality', 'Region', 'Postal Code'])
+    data_writer.writerow(['URL', 'Title', 'Phone', 'Street Address', 'Locality', 'Region', 'Postal Code', 'Category', 'Category ID'])
     category_file = open('categories.txt', 'rb')
-    for category in category_file.readlines():
-        url = 'http://www.123achei.com.br/classificados/resultado.php?suf=SP&sreg=801x11562&idatividade='+str(category.strip())
-        pages, page_url = get_pagination(url)
+    for category_id in category_file.readlines():
+        url = 'http://www.123achei.com.br/classificados/resultado.php?suf=SP&sreg=801x11562&idatividade='+str(category_id.strip())
+        pages, page_url, category = get_pagination(url)
+        
         if pages == 1:
-            get_landing_pages(page_url, data_writer)
+            get_landing_pages(page_url, data_writer, category, category_id)
         else:
-            get_details_pages(pages, page_url, data_writer)
+            get_details_pages(pages, page_url, data_writer, category, category_id)
+        
+"""
+7527
+1084
+1108
+131
+1347
+1401
+1427
+1431
+1438
+"""
     

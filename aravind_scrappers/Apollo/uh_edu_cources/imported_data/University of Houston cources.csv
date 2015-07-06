@@ -1,0 +1,370 @@
+First Name,Last Name,Department
+University of Houston,Accounting,ACCT 2331,ACCT,Accounting Principles 1 - Financial
+University of Houston,Accounting,ACCT 2332,ACCT,Accounting Principles 2 - Managerial
+University of Houston,Accounting,ACCT 3337,ACCT,Management Accounting
+University of Houston,Accounting,ACCT 3366,ACCT,Financial Reporting Frameworks
+University of Houston,Accounting,ACCT 3367,ACCT,Intermediate Accounting 1
+University of Houston,Accounting,ACCT 3368,ACCT,Intermediate Accounting 2
+University of Houston,Accounting,ACCT 3371,ACCT,Accounting Information Systems
+University of Houston,Accounting,ACCT 3399,ACCT,Senior Honors Thesis
+University of Houston,Accounting,ACCT 4105,ACCT,Professional Program in Accountancy Colloquium 1
+University of Houston,Accounting,ACCT 4106,ACCT,Professional Program in Accountancy Colloquium 2
+University of Houston,Accounting,ACCT 4107,ACCT,Oil and Gas Accounting Colloquium
+University of Houston,Accounting,ACCT 4108,ACCT,Internal Audit Colloquium
+University of Houston,Accounting,ACCT 4198,ACCT,Independent Study
+University of Houston,Accounting,ACCT 4298,ACCT,Independent Study
+University of Houston,Accounting,ACCT 4330,ACCT,Advanced Accounting
+University of Houston,Accounting,ACCT 4331,ACCT,Federal Income Tax 1 - Individual
+University of Houston,Accounting,ACCT 4332,ACCT,Federal Income Tax 2 - Corporate
+University of Houston,Accounting,ACCT 4335,ACCT,Financial Statement Auditing
+University of Houston,Accounting,ACCT 4344,ACCT,Financial Statement Analysis
+University of Houston,Accounting,ACCT 4375,ACCT,Internal Auditing and the Entity Control Environment
+University of Houston,Accounting,ACCT 4377,ACCT,Governmental and Nonprofit Accounting
+University of Houston,Accounting,ACCT 4378,ACCT,Oil and Gas Accounting 1
+University of Houston,Accounting,ACCT 4379,ACCT,Enterprise Risk Management
+University of Houston,Accounting,ACCT 4380,ACCT,Control and Security of Internal Financial Information: Theory and Practice
+University of Houston,Accounting,ACCT 4381,ACCT,Oil and Gas Accounting 2
+University of Houston,Accounting,ACCT 4382,ACCT,Oil and Gas Accounting 3
+University of Houston,Accounting,ACCT 4396,ACCT,Accounting Internship
+University of Houston,Accounting,ACCT 4397,ACCT,Selected Topics in Accounting
+University of Houston,Accounting,ACCT 4398,ACCT,Independent Study
+University of Houston,Accounting,ACCT 4399,ACCT,Senior Honors Thesis
+University of Houston,Accounting,ACCT 5105,ACCT,Certificate in Accountancy Colloquium
+University of Houston,Accounting,ACCT 5330,ACCT,Advanced Accounting
+University of Houston,Accounting,ACCT 5331,ACCT,Federal Income Tax - Individual
+University of Houston,Accounting,ACCT 5332,ACCT,Corporate Taxation
+University of Houston,Accounting,ACCT 5335,ACCT,Financial Statement Auditing
+University of Houston,Accounting,ACCT 5337,ACCT,Management Accounting
+University of Houston,Accounting,ACCT 5367,ACCT,Intermediate Accounting 1
+University of Houston,Accounting,ACCT 5368,ACCT,Intermediate Accounting 2
+University of Houston,Accounting,ACCT 5371,ACCT,Accounting Information Systems
+University of Houston,Accounting,ACCT 5375,ACCT,Internal Auditing and the Entity Control Environment
+University of Houston,Accounting,ACCT 5376,ACCT,Advanced Auditing
+University of Houston,Accounting,ACCT 5377,ACCT,Government and Nonprofit Accounting
+University of Houston,Accounting,ACCT 5378,ACCT,Control and Security of Internal Financial Information: Theory and Practice
+University of Houston,Accounting,ACCT 5379,ACCT,Enterprise Risk Management
+University of Houston,Accounting,ACCT 5380,ACCT,Oil and Gas Accounting 1
+University of Houston,Accounting,ACCT 5381,ACCT,Oil and Gas Accounting 2
+University of Houston,Accounting,ACCT 5382,ACCT,Oil and Gas Accounting 3
+University of Houston,Accounting,ACCT 5397,ACCT,Selected Topics in Accounting
+University of Houston,African American Studies,AAS 1310,AAS,Introduction to Africana Culture
+University of Houston,African American Studies,AAS 2320,AAS,Introduction to African American Studies
+University of Houston,African American Studies,AAS 2322,AAS,Introduction to African Religions and Philosophy
+University of Houston,African American Studies,AAS 2330,AAS,Black Liberation Theology
+University of Houston,African American Studies,AAS 3301,AAS,Hip Hop History and Culture
+University of Houston,African American Studies,AAS 3307,AAS,African Spiritual Transformation in the Social Sciences
+University of Houston,African American Studies,AAS 3310,AAS,African American Experience through Theatre
+University of Houston,African American Studies,AAS 3330,AAS,African American Studies Oral History and Field Research
+University of Houston,African American Studies,AAS 3340,AAS,Seminar in African American Sociolinguistics
+University of Houston,African American Studies,AAS 3348,AAS,African Americans and the Law
+University of Houston,African American Studies,AAS 3350,AAS,Slavery and Race Relations in the African Diaspora
+University of Houston,African American Studies,AAS 3354,AAS,African Nationalist Thought and Ethics in the U.S.
+University of Houston,African American Studies,AAS 3356,AAS,Africana Thought and Philosophy
+University of Houston,African American Studies,AAS 3366,AAS,African American Studies Community Internship
+University of Houston,African American Studies,AAS 3379,AAS,Africana Oratory
+University of Houston,African American Studies,AAS 4300,AAS,African Philosophy
+University of Houston,African American Studies,AAS 4330,AAS,The Black Church in America
+University of Houston,African American Studies,AAS 4370,AAS,Seminar in African American Studies
+University of Houston,African American Studies,AAS 4373,AAS,Black Leaders of the Twentieth Century
+University of Houston,African American Studies,AAS 4377,AAS,Seminar on W.E.B. DuBois
+University of Houston,African American Studies,AAS 4440,AAS,Model African Union Seminar
+University of Houston,Air Force Science,AFSC 1201,AFSC,Foundations of the USAF I
+University of Houston,Air Force Science,AFSC 1202,AFSC,Foundations of the USAF II
+University of Houston,Air Force Science,AFSC 2201,AFSC,Evolution of Air Power I
+University of Houston,Air Force Science,AFSC 2202,AFSC,Evolution of Air Power II
+University of Houston,Air Force Science,AFSC 3301,AFSC,Air Force Leadership Studies I
+University of Houston,Air Force Science,AFSC 3302,AFSC,Air Force Leadership Studies II
+University of Houston,Air Force Science,AFSC 3801,AFSC,Field Training
+University of Houston,Air Force Science,AFSC 4301,AFSC,National Security Affairs I
+University of Houston,Air Force Science,AFSC 4302,AFSC,National Security Affairs II
+University of Houston,American Culture,AMER 3300,AMER,"The Americas: Identity, Culture, and Power"
+University of Houston,American Culture,AMER 3390,AMER,American Cultural Internship
+University of Houston,American Culture,AMER 3398,AMER,Independent Study
+University of Houston,American Culture,AMER 4300,AMER,Senior Seminar in American Cultures
+University of Houston,American Sign Language Interpretation,ASLI 1301,ASLI,Elementary American Sign Language I
+University of Houston,American Sign Language Interpretation,ASLI 1302,ASLI,Elementary American Sign Language II
+University of Houston,American Sign Language Interpretation,ASLI 1310,ASLI,Fingerspelling in American Sign Language
+University of Houston,American Sign Language Interpretation,ASLI 2301,ASLI,Intermediate American Sign Language I
+University of Houston,American Sign Language Interpretation,ASLI 2302,ASLI,Intermediate American Sign Language II
+University of Houston,American Sign Language Interpretation,ASLI 2333,ASLI,Introduction to American Sign Language Interpreting
+University of Houston,American Sign Language Interpretation,ASLI 2335,ASLI,Multiculturalism and Diversity in ASL Interpreting
+University of Houston,American Sign Language Interpretation,ASLI 3330,ASLI,Consecutive Interpreting and Translation
+University of Houston,American Sign Language Interpretation,ASLI 3333,ASLI,Interactive Interpreting I
+University of Houston,American Sign Language Interpretation,ASLI 3334,ASLI,Interactive Interpreting II
+University of Houston,American Sign Language Interpretation,ASLI 3360,ASLI,Advanced American Sign Language
+University of Houston,American Sign Language Interpretation,ASLI 4335,ASLI,Advanced Interpreting Techniques and Skills in ASL/English
+University of Houston,American Sign Language Interpretation,ASLI 4346,ASLI,American Sign Language Transliteration and Educational Interpreting
+University of Houston,American Sign Language Interpretation,ASLI 4368,ASLI,Linguistics of American Sign Language
+University of Houston,American Sign Language Interpretation,ASLI 4397,ASLI,Selected Topics in American Sign Language Interpreting
+University of Houston,American Sign Language Interpretation,ASLI 4398,ASLI,Independent Study: Tri-lingual Interpreting
+University of Houston,American Sign Language Interpretation,ASLI 4489,ASLI,Service Learning - Fieldwork
+University of Houston,Anthropology,ANTH 1300,ANTH,Introduction to Anthropology
+University of Houston,Anthropology,ANTH 2301,ANTH,Introduction to Physical Anthropology
+University of Houston,Anthropology,ANTH 2302,ANTH,Introduction to Cultural Anthropology
+University of Houston,Anthropology,ANTH 2303,ANTH,Introduction to Archaeology
+University of Houston,Anthropology,ANTH 2304,ANTH,Introduction to Language and Culture
+University of Houston,Anthropology,ANTH 2320,ANTH,Ritual and Performance
+University of Houston,Anthropology,ANTH 2365,ANTH,Aztec and Maya Beliefs and Cosmologies
+University of Houston,Anthropology,ANTH 2395,ANTH,Selected Topics in Cultural Anthropology
+University of Houston,Anthropology,ANTH 3304,ANTH,Demographic Anthropology
+University of Houston,Anthropology,ANTH 3305,ANTH,Psychological Anthropology
+University of Houston,Anthropology,ANTH 3306,ANTH,Sex and Culture
+University of Houston,Anthropology,ANTH 3310,ANTH,North American Indians
+University of Houston,Anthropology,ANTH 3312,ANTH,Mexican-American Culture
+University of Houston,Anthropology,ANTH 3315,ANTH,Muslim Peoples of the Middle East
+University of Houston,Anthropology,ANTH 3316,ANTH,Society and Culture of India
+University of Houston,Anthropology,ANTH 3324,ANTH,Peoples and Culture of Latin America
+University of Houston,Anthropology,ANTH 3335,ANTH,Black Atlantic Religions
+University of Houston,Anthropology,ANTH 3336,ANTH,Caribbean Societies and Cultures
+University of Houston,Anthropology,ANTH 3338,ANTH,Peoples of Africa
+University of Houston,Anthropology,ANTH 3341,ANTH,Cultural Ecology
+University of Houston,Anthropology,ANTH 3342,ANTH,Food and Culture
+University of Houston,Anthropology,ANTH 3347,ANTH,Anthropology of Women
+University of Houston,Anthropology,ANTH 3348,ANTH,Anthropology of Religion
+University of Houston,Anthropology,ANTH 3350,ANTH,Women and Health: Anthropological Perspectives
+University of Houston,Anthropology,ANTH 3360,ANTH,Human Variation
+University of Houston,Anthropology,ANTH 3361,ANTH,Human Origins
+University of Houston,Anthropology,ANTH 3362,ANTH,"Monkeys, Apes, and Humans"
+University of Houston,Anthropology,ANTH 3363,ANTH,Race in Anthropological Perspective
+University of Houston,Anthropology,ANTH 3364,ANTH,Disease in Antiquity
+University of Houston,Anthropology,ANTH 3375,ANTH,North American Archaeology
+University of Houston,Anthropology,ANTH 3377,ANTH,Archaeology of Central America
+University of Houston,Anthropology,ANTH 3378,ANTH,Archaeology of Historic North America
+University of Houston,Anthropology,ANTH 3379,ANTH,Methods in Historical Archaeology
+University of Houston,Anthropology,ANTH 3380,ANTH,Archaeological Method and Theory
+University of Houston,Anthropology,ANTH 3381,ANTH,Global Hinduism
+University of Houston,Anthropology,ANTH 3395,ANTH,Topics in Archaeology
+University of Houston,Anthropology,ANTH 3396,ANTH,Selected Topics in Cultural Anthropology
+University of Houston,Anthropology,ANTH 3397,ANTH,Topics in Physical Anthropology
+University of Houston,Anthropology,ANTH 3399,ANTH,Senior Honors Thesis
+University of Houston,Anthropology,ANTH 4192,ANTH,Research Practicum I
+University of Houston,Anthropology,ANTH 4193,ANTH,Research Practicum
+University of Houston,Anthropology,ANTH 4198,ANTH,Independent Study
+University of Houston,Anthropology,ANTH 4292,ANTH,Research Practicum I
+University of Houston,Anthropology,ANTH 4293,ANTH,Research Practicum
+University of Houston,Anthropology,ANTH 4298,ANTH,Independent Study
+University of Houston,Anthropology,ANTH 4301,ANTH,Language and Cultural Cognition
+University of Houston,Anthropology,ANTH 4310,ANTH,Theories of Culture
+University of Houston,Anthropology,ANTH 4325,ANTH,Data Analysis in Archaeology
+University of Houston,Anthropology,ANTH 4330,ANTH,Applied Anthropology
+University of Houston,Anthropology,ANTH 4331,ANTH,Medical Anthropology
+University of Houston,Anthropology,ANTH 4337,ANTH,Anthropology of the Life Cycle
+University of Houston,Anthropology,ANTH 4338,ANTH,Visual Anthropology
+University of Houston,Anthropology,ANTH 4340,ANTH,Anthropology Through Literature
+University of Houston,Anthropology,ANTH 4342,ANTH,Anthropology of Wine
+University of Houston,Anthropology,ANTH 4351,ANTH,Human Osteology
+University of Houston,Anthropology,ANTH 4352,ANTH,Biomedical Anthropology
+University of Houston,Anthropology,ANTH 4372,ANTH,Maya Archaeology
+University of Houston,Anthropology,ANTH 4373,ANTH,Archaeology of the Aztecs and Their Neighbors
+University of Houston,Anthropology,ANTH 4375,ANTH,Archaeology of the Southeastern United States
+University of Houston,Anthropology,ANTH 4376,ANTH,Archaeology of Texas
+University of Houston,Anthropology,ANTH 4377,ANTH,Archaeology of the African Diaspora
+University of Houston,Anthropology,ANTH 4379,ANTH,Archaeology of the Southwestern United States
+University of Houston,Anthropology,ANTH 4380,ANTH,Field Methods in Anthropology
+University of Houston,Anthropology,ANTH 4381,ANTH,Archaeological Theory
+University of Houston,Anthropology,ANTH 4382,ANTH,Laboratory Methods in Archaeology
+University of Houston,Anthropology,ANTH 4383,ANTH,Applied Archaeology
+University of Houston,Anthropology,ANTH 4384,ANTH,Anthropology of HIV
+University of Houston,Anthropology,ANTH 4388,ANTH,Anthropology Internship Practicum
+University of Houston,Anthropology,ANTH 4389,ANTH,Ethnographic Field Work I
+University of Houston,Anthropology,ANTH 4390,ANTH,Ethnographic Field Work II
+University of Houston,Anthropology,ANTH 4391,ANTH,Archaeological Field Work I
+University of Houston,Anthropology,ANTH 4392,ANTH,Archaeological Field Work II
+University of Houston,Anthropology,ANTH 4393,ANTH,Research Practicum
+University of Houston,Anthropology,ANTH 4394,ANTH,Selected Topics in Anthropology
+University of Houston,Anthropology,ANTH 4398,ANTH,Independent Study
+University of Houston,Anthropology,ANTH 4399,ANTH,Senior Honors Thesis
+University of Houston,Anthropology,ANTH 4498,ANTH,Independent Study
+University of Houston,Arabic,ARAB 1501,ARAB,Beginning Arabic I
+University of Houston,Arabic,ARAB 1502,ARAB,Beginning Arabic II
+University of Houston,Arabic,ARAB 2301,ARAB,Intermediate Arabic I
+University of Houston,Arabic,ARAB 2302,ARAB,Intermediate Arabic II
+University of Houston,Arabic,ARAB 2307,ARAB,Arabic for Native Speakers I
+University of Houston,Arabic,ARAB 3301,ARAB,Advanced Modern Standard Arabic I
+University of Houston,Arabic,ARAB 3302,ARAB,Advanced Modern Standard Arabic II
+University of Houston,Arabic,ARAB 3303,ARAB,Qur&#8217;anic and Classical Arabic
+University of Houston,Arabic,ARAB 3305,ARAB,"Introduction to Arabic Culture, Language, and Islam"
+University of Houston,Arabic,ARAB 3306,ARAB,"Introduction to Arabic Culture, Language, and Islam"
+University of Houston,Arabic,ARAB 3312,ARAB,Introduction to Arabic Literature in Translation
+University of Houston,Arabic,ARAB 3313,ARAB,Qur&#8217;an as Literature
+University of Houston,Arabic,ARAB 3314,ARAB,Women and Gender in Arabic Literature
+University of Houston,Arabic,ARAB 3340,ARAB,Modernity and Rationalism in Islamic Tradition
+University of Houston,Arabic,ARAB 3397,ARAB,Selected Topics in Arab Studies
+University of Houston,Architecture,ARCH 1200,ARCH,"Introduction to Architecture, Industrial Design, and Interior Architecture"
+University of Houston,Architecture,ARCH 1359,ARCH,Design since 1945
+University of Houston,Architecture,ARCH 1360,ARCH,Architectural Sketching I
+University of Houston,Architecture,ARCH 1500,ARCH,Design Studio I
+University of Houston,Architecture,ARCH 1501,ARCH,Design Studio II
+University of Houston,Architecture,ARCH 1598,ARCH,Independent Study
+University of Houston,Architecture,ARCH 2197,ARCH,Selected Topics
+University of Houston,Architecture,ARCH 2230,ARCH,Programming and Building Regulations
+University of Houston,Architecture,ARCH 2327,ARCH,Technology 1
+University of Houston,Architecture,ARCH 2328,ARCH,Technology 2
+University of Houston,Architecture,ARCH 2350,ARCH,Survey of Architectural History I
+University of Houston,Architecture,ARCH 2351,ARCH,Survey of Architectural History II
+University of Houston,Architecture,ARCH 2397,ARCH,Selected Topics
+University of Houston,Architecture,ARCH 2398,ARCH,Independent Study
+University of Houston,Architecture,ARCH 2500,ARCH,Architecture Design Studio III
+University of Houston,Architecture,ARCH 2501,ARCH,Architecture Design Studio IV
+University of Houston,Architecture,ARCH 3198,ARCH,Independent Study
+University of Houston,Architecture,ARCH 3298,ARCH,Independent Study
+University of Houston,Architecture,ARCH 3327,ARCH,Technology 3
+University of Houston,Architecture,ARCH 3328,ARCH,Technology 4
+University of Houston,Architecture,ARCH 3335,ARCH,Digital Fabrication
+University of Houston,Architecture,ARCH 3342,ARCH,Shape of the City: Critical Perspectives on American Urbanism
+University of Houston,Architecture,ARCH 3343,ARCH,Latin American Architecture
+University of Houston,Architecture,ARCH 3347,ARCH,Evolution of Architectural Interiors
+University of Houston,Architecture,ARCH 3353,ARCH,Architecture of the Middle Ages: Text and Building
+University of Houston,Architecture,ARCH 3354,ARCH,The Culture of Architecture
+University of Houston,Architecture,ARCH 3356,ARCH,City as Palimpsest: Paris
+University of Houston,Architecture,ARCH 3358,ARCH,History of Asian Architecture and Art
+University of Houston,Architecture,ARCH 3365,ARCH,Architectural Research
+University of Houston,Architecture,ARCH 3366,ARCH,Materials and Methods
+University of Houston,Architecture,ARCH 3368,ARCH,Sustainable Development
+University of Houston,Architecture,ARCH 3369,ARCH,Architecture of the Chapel
+University of Houston,Architecture,ARCH 3371,ARCH,"Landscape, Ecology, Urbanism"
+University of Houston,Architecture,ARCH 3372,ARCH,Architecture of the Object
+University of Houston,Architecture,ARCH 3375,ARCH,Architectural Design for Non-Majors
+University of Houston,Architecture,ARCH 3380,ARCH,Architecture Plus Film
+University of Houston,Architecture,ARCH 3393,ARCH,Thesis Preparation
+University of Houston,Architecture,ARCH 3397,ARCH,Selected Topics
+University of Houston,Architecture,ARCH 3398,ARCH,Independent Study
+University of Houston,Architecture,ARCH 3498,ARCH,Independent Study
+University of Houston,Architecture,ARCH 3500,ARCH,Architecture Design Studio V
+University of Houston,Architecture,ARCH 3501,ARCH,Architecture Design Studio VI
+University of Houston,Architecture,ARCH 3598,ARCH,Independent Study
+University of Houston,Architecture,ARCH 4298,ARCH,Independent Study
+University of Houston,Architecture,ARCH 4321,ARCH,Design of Construction Details
+University of Houston,Architecture,ARCH 4324,ARCH,High-Rise Structures
+University of Houston,Architecture,ARCH 4325,ARCH,Building Systems Integration
+University of Houston,Architecture,ARCH 4328,ARCH,Technology 6 - Practice of Architecture
+University of Houston,Architecture,ARCH 4336,ARCH,Graphic Realization in Design
+University of Houston,Architecture,ARCH 4351,ARCH,Readings and Criticism in Architecture
+University of Houston,Architecture,ARCH 4352,ARCH,"Wright, Mies, Corbusier"
+University of Houston,Architecture,ARCH 4353,ARCH,Postmodern: Architecture Since 1950
+University of Houston,Architecture,ARCH 4355,ARCH,Houston Architecture
+University of Houston,Architecture,ARCH 4367,ARCH,Case Studies in Sustainable Architecture
+University of Houston,Architecture,ARCH 4373,ARCH,Urban Environments
+University of Houston,Architecture,ARCH 4374,ARCH,World Cities
+University of Houston,Architecture,ARCH 4375,ARCH,"Capitalism, Architecture and the City"
+University of Houston,Architecture,ARCH 4376,ARCH,Community Design Workshop
+University of Houston,Architecture,ARCH 4390,ARCH,Landscape Architecture
+University of Houston,Architecture,ARCH 4393,ARCH,Thesis Publication
+University of Houston,Architecture,ARCH 4397,ARCH,Selected Topics
+University of Houston,Architecture,ARCH 4398,ARCH,Independent Study
+University of Houston,Architecture,ARCH 4427,ARCH,Technology 5
+University of Houston,Architecture,ARCH 4498,ARCH,Independent Study
+University of Houston,Architecture,ARCH 4500,ARCH,Architecture Design Studio VII
+University of Houston,Architecture,ARCH 4501,ARCH,Architecture Design Studio VIII
+University of Houston,Architecture,ARCH 4510,ARCH,Comprehensive Design Studio
+University of Houston,Architecture,ARCH 4598,ARCH,Independent Study
+University of Houston,Architecture,ARCH 5360,ARCH,Practice of Architecture
+University of Houston,Architecture,ARCH 5397,ARCH,Selected Topics
+University of Houston,Architecture,ARCH 5398,ARCH,Independent Study
+University of Houston,Architecture,ARCH 5427,ARCH,Technology 7
+University of Houston,Architecture,ARCH 5498,ARCH,Independent Study
+University of Houston,Architecture,ARCH 5500,ARCH,Architecture Design Studio IX
+University of Houston,Architecture,ARCH 5501,ARCH,Architecture Design Studio X
+University of Houston,Architecture,ARCH 5593,ARCH,Thesis Project
+University of Houston,Architecture,ARCH 5597,ARCH,Selected Topics
+University of Houston,Architecture,ARCH 5598,ARCH,Independent Study
+University of Houston,Art,ART 1301,ART,Fundamentals of Drawing
+University of Houston,Art,ART 1304,ART,Fundamentals of Painting
+University of Houston,Art,ART 1310,ART,Fundamentals of Printmaking
+University of Houston,Art,ART 1330,ART,Fundamentals of Graphic Design
+University of Houston,Art,ART 1350,ART,Fundamentals of Ceramics
+University of Houston,Art,ART 1360,ART,Fundamentals of Sculpture
+University of Houston,Art,ART 1371,ART,Fundamentals of Photography/Digital Media
+University of Houston,Art,ART 1372,ART,Fundamentals of Video Art
+University of Houston,Art,ART 1382,ART,Fundamentals of Digital Tools
+University of Houston,Art,ART 1383,ART,Introduction to New Media
+University of Houston,Art,ART 1397,ART,Selected topics in Fundamental Studio Art
+University of Houston,Art,ART 2398,ART,Independent Study
+University of Houston,Art,ART 3300,ART,Intermediate Drawing
+University of Houston,Art,ART 3301,ART,Life Drawing
+University of Houston,Art,ART 3303,ART,Color
+University of Houston,Art,ART 3304,ART,Intermediate Painting
+University of Houston,Art,ART 3305,ART,Contemporary Painting
+University of Houston,Art,ART 3309,ART,Junior Painting Major
+University of Houston,Art,ART 3310,ART,Junior Painting Major
+University of Houston,Art,ART 3311,ART,Junior Painting Major
+University of Houston,Art,ART 3312,ART,Intaglio
+University of Houston,Art,ART 3313,ART,Silkscreen
+University of Houston,Art,ART 3314,ART,Lithography
+University of Houston,Art,ART 3315,ART,Monoprint/Monotype Printmaking
+University of Houston,Art,ART 3316,ART,Relief Printmaking
+University of Houston,Art,ART 3317,ART,Photo-Based Printmaking
+University of Houston,Art,ART 3318,ART,Book Arts
+University of Houston,Art,ART 3321,ART,Perspective Drawing
+University of Houston,Art,ART 3328,ART,Rendering and Sketching
+University of Houston,Art,ART 3330,ART,Intermediate Graphic Design
+University of Houston,Art,ART 3331,ART,Graphic Design Software
+University of Houston,Art,ART 3332,ART,Illustration
+University of Houston,Art,ART 3334,ART,Design Principles
+University of Houston,Art,ART 3335,ART,Junior Graphic Design Major
+University of Houston,Art,ART 3336,ART,Junior Graphic Design Major
+University of Houston,Art,ART 3337,ART,Junior Graphic Design Major
+University of Houston,Art,ART 3338,ART,Typography for Graphic Design
+University of Houston,Art,ART 3350,ART,Intermediate Ceramics
+University of Houston,Art,ART 3353,ART,Glaze and Clay Formulations
+University of Houston,Art,ART 3358,ART,Clay Processes
+University of Houston,Art,ART 3360,ART,Intermediate Sculpture
+University of Houston,Art,ART 3361,ART,Sculptural Processes
+University of Houston,Art,ART 3362,ART,Advanced Sculpture
+University of Houston,Art,ART 3363,ART,Advanced Sculpture
+University of Houston,Art,ART 3364,ART,Plastics Fabrication
+University of Houston,Art,ART 3365,ART,Junior Sculpture Major
+University of Houston,Art,ART 3366,ART,Junior Sculpture Major
+University of Houston,Art,ART 3367,ART,Junior Sculpture Major
+University of Houston,Art,ART 3370,ART,Traditional Photography
+University of Houston,Art,ART 3371,ART,Photography/Digital Media Portfolio Development
+University of Houston,Art,ART 3372,ART,Intermediate Video Art
+University of Houston,Art,ART 3374,ART,Computer Imaging
+University of Houston,Art,ART 3375,ART,Junior Photography/Digital Media Major
+University of Houston,Art,ART 3376,ART,Junior Photography/Digital Media Major
+University of Houston,Art,ART 3377,ART,Junior Photography/Digital Media Major
+University of Houston,Art,ART 3380,ART,Intermedia Seminar
+University of Houston,Art,ART 3381,ART,Intermedia Laboratory
+University of Houston,Art,ART 3383,ART,Digital Fabrication
+University of Houston,Art,ART 3384,ART,Sound Art
+University of Houston,Art,ART 3396,ART,Selected Topics in Studio Practice
+University of Houston,Art,ART 3397,ART,Selected Topics in Fine Arts
+University of Houston,Art,ART 3399,ART,Senior Honors Thesis
+University of Houston,Art,ART 3399,ART,Senior Honors Thesis
+University of Houston,Art,ART 4198,ART,Independent Study
+University of Houston,Art,ART 4298,ART,Independent Study
+University of Houston,Art,ART 4300,ART,Senior Painting Major I
+University of Houston,Art,ART 4301,ART,Senior Painting Major I
+University of Houston,Art,ART 4302,ART,Senior Painting Major I
+University of Houston,Art,ART 4303,ART,Senior Painting Major II
+University of Houston,Art,ART 4304,ART,Senior Painting Major II
+University of Houston,Art,ART 4305,ART,Senior Painting Major II
+University of Houston,Art,ART 4307,ART,Painting for Majors
+University of Houston,Art,ART 4330,ART,Senior Graphic Design Major I
+University of Houston,Art,ART 4331,ART,Senior Graphic Design Major I
+University of Houston,Art,ART 4332,ART,Senior Graphic Design Major I
+University of Houston,Art,ART 4333,ART,Senior Graphic Design Major II
+University of Houston,Art,ART 4334,ART,Senior Graphic Design Major II
+University of Houston,Art,ART 4335,ART,Senior Graphic Design Major II
+University of Houston,Art,ART 4360,ART,Senior Sculpture Major I
+University of Houston,Art,ART 4361,ART,Senior Sculpture Major I
+University of Houston,Art,ART 4362,ART,Senior Sculpture Major I
+University of Houston,Art,ART 4370,ART,Senior Photography/Digital Media Major I
+University of Houston,Art,ART 4371,ART,Senior Photography/Digital Media Major I
+University of Houston,Art,ART 4372,ART,Senior Photography/Digital Media Major I
+University of Houston,Art,ART 4373,ART,Senior Photography/Digital Media Major II
+University of Houston,Art,ART 4374,ART,Senior Photography/Digital Media Major II
+University of Houston,Art,ART 4375,ART,Senior Photography/Digital Media Major II
+University of Houston,Art,ART 4380,ART,Professional Practices
+University of Houston,Art,ART 4381,ART,Pursuing Utopia
+University of Houston,Art,ART 4392,ART,Selected Topics in Contemporary Art
+University of Houston,Art,ART 4395,ART,Selected Topics in Design
+University of Houston,Art,ART 4396,ART,Selected Topics in Studio Practice
+University of Houston,Art,ART 4397,ART,Selected Topics in Fine Arts
+University of Houston,Art,ART 4398,ART,Independent Study
+University of Houston,Art,ART 4399,ART,Senior Honors Thesis
+University of Houston,Art,ART 4399,ART,Senior Honors Thesis
+University of Houston,Art,ART 4498,ART,Independent Study
+University of Houston,Art,ART 4598,ART,Independent Study
+University of Houston,Art Education,ARED 3305,ARED,Art in Elementary Schools
+University of Houston,Art Educa

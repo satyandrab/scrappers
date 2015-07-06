@@ -1,0 +1,106 @@
+IDIS - Industrial Distribution
+INST - Interdisciplinary Studies
+INTA - International Affairs
+INTS - International Studies
+ISEN - Indust & Systems Engr
+ISYS - Mgmt Info Systems
+ITAL - Italian
+JAPN - Japanese
+JOUR - Journalism
+KINE - Kinesiology
+KNFB - Kinesiology Field Based
+LAND - Landscape Architecture
+LAW - Law
+LBAR - College of Liberal Arts
+LCSE - Learning Comm Shared Ex
+LDEV - Land Development
+LING - Linguistics
+MASC - Integrated Math & Sci
+MATH - Mathematics
+MCMD - Molecular Cell Medicine
+MEEN - Mechanical Engineering
+MEFB - Mid Grds Ed Field Based
+MEMA - Mechanics and Materials
+MEPS - Molecular & Env Plant Sci
+MGMT - Management
+MKTG - Marketing
+MLSC - Military Science
+MMET - Mfg & Mech Engr Tech
+MODL - Modern Languages
+MPHY - Medical Physiology
+MSCI - Medical Sciences
+MSEN - Materials Science & Engr
+MUSC - Music
+NEXT - Neuro Exper Therapeutic
+NRSC - Neuroscience
+NUEN - Nuclear Engineering
+NURS - Nursing
+NUTR - Nutrition
+NVSC - Naval Science
+OCEN - Ocean Engineering
+OCNG - Oceanography
+OMFP - Oral & Maxillofac Path
+OMFR - Oral & Maxillofac Radio
+OMSF - Oral & Maxillofac Surg
+ORTH - Orthodontics
+PEDD - Pediatric Dentistry
+PERF - Performance Studies
+PERI - Peridontics
+PETE - Petroleum Engineering
+PHAR - Pharmacy
+PHEB - Public Hlth Epide Biost
+PHEO - Public Hlth Enviro Occu
+PHIL - Philosophy
+PHLT - Public Health
+PHPM - Public Hlth Pol & Mgmt
+PHYS - Physics
+PLAN - Urban Planning
+PLPA - Plant Pathology
+POLS - Political Science
+POSC - Poultry Science
+PROS - Prosthodontics
+PSAA - Public Service & Admin
+PSYC - Psychology
+RDNG - Reading
+RELS - Religious Studies
+RENR - Renewable Natural Resrces
+RPTS - Rec, Park & Tourism Sci
+RUSS - Russian
+SABR - Study Abroad
+SCEN - College of Science
+SCMT - Supply Chain Mgmt
+SCSC - Soil and Crop Sciences
+SEFB - Special Ed Field Based
+SENG - Safety Engineering
+SLCX - Student Learning Center
+SOCI - Sociology
+SOMS - Schl of Military Sciences
+SOPH - School of Public Health
+SPAN - Spanish
+SPED - Special Education
+SPMT - Sport Management
+SPSY - School Psychology
+STAT - Statistics
+STLC - Student Learning Center
+TAMU - Study Abroad/Consortium
+TCMG - Technology Management
+TEED - Teacher Education
+TEFB - Teacher Ed Field Based
+THAR - Theatre Arts
+UGST - Undergraduate Studies
+URPN - Urban & Reg Planning
+URSC - Urban Science
+VIBS - Vet Integrative Biosci
+VIST - Visual Studies
+VIZA - Visualization
+VLCS - Vet Large Animal Clin Sc
+VMID - Vet Medicine-Interdisc
+VPAR - Veterinary Parasitology
+VPAT - Veterinary Pathology
+VSCS - Vet Small Animal Clin Sc
+VTMI - Veterinary Microbiology
+VTPB - Veterinary Pathobiology
+VTPP - Vet Physiology & Pharm
+WFSC - Wildlife & Fisheries Sci
+WGST - Women's &Gender Studies
+WMHS - Water Mgmt & Hydrol Sci
