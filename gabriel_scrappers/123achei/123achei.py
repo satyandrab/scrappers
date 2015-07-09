@@ -153,37 +153,22 @@ if __name__ == "__main__":
     url = 'http://www.123achei.com.br/servicos/bares-e-restaurantes/restaurantes/sao-jose-do-rio-preto/di-carlos-restaurante2.html'
     extract_details(url1, 'abc')
     """
-    #url = 'http://www.123achei.com.br/classificados/resultado.php?suf=SP&sreg=801x11562&idatividade=7527'
-    #pages = get_pagination(url)
-    #print pages
-    #pages = 2
-    #get_details_pages(pages)
-    
     
     file_name = raw_input('Enter name of file to save data(need not to enter file extension)......\n')
     csv_file_name = file_name+'.csv'
 
     data_writer = csv.writer(open('imported_data/'+csv_file_name, 'wb'))
     data_writer.writerow(['URL', 'Title', 'Phone', 'Street Address', 'Locality', 'Region', 'Postal Code', 'Category', 'Category ID'])
-    category_file = open('categories.txt', 'rb')
-    for category_id in category_file.readlines():
-        url = 'http://www.123achei.com.br/classificados/resultado.php?suf=SP&sreg=801x11562&idatividade='+str(category_id.strip())
-        pages, page_url, category = get_pagination(url)
-        
-        if pages == 1:
-            get_landing_pages(page_url, data_writer, category, category_id)
-        else:
-            get_details_pages(pages, page_url, data_writer, category, category_id)
-        
-"""
-7527
-1084
-1108
-131
-1347
-1401
-1427
-1431
-1438
-"""
     
+    category_file = open('categories.txt', 'rb')
+    city_file = open('city_to_scrap.txt', 'rb')
+    
+    for city in city_file.readlines():
+        for category_id in category_file.readlines():
+            url = 'http://www.123achei.com.br/classificados/resultado.php?suf=SP&sreg='+str(city.strip().split('=')[0])+'&idatividade='+str(category_id.strip())
+            pages, page_url, category = get_pagination(url)
+            
+            if pages == 1:
+                get_landing_pages(page_url, data_writer, category, category_id)
+            else:
+                get_details_pages(pages, page_url, data_writer, category, category_id)
