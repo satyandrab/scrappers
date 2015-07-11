@@ -1,122 +1,1318 @@
-x000=Todas
-410x11008=Agudos
-241x2=Alphaville
-762x11016=√Ålvares Machado
-630x11020=Americana
-851x11021=Am√©rico Brasiliense
-999x11023=Amparo
-734x11028=Angatuba
-753x11037=Ara√ßatuba
-851x11041=Araraquara
-999x11042=Araras
-825x11046=Ariranha
-764x11050=Assis
-999x11055=Avar√©
-801x11060=Bady Bassitt
-999x11066=Barra Bonita
-822x11069=Barretos
-241x11071=Barueri
-410x11074=Bauru
-823x11075=Bebedouro
-754x11080=Bilac
-754x11081=Birigui
-710x11109=Boituva
-901x11867=Bonfim Paulista
-999x11114=Botucatu
-999x11135=Campinas
-510x11136=Campo Limpo Paulista
-999x11137=Campos do Jord√£o
-764x11141=C√¢ndido Mota
-999x11145=Cap√£o Bonito
-734x11146=Capela do Alto
-999x11151=Carapicu√≠ba
-825x11156=Catanduva
-999x12215=Caucaia do Alto
-710x11161=Cerquilho
-999x11166=Colina
-251x11176=Cotia
-999x11181=Cruzeiro
-310x11182=Cubat√£o
-SSPx11185=Diadema
-999x11202=Embu
-999x11206=Esp√≠rito Santo do Pinhal
-811x11218=Fernand√≥polis
-999x11227=Franco da Rocha
-999x11232=Gar√ßa
-251x11739=Granja Viana
-753x11250=Guararapes
-999x11252=Guaratinguet√°
-310x11256=Guaruj√°
-SSPx11892=Guarulhos
-999x11948=Hortol√¢ndia
-887x11261=Ibat√©
-520x11275=Indaiatuba
-734x11280=Iper√≥
-251x11291=Itapecerica da Serra
-734x11292=Itapetininga
-241x11294=Itapevi
-999x11295=Itapira
-SSPx11300=Itaquaquecetuba
-710x11308=Itu
-884x11310=Jaboticabal
-241x11318=Jandira
-241x12226=Jardim Silveira
-420x11321=Ja√∫
-737x11912=Jumirim
-510x11326=Jundia√≠
-710x11335=Laranjal Paulista
-620x11340=Limeira
-999x11343=Lorena
-210x11365=Mar√≠lia
-762x11368=Martin√≥polis
-999x11369=Mat√£o
-SSPx11370=Mau√°
-801x11378=Mirassol
-999x11382=Mogi-Gua√ßu
-152x11425=Osasco
-210x11428=Ourinhos
-825x11434=Palmares Paulista
-999x11436=Palmital
-999x11440=Paragua√ßu Paulista
-999x11451=Paul√≠nia
-753x11459=Pen√°polis
-999x11465=Piedade
-999x11467=Pindamonhangaba
-825x11468=Pindorama
-610x11474=Piracicaba
-999x11482=Pirapozinho
-710x11497=Porto Feliz
-310x11502=Praia Grande
-762x11507=Presidente Prudente
-762x11519=Regente Feij√≥
-SSPx11528=Ribeir√£o Pires
-901x11529=Ribeir√£o Preto
-SSPx11964=Rio Grande da Serra
-710x11584=Salto
-630x11612=Santa B√°rbara DOeste
-SSPx11633=Santo Andr√©
-310x11592=Santos
-SSPx11548=S√£o Bernardo do Campo
-SSPx11550=S√£o Caetano do Sul
-887x11551=S√£o Carlos
-801x11562=S√£o Jos√© do Rio Preto
-999x11563=S√£o Jos√© dos Campos
-SSPx11000=S√£o Paulo
-999x11572=S√£o Roque
-310x11577=S√£o Vicente
-883x11599=Sert√£ozinho
-701x11609=Sorocaba
-999x11640=Sumar√©
-999x11641=Suzano
-251x11644=Tabo√£o da Serra
-884x11656=Taquaritinga
-734x11660=Tatu√≠
-999x11661=Taubat√©
-710x11666=Tiet√™
-999x11673=Tup√£
-999x11686=Valinhos
-251x12210=Vargem Grande Paulista
-510x11691=V√°rzea Paulista
-310x12260=Vicente de Carvalho
-701x11885=Votorantim
-814x11701=Votuporanga
+SP=410x11008=Agudos
+SP=241x2=Alphaville
+SP=762x11016=√Ålvares Machado
+SP=630x11020=Americana
+SP=851x11021=Am√©rico Brasiliense
+SP=999x11023=Amparo
+SP=734x11028=Angatuba
+SP=753x11037=Ara√ßatuba
+SP=851x11041=Araraquara
+SP=999x11042=Araras
+SP=825x11046=Ariranha
+SP=764x11050=Assis
+SP=999x11055=Avar√©
+SP=801x11060=Bady Bassitt
+SP=999x11066=Barra Bonita
+SP=822x11069=Barretos
+SP=241x11071=Barueri
+SP=410x11074=Bauru
+SP=823x11075=Bebedouro
+SP=754x11080=Bilac
+SP=754x11081=Birigui
+SP=710x11109=Boituva
+SP=901x11867=Bonfim Paulista
+SP=999x11114=Botucatu
+SP=999x11135=Campinas
+SP=510x11136=Campo Limpo Paulista
+SP=999x11137=Campos do Jord√£o
+SP=764x11141=C√¢ndido Mota
+SP=999x11145=Cap√£o Bonito
+SP=734x11146=Capela do Alto
+SP=999x11151=Carapicu√≠ba
+SP=825x11156=Catanduva
+SP=999x12215=Caucaia do Alto
+SP=710x11161=Cerquilho
+SP=999x11166=Colina
+SP=251x11176=Cotia
+SP=999x11181=Cruzeiro
+SP=310x11182=Cubat√£o
+SP=SSPx11185=Diadema
+SP=999x11202=Embu
+SP=999x11206=Esp√≠rito Santo do Pinhal
+SP=811x11218=Fernand√≥polis
+SP=999x11227=Franco da Rocha
+SP=999x11232=Gar√ßa
+SP=251x11739=Granja Viana
+SP=753x11250=Guararapes
+SP=999x11252=Guaratinguet√°
+SP=310x11256=Guaruj√°
+SP=SSPx11892=Guarulhos
+SP=999x11948=Hortol√¢ndia
+SP=887x11261=Ibat√©
+SP=520x11275=Indaiatuba
+SP=734x11280=Iper√≥
+SP=251x11291=Itapecerica da Serra
+SP=734x11292=Itapetininga
+SP=241x11294=Itapevi
+SP=999x11295=Itapira
+SP=SSPx11300=Itaquaquecetuba
+SP=710x11308=Itu
+SP=884x11310=Jaboticabal
+SP=241x11318=Jandira
+SP=241x12226=Jardim Silveira
+SP=420x11321=Ja√∫
+SP=737x11912=Jumirim
+SP=510x11326=Jundia√≠
+SP=710x11335=Laranjal Paulista
+SP=620x11340=Limeira
+SP=999x11343=Lorena
+SP=210x11365=Mar√≠lia
+SP=762x11368=Martin√≥polis
+SP=999x11369=Mat√£o
+SP=SSPx11370=Mau√°
+SP=801x11378=Mirassol
+SP=999x11382=Mogi-Gua√ßu
+SP=152x11425=Osasco
+SP=210x11428=Ourinhos
+SP=825x11434=Palmares Paulista
+SP=999x11436=Palmital
+SP=999x11440=Paragua√ßu Paulista
+SP=999x11451=Paul√≠nia
+SP=753x11459=Pen√°polis
+SP=999x11465=Piedade
+SP=999x11467=Pindamonhangaba
+SP=825x11468=Pindorama
+SP=610x11474=Piracicaba
+SP=999x11482=Pirapozinho
+SP=710x11497=Porto Feliz
+SP=310x11502=Praia Grande
+SP=762x11507=Presidente Prudente
+SP=762x11519=Regente Feij√≥
+SP=SSPx11528=Ribeir√£o Pires
+SP=901x11529=Ribeir√£o Preto
+SP=SSPx11964=Rio Grande da Serra
+SP=710x11584=Salto
+SP=630x11612=Santa B√°rbara DOeste
+SP=SSPx11633=Santo Andr√©
+SP=310x11592=Santos
+SP=SSPx11548=S√£o Bernardo do Campo
+SP=SSPx11550=S√£o Caetano do Sul
+SP=887x11551=S√£o Carlos
+SP=801x11562=S√£o Jos√© do Rio Preto
+SP=999x11563=S√£o Jos√© dos Campos
+SP=SSPx11000=S√£o Paulo
+SP=999x11572=S√£o Roque
+SP=310x11577=S√£o Vicente
+SP=883x11599=Sert√£ozinho
+SP=701x11609=Sorocaba
+SP=999x11640=Sumar√©
+SP=999x11641=Suzano
+SP=251x11644=Tabo√£o da Serra
+SP=884x11656=Taquaritinga
+SP=734x11660=Tatu√≠
+SP=999x11661=Taubat√©
+SP=710x11666=Tiet√™
+SP=999x11673=Tup√£
+SP=999x11686=Valinhos
+SP=251x12210=Vargem Grande Paulista
+SP=510x11691=V√°rzea Paulista
+SP=310x12260=Vicente de Carvalho
+SP=701x11885=Votorantim
+SP=814x11701=Votuporanga
+BA=995x71003=Abaré
+BA=995x71004=Abrantes
+BA=995x71016=Alagoinhas
+BA=995x71017=Alcobaça
+BA=995x71034=Antas
+BA=995x71704=Arembepe
+BA=995x72183=Bahia
+BA=995x71063=Barra da Estiva
+BA=995x71067=Barreiras
+BA=995x71068=Barro Alto
+BA=995x71076=Belmonte
+BA=995x72273=Belo Horizonte
+BA=995x71872=Bom Despacho
+BA=995x71048=Bom Jesus da Lapa
+BA=995x71092=Botuporã
+BA=995x71099=Brumado
+BA=995x71681=Cachoeira
+BA=995x71113=Caetité
+BA=995x71122=Camaçari
+BA=995x71129=Campo Formoso
+BA=995x71136=Canavieiras
+BA=995x71139=Candeias
+BA=995x71140=Candiba
+BA=995x71715=Capela do Alto Alegre
+BA=995x71150=Caravelas
+BA=995x71164=Catu
+BA=995x71177=Conceição da Feira
+BA=995x71179=Conceição do Coité
+BA=995x71180=Conceição do Jacuípe
+BA=995x71181=Conde
+BA=995x71192=Cotegipe
+BA=995x71199=Cruz das Almas
+BA=995x71206=Dias D'Ávila
+BA=995x71212=Encruzilhada
+BA=995x71215=Entre Rios
+BA=995x71218=Eunápolis
+BA=995x71220=Feira de Santana
+BA=995x71232=Gandu
+BA=995x71238=Governador Mangabeira
+BA=995x71241=Guanambi
+BA=995x71243=Guaratinga
+BA=995x71252=Iaçu
+BA=995x71256=Ibiaporã
+BA=995x71258=Ibicaraí
+BA=995x71291=Ilhéus
+BA=995x72672=Interlagos
+BA=995x71300=Ipiaú
+BA=995x71301=Ipirá
+BA=995x71307=Iramaia
+BA=995x71309=Iraquara
+BA=995x71311=Irecê
+BA=995x71313=Itaberaba
+BA=995x71314=Itabuna
+BA=995x71315=Itacaré
+BA=995x71318=Itaeté
+BA=995x71320=Itagiba
+BA=995x71322=Itaguara
+BA=995x71327=Itaju do Colônia
+BA=995x71331=Itamaraju
+BA=995x71332=Itamari
+BA=995x71333=Itambé
+BA=995x71338=Itanhém
+BA=995x71340=Itaparica
+BA=995x71344=Itapetinga
+BA=995x71345=Itapicuru
+BA=995x71351=Itarantim
+BA=995x71356=Ituaçu
+BA=995x71362=Jacobina
+BA=995x71368=Jaguarari
+BA=995x71374=Jequié
+BA=995x73611=João Dourado
+BA=995x71383=Juazeiro
+BA=995x71407=Lauro de Freitas
+BA=995x71408=Lençóis
+BA=995x71409=Licínio de Almeida
+BA=995x71413=Macajuba
+BA=995x71417=Madre de Deus
+BA=995x71430=Maragogipe
+BA=995x71442=Mata de São João
+BA=995x71445=Medeiros Neto
+BA=995x71447=Milagres
+BA=995x71464=Mucuri
+BA=995x71466=Mundo Novo
+BA=995x71472=Nazaré
+BA=995x71754=Nova Redenção
+BA=995x71481=Nova Viçosa
+BA=995x71486=Oliveira dos Brejinhos
+BA=995x71488=Ouriçangas
+BA=995x71496=Paratinga
+BA=995x71502=Paulo Afonso
+BA=995x71512=Pindaí
+BA=995x71526=Poções
+BA=995x71528=Pojuca
+BA=995x71533=Porto Seguro
+BA=995x71537=Presidente Dutra
+BA=995x71547=Riachão do Jacuípe
+BA=995x71554=Ribeira do Pombal
+BA=995x71000=Salvador
+BA=995x73269=Samambaia
+BA=995x71611=Santa Brígida
+BA=995x71615=Santa Maria da Vitória
+BA=995x71616=Santa Rita de Cássia
+BA=995x71620=Santo Antônio de Jesus
+BA=995x71621=Santo Estevão
+BA=995x71566=São Francisco do Conde
+BA=995x71567=São Gonçalo dos Campos
+BA=SSPx11000=São Paulo
+BA=995x71585=Sapeaçu
+BA=995x71591=Sebastião Laranjeiras
+BA=995x71609=Senhor do Bonfim
+BA=995x71598=Serrinha
+BA=995x71600=Simões Filho
+BA=995x71606=Sobradinho
+BA=995x71641=Teixeira de Freitas
+BA=995x71651=Tucano
+BA=995x71654=Ubaitaba
+BA=995x71655=Ubatã
+BA=995x71659=Una
+BA=995x71701=Utinga
+BA=995x71663=Valença
+BA=995x71664=Valente
+BA=995x71671=Vera Cruz
+BA=995x71673=Vitória da Conquista
+BA=995x71679=Wenceslau Guimarães
+BA=995x71680=Xique-Xique
+ES=994x27002=Afonso Cláudio
+ES=994x27006=Águia Branca
+ES=994x27008=Alegre
+ES=994x27012=Alto Rio Novo
+ES=994x27014=Anchieta
+ES=994x27020=Aracruz
+ES=994x27025=Attílio Vivácqua
+ES=994x27026=Baixo Guandu
+ES=994x27027=Barra de São Francisco
+ES=994x27232=Bom Jesus do Norte
+ES=994x27038=Cachoeiro de Itapemirim
+ES=994x27045=Cariacica
+ES=994x27046=Castelo
+ES=994x27049=Colatina
+ES=994x27050=Conceição da Barra
+ES=994x27051=Conceição do Castelo
+ES=994x27063=Domingos Martins
+ES=994x27067=Ecoporanga
+ES=994x27069=Fundão
+ES=994x27075=Guaçuí
+ES=994x27077=Guarapari
+ES=994x27079=Ibatiba
+ES=994x27087=Iconha
+ES=994x27099=Itapemirim
+ES=994x27106=Iúna
+ES=994x27115=João Neiva
+ES=994x27121=Linhares
+ES=994x27124=Mantenópolis
+ES=994x27125=Marataízes
+ES=994x27131=Mimoso do Sul
+ES=994x27136=Muqui
+ES=994x27139=Nova Venécia
+ES=994x27151=Pedro Canário
+ES=994x27156=Pinheiros
+ES=994x27171=Rio Bananal
+ES=994x27208=Santa Leopoldina
+ES=994x27185=São Mateus
+ES=994x27199=Serra
+ES=994x27222=Vargem Alta
+ES=994x27224=Venda Nova do Imigrante
+ES=994x27225=Viana
+ES=994x27228=Vila Velha
+ES=994x27000=Vitória
+MG=x000=Todas
+MG=993x32477=Abadia dos Dourados
+MG=993x31014=Águas Formosas
+MG=993x31015=Águas Vermelhas
+MG=993x32469=Aimorés
+MG=993x31016=Aiuruoca
+MG=993x31020=Além Paraíba
+MG=993x31021=Alfenas
+MG=993x31023=Almenara
+MG=993x31031=Alvorada de Minas
+MG=993x31034=Andradas
+MG=993x31046=Araçuaí
+MG=993x32480=Araguari
+MG=993x31905=Araporã
+MG=993x31050=Araxá
+MG=993x31052=Arcos
+MG=993x32552=Arinos
+MG=993x31068=Baependi
+MG=993x31069=Baldim
+MG=993x32482=Bambuí
+MG=993x31101=Barão de Cocais
+MG=993x31073=Barbacena
+MG=993x31076=Barroso
+MG=993x31077=Bela Vista de Minas
+MG=993x31000=Belo Horizonte
+MG=993x31080=Belo Oriente
+MG=993x31085=Betim
+MG=993x31087=Bicas
+MG=993x31095=Bocaiúva
+MG=993x31059=Bom Despacho
+MG=993x31065=Bom Repouso
+MG=993x31067=Bom Sucesso
+MG=993x31098=Borda da Mata
+MG=993x31099=Botelhos
+MG=993x31104=Brasília de Minas
+MG=993x31106=Brasópolis
+MG=993x31109=Bueno Brandão
+MG=993x32553=Buritis
+MG=993x31111=Cabo Verde
+MG=993x31113=Cachoeira da Prata
+MG=993x31114=Cachoeira de Minas
+MG=993x31119=Caeté
+MG=993x31125=Camanducaia
+MG=993x31126=Cambuí
+MG=993x31127=Cambuquira
+MG=993x31129=Campanha
+MG=993x32484=Campina Verde
+MG=993x31132=Campo Belo
+MG=993x32486=Campos Altos
+MG=993x31135=Campos Gerais
+MG=993x31143=Capelinha
+MG=993x31145=Capim Branco
+MG=993x32488=Capinópolis
+MG=993x31151=Carangola
+MG=993x31152=Caratinga
+MG=993x31156=Carlos Chagas
+MG=993x31160=Carmo da Mata
+MG=993x31161=Carmo de Minas
+MG=993x32489=Carmo do Paranaíba
+MG=993x31169=Cássia
+MG=993x31172=Cataguases
+MG=993x31175=Caxambu
+MG=993x31192=Cláudio
+MG=993x32494=Conceição das Alagoas
+MG=993x31202=Conceição do Mato Dentro
+MG=993x31204=Conceição do Pará
+MG=993x31205=Conceição do Rio Verde
+MG=993x31206=Conceição dos Ouros
+MG=993x31209=Congonhas
+MG=993x31211=Conquista
+MG=993x31193=Conselheiro Lafaiete
+MG=993x31856=Contagem
+MG=993x31215=Coração de Jesus
+MG=993x31218=Corinto
+MG=993x32495=Coromandel
+MG=993x31178=Coronel Fabriciano
+MG=993x31220=Córrego do Bom Jesus
+MG=993x31228=Cristiano Otoni
+MG=993x31229=Cristina
+MG=993x31232=Curvelo
+MG=993x31240=Diamantina
+MG=993x31248=Divinópolis
+MG=993x31253=Dom Silvério
+MG=993x31257=Dores de Campos
+MG=993x31264=Elói Mendes
+MG=993x31272=Esmeraldas
+MG=993x31273=Espera Feliz
+MG=993x31274=Espinosa
+MG=993x31282=Extrema
+MG=993x31293=Ferros
+MG=993x31296=Florestal
+MG=993x31297=Formiga
+MG=993x31302=Francisco Sá
+MG=993x32559=Fronteira
+MG=993x32502=Frutal
+MG=993x31328=Gouveia
+MG=993x32503=Governador Valadares
+MG=993x31330=Guanhães
+MG=993x31331=Guapé
+MG=993x31334=Guaranésia
+MG=993x31335=Guarani
+MG=993x32555=Guarda-Mor
+MG=993x31339=Guaxupé
+MG=993x31340=Guidoval
+MG=993x31346=Ibiá
+MG=993x32508=Ibiraci
+MG=993x31348=Ibirité
+MG=993x31351=Igarapé
+MG=993x31352=Igaratinga
+MG=993x32509=Iguatama
+MG=993x31354=Ilicínea
+MG=993x31355=Inconfidentes
+MG=993x32510=Indianópolis
+MG=993x31357=Inhapim
+MG=993x31360=Ipanema
+MG=993x31361=Ipatinga
+MG=993x31363=Ipuiúna
+MG=993x31364=Itabira
+MG=993x31366=Itabirito
+MG=993x31368=Itacarambi
+MG=993x31369=Itaguara
+MG=993x31371=Itajubá
+MG=993x31372=Itamarandiba
+MG=993x31374=Itambacuri
+MG=993x31376=Itamogi
+MG=993x31377=Itamonte
+MG=993x31379=Itanhandu
+MG=993x32513=Itapagipe
+MG=993x31382=Itapecerica
+MG=993x31383=Itapeva
+MG=993x31386=Itaú de Minas
+MG=993x31387=Itaúna
+MG=993x32514=Ituiutaba
+MG=993x32515=Iturama
+MG=993x31392=Itutinga
+MG=993x31397=Jacutinga
+MG=993x31400=Janaúba
+MG=993x31401=Januária
+MG=993x31407=Jequitinhonha
+MG=993x31409=Joaíma
+MG=993x31411=João Monlevade
+MG=993x31412=João Pinheiro
+MG=993x31419=Juiz de Fora
+MG=993x31420=Juramento
+MG=993x31426=Lagoa da Prata
+MG=993x31428=Lagoa Dourada
+MG=993x32516=Lagoa Formosa
+MG=993x31429=Lagoa Santa
+MG=993x31431=Lambari
+MG=993x31436=Lavras
+MG=993x31438=Leopoldina
+MG=993x32658=Limeira
+MG=993x32517=Luz
+MG=993x31446=Machado
+MG=993x31451=Manhuaçu
+MG=993x31452=Manhumirim
+MG=993x31453=Mantena
+MG=993x31455=Mar de Espanha
+MG=993x32518=Maravilhas
+MG=993x31456=Maria da Fé
+MG=993x31457=Mariana
+MG=993x31468=Mateus Leme
+MG=993x31470=Matipó
+MG=993x31472=Matozinhos
+MG=993x31478=Mesquita
+MG=993x31481=Mirabela
+MG=993x31482=Miradouro
+MG=993x31483=Miraí
+MG=993x32519=Moema
+MG=993x31490=Monte Azul
+MG=993x32522=Monte Carmelo
+MG=993x32523=Monte Santo de Minas
+MG=993x31494=Monte Sião
+MG=993x31496=Montes Claros
+MG=993x31500=Muriaé
+MG=993x31501=Mutum
+MG=993x31502=Muzambinho
+MG=993x31504=Nanuque
+MG=993x31507=Nepomuceno
+MG=993x31508=Nova Era
+MG=993x31509=Nova Lima
+MG=993x32525=Nova Serrana
+MG=993x31516=Oliveira
+MG=993x31519=Ouro Branco
+MG=993x31520=Ouro Fino
+MG=993x31521=Ouro Preto
+MG=993x31526=Pains
+MG=993x32526=Papagaios
+MG=993x32527=Pará de Minas
+MG=993x32556=Paracatu
+MG=993x31532=Paraguaçu
+MG=993x31533=Paraisópolis
+MG=993x31534=Paraopeba
+MG=993x31535=Passa Quatro
+MG=993x31540=Passos
+MG=993x32528=Patos de Minas
+MG=993x32529=Patrocínio
+MG=993x31549=Pedra Azul
+MG=993x31551=Pedra do Indaiá
+MG=993x31553=Pedra Dourada
+MG=993x31554=Pedralva
+MG=993x32530=Pedrinopólis
+MG=993x31556=Pedro Leopoldo
+MG=993x32532=Perdigão
+MG=993x31563=Perdões
+MG=993x31577=Pirapetinga
+MG=993x31578=Pirapora
+MG=993x32536=Pitangui
+MG=993x32537=Planura
+MG=993x31584=Poços de Caldas
+MG=993x31586=Pompeu
+MG=993x31587=Ponte Nova
+MG=993x31588=Porteirinha
+MG=993x31592=Pouso Alegre
+MG=993x31593=Pouso Alto
+MG=993x32538=Prata
+MG=993x31607=Raul Soares
+MG=993x31615=Ribeirão das Neves
+MG=993x31618=Rio Acima
+MG=993x31619=Rio Casca
+MG=993x31624=Rio Manso
+MG=993x32540=Rio Paranaíba
+MG=993x31710=Sabará
+MG=993x31712=Sacramento
+MG=993x31713=Salinas
+MG=993x31767=Santa Efigenia de Minas
+MG=993x32542=Santa Juliana
+MG=993x31772=Santa Luzia
+MG=993x31776=Santa Maria do Suaçuí
+MG=993x31777=Santa Rita de Caldas
+MG=993x31781=Santa Rita do Sapucaí
+MG=993x32543=Santa Vitória
+MG=993x32268=Santana do Paraíso
+MG=993x31790=Santo Antônio do Monte
+MG=993x31726=Santos Dumont
+MG=993x31655=São Domingos do Prata
+MG=993x31657=São Francisco
+MG=993x31667=São Gonçalo do Sapucaí
+MG=993x31668=São Gotardo
+MG=993x31675=São João Del Rei
+MG=993x31678=São João Evangelista
+MG=993x31679=São João Nepomuceno
+MG=993x32445=São José da Lapa
+MG=993x31687=São Lourenço
+MG=993x31695=São Roque de Minas
+MG=993x31700=São Sebastião do Paraíso
+MG=993x31704=São Tiago
+MG=993x31729=Sarzedo
+MG=993x31742=Serrania
+MG=993x31745=Sete Lagoas
+MG=993x31794=Taiobeiras
+MG=993x31802=Teófilo Otoni
+MG=993x31803=Timóteo
+MG=993x31806=Tocantins
+MG=993x31809=Tombos
+MG=993x31812=Três Corações
+MG=993x31814=Três Marias
+MG=993x31815=Três Pontas
+MG=993x32547=Tupaciguara
+MG=993x31819=Turmalina
+MG=993x31821=Ubá
+MG=993x32548=Uberaba
+MG=993x32549=Uberlândia
+MG=993x32558=Unaí
+MG=993x31831=Varginha
+MG=993x31832=Várzea da Palma
+MG=993x32551=Vazante
+MG=993x31838=Vespasiano
+MG=993x31839=Viçosa
+MG=993x31847=Virginópolis
+MG=993x31848=Virgolândia
+MG=993x31849=Visconde do Rio Branco
+PR=x000=Todas
+PR=998x41002=Abatiá
+PR=998x41005=Adrianópolis
+PR=998x41012=Agudos do Sul
+PR=998x41015=Almirante Tamandaré
+PR=998x41016=Altamira do Paraná
+PR=998x41020=Alto Paraná
+PR=998x41021=Alto Piquiri
+PR=998x41024=Altônia
+PR=998x41026=Alvorada do Sul
+PR=998x41027=Amaporã
+PR=998x41030=Ampére
+PR=998x41031=Anahy
+PR=998x41032=Andirá
+PR=998x41034=Ângulo
+PR=998x41037=Antonina
+PR=998x41036=Antônio Olinto
+PR=998x41041=Apucarana
+PR=998x41043=Arapongas
+PR=998x41044=Arapoti
+PR=998x41045=Arapua
+PR=998x41048=Araruna
+PR=998x41049=Araucária
+PR=998x41053=Assaí
+PR=998x41054=Assis Chateaubriand
+PR=998x41055=Astorga
+PR=998x41056=Atalaia
+PR=998x41748=Balsa Nova
+PR=998x41065=Bandeirantes
+PR=998x41066=Barbosa Ferraz
+PR=998x41069=Barra do Jacaré
+PR=998x41959=Barracão
+PR=998x41079=Bela Vista do Paraíso
+PR=998x41083=Bituruna
+PR=998x41086=Boa Esperança
+PR=998x41087=Boa Esperança do Iguaçu
+PR=998x41090=Boa Vista da Aparecida
+PR=998x41092=Bocaiúva do Sul
+PR=998x41064=Bom Sucesso
+PR=998x41063=Bom Sucesso do Sul
+PR=998x41095=Borrazópolis
+PR=998x41097=Braganey
+PR=998x41946=Caetano Mendes
+PR=998x41103=Cafeara
+PR=998x41105=Cafelândia
+PR=998x41108=Califórnia
+PR=998x41110=Cambará
+PR=998x41111=Cambé
+PR=998x41112=Cambira
+PR=998x41113=Campina da Lagoa
+PR=998x41114=Campina do Simão
+PR=998x41115=Campina Grande do Sul
+PR=998x41116=Campo Bonito
+PR=998x41118=Campo do Tenente
+PR=998x41119=Campo Largo
+PR=998x41121=Campo Magro
+PR=998x41122=Campo Mourão
+PR=998x41123=Cândido de Abreu
+PR=998x41124=Candoí
+PR=998x41126=Cantagalo
+PR=998x41128=Capanema
+PR=998x41127=Capitão Leônidas Marques
+PR=998x41130=Carambeí
+PR=998x41133=Carlópolis
+PR=998x41135=Cascavel
+PR=998x41136=Castro
+PR=998x41137=Catanduvas
+PR=998x41146=Centenário do Sul
+PR=998x41148=Cerro Azul
+PR=998x41149=Céu Azul
+PR=998x41150=Chopinzinho
+PR=998x41151=Cianorte
+PR=998x41152=Cidade Gaúcha
+PR=998x41154=Clevelândia
+PR=998x41161=Colombo
+PR=998x41858=Colônia Castrolanda
+PR=998x41162=Colorado
+PR=998x41166=Congonhinhas
+PR=998x41159=Conselheiro Mairinck
+PR=998x41167=Contenda
+PR=998x41169=Corbélia
+PR=998x41170=Cornélio Procópio
+PR=998x41143=Coronel Domingos Soares
+PR=998x41145=Coronel Vivida
+PR=998x41172=Corumbataí do Sul
+PR=998x41178=Cruz Machado
+PR=998x41180=Cruzeiro do Iguaçu
+PR=998x41182=Cruzeiro do Oeste
+PR=998x41183=Cruzeiro do Sul
+PR=998x41000=Curitiba
+PR=998x41184=Curiúva
+PR=998x41188=Diamante do Norte
+PR=998x41777=Diamante do Oeste
+PR=998x41187=Diamante do Sul
+PR=998x41192=Dois Vizinhos
+PR=998x41194=Douradina
+PR=998x41196=Doutor Camargo
+PR=998x41201=Enéas Marques
+PR=998x41203=Engenheiro Beltrão
+PR=998x41205=Entre Rio do Oeste
+PR=998x41212=Farol
+PR=998x41213=Faxinal
+PR=998x41919=Fazenda Rio Grande
+PR=998x41217=Fênix
+PR=998x41761=Fernandes Pinheiro
+PR=998x41220=Figueira
+PR=998x41224=Floraí
+PR=998x41225=Floresta
+PR=998x41226=Florestópolis
+PR=998x41228=Flórida
+PR=998x41232=Formosa do Oeste
+PR=998x41233=Foz do Iguaçu
+PR=998x41234=Francisco Alves
+PR=998x41235=Francisco Beltrão
+PR=998x41241=General Carneiro
+PR=998x41243=Godoi Moreira
+PR=998x41244=Goio-Erê
+PR=998x41245=Goioxim
+PR=998x41885=Graciosa
+PR=998x41248=Grandes Rios
+PR=998x41251=Guaíra
+PR=998x41252=Guairacá
+PR=998x41254=Guajuvira
+PR=998x41255=Guamiranga
+PR=998x41257=Guapirama
+PR=998x41259=Guaporema
+PR=998x41260=Guará
+PR=998x41261=Guaraci
+PR=998x41264=Guaraniaçu
+PR=998x41265=Guarapuava
+PR=998x41266=Guaraqueçaba
+PR=998x41267=Guaratuba
+PR=998x41273=Honório Serpa
+PR=998x41274=Ibaiti
+PR=998x41275=Ibema
+PR=998x41277=Ibiporã
+PR=998x41279=Icaraíma
+PR=998x41281=Iguaraçu
+PR=998x41283=Iguatu
+PR=998x41285=Imbaú
+PR=998x41287=Imbituva
+PR=998x41288=Inácio Martins
+PR=998x41289=Inajá
+PR=998x41290=Indianópolis
+PR=998x41293=Ipiranga
+PR=998x41294=Iporã
+PR=998x41295=Iracema do Oeste
+PR=998x41297=Irati
+PR=998x41299=Iretama
+PR=998x41302=Itaguajé
+PR=998x41304=Itambaracá
+PR=998x41305=Itambé
+PR=998x41307=Itapejara D Oeste
+PR=998x42115=Itaperuçu
+PR=998x41308=Itaúna do Sul
+PR=998x41309=Ivaí
+PR=998x41311=Ivaiporã
+PR=998x41313=Ivaté
+PR=998x41314=Ivatuba
+PR=998x41315=Jaboti
+PR=998x41316=Jacarezinho
+PR=998x41321=Jaguapitã
+PR=998x41322=Jaguariaiva
+PR=998x41323=Jandaia do Sul
+PR=998x41326=Janiópolis
+PR=998x41327=Japira
+PR=998x41328=Japurá
+PR=998x41337=Jardim Alegre
+PR=998x41338=Jardim Olinda
+PR=998x41331=Jataizinho
+PR=998x41332=Jesuítas
+PR=998x41334=Joaquim Távora
+PR=998x41339=Jundiaí do Sul
+PR=998x41340=Juranda
+PR=998x41341=Jussara
+PR=998x41344=Kaloré
+PR=998x41349=Lapa
+PR=998x41350=Laranjal
+PR=998x41351=Laranjeiras do Sul
+PR=998x41354=Leópolis
+PR=998x41357=Lindoeste
+PR=998x41359=Loanda
+PR=998x41360=Lobato
+PR=998x41361=Londrina
+PR=998x41362=Lovat
+PR=998x41363=Luiziana
+PR=998x41364=Lunardelli
+PR=998x41365=Lupionópolis
+PR=998x41367=Mallet
+PR=998x41369=Mamboré
+PR=998x41370=Mandaguaçu
+PR=998x41371=Mandaguari
+PR=998x41372=Mandirituba
+PR=998x41373=Mangueirinha
+PR=998x41374=Manoel Ribas
+PR=998x41379=Marechal Cândido Rondon
+PR=998x41381=Maria Helena
+PR=998x41382=Marialva
+PR=998x41384=Marilândia do Sul
+PR=998x41385=Marilena
+PR=998x41387=Mariluz
+PR=998x41389=Maringá
+PR=998x41390=Mariópolis
+PR=998x41732=Maripá
+PR=998x41393=Marmeleiro
+PR=998x41396=Marquinho
+PR=998x41397=Marumbi
+PR=998x41398=Matelândia
+PR=998x41399=Matinhos
+PR=998x41830=Mato Rico
+PR=998x41400=Mauá da Serra
+PR=998x41401=Medianeira
+PR=998x41914=Mercedes
+PR=998x41404=Mirador
+PR=998x41406=Miraselva
+PR=998x41407=Missal
+PR=998x41410=Moreira Sales
+PR=998x41411=Morretes
+PR=998x41412=Munhoz de Melo
+PR=998x41440=Nossa Senhora das Graças
+PR=998x41415=Nova Aliança do Ivaí
+PR=998x41416=Nova América da Colina
+PR=998x41417=Nova Aurora
+PR=998x41420=Nova Cantu
+PR=998x41423=Nova Esperança
+PR=998x41422=Nova Esperança do Sudoeste
+PR=998x41424=Nova Fátima
+PR=998x41735=Nova Laranjeiras
+PR=998x41425=Nova Londrina
+PR=998x41428=Nova Olímpia
+PR=998x41429=Nova Prata do Iguaçu
+PR=998x41648=Nova Santa Bárbara
+PR=998x41431=Nova Santa Rosa
+PR=998x41765=Nova Tebas
+PR=998x41442=Ortigueira
+PR=998x41444=Ourizona
+PR=998x41445=Ouro Verde do Oeste
+PR=998x41447=Paiçandu
+PR=998x41449=Palmas
+PR=998x41450=Palmeira
+PR=998x41451=Palmeirinha
+PR=998x41453=Palmital
+PR=998x41455=Palotina
+PR=998x41460=Paraíso do Norte
+PR=998x41462=Paranacity
+PR=998x41464=Paranaguá
+PR=998x41465=Paranapoema
+PR=998x41466=Paranavaí
+PR=998x41468=Pato Bragado
+PR=998x41469=Pato Branco
+PR=998x41472=Paula Freitas
+PR=998x41474=Paulo Frontim
+PR=998x41476=Peabiru
+PR=998x41479=Perobal
+PR=998x41480=Pérola
+PR=998x41484=Pien
+PR=998x41486=Pinhais
+PR=998x41487=Pinhal de São Bento
+PR=998x41488=Pinhalão
+PR=998x41491=Pinhão
+PR=998x41493=Piraí do Sul
+PR=998x41494=Pirapó
+PR=998x41495=Piraquara
+PR=998x41496=Pitanga
+PR=998x41497=Pitangueiras
+PR=998x41498=Planaltina do Paraná
+PR=998x41499=Planalto
+PR=998x41502=Ponta Grossa
+PR=998x41503=Porecatu
+PR=998x41505=Porto Amazonas
+PR=998x41510=Porto Rico
+PR=998x41514=Porto Vitória
+PR=998x41515=Prado Ferreira
+PR=998x41517=Pranchita
+PR=998x41519=Presidente Castelo Branco
+PR=998x41521=Primeiro de Maio
+PR=998x41523=Prudentópolis
+PR=998x41526=Quatiguá
+PR=998x41527=Quatro Barras
+PR=998x41757=Quatro Pontes
+PR=998x41529=Quedas do Iguaçu
+PR=998x41530=Querência do Norte
+PR=998x41531=Quinta do Sol
+PR=998x41533=Quitandinha
+PR=998x41534=Ramilândia
+PR=998x41535=Rancho Alegre
+PR=998x41536=Realeza
+PR=998x41537=Rebouças
+PR=998x41539=Renascença
+PR=998x41540=Reserva
+PR=998x41543=Ribeirão Claro
+PR=998x41544=Ribeirão do Pinhal
+PR=998x41545=Rio Azul
+PR=998x41546=Rio Bom
+PR=998x41846=Rio Branco do Ivaí
+PR=998x41549=Rio Branco do Sul
+PR=998x41960=Rio Negro
+PR=998x41559=Rolândia
+PR=998x41560=Roncador
+PR=998x41562=Rondon
+PR=998x41767=Rosário do Ivaí
+PR=998x41617=Sabaudia
+PR=998x41619=Salgado Filho
+PR=998x41621=Salto do Itararé
+PR=998x41622=Salto do Lontra
+PR=998x41647=Santa Amélia
+PR=998x41649=Santa Cecília do Pavão
+PR=998x41650=Santa Cruz do Monte Castelo
+PR=998x41653=Santa Fé
+PR=998x41654=Santa Helena
+PR=998x41655=Santa Inês
+PR=998x41656=Santa Isabel do Ivaí
+PR=998x41657=Santa Izabel do Oeste
+PR=998x41658=Santa Lúcia
+PR=998x41661=Santa Maria do Oeste
+PR=998x41663=Santa Mariana
+PR=998x41664=Santa Mônica
+PR=998x41666=Santa Tereza do Oeste
+PR=998x41667=Santa Terezinha de Itaipu
+PR=998x41625=Santana do Itararé
+PR=998x41670=Santo Antônio da Platina
+PR=998x41671=Santo Antônio do Caiuá
+PR=998x41674=Santo Antônio do Paraíso
+PR=998x41675=Santo Antônio do Sudoeste
+PR=998x41676=Santo Inácio
+PR=998x41564=São Carlos do Ivaí
+PR=998x41571=São Jerônimo da Serra
+PR=998x41572=São João
+PR=998x41573=São João do Caiuá
+PR=998x41574=São João do Ivaí
+PR=998x41576=São João do Triunfo
+PR=998x41784=São Jorge do Ivaí
+PR=998x41770=São Jorge do Patrocínio
+PR=998x41582=São José da Boa Vista
+PR=998x41780=São José das Palmeiras
+PR=998x41585=São José dos Pinhais
+PR=998x41589=São Luiz
+PR=998x41595=São Mateus do Sul
+PR=998x41598=São Miguel do Iguaçu
+PR=998x41795=São Pedro do Iguaçu
+PR=998x41601=São Pedro do Ivaí
+PR=998x41602=São Pedro do Paraná
+PR=998x41609=São Sebastião da Amoreira
+PR=998x41613=São Tomé
+PR=998x41627=Sapopema
+PR=998x41628=Sarandi
+PR=998x41633=Sengés
+PR=998x41638=Sertaneja
+PR=998x41639=Sertanópolis
+PR=998x41642=Siqueira Campos
+PR=998x41631=Sulina
+PR=998x41678=Sumaré
+PR=998x41680=Tamarana
+PR=998x41681=Tamboara
+PR=998x41682=Tapejara
+PR=998x41683=Tapira
+PR=998x41684=Teixeira Soares
+PR=998x41685=Telêmaco Borba
+PR=998x41688=Terra Boa
+PR=998x41690=Terra Rica
+PR=998x41691=Terra Roxa
+PR=998x41692=Tibagi
+PR=998x41693=Tijucas do Sul
+PR=998x41695=Toledo
+PR=998x41696=Tomazina
+PR=998x41697=Três Barras do Paraná
+PR=998x41703=Tuneiras do Oeste
+PR=998x41704=Tupassi
+PR=998x41797=Turvo
+PR=998x41709=Ubiratã
+PR=998x41711=Umuarama
+PR=998x41712=União da Vitória
+PR=998x41714=Uniflor
+PR=998x41715=Uraí
+PR=998x41719=Ventania
+PR=998x41722=Vera Cruz do Oeste
+PR=998x41724=Verê
+PR=998x41743=Virmond
+PR=998x41746=Vitorino
+PR=998x41718=Wenceslau Braz
+PR=998x41747=Xambrê
+RJ=x000=Todas
+RJ=992x21009=Angra dos Reis
+RJ=992x21011=Aperibé
+RJ=992x21013=Araruama
+RJ=992x21019=Armação dos Búzios
+RJ=992x21338=Arraial do Cabo
+RJ=992x21033=Barra do Piraí
+RJ=992x21034=Barra Mansa
+RJ=992x21037=Belford Roxo
+RJ=992x21024=Bom Jardim
+RJ=992x21023=Bom Jesus do Itabapoana
+RJ=992x21047=Cabo Frio
+RJ=992x21051=Cachoeiras de Macacu
+RJ=992x21339=Cantagalo
+RJ=992x21063=Casimiro de Abreu
+RJ=992x21072=Conceição de Macabu
+RJ=992x21088=Duque de Caxias
+RJ=992x21090=Engenheiro Paulo de Frontim
+RJ=992x21342=Goitacazes
+RJ=992x21120=Guapimirim
+RJ=992x21136=Itaboraí
+RJ=992x21139=Itaguaí
+RJ=992x21145=Itaperuna
+RJ=992x21371=Itatiaia
+RJ=992x21148=Japeri
+RJ=992x21160=Macaé
+RJ=992x21162=Magé
+RJ=992x21163=Mangaratiba
+RJ=992x21165=Maricá
+RJ=992x21168=Mendes
+RJ=992x21169=Mesquita
+RJ=992x21170=Miguel Pereira
+RJ=992x21185=Natividade
+RJ=992x21187=Nilópolis
+RJ=992x21188=Niterói
+RJ=992x21189=Nova Friburgo
+RJ=992x21190=Nova Iguaçu
+RJ=992x21199=Paracambi
+RJ=992x21202=Paraíba do Sul
+RJ=992x21214=Petrópolis
+RJ=992x21218=Piraí
+RJ=992x21226=Porto Real
+RJ=992x21234=Quatis
+RJ=992x21236=Queimados
+RJ=992x21237=Quissamã
+RJ=992x21239=Resende
+RJ=992x21244=Rio Bonito
+RJ=992x21247=Rio das Ostras
+RJ=992x21000=Rio de Janeiro
+RJ=992x21296=Santo Antônio de Pádua
+RJ=992x21255=São Fidélis
+RJ=992x21256=São Gonçalo
+RJ=992x21258=São João de Meriti
+RJ=992x21262=São José do Vale do Rio Preto
+RJ=992x21264=São Pedro da Aldeia
+RJ=992x21276=Saquarema
+RJ=992x21280=Seropédica
+RJ=992x21284=Silva Jardim
+RJ=992x21298=Sumidouro
+RJ=992x21303=Teresópolis
+RJ=992x21309=Três Rios
+RJ=992x21316=Valença
+RJ=992x21319=Vassouras
+RJ=992x21331=Volta Redonda
+RS=x000=Todas
+RS=997x51002=Agudo
+RS=997x51003=Ajuricaba
+RS=997x51005=Alegrete
+RS=997x51476=Alegria
+RS=997x51009=Alvorada
+RS=997x51011=Antônio Prado
+RS=997x51018=Arroio do Meio
+RS=997x51021=Arroio dos Ratos
+RS=997x51022=Arroio Grande
+RS=997x51030=Bagé
+RS=997x51517=Barão
+RS=997x51031=Barra do Ribeiro
+RS=997x51036=Bento Gonçalves
+RS=997x51037=Boa Vista do Buricá
+RS=997x51028=Bom Princípio
+RS=997x51029=Bom Retiro do Sul
+RS=997x51042=Butiá
+RS=997x51043=Caçapava do Sul
+RS=997x51044=Cacequi
+RS=997x51045=Cachoeira do Sul
+RS=997x51046=Cachoeirinha
+RS=997x51049=Camaquã
+RS=997x51050=Cambará do Sul
+RS=997x51053=Campo Bom
+RS=997x51054=Campo Novo
+RS=997x51058=Candelária
+RS=997x51060=Canela
+RS=997x51061=Canguçu
+RS=997x51062=Canoas
+RS=997x51063=Capão da Canoa
+RS=997x51064=Capão do Leão
+RS=997x51065=Carazinho
+RS=997x51066=Carlos Barbosa
+RS=997x51067=Casca
+RS=997x51070=Catuípe
+RS=997x51071=Caxias do Sul
+RS=997x51074=Cerro Largo
+RS=997x51076=Charqueadas
+RS=997x51077=Chuí
+RS=997x51073=Coronel Bicaco
+RS=997x51088=Crissiumal
+RS=997x52024=Cristal
+RS=997x51089=Cruz Alta
+RS=997x51091=Cruzeiro do Sul
+RS=997x51094=Dois Irmãos
+RS=997x51096=Dom Pedrito
+RS=997x52542=Eldorado do Sul
+RS=997x51099=Encantado
+RS=997x51101=Entre Ijuís
+RS=997x51102=Erechim
+RS=997x51713=Ernestina
+RS=997x51107=Espumoso
+RS=997x51109=Estância Velha
+RS=997x51110=Esteio
+RS=997x51111=Estrela
+RS=997x51113=Farroupilha
+RS=997x51115=Feliz
+RS=997x51118=Flores da Cunha
+RS=997x51119=Fontoura Xavier
+RS=997x51121=Frederico Westphalen
+RS=997x51123=Garibaldi
+RS=997x51124=Gaurama
+RS=997x51126=Getulio Vargas
+RS=997x51127=Giruá
+RS=997x51129=Gramado
+RS=997x51130=Gravataí
+RS=997x51131=Guaíba
+RS=997x51132=Guaporé
+RS=997x51133=Guarani das Missões
+RS=997x51460=Herval
+RS=997x51134=Horizontina
+RS=997x51366=Ibiraiaras
+RS=997x51137=Ibirubá
+RS=997x51138=Igrejinha
+RS=997x51139=Ijuí
+RS=997x52636=Imbé
+RS=997x51017=Imigrantes
+RS=997x51144=Itaqui
+RS=997x51147=Ivoti
+RS=997x51149=Jaguarão
+RS=997x51150=Jaguari
+RS=997x51151=Júlio de Castilhos
+RS=997x51152=Lagoa Vermelha
+RS=997x51153=Lajeado
+RS=997x51161=Maraú
+RS=997x51171=Montenegro
+RS=997x51715=Morro Redondo
+RS=997x51174=Muçum
+RS=997x51175=Não-Me-Toque
+RS=997x51177=Nova Araçá
+RS=997x51178=Nova Bassano
+RS=997x51375=Nova Esperança do Sul
+RS=997x51204=Nova Hartz
+RS=997x51179=Nova Palma
+RS=997x51180=Nova Petrópolis
+RS=997x51181=Nova Prata
+RS=997x51908=Nova Santa Rita
+RS=997x51182=Novo Hamburgo
+RS=997x51183=Osório
+RS=997x51186=Palmares do Sul
+RS=997x51187=Palmeira das Missões
+RS=997x51188=Palmitinho
+RS=997x51189=Panambi
+RS=997x51192=Parobé
+RS=997x51196=Passo Fundo
+RS=997x51202=Pelotas
+RS=997x51203=Picada Café
+RS=997x51206=Pinheiro Machado
+RS=997x51208=Piratini
+RS=997x51209=Planalto
+RS=997x51210=Portão
+RS=997x51000=Porto Alegre
+RS=997x51212=Porto Lucena
+RS=997x51213=Porto Xavier
+RS=997x52999=Presidente Lucena
+RS=997x51214=Quaraí
+RS=997x51217=Restinga Seca
+RS=997x51223=Rio Grande
+RS=997x51224=Rio Pardo
+RS=997x51225=Riozinho
+RS=997x51226=Roca Sales
+RS=997x51228=Rolante
+RS=997x51232=Rosário do Sul
+RS=997x51255=Salvador do Sul
+RS=997x51272=Santa Bárbara do Sul
+RS=997x51954=Santa Catarina
+RS=997x51956=Santa Clara do Sul
+RS=997x51273=Santa Cruz do Sul
+RS=997x51275=Santa Maria
+RS=997x51277=Santa Rosa
+RS=997x51279=Santa Vitória do Palmar
+RS=997x51258=Santana do Livramento
+RS=997x51259=Santiago
+RS=997x51281=Santo Ângelo
+RS=997x51286=Santo Antônio da Patrulha
+RS=997x51233=São Borja
+RS=997x51234=São Francisco de Assis
+RS=997x51235=São Francisco de Paula
+RS=997x51236=São Gabriel
+RS=997x51237=São Jerônimo
+RS=997x51239=São José do Norte
+RS=997x51240=São José do Ouro
+RS=997x51241=São Leopoldo
+RS=997x51242=São Lourenço do Sul
+RS=997x51243=São Luiz Gonzaga
+RS=997x51244=São Marcos
+RS=997x51251=São Sebastião do Caí
+RS=997x51252=São Sepé
+RS=997x51260=Sapiranga
+RS=997x51261=Sapucaia do Sul
+RS=997x51262=Sarandi
+RS=997x51263=Seberi
+RS=997x51265=Serafina Corrêa
+RS=997x51269=Sinimbu
+RS=997x51270=Sobradinho
+RS=997x51271=Soledade
+RS=997x51290=Tapejara
+RS=997x51291=Tapera
+RS=997x51292=Tapes
+RS=997x51293=Taquara
+RS=997x51294=Taquari
+RS=997x51295=Tenente Portela
+RS=997x51296=Teutônia
+RS=997x51298=Torres
+RS=997x51299=Tramandaí
+RS=997x52088=Três Cachoeiras
+RS=997x51300=Três Coroas
+RS=997x51301=Três de Maio
+RS=997x51302=Três Passos
+RS=997x51304=Triunfo
+RS=997x51307=Tupanciretã
+RS=997x51308=Tuparendi
+RS=997x51309=Uruguaiana
+RS=997x51310=Vacaria
+RS=997x51313=Venâncio Aires
+RS=997x51314=Vera Cruz
+RS=997x51315=Veranópolis
+RS=997x51317=Viamão
+SC=x000=Todas
+SC=996x47001=Abelardo Luz
+SC=996x47002=Agrolândia
+SC=996x47007=Alfredo Wagner
+SC=996x47013=Apiúna
+SC=996x47015=Araquari
+SC=996x47016=Araranguá
+SC=996x47019=Ascurra
+SC=996x47211=Balneário de Camboriú
+SC=996x47024=Barra Velha
+SC=996x47025=Benedito Novo
+SC=996x47026=Biguaçu
+SC=996x47027=Blumenau
+SC=996x47028=Botuvera
+SC=996x47029=Braço do Norte
+SC=996x47030=Braço do Trombudo
+SC=996x47031=Brusque
+SC=996x47032=Caçador
+SC=996x47033=Caibi
+SC=996x47034=Camboriú
+SC=996x47035=Campo Alegre
+SC=996x47038=Campos Novos
+SC=996x47040=Canelinha
+SC=996x47041=Canoinhas
+SC=996x47042=Capinzal
+SC=996x47218=Capivari de Baixo
+SC=996x47046=Chapecó
+SC=996x47240=Cocal do Sul
+SC=996x47047=Concórdia
+SC=996x47048=Cordilheira Alta
+SC=996x47049=Correia Pinto
+SC=996x47050=Corupá
+SC=996x47051=Criciúma
+SC=996x47052=Cunha Porã
+SC=996x47053=Curitibanos
+SC=996x47055=Dionísio Cerqueira
+SC=996x47309=Doutor Pedrinho
+SC=996x47059=Fachinal dos Guedes
+SC=996x47000=Florianópolis
+SC=996x47060=Forquilhinha
+SC=996x47061=Fraiburgo
+SC=996x47063=Garopaba
+SC=996x47064=Garuva
+SC=996x47065=Gaspar
+SC=996x47069=Gravatal
+SC=996x47070=Guabiruba
+SC=996x47072=Guaramirim
+SC=996x47074=Herval D Oeste
+SC=996x47076=Ibirama
+SC=996x47077=Içara
+SC=996x47078=Ilhota
+SC=996x47080=Imbituba
+SC=996x47082=Indaial
+SC=996x47088=Itaiópolis
+SC=996x47089=Itajaí
+SC=996x47090=Itapema
+SC=996x47091=Itapiranga
+SC=996x47093=Ituporanga
+SC=996x47096=Jaguaruna
+SC=996x47097=Jaraguá do Sul
+SC=996x47098=Joaçaba
+SC=996x47099=Joinville
+SC=996x47100=Lacerdópolis
+SC=996x47101=Lages
+SC=996x47102=Laguna
+SC=996x47103=Laurentino
+SC=996x47104=Lauro Muller
+SC=996x47105=Lebon Régis
+SC=996x47107=Lontras
+SC=996x47108=Luiz Alves
+SC=996x47109=Mafra
+SC=996x47113=Maravilha
+SC=996x47115=Massaranduba
+SC=996x47117=Meleiro
+SC=996x47120=Mondaí
+SC=996x47122=Morro da Fumaça
+SC=996x47124=Navegantes
+SC=996x47126=Nova Trento
+SC=996x47127=Nova Veneza
+SC=996x47128=Orleans
+SC=996x47129=Otacílio Costa
+SC=996x47131=Palhoça
+SC=996x47133=Palmitos
+SC=996x47134=Papanduva
+SC=996x47137=Penha
+SC=996x47141=Pinhalzinho
+SC=996x47145=Pomerode
+SC=996x47233=Ponte Alta do Norte
+SC=996x47148=Porto Belo
+SC=996x47440=Porto União
+SC=996x47149=Pouso Redondo
+SC=996x47152=Presidente Getúlio
+SC=996x47158=Rio do Oeste
+SC=996x47159=Rio do Sul
+SC=996x47160=Rio dos Cedros
+SC=996x47162=Rio Negrinho
+SC=996x47371=Rio Negro
+SC=996x47163=Rodeio
+SC=996x47179=Salete
+SC=996x47844=Santa Catarina
+SC=996x47186=Santa Cecília
+SC=996x47389=Santa Rosa do Sul
+SC=996x47188=Santo Amaro da Imperatriz
+SC=996x47165=São Bento do Sul
+SC=996x47167=São Carlos
+SC=996x47168=São Domingos
+SC=996x47169=São Francisco do Sul
+SC=996x47170=São João Batista
+SC=996x47172=São Joaquim
+SC=996x47213=São José
+SC=996x47175=São Lourenço do Oeste
+SC=996x47176=São Ludgero
+SC=996x47178=São Miguel D Oeste
+SC=996x47181=Saudades
+SC=996x47182=Schroeder
+SC=996x47183=Seara
+SC=996x47184=Siderópolis
+SC=996x47185=Sombrio
+SC=996x47189=Taió
+SC=996x47192=Tijucas
+SC=996x47193=Timbé do Sul
+SC=996x47194=Timbó
+SC=996x47195=Três Barras
+SC=996x47196=Treze de Maio
+SC=996x47197=Treze Tílias
+SC=996x47199=Tubarão
+SC=996x47202=Urubici
+SC=996x47203=Urussanga
+SC=996x47415=Vargem Bonita
+SC=996x47206=Videira
+SC=996x47207=Witmarsum
+SC=996x47208=Xanxerê
+SC=996x47210=Xaxim

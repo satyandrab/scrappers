@@ -102,12 +102,14 @@ def get_pagination(search_url):
         details_html = html_source.replace('\n', '').replace('\r', '')
         
         number_of_results = "".join(re.findall(r'padBottom_10">(.*?) Empresas', details_html))
-        #print number_of_results
-        number_of_pages = (int(number_of_results)/10)+1
+        if int(int(number_of_results)%10==0):
+            number_of_pages = (int(number_of_results)/10)
+        else:
+            number_of_pages = (int(number_of_results)/10)+1
         
         if number_of_pages > 1:
             try:
-                pagination_url = 'http://www.123achei.com.br'+str(re.findall(r'<a href="(/classificados/resultado.php?.*?)" class="txt12 txt666 lineH15">\d+</a>', details_html)[0])
+                pagination_url = 'http://www.123achei.com.br'+str(re.findall(r'<a href="(/classificados/resultado.php\?.*?)" class="txt12 txt666 lineH15">\d+</a>', details_html)[0])
             except:
                 pass
         elif number_of_pages == 1:
@@ -117,7 +119,6 @@ def get_pagination(search_url):
             
         category_name = "".join(re.findall(r'<span class="txt0E5BC5 bold">(.*?)</span>', details_html))
         
-#        print number_of_pages
         return number_of_pages, pagination_url, category_name
     except Exception, e:
         if str(e) == 'HTTP Error 403: Forbidden':
@@ -165,7 +166,7 @@ if __name__ == "__main__":
     
     for city in city_file.readlines():
         for category_id in category_file.readlines():
-            url = 'http://www.123achei.com.br/classificados/resultado.php?suf=SP&sreg='+str(city.strip().split('=')[0])+'&idatividade='+str(category_id.strip())
+            url = 'http://www.123achei.com.br/classificados/resultado.php?suf='+str(city.strip().split('=')[0])+'&sreg='+str(city.strip().split('=')[1])+'&idatividade='+str(category_id.strip())
             pages, page_url, category = get_pagination(url)
             
             if pages == 1:
