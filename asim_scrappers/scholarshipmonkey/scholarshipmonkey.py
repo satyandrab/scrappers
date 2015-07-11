@@ -1,112 +1,166 @@
-#!/usr/bin/python
+from selenium import webdriver
+import csv
+from lxml import html
+import time
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.remote.webelement import WebElement
 
-'''
-Created on Jul 11, 2015
+class scholarshipmonkey():
+    
+    def Extract_data(self, starting_url, browser):
+        data_writer = csv.writer(open("scholarship_monkey.csv", "wb"))
+        data_writer.writerow(['SholarShip_Page URL', 'Scholarship URL', 'Scholarship', 'School URL', 'School Name', 'Deadline', 'Amount', 'SAT', 'GPA', 'Majors', 'Website', 'Description'])
+        browser.get(starting_url)
+        time.sleep(2)
+        window_before = browser.window_handles[0]
+        scholarship_links_list = browser.find_elements_by_xpath("//div[@class='small-4 columns']/a")
+        print len(scholarship_links_list)
+        i = 0
+        for a in scholarship_links_list:
+            scholarship_links_list = browser.find_elements_by_xpath("//div[@class='small-4 columns']/a")
+            page_link = scholarship_links_list[i].get_attribute("href")
+            scholarship_links_list[i].click()
+            time.sleep(2)
+            scholarship_links = browser.find_elements_by_xpath("//div[@class='hit']/a")
+            print len(scholarship_links)
+            j=0
+            for item in scholarship_links:
+                data_list = []
+                current_url = browser.current_url
+                print current_url
+                scholarship_links = browser.find_elements_by_xpath("//div[@class='hit']/a")
+                data_list.append(page_link)
+                
+                data_list.append(scholarship_links[j].get_attribute("href"))
+                
+                scholarship_links[j].click()
+                time.sleep(2)
+                
+                window_after = browser.window_handles[1]
+                browser.switch_to_window(window_after)
+                
+                current_url_new = browser.current_url
+                parsed_source = browser.page_source
+                final_page_source = html.fromstring(parsed_source, current_url)
+#                f = open('abc.html', 'w+')
+#                f.write(parsed_source)
+                
+                try:
+                    Scholarship = final_page_source.xpath("//strong[contains(text(),'Scholarship:')]/following-sibling::text()[1]")
+                    if Scholarship:
+                        print Scholarship
+                        data_list.append("".join(Scholarship).strip())
+                    else:
+                        data_list.append("---")                
+                except:
+                    pass
+                
+                try:
+                    School_url = final_page_source.xpath("//strong[contains(text(),'School:')]/following-sibling::a[1]/@href")
+                    if School_url:
+                        url = "".join(School_url)
+                        data_list.append("http://www.scholarshipmonkey.com"+url)
+                    else:
+                        data_list.append("---")                
+                except:
+                    pass
+                
+                try:
+                    School_name = final_page_source.xpath("//strong[contains(text(),'School:')]/following-sibling::a[1]/text()")
+                    if School_name:
+                        data_list.append("".join(School_name).strip())
+                    else:
+                        data_list.append("---")                
+                except:
+                    pass
+                
+                try:
+                    Deadline = final_page_source.xpath("//strong[contains(text(),'Deadline:')]/following-sibling::text()[1]")
+                    if Deadline:
+                        data_list.append("".join(Deadline).strip())
+                    else:
+                        data_list.append("---")                
+                except:
+                    pass
+                
+                try:
+                    Amount = final_page_source.xpath("//strong[contains(text(),'Amount:')]/following-sibling::text()[1]")
+                    if Amount:
+                        data_list.append("".join(Amount).strip())
+                    else:
+                        data_list.append("---")                
+                except:
+                    pass
+                
+                try:
+                    SAT = final_page_source.xpath("//strong[contains(text(),'SAT:')]/following-sibling::text()[1]")
+                    if SAT:
+                        data_list.append("".join(SAT).strip())
+                    else:
+                        data_list.append("---")                
+                except:
+                    pass
+                
+                try:
+                    GPA = final_page_source.xpath("//strong[contains(text(),'GPA:')]/following-sibling::text()[1]")
+                    if GPA != "":
+                        data_list.append("".join(GPA).strip())
+                    else:
+                        data_list.append("---")                
+                except:
+                    pass
+                
+                try:
+                    Majors = final_page_source.xpath("//strong[contains(text(),'Majors:')]/following-sibling::text()[1]")
+                    if Majors:
+                        data_list.append("".join(Majors).strip())
+                    else:
+                        data_list.append("---")                
+                except:
+                    pass
+                
+                try:
+                    Website = final_page_source.xpath("//strong[contains(text(),'Website:')]/following-sibling::a[1]/text()")
+                    if Website:
+                        data_list.append("".join(Website).strip())
+                    else:
+                        data_list.append("---")                
+                except:
+                    pass
+                
+                try:
+                    Description = final_page_source.xpath("//strong[contains(text(),'Description:')]/following-sibling::text()")
+                    if Description:
+                        data_list.append(" ".join(Description).strip())
+                    else:
+                        data_list.append("---")                
+                except:
+                    pass
+                
+                print data_list
+                data_writer.writerow(data_list)
 
-@author: satyandrababu
-'''
-
-from urllib2 import Request, urlopen, URLError
-import urllib
-import re, math, csv, mechanize, cookielib
-import random
-
-
-def mechanize_br():
-    version_list = ['5.0', '6.0', '7.0', '8.0', '9.0', '10.0', '11.0', '12.0', '13.0', '14.0', '15.0', '16.0', '17.0', '18.0', '19.0', '20.0', '21.0', '22.0', '23.0',
-                    '24.0', '25.0', '26.0', '27.0', '28.0', '29.0', '30.0', '31.0', '32.0', '33.0', '34.0', '35.0', '36.0', '37.0', '38.0',  '1.0',  '2.0', '3.0', '4.0']
-    # print "Browser version ", (random.choice(version_list))
-    # Browser
-    br = mechanize.Browser()
-
-    # Cookie Jar
-    cj = cookielib.LWPCookieJar()
-    br.set_cookiejar(cj)
-
-    # Browser options
-    br.set_handle_equiv(False)
-    br.set_handle_gzip(True)
-    br.set_handle_redirect(True)
-    br.set_handle_referer(True)
-    br.set_handle_robots(False)
-
-    # Follows refresh 0 but not hangs on refresh > 0
-    br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
-
-    # Want debugging messages?
-    # br.set_debug_http(True)
-    # br.set_debug_redirects(True)
-    # br.set_debug_responses(True)
-
-    # User-Agent (this is cheating, ok?)
-    br.addheaders = [('User-agent', 'Mozilla/'+(random.choice(version_list))+' (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1'), ('Accept', '*/*')]
+                browser.close()              
+                browser.switch_to_window(window_before)
+                browser.get(current_url)
+                time.sleep(2)
+                j = j+1
+            browser.get(starting_url)
+            time.sleep(1)
+            i = i+1
     
-    return br
-
-def extract_details(url, data_writer):
-    print url
-    br_instance = mechanize_br()
-    html_response = br_instance.open(url)
-    html_source = html_response.read()
-    details_html = html_source.replace('\n', '').replace('\r', '')
-    
-    scholarship = "".join(re.findall(r'<strong>Scholarship:</strong>(.*?)<', details_html)).strip()
-    print scholarship
-    
-    school = re.findall(r'<strong>School:</strong> <a href="(/school/.*?)" target="_blank">(.*?)</a>', details_html)
-    school_url =  'http://www.scholarshipmonkey.com'+str(school[0][0])
-    school_name = school[0][1].strip()
-    print school_url
-    print school_name
-    
-    deadline = "".join(re.findall(r'<strong>Deadline:</strong>(.*?)<', details_html)).strip()
-    print deadline
-    
-    amount = "".join(re.findall(r'<strong>Amount:</strong>(.*?)<', details_html)).strip()
-    print amount
-    
-    sat = "".join(re.findall(r'<strong>SAT:</strong>(.*?)<', details_html)).strip()
-    print sat
-    
-    gpa = "".join(re.findall(r'<strong>GPA:</strong>(.*?)<', details_html)).strip()
-    print gpa
-    
-    majors = "".join(re.findall(r'<strong>Majors:</strong>(.*?)<', details_html)).strip()
-    print majors
-    
-    website = "".join(re.findall(r'<strong>Website:</strong> <a href=".*?" target="_blank">(.*?)</a>', details_html)).strip()
-    print website
-    
-    description = "".join(re.findall(r'<strong>Description:</strong>(.*?)<br><br>', details_html)).strip()
-    print description
-    
-    data_list = [url, scholarship, school_url, school_name, deadline, amount, sat, gpa, majors, website, description]
-    print data_list
-    
-    data_writer.writerow(data_list)
-
-def extract_details_url(scholerships_list_url):
-    print scholerships_list_url
-    br_instance = mechanize_br()
-    html_response = br_instance.open(scholerships_list_url)
-    html_source = html_response.read()
-    details_html = html_source.replace('\n', '').replace('\r', '')
-    
-    a = re.findall(r'<div class="hit">', details_html)
-    print a
-    
-if __name__ == '__main__':
     """
-    file_name = raw_input('Enter name of file to save data(need not to enter file extension)......\n')
-    csv_file_name = file_name+'.csv'
-
-    data_writer = csv.writer(open('imported_data/'+csv_file_name, 'wb'))
-    data_writer.writerow(['URL', 'Scholarship', 'School URL', 'School Name', 'Deadline', 'Amount', 'SAT', 'GPA',
-                          'Majors', 'Website', 'Description'])
-    
-    url = 'http://www.scholarshipmonkey.com/scholarship/410050ED-D0A3-71D4-5C3991FB22BAEE1D'
-    extract_details(url, data_writer)
+    Starting method, open browser and passes browser object, starting URL to next method.
     """
+    def main(self):
+        starting_url = "http://www.scholarshipmonkey.com/lists"
+        browser = webdriver.Firefox()
+        browser.maximize_window()
+        self.Extract_data(starting_url, browser)
+        browser.close()
     
-    scholerships_list_url = 'http://www.scholarshipmonkey.com/list?list=Accounting%20Finance'
-    extract_details_url(scholerships_list_url)
+    
+if __name__ == "__main__":
+    object_scholarshipmonkey = scholarshipmonkey()
+    object_scholarshipmonkey.main()
