@@ -1,5 +1,8 @@
+#!/usr/bin/python
+
 import mechanize, cookielib, random, re
 from lxml import html
+import csv
 
 def mechanize_br():
     version_list = ['5.0', '6.0', '7.0', '8.0', '9.0', '10.0', '11.0', '12.0', '13.0', '14.0', '15.0', '16.0', '17.0', '18.0', '19.0', '20.0', '21.0', '22.0', '23.0',
@@ -15,7 +18,7 @@ def mechanize_br():
     # Browser options
     br.set_handle_equiv(True)
     br.set_handle_gzip(True)
-    br.set_handle_redirect(True)
+    br.set_handle_redirect(True)    
     br.set_handle_referer(True)
     br.set_handle_robots(False)
 
@@ -32,31 +35,42 @@ def mechanize_br():
 
     return br
 
-def extract_ids(url, ids_file):
+def extract_ids(url, data_writer):
     try:
         print url
         br_instance = mechanize_br()
         html_response = br_instance.open(url)
         html_source = html_response.read()
-        result = html_source.replace('\n', '').replace('\r', '')
-        parsed_source = html.fromstring(result, 'http://store.steampowered.com/')
+        parsed_source = html.fromstring(html_source, 'https://steamdb.info')
         parsed_source.make_links_absolute()
         
-        game_ids = re.findall(r'<tr class="app" data-appid=".*?">.*?<td><a href="/app/.*?/">(.*?)</a></td>.*?<td>(.*?)</td>', result)
-        for game in game_ids:
-            if game[1] == 'Game':
-                ids_file.write(str(game[0]))
-                ids_file.write('\n')
-                print game
-                print '-'*78
-                
+        get_data = parsed_source.xpath("//tr[@class='app']")
+        for tr in get_data:
+            id = "".join(tr.xpath('.//td')[0].xpath('.//a/text()'))
+            steamdb_url = "".join(tr.xpath('.//td')[0].xpath('.//a/@href'))
+            type = "".join(tr.xpath('.//td')[1].xpath('.//text()'))
+            data_list = [url, id, steamdb_url, type]
+            print data_list
+            data_writer.writerow(data_list)
+            print '+'*78
+        
     except Exception, e:
         if str(e) == 'HTTP Error 403: Forbidden':
-            extract_ids(url, ids_file)
+            print "403 error"
+            extract_ids(url, data_writer)
+        else:
+            print "different error"
+            print str(e)
+            extract_ids(url, data_writer)
+    except:
+        raise
     
 if __name__ == "__main__":
-    ids_file = open('id_file.txt', 'wb')
-    for i in range(1, 358):
+    data_writer = csv.writer(open('imported_data/id_file.csv', 'wb'))
+    data_writer.writerow(['URL', 'Game ID', 'SteamDB url', 'Game Type'])
+    
+    for i in range(1, 359):
         print i
         url = 'https://steamdb.info/apps/page'+str(i)
-        extract_ids(url, ids_file)
+        extract_ids(url, data_writer)
+        #time.sleep(2)
