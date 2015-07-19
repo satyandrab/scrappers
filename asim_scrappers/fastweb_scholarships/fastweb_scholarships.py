@@ -31,17 +31,17 @@ def extract_details(url):
     data_list = [url, title, provided_by, amount, deadline, description]
     return data_list
 
-def extract_scholerships_url(url):
+def extract_scholarships_url(url):
     res = urllib2.urlopen(url)
     html_source = res.read()
     parsed_source = html.fromstring(html_source, 'http://www.fastweb.com/')
     parsed_source.make_links_absolute()
     
     div = parsed_source.xpath("//div[@id='scholarships']")
-    for scholership_url in div:
-        return scholership_url.xpath(".//a/@href")
+    for scholarship_url in div:
+        return scholarship_url.xpath(".//a/@href")
 
-def extract_scholership_list_url(url):
+def extract_scholarship_list_url(url):
     url_list = []
     res = urllib2.urlopen(url)
     html_source = res.read()
@@ -59,11 +59,11 @@ if __name__ == '__main__':
     data_writer.writerow(['Scholarship URL', 'Scholarship Title', 'Provided By', 'Amount', 'Deadline', 'Description'])
     
     site_map_url = 'http://www.fastweb.com/content/sitemap'
-    list_of_urls = extract_scholership_list_url(site_map_url)
+    list_of_urls = extract_scholarship_list_url(site_map_url)
     for list_url in list_of_urls:
-        url_list = extract_scholerships_url(list_url)
+        url_list = extract_scholarships_url(list_url)
         for details_url in url_list:
             datalist = extract_details(details_url)
-            print "writing data for scholership url", details_url
+            print "writing data for scholarship url", details_url
             data_writer.writerow([unicode(s).encode("utf-8") for s in datalist])
             print '-'*78
