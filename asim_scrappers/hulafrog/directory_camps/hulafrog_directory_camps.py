@@ -1,5 +1,5 @@
 '''
-Created on 22-Jul-2015
+Created on 23-Jul-2015
 
 @author: satyandra
 '''
@@ -15,6 +15,7 @@ def extract_details(url):
     parsed_source.make_links_absolute()
     
     title = "".join(parsed_source.xpath("//div[@class='inner_col2_event_detail']/h1/text()"))
+    #print title
     
     add_and_class_list = []
     address_and_classes = parsed_source.xpath("//p[@class='event_detail_entry']/text()")
@@ -23,13 +24,26 @@ def extract_details(url):
         if len(add_and_class) > 0:
             add_and_class_list.append(add_and_class)
     address = "".join(add_and_class_list[:2])
-    #print address
+    if ',Classes:' in address:
+        address = ''
     
     classes = "".join(re.findall(r'Classes:(.*?)<br>', html_source)).strip()
     #print classes
     
     camps = "".join(re.findall(r'Camps:(.*?)<br>', html_source)).strip()
     #print camps
+    
+    schools = "".join(re.findall(r'Schools:(.*?)<br>', html_source)).strip()
+    #print schools
+    
+    childcare = "".join(re.findall(r'Childcare:(.*?)<br>', html_source)).strip()
+    #print childcare
+    
+    places = "".join(re.findall(r'Places:(.*?)<br>', html_source)).strip()
+    #print places
+    
+    birthdays = "".join(re.findall(r'Birthdays:(.*?)<br>', html_source)).strip()
+    #print birthdays
     
     class_schedule_url = ''
     camp_schedule_url = ''
@@ -57,7 +71,7 @@ def extract_details(url):
     #print class_schedule_url
     #print camp_schedule_url
     
-    hours = "".join(re.findall(r'<strong><small>HOURS:&nbsp;</small></strong>(.*?)<br>', html_source))
+    hours = "".join(re.findall(r'<strong><small>HOURS:&nbsp;</small></strong>(.*?)<br>', html_source)).replace("<br/>", ';')
     #print hours
     
     registration = "".join(re.findall(r'<strong><small>REGISTRATION: </small></strong>(.*?)<br>', html_source))
@@ -75,8 +89,11 @@ def extract_details(url):
     website = "".join(re.findall(r'<span class="details_print_links"><a href="(.*?)" target="blank"><strong><small>WEBSITE</small></strong></a></span>', html_source)).strip()
     #print website
     
-    mail_id = "".join(re.findall(r'<strong><small>EMAIL</small></strong></a><span class="print_only">\((.*?)\)</span>', html_source))
+    mail_id = "".join(re.findall(r'<a href="mailto:(.*?)\?SUBJECT=', html_source))
     #print mail_id
+    
+    facebook = "".join(re.findall(r'<span class="details_print_links"><a href="(https://www.facebook.com/.*?)" ', html_source))
+    #print facebook
     
     description = "".join(parsed_source.xpath("//div[@id='more_details']/p/text()"))
     #print description
@@ -87,8 +104,8 @@ def extract_details(url):
     image_url = "".join(parsed_source.xpath("//img[@id='pick_photo']/@src"))
     #print image_url
     
-    data_list = [url, title, address, classes, camps, class_schedule_url, camp_schedule_url, hours, registration, age_range, cost,
-                 phone, website, mail_id, description, love_rating, image_url]
+    data_list = [url, title, address, classes, camps, schools, childcare, places, birthdays, class_schedule_url, camp_schedule_url, hours, registration, 
+                 age_range, cost, phone, website, mail_id, facebook, description, love_rating, image_url]
     return data_list
 
 def extract_details_url(url):
@@ -123,21 +140,17 @@ def extract_city_codes(url):
     return city_code_urls
     
 if __name__ == '__main__':
-    detail_url = 'http://hulafrog.com/chandler-az/the-learning-place-preschool-queen-creek-372/'
-    data_list = extract_details(detail_url)
-    
-    """
-    csv_file_name = 'hulafrog_directory_classes.csv'
+    csv_file_name = 'hulafrog_directory_camps.csv'
     
     data_writer = csv.writer(open(csv_file_name, 'wb'))
-    data_writer.writerow(['URL', 'Title', 'Address', 'Classes', 'Camps', 'Class Schedule link', 'Camp Schedule Link', 'Hours', 'Registration', 'Age Range', 
-                          'Cost', 'Phone', 'Website','Mail ID', 'Description', 'Love Rating', 'Image URL'])
+    data_writer.writerow(['URL', 'Title', 'Address', 'Classes', 'Camps', 'Schools', 'Childcare', 'Places', 'Birthdays', 'Class Schedule link', 'Camp Schedule Link', 'Hours', 'Registration', 'Age Range', 
+                          'Cost', 'Phone', 'Website','Mail ID', 'Facebook Link', 'Description', 'Love Rating', 'Image URL'])
     
     
     url = 'http://hulafrog.com/locations'
     location_link = extract_city_codes(url)
     for location_url in location_link:
-        category_location_url = location_url+'/category-browse/?cat_id=5'
+        category_location_url = location_url+'/category-browse/?cat_id=2'
         show_all_link = extract_show_all_link(category_location_url)
         for category_link in show_all_link:
             details_urls = extract_details_url(category_link)
@@ -147,4 +160,3 @@ if __name__ == '__main__':
                 print data_list
                 data_writer.writerow([unicode(s).encode("utf-8") for s in data_list])
                 print '-'*78
-    """
