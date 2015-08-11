@@ -183,8 +183,9 @@ def extract_details(details_url):
         if len(issues) == 2:
             issues1 = issues[0].xpath(".//following-sibling::div/ul/li//text()")
             issues2 = issues[1].xpath(".//following-sibling::div/ul/li//text()")
-            issues2 = [s.strip() for s in issues2]
+            issues2 = [s.strip() for s in issues2 if len(s) > 1]
             #print issues2
+            #print '+'*78
         else:
             try:
                 issues1 = issues[0].xpath(".//following-sibling::div/ul/li//text()")
@@ -300,7 +301,7 @@ def extract_details(details_url):
         #print qual_yrgrad
         
         #extract licence number
-        qual_licensenum_state = "".join(re.findall(r'</li><li><strong>License No. and State:</strong>(.*?)</li>', html_source.replace('\n', '').replace('\r', ''))).replace(',', '').strip()
+        qual_licensenum_state = "".join(re.findall(r'<li><strong>License No. and State:</strong>(.*?)</li>', html_source.replace('\n', '').replace('\r', ''))).replace(',', '').strip()
         #print qual_licensenum_state
         if '&nbsp;' in qual_licensenum_state:
             lic_state =  qual_licensenum_state.split('&nbsp;')
@@ -324,13 +325,26 @@ def extract_details(details_url):
         connections = re.findall(r'<div class="connection-photo">.*?<div class="connection-type">.*?</div>', html_source.replace('\r', '').replace('\n', ''))
         connection_list = []
         for connect in connections:
-            name = "".join(re.findall(r'<span itemprop="name"><a.*?>(.*?)</a>', connect)).strip().replace(',', '')
-            url = "".join(re.findall(r'<span itemprop="name"><a href="(.*?)">', connect)).strip()
-            thrpst_type = "".join(re.findall(r'<div class="connection-thrpst-type">(.*?)</div>', connect)).strip().replace(',', '')
-            connection_type = "".join(re.findall(r'<div class="connection-type">(.*?)</div>', connect)).strip().replace(',', '')
-            conn_list = [name, url, thrpst_type, connection_type]
-            connection_list.append(" ^!^ ".join(conn_list))
-        #print connection_list
+            try:
+                name = "".join(re.findall(r'<span itemprop="name"><a.*?>(.*?)</a>', connect)).strip().replace(',', '')
+                name_t = html.fromstring(name).text
+                url = "".join(re.findall(r'<span itemprop="name"><a href="(.*?)">', connect)).strip()
+                thrpst_type = "".join(re.findall(r'<div class="connection-thrpst-type">(.*?)</div>', connect)).strip().replace(',', '')
+                connection_type = "".join(re.findall(r'<div class="connection-type">(.*?)</div>', connect)).strip().replace(',', '')
+                conn_list = [name, url, thrpst_type, connection_type]
+                connection_list.append(" ^!^ ".join(conn_list))
+                print '*'*78
+            except:
+                pass
+#        print connection_list
+    
+        verified_t = parsed_source.xpath("//div[@class='profile-verified']")
+        if verified_t:
+            verified = 1
+        else:
+            verified = 0
+        #print verified
+        #print '-'*78
         
         data_dict = {'profile_id':profile_id, 'profile_name':profile_name, 'female':female, 'photo':photo, 'profile_url':profile_url, "btn_perweb":btn_website,
                      "btn_sendfriend":btn_sendfriend, "btn_emailme":btn_emailme, "btn_emailus":btn_emailus, "btn_videocall":button_videocall, "perweburl":perweburl,
@@ -339,9 +353,11 @@ def extract_details(details_url):
                      "treatment_orientation_list":treatment_orientation_list, "treatment_modality_list":treatment_modality_list,"min_cost":min_cost,
                      "max_cost":max_cost, "avgcost":avgcost, "fin_slidescale":fin_slidescale, "payment_methods": payment_methods, "mental_health":mental_health,
                      "insurance":insurance, "practice_year":practice_year, "qual_school":qual_school, "qual_yrgrad":qual_yrgrad, "licence_number":licence_number,
-                     "licence_state":licence_state, "datemod":datemod, "gropus":gropus, "connection_list":connection_list, "personal_statements":personal_statements}
+                     "licence_state":licence_state, "datemod":datemod, "gropus":gropus, "connection_list":connection_list, "personal_statements":personal_statements,
+                     "verified":verified}
         return data_dict
     except:
+        raise
         extract_details(details_url)
 
 def extract_details_url(url):
@@ -435,6 +451,7 @@ def write_main_table(data_dict, mywriter):
         wide_form_data_list.append(data_dict['datemod'])
         wide_form_data_list.append(" || ".join(data_dict['gropus']))
         wide_form_data_list.append(" || ".join(data_dict['connection_list']))
+        wide_form_data_list.append(data_dict['verified'])
         
         print wide_form_data_list
         print '*'*78
@@ -482,13 +499,13 @@ if __name__ == '__main__':
     mywriter.writerow(['profid', 'profurl', 'name', 'female', 'photo', 'btn_sendfriend', 'btn_emailme', 'btn_emailus', 'btn_videocall', 'btn_perweb', 'perweburl',
                                'phone', 'state', 'zipcode', 'freeconsult', 'occupation', 'specialties', 'issues1', 'menthealth', 'issues2', 'cf_relig', 'cf_ethnic', 'cf_language',
                                'cf_age', 'sexuality', 'cf_categ', 'trt_orient', 'trt_modal', 'fin_mincost', 'fin_maxcost', 'fin_avgcost', 'fin_slidescale', 'fin_paymethod',
-                               'fin_insur', 'qual_yrpractice', 'qual_school', 'qual_yrgrad', 'qual_licensenum', 'qual_licensestate', 'datemod', 'groups', 'connections'])
+                               'fin_insur', 'qual_yrpractice', 'qual_school', 'qual_yrgrad', 'qual_licensenum', 'qual_licensestate', 'datemod', 'groups', 'connections', 'verified'])
     
     txt_personal_statements_file_name = 'data/personalStatements_random.txt'
     personal_statements_data_writer = open(txt_personal_statements_file_name, 'wb')
     
     '''
-    pr_url = 'https://therapists.psychologytoday.com/rms/prof_detail.php?profid=159965&sid=1437965256.1878_22777&state=GA&s=R&therapist_gender=2&tr=ResultsName'
+    pr_url = 'https://therapists.psychologytoday.com/rms/prof_detail.php?profid=157429'
     data_dict = extract_details(pr_url)
     write_main_table(data_dict, mywriter)
     write_personal_statements_table(data_dict, personal_statements_data_writer)
