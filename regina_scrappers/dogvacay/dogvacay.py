@@ -56,10 +56,6 @@ def extract_details(url):
     title = "".join(parsed_source.xpath("//h1/text()")).strip()
     #print title
     
-    about = "".join(parsed_source.xpath("//meta[@property='og:description']/@content")).strip()
-    #about = html.fromstring(about).text
-    #print about
-    
     review_count = "".join(parsed_source.xpath("//span[@itemprop='reviewCount']/text()")).strip()
     #print review_count
     
@@ -69,7 +65,7 @@ def extract_details(url):
     list_price = "".join(parsed_source.xpath("//span[contains(text(), 'Dog Boarding Rate')]/following-sibling::span/b/text()")).strip()
     #print list_price
     
-    date_list = [unique_url, title, review_count, zip_code, list_price, about]
+    date_list = [unique_url, title, review_count, zip_code, list_price]
     return date_list
 
 def extract_pagination(url):
@@ -97,20 +93,34 @@ def extract_details_url(url):
     
     items_url = parsed_source.xpath("//h2[@class='vcard-title']/a/@href")
     return items_url
+
+def extract_city_urls(url):
+    time.sleep(2)
+    br_instance = mechanize_br()
+    html_response = br_instance.open(url)
+    html_source = html_response.read()
+    result = html_source.replace('\n', '').replace('\r', '')
+    parsed_source = html.fromstring(result, 'https://dogvacay.com/')
+    parsed_source.make_links_absolute()
+    
+    cities_url = parsed_source.xpath("//div[@class='citycolumn']/ul/li/a/@href")
+    #print cities_url
+    return cities_url
     
 if __name__ == '__main__':
     date = datetime.date.today().strftime("%B %d, %Y")
     data_writer = csv.writer(open('dogvacay '+date+'.csv', 'wb'))
-    data_writer.writerow(['URL', 'Title', '# of Guest Reviews', 'Zip Code', 'List Price', 'About'])
-    
-    category_url = 'https://dogvacay.com/dog-boarding--mn--minneapolis'
-    pages = extract_pagination(category_url)
-    for page in range(1, pages+1):
-        page_url = category_url+'?p='+str(page)
-        detail_urls = extract_details_url(page_url)
-        for detail_url in detail_urls:
-            data = extract_details(detail_url)
-            print "Writing data for url", detail_url
-            print data
-            data_writer.writerow([unicode(s).encode("utf-8") for s in data])
-            print '*'*78
+    data_writer.writerow(['URL', 'Title', '# of Guest Reviews', 'Zip Code', 'List Price'])
+    seed_url = 'https://dogvacay.com/more-cities'
+    cities_urls = extract_city_urls(seed_url)
+    for city_url in cities_urls:
+        pages = extract_pagination(city_url)
+        for page in range(1, pages+1):
+            page_url = city_url+'?p='+str(page)
+            detail_urls = extract_details_url(page_url)
+            for detail_url in detail_urls:
+                data = extract_details(detail_url)
+                print "Writing data for url", detail_url
+                print data
+                data_writer.writerow([unicode(s).encode("utf-8") for s in data])
+                print '*'*78
