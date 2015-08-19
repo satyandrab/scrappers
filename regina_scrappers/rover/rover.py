@@ -42,7 +42,7 @@ def mechanize_br():
     return br
 
 def extract_details(url, zip_code):
-    time.sleep(2)
+    time.sleep(5)
     br_instance = mechanize_br()
     html_response = br_instance.open(url)
     html_source = html_response.read()
@@ -72,7 +72,7 @@ def extract_details(url, zip_code):
 
 def extract_pagination(url):
     print url
-    time.sleep(2)
+    time.sleep(5)
     br_instance = mechanize_br()
     html_response = br_instance.open(url)
     html_source = html_response.read()
@@ -85,7 +85,7 @@ def extract_pagination(url):
     return pages
 
 def extract_details_url(url):
-    time.sleep(2)
+    time.sleep(5)
     br_instance = mechanize_br()
     html_response = br_instance.open(url)
     html_source = html_response.read()
@@ -102,7 +102,7 @@ def extract_details_url(url):
     return url_list
 
 def extract_city_urls(url):
-    time.sleep(2)
+    time.sleep(5)
     br_instance = mechanize_br()
     html_response = br_instance.open(url)
     html_source = html_response.read()
@@ -114,7 +114,7 @@ def extract_city_urls(url):
     return city_urls
 
 def extract_viewall_urls(url):
-    time.sleep(2)
+    time.sleep(5)
     br_instance = mechanize_br()
     html_response = br_instance.open(url)
     html_source = html_response.read()
@@ -128,22 +128,47 @@ def extract_viewall_urls(url):
     
 if __name__ == '__main__':
     date = datetime.date.today().strftime("%B %d, %Y")
-    data_writer = csv.writer(open('rover '+date+'.csv', 'wb'))
-    data_writer.writerow(['URL', 'Title', '# of Guest Reviews', 'Zip Code', 'List Price', 'Badges'])
+    data_writer_url = csv.writer(open('rover url '+date+'.csv', 'ab'))
+    
+    city_url_file = open('city.txt', 'ab')
+    #date = datetime.date.today().strftime("%B %d, %Y")
+    #data_writer = csv.writer(open('rover '+date+'.csv', 'wb'))
+    #data_writer.writerow(['URL', 'Title', '# of Guest Reviews', 'Zip Code', 'List Price', 'Badges'])
     
     seed_urls = 'https://www.rover.com/top-dog-boarding-cities/'
     viewall_urls = extract_viewall_urls(seed_urls)
     for viewall_url in viewall_urls:
         city_urls = extract_city_urls(viewall_url)
         for city_url in city_urls:
-            for page in range(1, 21):
-                page_url = city_url+'&page='+str(page)
-                detail_urls = extract_details_url(page_url)
-                for detail_url in detail_urls:
-                    detail_url_t = detail_url[0]
-                    zipcode = detail_url[1]
-                    data = extract_details(detail_url_t, zipcode)
-                    print "Writing data for url", detail_url
-                    print data
-                    data_writer.writerow([unicode(s).encode("utf-8") for s in data])
-                    print '*'*78
+            open_city_file = open('city.txt', 'rb')
+            city_url_file_r = open_city_file.readlines()
+            print city_url_file_r
+            print city_url
+            
+            if city_url+'\n' in city_url_file_r:
+                print '+'*78
+                print "passing city"
+                pass
+            else:
+                
+                for page in range(1, 21):
+                    page_url = city_url+'&page='+str(page)
+                    detail_urls = extract_details_url(page_url)
+                    for detail_url in detail_urls:
+                        detail_url_t = detail_url[0]
+                        zipcode = detail_url[1]
+                        print detail_url_t
+                        print city_url
+                        data_writer_url.writerow(detail_url)
+                        print '+'*78
+                print "writing city"
+                city_url_file.write(city_url)
+                city_url_file.write('\n')
+            open_city_file.close()
+            """
+                data = extract_details(detail_url_t, zipcode)
+                print "Writing data for url", detail_url
+                print data
+                data_writer.writerow([unicode(s).encode("utf-8") for s in data])
+                print '*'*78
+            """

@@ -7,6 +7,8 @@ from lxml import html
 from urlparse import urlparse, parse_qs
 import mechanize, cookielib, random, re, csv
 import time
+time_value = random.uniform(1.5, 2.5)
+
 
 def mechanize_br():
     version_list = ['5.0', '6.0', '7.0', '8.0', '9.0', '10.0', '11.0', '12.0', '13.0', '14.0', '15.0', '16.0', '17.0', '18.0', '19.0', '20.0', '21.0', '22.0', '23.0',
@@ -42,7 +44,8 @@ def mechanize_br():
 def extract_details(details_url):
     print details_url
     try:
-        time.sleep(2)
+        time.sleep(time_value)
+        
         br_instance = mechanize_br()
         html_response = br_instance.open(details_url)
         html_source = html_response.read()
@@ -331,9 +334,8 @@ def extract_details(details_url):
                 url = "".join(re.findall(r'<span itemprop="name"><a href="(.*?)">', connect)).strip()
                 thrpst_type = "".join(re.findall(r'<div class="connection-thrpst-type">(.*?)</div>', connect)).strip().replace(',', '')
                 connection_type = "".join(re.findall(r'<div class="connection-type">(.*?)</div>', connect)).strip().replace(',', '')
-                conn_list = [name, url, thrpst_type, connection_type]
+                conn_list = [name_t, url, thrpst_type, connection_type]
                 connection_list.append(" ^!^ ".join(conn_list))
-                print '*'*78
             except:
                 pass
 #        print connection_list
@@ -357,12 +359,12 @@ def extract_details(details_url):
                      "verified":verified}
         return data_dict
     except:
-        raise
+        #raise
         extract_details(details_url)
 
 def extract_details_url(url):
     try:
-        time.sleep(2)
+        time.sleep(time_value)
         br_instance = mechanize_br()
         html_response = br_instance.open(url)
         html_source = html_response.read()
@@ -377,7 +379,7 @@ def extract_details_url(url):
 
 def check_last_page(pagination_url):
     try:
-        time.sleep(2)
+        time.sleep(time_value)
         br_instance = mechanize_br()
         html_response = br_instance.open(pagination_url)
         html_source = html_response.read()
@@ -467,7 +469,7 @@ def write_main_table(data_dict, mywriter):
         pass
 
 def extract_states_urls(url):
-    time.sleep(2)
+    time.sleep(time_value)
     print url
     br_instance = mechanize_br()
     html_response = br_instance.open(url)
@@ -478,70 +480,137 @@ def extract_states_urls(url):
     states_urls = parsed_source.xpath("//div[@class='span3']/ul/li/a/@href")
     return states_urls
 
-def get_state_code_more_city(url):
-    time.sleep(2)
+def extract_more_city_codes(url):
+    time.sleep(time_value)
     br_instance = mechanize_br()
-    print url
+    html_response = br_instance.open(url)
+    html_source = html_response.read()
+    parsed_source = html.fromstring(html_source, 'https://therapists.psychologytoday.com/')
+    parsed_source.make_links_absolute()
+    
+    city_code = parsed_source.xpath("//a[contains(@href, '/rms/state/')]/text()")
+    return city_code
+
+def get_state_code_more_city(url):
+    time.sleep(time_value)
+    br_instance = mechanize_br()
     html_response = br_instance.open(url)
     html_source = html_response.read()
     parsed_source = html.fromstring(html_source, 'https://therapists.psychologytoday.com/')
     parsed_source.make_links_absolute()
     
     state_code = "".join(re.findall(r'Therapists in .*? \((.*?)\)', "".join(parsed_source.xpath("//div[@id='results-right']/h1/text()")).strip()))
-    return state_code
+    if len(state_code) == 0:
+        city_codes = extract_more_city_codes(url)
+        city_codes = [x.replace(' ', '+') for x in city_codes]
+        return city_codes
+    else:
+        return [state_code]
     
 if __name__ == '__main__':
-    csv_main_file_name = 'data/main_table_random.txt'
-    fileObject = open(csv_main_file_name,'wb')
+    state_url_file = open('data/state.txt', 'ab')
+    profid_file = open('data/profid.txt', 'ab')
+    
+    csv_main_file_name = 'data/main_table.txt'
+    fileObject = open(csv_main_file_name,'ab')
     csv.register_dialect('MyDialect', delimiter='\t',doublequote=False,quotechar='',lineterminator='\n',escapechar=' ',quoting=csv.QUOTE_NONE)
     mywriter = csv.writer(fileObject,'MyDialect')
     
+    """
     mywriter.writerow(['profid', 'profurl', 'name', 'female', 'photo', 'btn_sendfriend', 'btn_emailme', 'btn_emailus', 'btn_videocall', 'btn_perweb', 'perweburl',
                                'phone', 'state', 'zipcode', 'freeconsult', 'occupation', 'specialties', 'issues1', 'menthealth', 'issues2', 'cf_relig', 'cf_ethnic', 'cf_language',
                                'cf_age', 'sexuality', 'cf_categ', 'trt_orient', 'trt_modal', 'fin_mincost', 'fin_maxcost', 'fin_avgcost', 'fin_slidescale', 'fin_paymethod',
                                'fin_insur', 'qual_yrpractice', 'qual_school', 'qual_yrgrad', 'qual_licensenum', 'qual_licensestate', 'datemod', 'groups', 'connections', 'verified'])
+    """
+    txt_personal_statements_file_name = 'data/personalStatements.txt'
+    personal_statements_data_writer = open(txt_personal_statements_file_name, 'ab')
     
-    txt_personal_statements_file_name = 'data/personalStatements_random.txt'
-    personal_statements_data_writer = open(txt_personal_statements_file_name, 'wb')
     
-    '''
-    pr_url = 'https://therapists.psychologytoday.com/rms/prof_detail.php?profid=157429'
-    data_dict = extract_details(pr_url)
-    write_main_table(data_dict, mywriter)
-    write_personal_statements_table(data_dict, personal_statements_data_writer)
-    '''
+    #pr_url = 'https://therapists.psychologytoday.com/rms/prof_detail.php?profid=44618'
+    #data_dict = extract_details(pr_url)
+    #print data_dict
+    #write_main_table(data_dict, mywriter)
+    #write_personal_statements_table(data_dict, personal_statements_data_writer)
+    
+    
+    #start_url = 'https://therapists.psychologytoday.com/rms/prof_search.php'
+    #states_urls = extract_states_urls(start_url)
+    #states_urls = ['https://therapists.psychologytoday.com/rms/state/Alabama.html']
+    #for state_url in states_urls:
+    #    state_code = get_state_code_more_city(state_url)
+    #    print state_url
+    #    print state_code
+    #    print '*'*78
     gender_list = ['1', '2']
     start_url = 'https://therapists.psychologytoday.com/rms/prof_search.php'
     states_urls = extract_states_urls(start_url)
     #states_urls = ['https://therapists.psychologytoday.com/rms/state/Alabama.html']
     for state_url in states_urls:
-        state_code = get_state_code_more_city(state_url)
-        if len(state_code) > 0:
-            for gender in gender_list:
-                for num in range(1, 20, 20):
-                    ga_female_th_url = 'https://therapists.psychologytoday.com/rms/prof_results.php?&state='+state_code+'&s=R&therapist_gender='+str(gender)+'&rec_next='+str(num)
-                    print '+'*78
-                    print ga_female_th_url
-                    print '+'*78
-                    check_flag = check_last_page(ga_female_th_url)
-                    if check_flag:
-                        profile_urls = extract_details_url(ga_female_th_url)
-                        for pr_url in profile_urls:
-                            data_dict = extract_details(pr_url)
-                            write_main_table(data_dict, mywriter)
-                            write_personal_statements_table(data_dict, personal_statements_data_writer)
-                        break
-                    else:
-                        profile_urls = extract_details_url(ga_female_th_url)
-                        for pr_url in profile_urls:
-                            data_dict = extract_details(pr_url)
-                            write_main_table(data_dict, mywriter)
-                            write_personal_statements_table(data_dict, personal_statements_data_writer)
-        else:
-            city_urls = extract_states_urls(state_url)
-            pass
-        print '*'*78
-    
+        state_codes = get_state_code_more_city(state_url)
+        for state_code in state_codes:
+            print state_code
+            open_state_file = open('data/state.txt', 'rb')
+            state_url_file_r = open_state_file.readlines()
+            if state_code+'\n' in state_url_file_r:
+                print "passing city"
+                pass
+            else:
+                print "writing for state"
+                if len(state_code) > 0:
+                    for gender in gender_list:
+                        for num in range(1, 2000, 20):
+                            if len(state_codes) == 1:
+                                ga_female_th_url = 'https://therapists.psychologytoday.com/rms/prof_results.php?&state='+state_code+'&s=R&therapist_gender='+str(gender)+'&rec_next='+str(num)
+                            else:
+                                ga_female_th_url = 'https://therapists.psychologytoday.com/rms/prof_results.php?&city='+state_code+'&s=R&therapist_gender='+str(gender)+'&rec_next='+str(num)
+                                
+                            print ga_female_th_url
+                            print '+'*78
+                            check_flag = check_last_page(ga_female_th_url)
+                            if check_flag:
+                                profile_urls = extract_details_url(ga_female_th_url)
+                                if profile_urls is not None:
+                                    for pr_url in profile_urls:
+                                        data_dict = extract_details(pr_url)
+                                        if data_dict is not None:
+                                            open_profid_file = open('data/profid.txt', 'rb')
+                                            profid_file_r = open_profid_file.readlines()
+                                            if data_dict['profile_id']+'\n' in profid_file_r:
+                                                print "passing profile"
+                                                pass
+                                            else:
+                                                write_main_table(data_dict, mywriter)
+                                                write_personal_statements_table(data_dict, personal_statements_data_writer)
+                                                profid_file.write(str(data_dict['profile_id']))
+                                                profid_file.write('\n')
+                                            open_profid_file.close()
+                                break
+                            else:
+                                profile_urls = extract_details_url(ga_female_th_url)
+                                if profile_urls is not None:
+                                    print profile_urls
+                                    print '+'*78
+                                    for pr_url in profile_urls:
+                                        data_dict = extract_details(pr_url)
+                                        if data_dict is not None:
+                                            open_profid_file = open('data/profid.txt', 'rb')
+                                            profid_file_r = open_profid_file.readlines()
+                                            if data_dict['profile_id']+'\n' in profid_file_r:
+                                                print "passing profile"
+                                                pass
+                                            else:
+                                                write_main_table(data_dict, mywriter)
+                                                write_personal_statements_table(data_dict, personal_statements_data_writer)
+                                                profid_file.write(str(data_dict['profile_id']))
+                                                profid_file.write('\n')
+                                            open_profid_file.close()
+                else:
+                    city_urls = extract_states_urls(state_url)
+                    pass
+            state_url_file.write(state_code)
+            state_url_file.write('\n')
+            open_state_file.close()
+            print '*'*78
     """
     gender_list = ['1', '2']
     

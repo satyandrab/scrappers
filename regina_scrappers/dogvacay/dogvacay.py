@@ -42,7 +42,7 @@ def mechanize_br():
     return br
 
 def extract_details(url):
-    time.sleep(2)
+    time.sleep(5)
     br_instance = mechanize_br()
     html_response = br_instance.open(url)
     html_source = html_response.read()
@@ -69,18 +69,22 @@ def extract_details(url):
     return date_list
 
 def extract_pagination(url):
-    print url
-    time.sleep(2)
-    br_instance = mechanize_br()
-    html_response = br_instance.open(url)
-    html_source = html_response.read()
-    result = html_source.replace('\n', '').replace('\r', '')
-    parsed_source = html.fromstring(result, 'https://dogvacay.com/')
-    parsed_source.make_links_absolute()
-    
-    items = "".join(parsed_source.xpath("//span[@class='button-meta']/strong/text()")[0]).strip()
-    pages = (int(items)/15)+1
-    return pages
+    try:
+        print url
+        time.sleep(5)
+        br_instance = mechanize_br()
+        html_response = br_instance.open(url)
+        html_source = html_response.read()
+        result = html_source.replace('\n', '').replace('\r', '')
+        parsed_source = html.fromstring(result, 'https://dogvacay.com/')
+        parsed_source.make_links_absolute()
+        
+        items = "".join(parsed_source.xpath("//span[@class='button-meta']/strong/text()")[0]).strip()
+        pages = (int(items)/15)+1
+        return pages
+    except:
+        #raise
+        return None
 
 def extract_details_url(url):
     time.sleep(2)
@@ -92,10 +96,12 @@ def extract_details_url(url):
     parsed_source.make_links_absolute()
     
     items_url = parsed_source.xpath("//h2[@class='vcard-title']/a/@href")
+    #if len(items_url) == 0:
+    #    items_url = extract_details_url(url)
     return items_url
 
 def extract_city_urls(url):
-    time.sleep(2)
+    time.sleep(5)
     br_instance = mechanize_br()
     html_response = br_instance.open(url)
     html_source = html_response.read()
@@ -106,21 +112,122 @@ def extract_city_urls(url):
     cities_url = parsed_source.xpath("//div[@class='citycolumn']/ul/li/a/@href")
     #print cities_url
     return cities_url
+
+def extract_ne_city(url):
+    time.sleep(5)
+    br_instance = mechanize_br()
+    html_response = br_instance.open(url)
+    html_source = html_response.read()
+    result = html_source.replace('\n', '').replace('\r', '')
+    parsed_source = html.fromstring(result, 'https://dogvacay.com/')
+    parsed_source.make_links_absolute()
+    
+    cities_url = parsed_source.xpath("//div[@class='split-thirds-col fl']/a/@href")
+    #print cities_url
+    return cities_url
+
+def extract_main_city(url):
+    time.sleep(5)
+    br_instance = mechanize_br()
+    html_response = br_instance.open(url)
+    html_source = html_response.read()
+    result = html_source.replace('\n', '').replace('\r', '')
+    parsed_source = html.fromstring(result, 'https://dogvacay.com/')
+    parsed_source.make_links_absolute()
+    
+    main_cities_url = parsed_source.xpath("//div[@class='split-equal-col fl']/a/@href")
+    print main_cities_url
+    return main_cities_url
+
     
 if __name__ == '__main__':
+
     date = datetime.date.today().strftime("%B %d, %Y")
-    data_writer = csv.writer(open('dogvacay '+date+'.csv', 'wb'))
-    data_writer.writerow(['URL', 'Title', '# of Guest Reviews', 'Zip Code', 'List Price'])
+    data_writer_url = csv.writer(open('dogvacay url '+date+'.csv', 'ab'))
+    
+    scrapped_url_file_w = open('already_scrapped_url.txt', 'ab')
+    main_cities_w = open('main_scrapped_cities.txt', 'ab')
+    
+    #date = datetime.date.today().strftime("%B %d, %Y")
+    #data_writer = csv.writer(open('dogvacay '+date+'.csv', 'wb'))
+    #data_writer.writerow(['URL', 'Title', '# of Guest Reviews', 'Zip Code', 'List Price'])
+    seed_url1 = 'https://dogvacay.com/neighborhoods'
+    main_cities = extract_main_city(seed_url1)
+    for main_city in reversed(main_cities):
+        main_cities_r = open('main_scrapped_cities.txt', 'rb')
+        main_cities_r_t = main_cities_r.readlines()
+        if main_city+'\n' in main_cities_r_t:
+            print "passing city"
+            pass
+        else:
+            city_urls = extract_ne_city(main_city)
+            for city_url in city_urls:
+                pages = extract_pagination(city_url)
+                print pages
+                if pages is not None:
+                    for page in range(1, pages+1):
+                        page_url = city_url+'?p='+str(page)
+                        detail_urls = extract_details_url(page_url)
+                        for detail_url in detail_urls:
+                            print detail_url
+                            open_file = open('already_scrapped_url.txt', 'rb')
+                            url_list = open_file.readlines()
+                            if detail_url+'\n' in url_list:
+                                print "Passing url"
+                                pass
+                            else:
+                                data_writer_url.writerow([detail_url])
+                                scrapped_url_file_w.write(str(detail_url))
+                                scrapped_url_file_w.write('\n')
+                                print '+'*78
+                else:
+                    print "In else"
+                    detail_urls = extract_details_url(city_url)
+                    print detail_urls
+                    for detail_url in detail_urls:
+                        print detail_url
+                        open_file = open('already_scrapped_url.txt', 'rb')
+                        url_list = open_file.readlines()
+                        if detail_url+'\n' in url_list:
+                            print "Passing url"
+                            pass
+                        else:
+                            data_writer_url.writerow([detail_url])
+                            scrapped_url_file_w.write(str(detail_url))
+                            scrapped_url_file_w.write('\n')
+                            print '+'*78
+        main_cities_w.write(str(main_city))
+        main_cities_w.write('\n')
+    """
     seed_url = 'https://dogvacay.com/more-cities'
     cities_urls = extract_city_urls(seed_url)
     for city_url in cities_urls:
         pages = extract_pagination(city_url)
-        for page in range(1, pages+1):
-            page_url = city_url+'?p='+str(page)
-            detail_urls = extract_details_url(page_url)
+        print pages
+        if pages is not None:
+            for page in range(1, pages+1):
+                page_url = city_url+'?p='+str(page)
+                detail_urls = extract_details_url(page_url)
+                for detail_url in detail_urls:
+                    print detail_url
+                    data_writer_url.writerow([detail_url])
+                    print '+'*78
+        else:
+            print "In else"
+            detail_urls = extract_details_url(city_url)
+            print detail_urls
             for detail_url in detail_urls:
-                data = extract_details(detail_url)
-                print "Writing data for url", detail_url
-                print data
-                data_writer.writerow([unicode(s).encode("utf-8") for s in data])
-                print '*'*78
+                print detail_url
+                data_writer_url.writerow([detail_url])
+                print '+'*78
+    """
+    #seed_url = 'https://dogvacay.com/more-cities'
+    
+    """
+    data = extract_details(detail_url)
+    print "Writing data for url", detail_url
+    print data
+    data_writer.writerow([unicode(s).encode("utf-8") for s in data])
+    print '*'*78
+    """
+    
