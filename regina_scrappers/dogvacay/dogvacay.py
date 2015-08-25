@@ -8,6 +8,7 @@ import re, csv, mechanize, cookielib
 import random
 from lxml import html
 import datetime, time
+temp_list = []
 
 
 def mechanize_br():
@@ -42,7 +43,7 @@ def mechanize_br():
     return br
 
 def extract_details(url):
-    time.sleep(5)
+    time.sleep(0)
     br_instance = mechanize_br()
     html_response = br_instance.open(url)
     html_source = html_response.read()
@@ -71,7 +72,7 @@ def extract_details(url):
 def extract_pagination(url):
     try:
         print url
-        time.sleep(5)
+        time.sleep(0)
         br_instance = mechanize_br()
         html_response = br_instance.open(url)
         html_source = html_response.read()
@@ -87,7 +88,8 @@ def extract_pagination(url):
         return None
 
 def extract_details_url(url):
-    time.sleep(2)
+    print url
+    time.sleep(0)
     br_instance = mechanize_br()
     html_response = br_instance.open(url)
     html_source = html_response.read()
@@ -101,7 +103,7 @@ def extract_details_url(url):
     return items_url
 
 def extract_city_urls(url):
-    time.sleep(5)
+    time.sleep(0)
     br_instance = mechanize_br()
     html_response = br_instance.open(url)
     html_source = html_response.read()
@@ -114,7 +116,7 @@ def extract_city_urls(url):
     return cities_url
 
 def extract_ne_city(url):
-    time.sleep(5)
+    time.sleep(0)
     br_instance = mechanize_br()
     html_response = br_instance.open(url)
     html_source = html_response.read()
@@ -127,7 +129,7 @@ def extract_ne_city(url):
     return cities_url
 
 def extract_main_city(url):
-    time.sleep(5)
+    time.sleep(0)
     br_instance = mechanize_br()
     html_response = br_instance.open(url)
     html_source = html_response.read()
@@ -143,7 +145,7 @@ def extract_main_city(url):
 if __name__ == '__main__':
 
     date = datetime.date.today().strftime("%B %d, %Y")
-    data_writer_url = csv.writer(open('dogvacay url '+date+'.csv', 'ab'))
+    data_writer_url = csv.writer(open('dogvacay url.csv', 'ab'))
     
     scrapped_url_file_w = open('already_scrapped_url.txt', 'ab')
     main_cities_w = open('main_scrapped_cities.txt', 'ab')
@@ -167,38 +169,51 @@ if __name__ == '__main__':
                 if pages is not None:
                     for page in range(1, pages+1):
                         page_url = city_url+'?p='+str(page)
-                        detail_urls = extract_details_url(page_url)
-                        for detail_url in detail_urls:
-                            print detail_url
-                            open_file = open('already_scrapped_url.txt', 'rb')
-                            url_list = open_file.readlines()
-                            if detail_url+'\n' in url_list:
-                                print "Passing url"
-                                pass
-                            else:
-                                data_writer_url.writerow([detail_url])
-                                scrapped_url_file_w.write(str(detail_url))
-                                scrapped_url_file_w.write('\n')
-                                print '+'*78
+                        open_file = open('already_scrapped_url.txt', 'rb')
+                        url_list = open_file.readlines()
+                        if page_url+'\n' in url_list or page_url in temp_list:
+                            print page_url
+                            print "Passing url"
+                            pass
+                        else:
+                            detail_urls = extract_details_url(page_url)
+                            for detail_url in detail_urls:
+                                print detail_url
+                                open_file = open('already_scrapped_url.txt', 'rb')
+                                url_list = open_file.readlines()
+                                if detail_url+'\n' in url_list or detail_url in temp_list:
+                                    print "Passing url"
+                                    pass
+                                else:
+                                    data_writer_url.writerow([detail_url])
+                                    scrapped_url_file_w.write(str(detail_url))
+                                    scrapped_url_file_w.write('\n')
+                                    temp_list.append(detail_url)
+                        main_cities_w.write(str(page_url))
+                        main_cities_w.write('\n')
+                        temp_list.append(page_url)
+                        print '+'*78
                 else:
                     print "In else"
                     detail_urls = extract_details_url(city_url)
                     print detail_urls
                     for detail_url in detail_urls:
-                        print detail_url
                         open_file = open('already_scrapped_url.txt', 'rb')
                         url_list = open_file.readlines()
-                        if detail_url+'\n' in url_list:
+                        if detail_url+'\n' in url_list or detail_url in temp_list:
+                            print detail_url
                             print "Passing url"
                             pass
                         else:
+                            print detail_url
                             data_writer_url.writerow([detail_url])
                             scrapped_url_file_w.write(str(detail_url))
                             scrapped_url_file_w.write('\n')
+                            temp_list.append(detail_url)
                             print '+'*78
-        main_cities_w.write(str(main_city))
-        main_cities_w.write('\n')
-    """
+            main_cities_w.write(str(main_city))
+            main_cities_w.write('\n')
+
     seed_url = 'https://dogvacay.com/more-cities'
     cities_urls = extract_city_urls(seed_url)
     for city_url in cities_urls:
@@ -209,18 +224,37 @@ if __name__ == '__main__':
                 page_url = city_url+'?p='+str(page)
                 detail_urls = extract_details_url(page_url)
                 for detail_url in detail_urls:
-                    print detail_url
-                    data_writer_url.writerow([detail_url])
-                    print '+'*78
+                    open_file = open('already_scrapped_url.txt', 'rb')
+                    url_list = open_file.readlines()
+                    if detail_url+'\n' in url_list or detail_url in temp_list:
+                        print detail_url
+                        print "Passing url"
+                        pass
+                    else:
+                        print detail_url
+                        data_writer_url.writerow([detail_url])
+                        scrapped_url_file_w.write(str(detail_url))
+                        scrapped_url_file_w.write('\n')
+                        print '+'*78
         else:
             print "In else"
             detail_urls = extract_details_url(city_url)
             print detail_urls
             for detail_url in detail_urls:
-                print detail_url
-                data_writer_url.writerow([detail_url])
+                open_file = open('already_scrapped_url.txt', 'rb')
+                url_list = open_file.readlines()
+                if detail_url+'\n' in url_list or detail_url in temp_list:
+                    print detail_url
+                    print "Passing url"
+                    pass
+                else:
+                    print detail_url
+                    data_writer_url.writerow([detail_url])
+                    scrapped_url_file_w.write(str(detail_url))
+                    scrapped_url_file_w.write('\n')
+                    temp_list.append(detail_url)
                 print '+'*78
-    """
+
     #seed_url = 'https://dogvacay.com/more-cities'
     
     """

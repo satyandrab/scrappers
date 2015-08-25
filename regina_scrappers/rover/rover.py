@@ -8,6 +8,8 @@ import re, csv, mechanize, cookielib
 import random
 from lxml import html
 import datetime, time
+temp_list = []
+city_t = []
 
 
 def mechanize_br():
@@ -42,7 +44,7 @@ def mechanize_br():
     return br
 
 def extract_details(url, zip_code):
-    time.sleep(5)
+    time.sleep(0)
     br_instance = mechanize_br()
     html_response = br_instance.open(url)
     html_source = html_response.read()
@@ -61,8 +63,12 @@ def extract_details(url, zip_code):
     
     print zip_code
     
-    list_price = "".join(parsed_source.xpath("//span[@itemprop='priceRange']/text()")[0]).strip()+' per night'
+    try:
+        list_price = "".join(parsed_source.xpath("//span[@itemprop='priceRange']/text()")[0]).strip()+' per night'
+    except:
+        list_price = ''
     print list_price
+        
     
     badges = " || ".join(parsed_source.xpath("//div[@class='profile-section-widget badges-widget noborder']/ul/li/@title"))
     print badges
@@ -72,7 +78,7 @@ def extract_details(url, zip_code):
 
 def extract_pagination(url):
     print url
-    time.sleep(5)
+    time.sleep(0)
     br_instance = mechanize_br()
     html_response = br_instance.open(url)
     html_source = html_response.read()
@@ -85,7 +91,7 @@ def extract_pagination(url):
     return pages
 
 def extract_details_url(url):
-    time.sleep(5)
+    time.sleep(0)
     br_instance = mechanize_br()
     html_response = br_instance.open(url)
     html_source = html_response.read()
@@ -102,7 +108,7 @@ def extract_details_url(url):
     return url_list
 
 def extract_city_urls(url):
-    time.sleep(5)
+    time.sleep(0)
     br_instance = mechanize_br()
     html_response = br_instance.open(url)
     html_source = html_response.read()
@@ -114,7 +120,7 @@ def extract_city_urls(url):
     return city_urls
 
 def extract_viewall_urls(url):
-    time.sleep(5)
+    time.sleep(0)
     br_instance = mechanize_br()
     html_response = br_instance.open(url)
     html_source = html_response.read()
@@ -128,9 +134,10 @@ def extract_viewall_urls(url):
     
 if __name__ == '__main__':
     date = datetime.date.today().strftime("%B %d, %Y")
-    data_writer_url = csv.writer(open('rover url '+date+'.csv', 'ab'))
+    data_writer_url = csv.writer(open('rover url.csv', 'ab'))
     
     city_url_file = open('city.txt', 'ab')
+    scrapped_url_file_w = open('already_scrapped_url.txt', 'ab')
     #date = datetime.date.today().strftime("%B %d, %Y")
     #data_writer = csv.writer(open('rover '+date+'.csv', 'wb'))
     #data_writer.writerow(['URL', 'Title', '# of Guest Reviews', 'Zip Code', 'List Price', 'Badges'])
@@ -145,25 +152,36 @@ if __name__ == '__main__':
             print city_url_file_r
             print city_url
             
-            if city_url+'\n' in city_url_file_r:
+            if city_url+'\n' in city_url_file_r or city_url in city_t:
                 print '+'*78
                 print "passing city"
                 pass
             else:
                 
-                for page in range(1, 21):
+                for page in range(1, 2):
                     page_url = city_url+'&page='+str(page)
                     detail_urls = extract_details_url(page_url)
                     for detail_url in detail_urls:
                         detail_url_t = detail_url[0]
                         zipcode = detail_url[1]
-                        print detail_url_t
-                        print city_url
-                        data_writer_url.writerow(detail_url)
+                        open_file = open('already_scrapped_url.txt', 'rb')
+                        url_list = open_file.readlines()
+                        if detail_url[0]+'\n' in url_list or detail_url in temp_list:
+                            print detail_url
+                            print "Passing url"
+                            pass
+                        else:
+                            print detail_url_t
+                            print city_url
+                            data_writer_url.writerow(detail_url)
+                            scrapped_url_file_w.write(str(detail_url))
+                            scrapped_url_file_w.write('\n')
+                            temp_list.append(detail_url)
                         print '+'*78
-                print "writing city"
-                city_url_file.write(city_url)
-                city_url_file.write('\n')
+            print "writing city"
+            city_url_file.write(city_url)
+            city_url_file.write('\n')
+            city_t.append(city_url)
             open_city_file.close()
             """
                 data = extract_details(detail_url_t, zipcode)

@@ -4,11 +4,15 @@ Created on Aug 19, 2015
 @author: satyandrababu
 '''
 
-from lxml import html
+from lxml import html, etree
 from urlparse import urlparse, parse_qs
 import mechanize, cookielib, random, re, csv
 import time
-time_value = random.uniform(1.5, 2.5)
+time_value = 0
+import json
+
+comp_file = open('data/compid.txt', 'ab')
+temp_list = []
 
 
 def mechanize_br():
@@ -43,7 +47,7 @@ def mechanize_br():
     return br
 
 def extract_country_codes(url):
-    time.sleep(0)
+    time.sleep(time_value)
     print url
     br_instance = mechanize_br()
     html_response = br_instance.open(url)
@@ -60,13 +64,13 @@ def extract_country_codes(url):
     return country_codes
 
 def extract_details_url(url):
-    time.sleep(0)
+    time.sleep(time_value)
     print url
     br_instance = mechanize_br()
     html_response = br_instance.open(url)
-    html_source = html_response.read().replace('\n', '').replace('\r', '')
+    html_source = html_response.read()#.decode("utf-8")#.replace('\n', '').replace('\r', '')
     parsed_source = html.fromstring(html_source, 'http://www.tradekorea.com/')
-    parsed_source.make_links_absolute()
+    #parsed_source.make_links_absolute()
     
     list = []
     details_urls = parsed_source.xpath("//a[@class='company_detail_btn']")
@@ -78,6 +82,8 @@ def extract_details_url(url):
     return list
 
 def extract_details(url):
+    print url
+    details = {}
     time.sleep(time_value)
         
     br_instance = mechanize_br()
@@ -86,43 +92,97 @@ def extract_details(url):
     parsed_source = html.fromstring(html_source, 'http://www.tradekorea.com/')
     parsed_source.make_links_absolute()
     
+    details['url'] = url
+    
     comp_name = "".join(parsed_source.xpath("//div[@class='tit_area']/h4/text()"))
-    print comp_name
+    details['Company Name'] = comp_name
     
     address = "".join(re.findall(r'<th scope="row"><span>Address</span></th>\s*<td>(.*?)</td>', html_source))
     print address
+    details['Address'] = address
     
     telephones = "".join(re.findall(r'<th scope="row"><span>Phone</span></th>\s*<td>(.*?)</td>', html_source))
     print telephones
+    details['Phone'] = telephones
     
     fax = "".join(re.findall(r'<th scope="row"><span>Fax</span></th>\s*<td>(.*?)</td>', html_source))
     print fax
+    details['Fax'] = fax
     
     product_category = "".join(re.findall(r'<th scope="row"><span>Product Category</span></th>\s*<td>\s*(.*?)\s*</td>', html_source))
     print product_category
+    details['Product Category'] = product_category
     
     country = "".join(re.findall(r'<span>Country</span></th>\s*<td class="first">\s*(.*?)\s*</td>', html_source))
     print country
+    details['Country'] = country
     
     president = "".join(re.findall(r'<th scope="row"><span>President</span></th>\s*<td>\s*(.*?)\s*</td>', html_source))
     print president
+    details['President'] = president
     
     established_year = "".join(re.findall(r'<th scope="row"><span>Year established</span></th>\s*<td>\s*(.*?)\s*</td>', html_source))
     print established_year
+    details['Year established'] = established_year
     
     employee = "".join(re.findall(r'<th scope="row"><span>No. of Total Employees</span></th>\s*<td>\s*(.*?)\s*</td>', html_source))
     print employee
+    details['No. of Total Employees'] = employee
     
-    main_market = "".join(re.findall(r'<th scope="row"><span>Main Markets</span></th>.*?</td>', html_source))
+    main_market = "".join(re.findall(r'<th scope="row"><span>Main Markets</span></th>\s*<td>(.*?)</td>', html_source)).strip().replace('\t', '')
     print main_market
+    details['Main Markets'] = main_market
+    
+    main_products = "".join(re.findall(r'<th scope="row" class="lst"><span>Main Product</span></th>\s*<td class="lst">(.*?)</td>', html_source)).strip().replace('\t', '').replace('<br>', ', ')
+    print main_products
+    details['Main Product'] = main_products
+    
+    try:
+        description = "".join(re.findall(r'<th scope="row"><span>Company introduction</span></th>\s*<td .*?>(.*?)</td>', html_source))
+        desc = html.document_fromstring(description)
+        raw_desc_text = desc.text_content().replace('\t', '')
+        print raw_desc_text
+    except:
+        raw_desc_text = ''
+    details['Company introduction'] = raw_desc_text
+    
+    ministe_url = "".join(parsed_source.xpath("//p[@class='tac']/a/@href")[0])
+    #print ministe_url
+    website = get_home_url(ministe_url)
+    print website
+    details['Minisite'] = ministe_url
+    if website is not None:
+        details['Website'] = website
+    else:
+        details['Website'] = ''
+    
+    return details
+    
+    #myfile.write(json.dumps([{'name': k, 'size': v} for k,v in details.items()], indent=4))
+    
+def get_home_url(url):
+    try:
+        br_instance = mechanize_br()
+        html_response = br_instance.open(url)
+        html_source = html_response.read().replace('\n', '').replace('\r', '')
+        parsed_source = html.fromstring(html_source, 'http://www.tradekorea.com/')
+        parsed_source.make_links_absolute()
+        
+        comp_name = "".join(re.findall(r'<li class="lst"><em>Homepage</em>\s*<span>\s*<a href="(.*?)" target="_blank">', html_source))
+        return comp_name
+    except:
+        return None
+    
+    
     
     """
-    markets, description, contact persons/titles/emails, websites, social media links, revenue
-    business type, main markets, homepage  
+    markets, social media links, revenue
+    business type  
     """
 
 if __name__ == '__main__':
-    """
+    json_sample_file = open('data_1.json', 'ab')
+    
     country_page_file = open('country_page_file.txt', 'ab')
     
     country_c_pages = [['KR', 4620], ['CN', 1707], ['US', 277], ['IN', 271], ['VN', 127], ['ID', 90], ['MY', 85], ['PK', 84], ['HK', 67], ['TH', 63], ['IR', 58], ['GB', 55], ['TW', 54], ['JP', 50], ['SG', 49], ['AU', 46], ['AE', 44], ['CA', 43], ['PH', 41], ['TR', 37], ['BD', 36], ['RU', 33], ['SA', 31], ['EG', 30], ['CM', 30], ['DE', 25], ['NG', 23], ['ZA', 21], ['UA', 20], ['BR', 20], ['ES', 16], ['IT', 14], ['CL', 13], ['MX', 13], ['NZ', 13], ['LK', 13], ['GH', 12], ['FR', 12], ['PE', 11], ['MN', 10], ['IL', 10], ['PL', 10], ['CO', 10], ['NL', 10], ['GR', 9], ['JO', 8], ['KW', 8], ['RO', 7], ['AR', 7], ['SY', 6], ['KE', 6], ['NP', 6], ['KH', 6], ['MM', 6], ['HU', 6], ['SE', 6], ['IQ', 5], ['QA', 5], ['BE', 5], ['CH', 5], ['BG', 5], ['UZ', 5], ['EC', 5], ['BJ', 5], ['LB', 5], ['BH', 5], ['KP', 5], ['KZ', 4], ['UG', 4], ['MO', 4], ['OM', 4], ['YE', 4], ['ET', 4], ['MA', 4], ['TZ', 4], ['PT', 4], ['CZ', 4], ['AT', 4], ['DZ', 4], ['IE', 3], ['DK', 3], ['DO', 3], ['VE', 3], ['CY', 3], ['BO', 3], ['ZW', 3], ['GE', 3], ['LY', 3], ['TN', 3], ['CI', 3], ['LT', 3], ['ML', 3], ['NO', 3], ['TG', 3], ['FI', 3], ['MU', 3], ['SD', 3], ['AF', 3], ['AZ', 3], ['SN', 3], ['BN', 2], ['HR', 2], ['TD', 2], ['CR', 2], ['LA', 2], ['AO', 2], ['EE', 2], ['AM', 2], ['MV', 2], ['PY', 2], ['SI', 2], ['TT', 2], ['FJ', 2], ['GT', 2], ['LV', 2], ['GN', 2], ['KG', 2], ['SK', 2], ['BY', 2], ['JM', 2], ['BF', 2], ['CS', 2], ['LR', 2], ['MT', 2], ['PA', 2], ['SV', 2], ['UY', 2], ['ZM', 2], ['AL', 1], ['FX', 1], ['PR', 1], ['HN', 1], ['BW', 1], ['SL', 1], ['BT', 1], ['NA', 1], ['AN', 1], ['CF', 1], ['CG', 1], ['LU', 1], ['CD', 1], ['MD', 1], ['MG', 1], ['MZ', 1], ['NC', 1], ['NI', 1], ['PG', 1], ['PS', 1], ['SO', 1], ['YD', 1], ['AS', 1], ['BS', 1], ['IS', 1], ['TJ', 1], ['VI', 1], ['BA', 1], ['BZ', 1], ['HT', 1], ['LC', 1], ['MW', 1], ['RE', 1], ['RW', 1], ['YM', 1], ['YU', 1], ['AQ', 1], ['AW', 1], ['BB', 1], ['CX', 1], ['DJ', 1], ['GQ', 1], ['MK', 1], ['MR', 1], ['PF', 1], ['TP', 1], ['VU', 1], ['BM', 1], ['DM', 1], ['EH', 1], ['ER', 1], ['GA', 1], ['GY', 1], ['MI', 1], ['PC', 1], ['PO', 1], ['SB', 1], ['SR', 1], ['SZ', 1], ['TM', 1], ['UM', 1], ['AD', 1], ['AG', 1], ['AI', 1], ['BI', 1], ['CT', 1], ['FK', 1], ['FM', 1], ['FO', 1], ['GM', 1], ['HM', 1], ['IO', 1], ['KM', 1], ['KY', 1], ['LI', 1], ['LS', 1], ['MC', 1], ['MH', 1], ['NT', 1], ['PZ', 1], ['SC', 1], ['SM', 1], ['ST', 1], ['SU', 1], ['VA', 1], ['WS', 1], ['ZR', 1]]
@@ -142,13 +202,22 @@ if __name__ == '__main__':
                 for detail_url in details_url:
                     url = detail_url[1]
                     comp_id = detail_url[0]
-                    #print detail_url[0]
-                    #print '+'*78
+                    with open('data/compid.txt', 'rb') as compid_file_r:
+                        mylist = compid_file_r.read().splitlines()
+                    if comp_id in temp_list or comp_id in mylist:
+                        print "passing company"
+                        pass
+                    else:
+                        company_url = 'http://www.tradekorea.com/mytradekorea/myInterest.do?action=detailInterestCompanyAjax&businessno='+str(comp_id)
+                        data_dict = extract_details(company_url)
+                        json_sample_file.write(json.dumps(data_dict))
+                        json_sample_file.write('\r\n')
+                        comp_file.write(comp_id)
+                        comp_file.write('\r\n')
+                        temp_list.append(comp_id)
+                        print '*'*78
                 country_page_file.write(str(pagination_url))
                 country_page_file.write('\n')
             open_file.close()
             print '-'*78
     
-    """
-    url = 'http://www.tradekorea.com/mytradekorea/myInterest.do?action=detailInterestCompanyAjax&businessno=127856'
-    extract_details(url)

@@ -21,11 +21,11 @@ class twu():
         browser.find_element_by_id('Passwd').clear()
         browser.find_element_by_id('Passwd').send_keys(password)
         browser.find_element_by_id('signIn').click()
-        time.sleep(12)
+        time.sleep(20)
         browser.find_element_by_xpath("//div[@class='asT-asx aQS J-J5-Ji']").click()
-        time.sleep(5)
+        time.sleep(10)
         browser.find_element_by_xpath("//div[contains(text(),'Contacts')]").click()
-        time.sleep(5)
+        time.sleep(20)
         browser.find_element_by_xpath("//a[@title='Directory']").click()
         time.sleep(5)
         
@@ -62,7 +62,7 @@ class twu():
             except:
                 data_list.append('--')
             print data_list
-            data_writer.writerow(data_list)
+            data_writer.writerow([unicode(s).encode("utf-8") for s in data_list])
             i = i+1
             if i > length:
                 try:
@@ -76,11 +76,12 @@ class twu():
                     pass
             else:
                 pass
-                
+            
                 
     """
     Starting method, open browser and passes browser object, starting URL to next method.
     """
+    
     def main(self):
         starting_url = "http://webmail.twu.edu/"
         browser = webdriver.Firefox()
