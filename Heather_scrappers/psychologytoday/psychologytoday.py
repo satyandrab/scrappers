@@ -7,7 +7,8 @@ from lxml import html
 from urlparse import urlparse, parse_qs
 import mechanize, cookielib, random, re, csv
 import time, sys
-time_value = random.uniform(1.5, 2.5)
+#time_value = random.uniform(1.5, 2.5)
+time_value = 0
 
 state_url_file = open('data/state.txt', 'ab')
 profid_file = open('data/profid.txt', 'ab')
@@ -16,7 +17,7 @@ temp_list = []
 def mechanize_br():
     version_list = ['5.0', '6.0', '7.0', '8.0', '9.0', '10.0', '11.0', '12.0', '13.0', '14.0', '15.0', '16.0', '17.0', '18.0', '19.0', '20.0', '21.0', '22.0', '23.0',
                     '24.0', '25.0', '26.0', '27.0', '28.0', '29.0', '30.0', '31.0', '32.0', '33.0', '34.0', '35.0', '36.0', '37.0', '38.0',  '1.0',  '2.0', '3.0', '4.0']
-    # print "Browser version ", (random.choice(version_list))
+    print "Browser version ", (random.choice(version_list))
     # Browser
     br = mechanize.Browser()
 
@@ -71,7 +72,7 @@ def extract_details(details_url):
         #open_profid_file = open('data/profid.txt', 'rb')
         #profid_file_r = open_profid_file.readlines()
         #print profid_file_r
-        print mylist
+        #print mylist
         if profile_id in mylist or profile_id in temp_list:
             print "Passing profile"
             return None
@@ -393,9 +394,13 @@ def extract_details_url(url):
         parsed_source = html.fromstring(html_source, 'https://therapists.psychologytoday.com/')
         parsed_source.make_links_absolute()
         
-        details_urls = parsed_source.xpath("//a[@class='result-name']/@href")
-        print details_urls
-        return details_urls
+        nomatchflag = parsed_source.xpath("//div[@class='NoMatchingFound']")
+        if nomatchflag:
+            return 'nomatchflag'
+        else:
+            details_urls = parsed_source.xpath("//a[@class='result-name']/@href")
+            print details_urls
+            return details_urls
     except:
         extract_details_url(url)
 
@@ -546,21 +551,6 @@ if __name__ == '__main__':
     personal_statements_data_writer = open(txt_personal_statements_file_name, 'ab')
     
     
-    #pr_url = 'https://therapists.psychologytoday.com/rms/prof_detail.php?profid=44618'
-    #data_dict = extract_details(pr_url)
-    #print data_dict
-    #write_main_table(data_dict, mywriter)
-    #write_personal_statements_table(data_dict, personal_statements_data_writer)
-    
-    
-    #start_url = 'https://therapists.psychologytoday.com/rms/prof_search.php'
-    #states_urls = extract_states_urls(start_url)
-    #states_urls = ['https://therapists.psychologytoday.com/rms/state/Alabama.html']
-    #for state_url in states_urls:
-    #    state_code = get_state_code_more_city(state_url)
-    #    print state_url
-    #    print state_code
-    #    print '*'*78
     gender_list = ['1', '2']
     start_url = 'https://therapists.psychologytoday.com/rms/prof_search.php'
     states_urls = extract_states_urls(start_url)
@@ -578,7 +568,7 @@ if __name__ == '__main__':
                 print "writing for state"
                 if len(state_code) > 0:
                     for gender in gender_list:
-                        for num in range(1, 2000, 20):
+                        for num in range(1, 100, 20):
                             if len(state_codes) == 1:
                                 ga_female_th_url = 'https://therapists.psychologytoday.com/rms/prof_results.php?&state='+state_code+'&s=R&therapist_gender='+str(gender)+'&rec_next='+str(num)
                             else:
@@ -586,54 +576,69 @@ if __name__ == '__main__':
                                 
                             print ga_female_th_url
                             print '+'*78
-                            check_flag = check_last_page(ga_female_th_url)
-                            if check_flag:
-                                profile_urls = extract_details_url(ga_female_th_url)
-                                if profile_urls is not None:
-                                    for pr_url in profile_urls:
-                                        data_dict = extract_details(pr_url)
-                                        if data_dict is not None:
-                                            write_main_table(data_dict, mywriter)
-                                            write_personal_statements_table(data_dict, personal_statements_data_writer)
-                                break
+                            open_state_file = open('data/state.txt', 'rb')
+                            state_url_file_r = open_state_file.readlines()
+                            if ga_female_th_url+'\n' in state_url_file_r:
+                                print "passing city"
+                                pass
                             else:
-                                profile_urls = extract_details_url(ga_female_th_url)
-                                if profile_urls is not None:
-                                    print profile_urls
-                                    print '+'*78
-                                    for pr_url in profile_urls:
-                                        data_dict = extract_details(pr_url)
-                                        if data_dict is not None:
-                                            write_main_table(data_dict, mywriter)
-                                            write_personal_statements_table(data_dict, personal_statements_data_writer)
+                                check_flag = check_last_page(ga_female_th_url)
+                                if check_flag:
+                                    profile_urls = extract_details_url(ga_female_th_url)
+                                    if profile_urls == 'nomatchflag':
+                                        break
+                                        print "Area widen"
+                                    else:
+                                        if profile_urls is not None:
+                                            if len(profile_urls) < 19:
+                                                for pr_url in profile_urls:
+                                                    profile_id = pr_url.split('=')[1].replace('&sid','')
+                                                    with open('data/profid.txt', 'rb') as profid_file_r:
+                                                        mylist = profid_file_r.read().splitlines()
+                                                    #print mylist
+                                                    if profile_id in mylist or profile_id in temp_list:
+                                                        print "Passing profile"
+                                                        pass
+                                                    else:
+                                                        data_dict = extract_details(pr_url)
+                                                        if data_dict is not None:
+                                                            write_main_table(data_dict, mywriter)
+                                                            write_personal_statements_table(data_dict, personal_statements_data_writer)
+                                                    profid_file.write(profile_id)
+                                                    profid_file.write('\r\n')
+                                                    temp_list.append(profile_id)
+                                                break
+                                    break
+                                else:
+                                    profile_urls = extract_details_url(ga_female_th_url)
+                                    if profile_urls == 'nomatchflag':
+                                        break
+                                    else:
+                                        if profile_urls is not None:
+                                            print profile_urls
+                                            print '+'*78
+                                            for pr_url in profile_urls:
+                                                profile_id = pr_url.split('=')[1].replace('&sid','')
+                                                with open('data/profid.txt', 'rb') as profid_file_r:
+                                                    mylist = profid_file_r.read().splitlines()
+                                                #print mylist
+                                                if profile_id in mylist or profile_id in temp_list:
+                                                    print "Passing profile"
+                                                    pass
+                                                else:
+                                                    data_dict = extract_details(pr_url)
+                                                    if data_dict is not None:
+                                                        write_main_table(data_dict, mywriter)
+                                                        write_personal_statements_table(data_dict, personal_statements_data_writer)
+                                                profid_file.write(profile_id)
+                                                profid_file.write('\r\n')
+                                                temp_list.append(profile_id)
+                                state_url_file.write(ga_female_th_url)
+                                state_url_file.write('\n')
+                    state_url_file.write(state_code)
+                    state_url_file.write('\n')
+                    open_state_file.close()
                 else:
                     city_urls = extract_states_urls(state_url)
                     pass
-            state_url_file.write(state_code)
-            state_url_file.write('\n')
-            open_state_file.close()
-            print '*'*78
-    """
-    gender_list = ['1', '2']
-    
-    for gender in gender_list:
-        for num in range(421, 1600, 20):
-            ga_female_th_url = 'https://therapists.psychologytoday.com/rms/prof_results.php?&state='+state+'&s=R&therapist_gender='+str(gender)+'&rec_next='+str(num)
-            print '+'*78
-            print ga_female_th_url
-            print '+'*78
-            check_flag = check_last_page(ga_female_th_url)
-            if check_flag:
-                profile_urls = extract_details_url(ga_female_th_url)
-                for pr_url in profile_urls:
-                    data_dict = extract_details(pr_url)
-                    write_main_table(data_dict, mywriter)
-                    write_personal_statements_table(data_dict, personal_statements_data_writer)
-                break
-            else:
-                profile_urls = extract_details_url(ga_female_th_url)
-                for pr_url in profile_urls:
-                    data_dict = extract_details(pr_url)
-                    write_main_table(data_dict, mywriter)
-                    write_personal_statements_table(data_dict, personal_statements_data_writer)
-    """
+                print '*'*78

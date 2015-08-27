@@ -158,7 +158,6 @@ def extract_details(url):
     
     return details
     
-    #myfile.write(json.dumps([{'name': k, 'size': v} for k,v in details.items()], indent=4))
     
 def get_home_url(url):
     try:
@@ -174,12 +173,6 @@ def get_home_url(url):
         return None
     
     
-    
-    """
-    markets, social media links, revenue
-    business type  
-    """
-
 if __name__ == '__main__':
     json_sample_file = open('data_1.json', 'ab')
     

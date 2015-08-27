@@ -46,13 +46,13 @@ class smu:
     """
     def extract_data(self, browser):
         try:
-            data_writer = csv.writer(open("uta.csv", "wb"))
+            data_writer = csv.writer(open("uta_final.csv", "wb"))
             data_writer.writerow(['First Name', 'Middle Name', 'Last Name', 'Job Title', 'Email Address'])
             i = 1
             dir_item = browser.find_element_by_xpath("//div[@class='_ph_I2 scrollContainer']//div[@class='_ph_T2']["+str(i)+"]//span[@class='_pe_f _pe_B']")
             while dir_item:
                 dir_item.click()
-                time.sleep(7)
+                time.sleep(15)
                 item_name = browser.find_element_by_xpath("//div[@class='_ph_I2 scrollContainer']//div[@class='_ph_T2']["+str(i)+"]//span[@class='_pe_f _pe_B']/span").get_attribute('textContent').strip()
                 try:
                     item_name_list = browser.find_elements_by_xpath("//div[contains(@aria-label,'"+str(item_name)+"')]//following::span[@class='_pe_d _pe_e _pe_o _pe_i1 owaimg presence presenceUnknown presenceSizeMedium']")
@@ -71,7 +71,7 @@ class smu:
                                     first_name = name_split_first[0]
                                     second_name = " ".join(name_split_first[1:str_len])
                                     data_list.append(first_name.replace(u'\xe9', ''))
-                                    data_list.append(second_name.replace(u'\xe9', ''))
+                                    data_list.append(second_name.replace(u'\xe9', '').strip())
                                 else:
                                     data_list.append(first_second_name.replace(u'\xe9', ''))
                                     data_list.append("")
@@ -127,14 +127,17 @@ class smu:
                         except:
                             pass
                 except:
+                    raise
                     pass
                 time.sleep(5)
                 i = i+1
                 try:
                     dir_item = browser.find_element_by_xpath("//div[@class='_ph_T2'][not(following-sibling::div)]//span[@class='_pe_f _pe_B']/span")
                 except:
+                    raise
                     pass
         except:
+            raise
             pass
         
     """

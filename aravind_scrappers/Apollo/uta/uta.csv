@@ -2,7 +2,7 @@ First Name,Middle Name,Last Name,Job Title,Email Address
 ***DO,NOT USE*** Montez, Melissa Kay,---,melissa.montez@mavs.uta.edu
 10,Hr,CAC Volunteer Work,---,---
 1104,Group,A19,---,---
-1105,robot,design,---,---
+1105,robot,design,---,1105robotdesign@mavs.uta.edu
 1309,Art,History (Art of West),---,1309arthistoryartofwest@mavs.uta.edu
 1426-400/401,,,---,1426-400401@mavs.uta.edu
 1ST,Platoon,90TH HSC,---,1stplatoon90thhsc@mavs.uta.edu
@@ -14,7 +14,7 @@ First Name,Middle Name,Last Name,Job Title,Email Address
 2nd,,south,---,2ndsouth@mavs.uta.edu
 3325,Holistic,Care,---,3325holisticcare@mavs.uta.edu
 4242-Biochemistry,,lab,---,---
-4461,,Lab,---,4461-lab@mavs.uta.edu
+4461,,Lab,---,---
 5354,,URPA,---,5354urpa@mavs.uta.edu
 A,f,m noor U Zaman,---,afmnoor.zaman@mavs.uta.edu
 A,m,m nazmul Ahsan,---,ammnazmul.ahsan@mavs.uta.edu
@@ -183,7 +183,7 @@ Abbasnia,, Iman,---,iman.abbasnia@mavs.uta.edu
 Abbasnia,, Mohammad A,---,mohammad.abbasnia@mavs.uta.edu
 Abbassi,, Ashkan,---,ashkan.abbassi@mavs.uta.edu
 Abbassi,, Leana,---,leana.abbassi@mavs.uta.edu
-Abbassi-Ghanavati,, Kristina Ann,---,---
+Abbassi-Ghanavati,, Kristina Ann,---,kristina.abbassi-ghanavati@mavs.uta.edu
 Abbato,, Christopher A,---,christopher.abbato@mavs.uta.edu
 Abbe,N,Emerson,---,abbe.emerson@mavs.uta.edu
 Abbe,, Ashley E,---,ashley.abbe@mavs.uta.edu
@@ -257,6 +257,15 @@ Abdanan,, Dylan Hameed,---,dylan.abdanan@mavs.uta.edu
 Abde,, Alee Hyder,---,alee.abde@mavs.uta.edu
 Abdeen,, Khaled,---,khaled.abdeen@mavs.uta.edu
 Abdel,hafiz yoiunis, Rima,---,rima.abdelhafizyoiunis@mavs.uta.edu
+Abdel,majeed,M Hailat,---,abdelmajeed.hailat@mavs.uta.edu
+Abdel,rahim, Abubakre H,---,abubakre.abdelrahim@mavs.uta.edu
+Abdelali,,Eljaouhari,---,abdelali.eljaouhari@mavs.uta.edu
+Abdelatty,, Manar Mahmoud,---,manar.abdelatty@mavs.uta.edu
+Abdelaty,, Amr Ehab,---,amr.abdelaty@mavs.uta.edu
+Abdelaty,, Fahed E,---,fahed.abdelaty@mavs.uta.edu
+Abdel-aziz,, Tareq A,---,tareq.abdel-aziz@mavs.uta.edu
+Abdelfettah,, Malika,---,malika.abdelfettah@mavs.uta.edu
+Abdelghani,, Ahmed,---,ahmed.abdelghani@mavs.uta.edu
 Abdsharifi,, Mohammad A,---,mohammad.abdsharifi@mavs.uta.edu
 Abdul,Hanan Najjar, Abdul Nathik,---,abdulnathik.abdulhanannajjar@mavs.uta.edu
 Abdul,,Haseeb,---,abdul.haseeb@mavs.uta.edu
@@ -547,7 +556,7 @@ Abiara,, Olusenu M,---,olusenu.abiara@mavs.uta.edu
 Abid,ali, Ahmad,---,ahmad.abidali@mavs.uta.edu
 Abid,, Anum,---,anum.abid@mavs.uta.edu
 Abid,, Iram,---,iram.abid@mavs.uta.edu
-Abid,, Ramaiz,---,ramaiz.abid@mavs.uta.edu
+Abid,, Ramaiz,---,---
 Abidali,, Mazen S,---,mazen.abidali@mavs.uta.edu
 Abidallatif,, Haneen,---,haneen.abidallatif@mavs.uta.edu
 Abidemi,M,Ogunfowora,---,abidemi.ogunfowora@mavs.uta.edu
@@ -575,6 +584,23 @@ Abigail,,Haile,---,abigail.haile@mavs.uta.edu
 Abigail,,Hernandez,---,abigail.hernandez75@mavs.uta.edu
 Abigail,J,Klein,---,abigail.klein@mavs.uta.edu
 Abigail,J,Silvas,---,abigail.silvas@mavs.uta.edu
+Ablavi,E,Amou-berry,---,ablavi.amou-berry@mavs.uta.edu
+Able,,Martinez,---,able.martinez@mavs.uta.edu
+Ables,, Clyde L,---,clyde.ables@mavs.uta.edu
+Ables,, Matthew A,---,matthew.ables@mavs.uta.edu
+Abner,,Anaya,---,abner.anaya@mavs.uta.edu
+Abner,J,Pascual,---,abner.pascual@mavs.uta.edu
+Abney,, Austin S,---,austin.abney@mavs.uta.edu
+Abney,, John M,---,john.abney@mavs.uta.edu
+Abney,, Joyce M,---,joyce.abney@mavs.uta.edu
+Abney,, Sasha Charmaine,---,sasha.abney@mavs.uta.edu
+Abney,, Tammy J,---,tammy.abney@mavs.uta.edu
+Abney,, Taylor A,---,taylor.abney@mavs.uta.edu
+Abney,, Thomas P,---,thomas.abney@mavs.uta.edu
+Aboagye,, Carl M,---,carl.aboagye@mavs.uta.edu
+Aboderin,, Ibukunoluwa A,---,ibukunoluwa.aboderin@mavs.uta.edu
+Abodunrin,, Ayodeji S,---,ayodeji.abodunrin@mavs.uta.edu
+Aboellhasan,, Rania H,---,rania.aboellhasan@mavs.uta.edu
 Abohaija,, Arar M,---,arar.abohaija@mavs.uta.edu
 Abohosh,, Nicole S,---,nicole.abohosh@mavs.uta.edu
 Aboli,,Killedar,---,aboli.killedar@mavs.uta.edu
@@ -638,7 +664,7 @@ Abraham,,Quirarte,---,abraham.quirarte@mavs.uta.edu
 Abraham,R,Hernandez,---,abraham.hernandez@mavs.uta.edu
 Abraham,, Aaron V,---,aaron.abraham@mavs.uta.edu
 Abraham,, Abel,---,abel.abraham@mavs.uta.edu
-Abraham,, Abey K,---,abey.abraham@mavs.uta.edu
+Abraham,, Abey K,---,---
 Abraham,, Accamma,---,accamma.abraham@mavs.uta.edu
 Abraham,, Albin A,---,albin.abraham@mavs.uta.edu
 Abraham,, Amy M,---,amy.abraham@mavs.uta.edu
@@ -662,23 +688,23 @@ Abraham,, Chris,---,chris.abraham@mavs.uta.edu
 Abraham,, Consetta S,---,consetta.abraham@mavs.uta.edu
 Abraham,, Cynthia Kay,---,cynthia.abraham@mavs.uta.edu
 Abraham,, Dennis,---,dennis.abraham@mavs.uta.edu
-Abraham,, Emil,---,emil.abraham@mavs.uta.edu
-Abraham,, Eugene,---,eugene.abraham@mavs.uta.edu
-Abraham,, Ivey,---,ivey.abraham@mavs.uta.edu
-Abraham,, Jacqueline,---,jacqueline.abraham@mavs.uta.edu
-Abraham,, Jaina V,---,jaina.abraham@mavs.uta.edu
-Abraham,, Jennie Gloria,---,jennie.abraham@mavs.uta.edu
-Abraham,, Jesslin,---,jesslin.abraham@mavs.uta.edu
-Abraham,, Jisen T,---,jisen.abraham@mavs.uta.edu
-Abraham,, Joel,---,joel.abraham15@mavs.uta.edu
-Abraham,, Lesley Noelle,---,lesley.abraham@mavs.uta.edu
-Abraham,, Lucero,---,lucero.abraham@mavs.uta.edu
-Abraham,, Manoj Mani,---,manoj.abraham@mavs.uta.edu
-Abraham,, Mariamma,---,mariamma.abraham@mavs.uta.edu
-Abraham,, Marone,---,marone.abraham@mavs.uta.edu
-Abraham,, Mary,---,mary.abraham@mavs.uta.edu
-Abraham,, Mini T,---,mini.abraham@mavs.uta.edu
-Abraham,, Mitchell S,---,mitchell.abraham@mavs.uta.edu
+Abram,, Derick,---,derick.abram@mavs.uta.edu
+Abram,, Gloria D,---,gloria.abram@mavs.uta.edu
+Abramovitz,, Erin Susan,---,erin.abramovitz@mavs.uta.edu
+Abrams,, Brendalee,---,brendalee.abrams@mavs.uta.edu
+Abrams,, Danielle S,---,danielle.abrams@mavs.uta.edu
+Abrams,, Jamie R,---,jamie.abrams@mavs.uta.edu
+Abrams,, Janae Antionette,---,janae.abrams@mavs.uta.edu
+Abrams,, Jennifer M,---,jennifer.abrams@mavs.uta.edu
+Abrams,, Joi Nicole,---,joi.abrams@mavs.uta.edu
+Abrams,, Lalou Myatt,---,lalou.abrams@mavs.uta.edu
+Abrams,, Michele H,---,michele.abrams@mavs.uta.edu
+Abrams,, Nahtee S,---,nahtee.abrams@mavs.uta.edu
+Abrams,, Spencer Hexter,Student Associate,spencer.abrams@uta.edu
+Abrantes,, Theresa Marie,---,theresa.abrantes@mavs.uta.edu
+Abrar,, Arif,---,arif.abrar@mavs.uta.edu
+Abrar,, Lina Bedru,---,lina.abrar@mavs.uta.edu
+Abrar,, Md Abu,---,mdabu.abrar@mavs.uta.edu
 Abrar,, Md Minhajul,---,mdminhajul.abrar@mavs.uta.edu
 Abrego,, Abel,---,abel.abrego@mavs.uta.edu
 Abrego,, Antonio G,---,antonio.abrego@mavs.uta.edu
@@ -765,39 +791,7 @@ A'bria,M,Seals,---,abria.seals@mavs.uta.edu
 A'bria,M,Seals,---,abria.seals@mavs.uta.edu
 A'bria,M,Seals,---,abria.seals@mavs.uta.edu
 A'bria,M,Seals,---,abria.seals@mavs.uta.edu
-A'bria,M,Seals,---,abria.seals@mavs.uta.edu
-A'bria,M,Seals,---,abria.seals@mavs.uta.edu
-A'bria,M,Seals,---,abria.seals@mavs.uta.edu
-A'bria,M,Seals,---,abria.seals@mavs.uta.edu
-A'bria,M,Seals,---,abria.seals@mavs.uta.edu
-A'bria,M,Seals,---,abria.seals@mavs.uta.edu
-A'bria,M,Seals,---,abria.seals@mavs.uta.edu
-A'bria,M,Seals,---,abria.seals@mavs.uta.edu
-A'bria,M,Seals,---,abria.seals@mavs.uta.edu
-A'bria,M,Seals,---,abria.seals@mavs.uta.edu
-A'bria,M,Seals,---,abria.seals@mavs.uta.edu
-A'bria,M,Seals,---,abria.seals@mavs.uta.edu
-A'bria,M,Seals,---,abria.seals@mavs.uta.edu
-A'bria,M,Seals,---,abria.seals@mavs.uta.edu
-A'bria,M,Seals,---,abria.seals@mavs.uta.edu
-A'bria,M,Seals,---,abria.seals@mavs.uta.edu
-A'bria,M,Seals,---,abria.seals@mavs.uta.edu
-Abughoush,, Hisham,---,hisham.abughoush@mavs.uta.edu
-Abu-Goush,, Ruba,---,ruba.abu-goush@mavs.uta.edu
-Abugrara,, Amira,---,amira.abugrara@mavs.uta.edu
-Abugrara,, Basma,---,basma.abugrara@mavs.uta.edu
-Abuhandara,, Lena A,---,lena.abuhandara@mavs.uta.edu
-Abuhandara,, Reem A,---,reem.abuhandara@mavs.uta.edu
-Abuhandara,, Sana Ahmed,---,sana.abuhandara@mavs.uta.edu
-Abuhandara,, Sarah,---,sarah.abuhandara@mavs.uta.edu
-Abuhussein,, Abdalaziz M. A.,---,abdalaziz.abuhussein@mavs.uta.edu
-Abuhussein,, Ibrahim B. R.,---,ibrahim.abuhussein@mavs.uta.edu
-Abuisba,, Soad M,---,soad.abuisba@mavs.uta.edu
-Abu-Jajah,, Abdulai,---,abdulai.abu-jajah@mavs.uta.edu
-Abujelala,, Maher Muftah Taher,---,maher.abujelala@mavs.uta.edu
-Abujelala,, Nabila M,---,---
-Abukar,, Hassan,---,hassan.abukar@mavs.uta.edu
-Abu-khalaf,, Amir M,---,---
+Abu-khalaf,, Amir M,---,amir.abukhalaf@mavs.uta.edu
 Abukhalil,, Noor Matawi,---,noor.abukhalil@mavs.uta.edu
 Abukhiran,, Tara F,---,tara.abukhiran@mavs.uta.edu
 Abukufeh,, Mohammad Yousef Ahmad,---,mohammad.abukufeh@mavs.uta.edu
@@ -884,22 +878,21 @@ Acevedo,, Mayra,---,mayra.acevedo@mavs.uta.edu
 Acevedo,, Melissa,---,melissa.acevedo@mavs.uta.edu
 Acevedo,, Michael C,---,michael.acevedo@mavs.uta.edu
 Acevedo,, Nick Xavier,---,nick.acevedo@mavs.uta.edu
-Acharya,, Raju,STEM GRADUATE TEACHING ASSISTA,racharya@uta.edu
-Acharya,, Rohit Prashad,---,rohit.acharya@mavs.uta.edu
-Acharya,, Sambridi,---,sambridi.acharya@mavs.uta.edu
-Acharya,, Sanam,---,sanam.acharya@mavs.uta.edu
-Acharya,, Sarmila,---,sarmila.acharya@mavs.uta.edu
-Acharya,, Shailendra,---,shailendra.acharya@mavs.uta.edu
-Acharya,, Shreeti,---,shreeti.acharya@mavs.uta.edu
-Acharya,, Subhash,---,subhash.acharya@mavs.uta.edu
-Acharya,, Sudarshan,---,sudarshan.acharya@mavs.uta.edu
-Acharya,, Suvash,---,suvash.acharya@mavs.uta.edu
-Ache,, Marie-claire M,---,marie-claire.ache@mavs.uta.edu
-Acheampong,, Beatrice,---,beatrice.acheampong@mavs.uta.edu
-Acheampong,, Patrick,---,patrick.acheampong@mavs.uta.edu
-Achebe,, Chinenye Veronica,---,chinenye.achebe@mavs.uta.edu
-Achee,, Alexandria Elizabeth,---,alexandria.achee@mavs.uta.edu
-Acheson,, Jill A,---,jill.acheson@mavs.uta.edu
+Acevedo,, Pamela,---,pamela.acevedo@mavs.uta.edu
+Acevedo,, Rachel A,---,rachel.acevedo@mavs.uta.edu
+Acevedo,, Tatiana L,---,tatiana.acevedo@mavs.uta.edu
+Acevedo,, Yorisell,---,yorisell.acevedo@mavs.uta.edu
+Acevedo-gonzalez,, Lizangela,---,lizangela.acevedo-gonzalez@mavs.uta.edu
+Aceves,, Alonzo,---,alonzo.aceves@mavs.uta.edu
+Aceves,, Anita,---,anita.aceves@mavs.uta.edu
+Aceves,, Daisy,---,daisy.aceves@mavs.uta.edu
+Aceves,, David,---,david.aceves@mavs.uta.edu
+Aceves,, Gloria Eduwigues,---,gloria.aceves@mavs.uta.edu
+Aceves,, Kimberly,---,kimberly.aceves@mavs.uta.edu
+Aceves,, Leonardo,---,leonardo.aceves@mavs.uta.edu
+Aceves,, Nancy,---,nancy.aceves@mavs.uta.edu
+Aceves,, Stephanie D,---,stephanie.aceves@mavs.uta.edu
+Aceves,, Yuliana,---,yuliana.aceves@mavs.uta.edu
 Acheson,, Randall S,---,randall.acheson@mavs.uta.edu
 Achi,, Traci R,---,traci.achi@mavs.uta.edu
 Achieng,, Phoebe Charlene,---,phoebe.achieng@mavs.uta.edu
@@ -985,21 +978,22 @@ Acosta,, Ivan J,---,ivan.acosta@mavs.uta.edu
 Acosta,, Javier,---,javier.acosta@mavs.uta.edu
 Acosta,, Jeannette Leah,---,jeannette.acosta@mavs.uta.edu
 Acosta,, Jeffrey,---,jeffrey.acosta@mavs.uta.edu
-Acreus,, Nelson M,---,nelson.acreus@mavs.uta.edu
-Acrey,, Laura J,---,laura.acrey@mavs.uta.edu
-Acrey,, Paul,---,paul.acrey@mavs.uta.edu
-Acrey,, Penny,DIRECTOR*,pacrey@uta.edu
-Acrey,, Sarah R,---,sarah.acrey@mavs.uta.edu
-Acton,, Jordan Kay,---,jordan.acton@mavs.uta.edu
-Acton,, Miranda D,---,miranda.acton@mavs.uta.edu
-Acuff,, Susan Thomas,---,susan.acuff@mavs.uta.edu
-Acuna,Martinez, Flor A,---,flor.acuna@mavs.uta.edu
-Acuna,, Andrew,---,andrew.acuna@mavs.uta.edu
-Acuna,, Arturo,---,arturo.acuna@mavs.uta.edu
-Acuna,, Cecilia,---,cecilia.acuna@mavs.uta.edu
-Acuna,, Dylan,---,dylan.acuna@mavs.uta.edu
-Acuna,, George Armando,---,george.acuna@mavs.uta.edu
-Acuna,, Johana L,---,johana.acuna@mavs.uta.edu
+Acosta,, Jennifer S,---,jennifer.acosta@mavs.uta.edu
+Acosta,, John Brian,---,john.acosta@mavs.uta.edu
+Acosta,, John Silva,---,johnsacosta@mavs.uta.edu
+Acosta,, Jorge A,---,jorge.acosta@mavs.uta.edu
+Acosta,, Jose Carlos,---,jacosta@mavs.uta.edu
+Acosta,, Jose Roberto,---,jose.acosta@mavs.uta.edu
+Acosta,, Joy E,CASUAL EMPLOYEE (NON-EXEMPT),acosta@uta.edu
+Acosta,, Juan,---,juan.acosta@mavs.uta.edu
+Acosta,, Karen Anneth,---,karen.acosta@mavs.uta.edu
+Acosta,, Karen Beth,---,kacosta@mavs.uta.edu
+Acosta,, Karin I,---,karin.acosta@mavs.uta.edu
+Acosta,, Karla L,---,karla.acosta@mavs.uta.edu
+Acosta,, Kevin L,---,kevin.acosta@mavs.uta.edu
+Acosta,, Kimberley A,---,kimberley.acosta@mavs.uta.edu
+Acosta,, Klaressa Renee,---,klaressa.acosta@mavs.uta.edu
+Acosta,, Leonardo,---,leonardo.acosta@mavs.uta.edu
 Acuna,, Khrystine,---,khrystine.acuna@mavs.uta.edu
 Acuna,, Veronica,---,veronica.acuna@mavs.uta.edu
 Acuna-Gurrola,, Moises,CASUAL EMPLOYEE (NON-EXEMPT),moises.acunagurrola@uta.edu
@@ -1085,20 +1079,21 @@ Adam,J,Watkins,---,adam.watkins@mavs.uta.edu
 Adam,J,Ziehl,---,adam.ziehl@mavs.uta.edu
 Adam,K,Snow,---,adam.snow@mavs.uta.edu
 Adam,K,Wigfall,---,adam.wigfall@mavs.uta.edu
-Adamczak,, Carin R,---,carin.adamczak@mavs.uta.edu
-Adame,,Adame,---,adame.adame@mavs.uta.edu
-Adame,, Abigail Marie,---,abigail.adame@mavs.uta.edu
-Adame,, Allyson,---,allyson.adame@mavs.uta.edu
-Adame,, Carolina,---,carolina.adame@mavs.uta.edu
-Adame,, Christine Nicole,---,christine.adame@mavs.uta.edu
-Adame,, Cortney R,---,cortney.adame@mavs.uta.edu
-Adame,, Denise,---,denise.adame@mavs.uta.edu
-Adame,, Edwin Davon,---,edwin.adame@mavs.uta.edu
-Adame,, Elba P,---,elba.adame@mavs.uta.edu
-Adame,, Fernando,---,fernando.adame@mavs.uta.edu
-Adame,, Gabriela,---,gabriela.adame@mavs.uta.edu
-Adame,, Hugo,---,hugo.adame@mavs.uta.edu
-Adame,, Jay D,---,jay.adame@mavs.uta.edu
+Adam,L,Gilder,---,adam.gilder@mavs.uta.edu
+Adam,L,Holley,---,adam.holley@mavs.uta.edu
+Adam,L,Lafleur,---,adam.lafleur@mavs.uta.edu
+Adam,L,Mcbride,---,adam.mcbride@mavs.uta.edu
+Adam,L,Mcmillon,---,adam.mcmillon@mavs.uta.edu
+Adam,L,Rausch,---,adam.rausch@mavs.uta.edu
+Adam,L,Vidal,---,adam.vidal@mavs.uta.edu
+Adam,,Locklear,---,adam.locklear@mavs.uta.edu
+Adam,M,Fleming,---,adam.fleming@mavs.uta.edu
+Adam,M,Furman,---,adam.furman@mavs.uta.edu
+Adam,M,Goff,---,adam.goff@mavs.uta.edu
+Adam,M,Kirkland,---,adam.kirkland@mavs.uta.edu
+Adam,M,Lancarte,---,adam.lancarte@mavs.uta.edu
+Adam,M,Norwine,---,adam.norwine@mavs.uta.edu
+Adam,M,Robison,---,adam.robison@mavs.uta.edu
 Adame,, Jesse I,---,jesse.adame@mavs.uta.edu
 Adame,, Jesus,---,jesus.adame@mavs.uta.edu
 Adame,, Juan,---,juan.adame@mavs.uta.edu
@@ -1184,6 +1179,34 @@ Adams,, Daisha Jhene',---,daisha.adams@mavs.uta.edu
 Adams,, Daisha Jhene',---,daisha.adams@mavs.uta.edu
 Adams,, Daisha Jhene',---,daisha.adams@mavs.uta.edu
 Adams,, Daisha Jhene',---,daisha.adams@mavs.uta.edu
+Adams,, Daisha Jhene',---,daisha.adams@mavs.uta.edu
+Adams,, Daisha Jhene',---,daisha.adams@mavs.uta.edu
+Adams,, Daisha Jhene',---,daisha.adams@mavs.uta.edu
+Adams,, Daisha Jhene',---,daisha.adams@mavs.uta.edu
+Adams,, Daisha Jhene',---,daisha.adams@mavs.uta.edu
+Adams,, Daisha Jhene',---,daisha.adams@mavs.uta.edu
+Adams,, Daisha Jhene',---,daisha.adams@mavs.uta.edu
+Adams,, Daisha Jhene',---,daisha.adams@mavs.uta.edu
+Adams,, Daisha Jhene',---,daisha.adams@mavs.uta.edu
+Adams,, Daisha Jhene',---,daisha.adams@mavs.uta.edu
+Adams,, Daisha Jhene',---,daisha.adams@mavs.uta.edu
+Adams,, Daisha Jhene',---,daisha.adams@mavs.uta.edu
+Adams,, Daisha Jhene',---,daisha.adams@mavs.uta.edu
+Adams,, Daisha Jhene',---,daisha.adams@mavs.uta.edu
+Adams,, Jonathan,---,jonathanadams2008@mavs.uta.edu
+Adams,, Jordan D,---,jordan.adams@mavs.uta.edu
+Adams,, Joshua,---,joshua.adams22@mavs.uta.edu
+Adams,, Juliette Catherine,---,juliette.adams@mavs.uta.edu
+Adams,, July D,---,july.adams@mavs.uta.edu
+Adams,, Kara L,---,kara.adams@mavs.uta.edu
+Adams,, Kasha L,---,kasha.adams@mavs.uta.edu
+Adams,, Katherine E,---,katherine.adams@mavs.uta.edu
+Adams,, Kayla Ashton,---,kayla.adams@mavs.uta.edu
+Adams,, Kaylee E,---,kaylee.adams@mavs.uta.edu
+Adams,, Kaylie D,---,kaylie.adams@mavs.uta.edu
+Adams,, Kc L,---,kc.adams@mavs.uta.edu
+Adams,, Kelsa Derek,---,kelsa.adams@mavs.uta.edu
+Adams,, Kendra M,---,kendra.adams@mavs.uta.edu
 Adams,, Keri Lynn,---,keri.adams@mavs.uta.edu
 Adams,, Kevin W,---,kevin.adams@mavs.uta.edu
 Adams,, Kharmel X,---,kharmel.adams@mavs.uta.edu
@@ -1268,33 +1291,6 @@ Adams,, Thien Loc,---,thien.adams@mavs.uta.edu
 Adams,, Tia B.J.,---,tia.adams@mavs.uta.edu
 Adams,, Tiffany Nicole,---,tiffany.adams@mavs.uta.edu
 Adams,, Tina Sheree,---,tina.adams@mavs.uta.edu
-Adams,, Trusure O,---,trusure.adams@mavs.uta.edu
-Adams,, Valerie Ann,---,valerie.adams@mavs.uta.edu
-Adams,, Weston David,---,weston.adams@mavs.uta.edu
-Adams,, William F,---,williamfadams@mavs.uta.edu
-Adams,, Zachariah,---,zachariah.adams@mavs.uta.edu
-Adams,, Zachary John Calvin,---,zachary.adams@mavs.uta.edu
-Adams,, Zoe Danann,---,zoe.adams@mavs.uta.edu
-Adamski,, Jean Marie,---,jean.adamski@mavs.uta.edu
-Adamson,, Brian D,---,brian.adamson@mavs.uta.edu
-Adamson,, Gabrielle Elisabeth,---,gabrielle.adamson@mavs.uta.edu
-Adamson,, Jennifer M,---,jennifer.adamson@mavs.uta.edu
-Adamson,, Johnathan E,---,johnathan.adamson@mavs.uta.edu
-Adamson,, Matthew L,---,matthew.adamson@mavs.uta.edu
-Adamson,, Mckenzie D,---,mckenzie.adamson@mavs.uta.edu
-Addae,, James K,---,james.addae@mavs.uta.edu
-Addae,, Pinkie A,---,pinkie.addae@mavs.uta.edu
-Addae,, Robert K,---,robert.addae@mavs.uta.edu
-Addagada,, Gayathri,---,gayathri.addagada@mavs.uta.edu
-Addagatla,, Alekhya,---,alekhya.addagatla@mavs.uta.edu
-Addagatla,, Vamshi Krishna,---,vamshikrishna.addagatla@mavs.uta.edu
-Addagudi,, Revanth,---,revanth.addagudi@mavs.uta.edu
-Addea-amoako,, Liselotte K,---,liselotte.addea-amoako@mavs.uta.edu
-Adderley,, Tanisha,---,tanisha.adderley@mavs.uta.edu
-Addicks,, Brock A,---,brock.addicks@mavs.uta.edu
-Addicks,, Rami Abid,---,rami.addicks@mavs.uta.edu
-Addie,E,Exum,---,addie.exum@mavs.uta.edu
-Addie,N,Vincent,---,addie.vincent@mavs.uta.edu
 Addie,,Watters,---,addie.watters@mavs.uta.edu
 Addington,, Brandon,---,brandon.addington@mavs.uta.edu
 Addington,, Dawn M,---,dawn.addington@mavs.uta.edu
@@ -1342,12 +1338,12 @@ Adebayo,, Olaoluwa Adeleke,---,olaoluwa.adebayo@mavs.uta.edu
 Adebayo,, Oluranti Joyce,---,oluranti.adebayo@mavs.uta.edu
 Adebayo,, Omolola Rukayat,---,rukayat.adebayo@mavs.uta.edu
 Adebayo,, Taiwo Rachael,---,taiwo.adebayo@mavs.uta.edu
-Adebimpe,, Aderenike O,---,aderenike.adebimpe@mavs.uta.edu
+Adebimpe,, Aderenike O,---,---
 Adebimpe,, Tolu Bisola,---,tolu.adebimpe@mavs.uta.edu
 Adebisi,A,Lawrence,---,adebisi.lawrence@mavs.uta.edu
-Adebisi,, Suliyat Adeola,---,suliyat.adebisi@mavs.uta.edu
-Adebiyi,, Abimbola Temitope,---,abimbola.adebiyi@mavs.uta.edu
-Adebiyi,, Akintunde Joseph,---,akintunde.adebiyi@mavs.uta.edu
+Adebisi,, Suliyat Adeola,---,---
+Adebiyi,, Abimbola Temitope,---,---
+Adebiyi,, Akintunde Joseph,---,---
 Adebiyi,, Gbenga Gideon,---,gbenga.adebiyi@mavs.uta.edu
 Adebiyi,, Omotunde,---,omotunde.adebiyi@mavs.uta.edu
 Adebo,, Tosin O,---,tosin.adebo@mavs.uta.edu
@@ -1379,20 +1375,19 @@ Adedoyin,, Olugbemiga Yinka,---,olugbemiga.adedoyin@mavs.uta.edu
 Adeeb,I,Alnazer,---,adeeb.alnazer@mavs.uta.edu
 Adeeko,, Doreen Olayemi,---,doreen.adeeko@mavs.uta.edu
 Adeel,A,Bajwa,---,adeel.bajwa@mavs.uta.edu
-Adeloye,, Janet A,---,janet.adeloye@mavs.uta.edu
-Adelugba,, Joy Annie,---,joy.ade@mavs.uta.edu
-Adem,,Yassin,---,adem.yassin@mavs.uta.edu
-Adem,, Ishac M,---,ishac.adem@mavs.uta.edu
-Adem,, Salma A,ASSOCIATE VICE PRESIDENT,adem@uta.edu
-Ademiluyi,, Johanna T,---,johanna.ademiluyi@mavs.uta.edu
-Ademola,M,Ashaolu,---,ademola.ashaolu@mavs.uta.edu
-Ademola,, Ayoola,---,ayoola.ademola@mavs.uta.edu
-Ademola,, Oluwayinka Mercy,---,oluwayinka.ademola@mavs.uta.edu
-Ademola,, Samuel F,---,samuel.ademola@mavs.uta.edu
-Ademola-Ojo,, Moses Adekunle,---,moses.ademolaojo@mavs.uta.edu
-Ademola-Tobun,, Ademola O,---,ademola.ademola-tobun@mavs.uta.edu
-Ademuyewo,, Ayoade S,---,ayoade.ademuyewo@mavs.uta.edu
-Aden,K,Abiye,---,aden.abiye@mavs.uta.edu
+Adeel,S,Gilani,---,adeel.gilani@mavs.uta.edu
+Adefeso,, Modupe Olayinka,---,modupe.adefeso@mavs.uta.edu
+Adefuye,, Boyejo I,---,boyejo.adefuye@mavs.uta.edu
+Adegbembo,, Alexander Anthony,---,alexander.adegbembo@mavs.uta.edu
+Adegbenle,, Adedayo A,---,adedayo.adegbenle@mavs.uta.edu
+Adegbenro,, Adewumi B,---,adewumi.adegbenro@mavs.uta.edu
+Adegbenro,, Chikodinaka C,---,chikodinaka.adegbenro@mavs.uta.edu
+Adegbenro,, Yetunde T,---,yetunde.adegbenro@mavs.uta.edu
+Adegbola,, Maxine A,ASSISTANT PROFESSOR,adegbola@exchange.uta.edu
+Adegbola,, Olatokunbo G,---,olatokunbo.adegbola@mavs.uta.edu
+Adegborioye,, Mary O,---,mary.adegborioye@mavs.uta.edu
+Adegboye,, Odunayo O,---,odunayo.adegboye@mavs.uta.edu
+Adegboyega,O,Omoba,---,adegboyega.omoba@mavs.uta.edu
 Aden,, Charlotte Naomi,---,charlotte.aden@mavs.uta.edu
 Aden,, Shane,---,shane.aden@mavs.uta.edu
 Adene,S,Keller,---,adene.keller@mavs.uta.edu
@@ -1403,7 +1398,7 @@ Adeniji,, Jameel,---,jameel.adeniji@mavs.uta.edu
 Adeniji,, Simon P,---,simon.adeniji@mavs.uta.edu
 Adeniran,, Adeyinka E,---,adeyinka.adeniran@mavs.uta.edu
 Adeniran,, Denise,---,denise.adeniran@mavs.uta.edu
-Adeniran,, Dorcas Oluwatoyin,---,dorcas.adeniran@mavs.uta.edu
+Adeniran,, Dorcas Oluwatoyin,---,---
 Adeniran,, Olubunmi Olufunto,---,olubunmi.adeniran@mavs.uta.edu
 Adeniran,, Olusanmi A,---,olusanmi.adeniran@mavs.uta.edu
 Adeniran,, Oyindamola Olayemi,---,oyindamola.adeniran@mavs.uta.edu
@@ -1475,18 +1470,20 @@ Adetula,, Folasade Maya,---,folasade.adetula@mavs.uta.edu
 Adetula,, Michael,---,michael.adetula@mavs.uta.edu
 Adetula,, Moradeke,---,moradeke.adetula@mavs.uta.edu
 Adetula,, Reginald B,---,reginald.adetula@mavs.uta.edu
-Adhikari,, Monica,---,monica.adhikari@mavs.uta.edu
-Adhikari,, Nabin,---,nadhikari@mavs.uta.edu
-Adhikari,, Pradip,---,pradip.adhikari@mavs.uta.edu
-Adhikari,, Pramoj,---,pramoj.adhikari@mavs.uta.edu
-Adhikari,, Prashant,---,prashant.adhikari@mavs.uta.edu
-Adhikari,, Pratibha,---,pratibha.adhikari@mavs.uta.edu
-Adhikari,, Preston B,---,preston.adhikari@mavs.uta.edu
-Adhikari,, Rabin J,---,rabin.adhikari@mavs.uta.edu
-Adhikari,, Rajesh,---,rajesh.adhikari@mavs.uta.edu
-Adhikari,, Rakshya,---,rakshya.adhikari@mavs.uta.edu
-Adhikari,, Reni,---,reni.adhikari@mavs.uta.edu
-Adhikari,, Rita,---,rita.adhikari@mavs.uta.edu
+Adetunji,, Mariam E,---,mariam.adetunji@mavs.uta.edu
+Adetunji,, Mujidat Aderonke,---,mujidat.adetunji@mavs.uta.edu
+Adetunmbi,, Kayode Samuel,---,kayode.adetunmbi@mavs.uta.edu
+Adetutu,P,Adegun,---,adetutu.adegun@mavs.uta.edu
+Adetutu,, Adedotun T,---,adedotun.adetutu@mavs.uta.edu
+Adewale,,Arowolo,---,adewale.arowolo@mavs.uta.edu
+Adewale,, Michael Babalola,---,michael.adewale@mavs.uta.edu
+Adewole,, Anthonia,---,anthonia.adewole@mavs.uta.edu
+Adewole,, Omobandele,---,omobandele.adewole@mavs.uta.edu
+Adewole,, Roselyn,---,roselyn.aina@mavs.uta.edu
+Adewunmi,, Alexander I,---,alexander.adewunmi@mavs.uta.edu
+Adewunmi,, Victor A,---,victor.adewunmi@mavs.uta.edu
+Adewusi,, Adenike J,---,adenike.adewusi@mavs.uta.edu
+Adeyemi,, Abisola M,---,abisola.adeyemi@mavs.uta.edu
 Adhikari,, Samikshya,---,samikshya.adhikari@mavs.uta.edu
 Adhikari,, Saugat,---,saugat.adhikari@mavs.uta.edu
 Adhikari,, Shishir,---,shishir.adhikari@mavs.uta.edu
@@ -1549,7 +1546,7 @@ Aditi,,Gupta,---,aditi.gupta@mavs.uta.edu
 Aditi,J,Shinde,---,aditi.shinde@mavs.uta.edu
 Aditi,K,Patel,---,aditi.patel@mavs.uta.edu
 Aditi,S,Dabir,---,aditi.dabir@mavs.uta.edu
-Aditi,S,Deshpande,---,aditi.deshpande@mavs.uta.edu
+Aditi,S,Deshpande,---,---
 Aditi,,Shenoy,---,aditi.shenoy@mavs.uta.edu
 Aditi,,Singh,---,aditi.singh@mavs.uta.edu
 Aditi,V,Kane,---,aditi.kane@mavs.uta.edu
@@ -1570,20 +1567,18 @@ Aditya,kumar,Kasinadhuni,---,adityakumar.kasinadhuni@mavs.uta.edu
 Aditya,,Lohia,---,aditya.lohia@mavs.uta.edu
 Aditya,M,Vaze,---,aditya.vaze@mavs.uta.edu
 Aditya,,Muralidhar,---,aditya.muralidhar@mavs.uta.edu
-Adkins,, Rochelle D,---,rochelle.adkins@mavs.uta.edu
-Adkins,, Shanah June,---,shanah.adkins@mavs.uta.edu
-Adkins,, Shannon N,---,shannon.adkins@mavs.uta.edu
-Adkins,, Susan A,Accounting Technician,susan@exchange.uta.edu
-Adkins,, Tabitha Lerae,---,tabitha.adkins@mavs.uta.edu
-Adkins-Golightly,, Fronie Louise,---,fronie.adkins-golightly@mavs.uta.edu
-Adkinson,, Cynthia R,---,cynthia.adkinson@mavs.uta.edu
-Adkinson,, Kianna S,---,kianna.adkinson@mavs.uta.edu
-Adkison,, Jamie C,---,jamie.adkison@mavs.uta.edu
-Adkison,, Neil R,---,neil.adkison@mavs.uta.edu
-Adkisson,, Jacob B,---,jacob.adkisson@mavs.uta.edu
-Adlakha,, Amit,---,amit.adlakha@mavs.uta.edu
-Adle,, Mark B,---,mark.adle@mavs.uta.edu
-Adler,, Ashley Autumn,---,ashley.adler@mavs.uta.edu
+Aditya,,Padmala,---,aditya.padmala@mavs.uta.edu
+Aditya,R,Bhosale,---,aditya.bhosale@mavs.uta.edu
+Aditya,R,Kamble,---,aditya.kamble@mavs.uta.edu
+Aditya,raju,Indukuri,---,adityaraju.indukuri@mavs.uta.edu
+Aditya,S,Panshikar,---,aditya.panshikar@mavs.uta.edu
+Aditya,S,Prabhu,---,aprabhu@mavs.uta.edu
+Aditya,sai,Gundu,---,adityasai.gundu@mavs.uta.edu
+Aditya,,Sandala,---,aditya.sandala@mavs.uta.edu
+Aditya,,Singhal,---,aditya.singhal@mavs.uta.edu
+Aditya,Suresh,kumar,---,aditya.sureshkumar@mavs.uta.edu
+Aditya,,Tewari,---,aditya.tewari@mavs.uta.edu
+Aditya,,Thakkar,---,aditya.thakkar@mavs.uta.edu
 Adler,, Boaz N,---,boaz.adler@mavs.uta.edu
 Adler,, Dawn L,---,dawn.adler@mavs.uta.edu
 Adler,, Derek T,---,derek.adler@mavs.uta.edu
@@ -1664,19 +1659,20 @@ Adrian,M,Valadez,---,adrian.valadez@mavs.uta.edu
 Adrian,,Mares,---,adrian.mares@mavs.uta.edu
 Adrian,,Martinez,---,adrian.martinez5@mavs.uta.edu
 Adrian,,Mendoza,---,adrian.mendoza@mavs.uta.edu
-Adrianna,N,Hernandez,---,adrianna.hernandez@mavs.uta.edu
-Adrianna,Y,Medina,---,adrianna.medina@mavs.uta.edu
-Adrianne,C,Baroi,---,adrianne.baroi@mavs.uta.edu
-Adrianne,M,Sousa,---,adrianne.sousa@mavs.uta.edu
-Adriano,, Armando G,---,armando.adriano@mavs.uta.edu
-Adriel,B,Coppedge,---,adriel.coppedge@mavs.uta.edu
-Adriel,T,Afiesimama,---,adriel.afiesimama@mavs.uta.edu
-Adriene,D,Allen,---,adriene.allen@mavs.uta.edu
-Adrienna,L,Stevenson,---,adrienna.stevenson@mavs.uta.edu
-Adrienne,A,Costello,---,adrienne.costello@mavs.uta.edu
-Adrienne,A,Levi,---,adrienne.levi@mavs.uta.edu
-Adrienne,,Butcher,---,adrienne.butcher@mavs.uta.edu
-Adrienne,C,Aguren,---,adrienne.aguren@mavs.uta.edu
+Adrian,,Nunez,---,adrian.nunez@mavs.uta.edu
+Adrian,O,Minjares,---,adrian.minjares@mavs.uta.edu
+Adrian,P,Cantu,---,adrian.cantu@mavs.uta.edu
+Adrian,,Perales,---,adrian.perales@mavs.uta.edu
+Adrian,R,Rodriguez,---,adrianrrodriguez@mavs.uta.edu
+Adrian,,Rodriguez,---,adrian.rodriguez7@mavs.uta.edu
+Adrian,T,Kim,---,adrian.kim@mavs.uta.edu
+Adrian,T,Loree,---,adrian.loree@mavs.uta.edu
+Adrian,X,Ubaru,---,adrian.ubaru@mavs.uta.edu
+Adrian,, Mechele J,---,mechele.adrian@mavs.uta.edu
+Adrian,, Miguel A,---,miguel.adrian@mavs.uta.edu
+Adriana,A,Blanco,---,adriana.blanco@mavs.uta.edu
+Adriana,,Abad,---,adriana.abad@mavs.uta.edu
+Adriana,,Alvarez,---,adriana.alvarez@mavs.uta.edu
 Adrienne,C,Ash,---,adrienne.ash@mavs.uta.edu
 Adrienne,C,Moreno,---,adrienne.moreno@mavs.uta.edu
 Adrienne,D,Drake,---,adrienne.drake@mavs.uta.edu
@@ -1757,19 +1753,19 @@ Aery,, D'Vonte Keon,---,dvonte.aery@mavs.uta.edu
 Aery,, D'Vonte Keon,---,dvonte.aery@mavs.uta.edu
 Aery,, D'Vonte Keon,---,dvonte.aery@mavs.uta.edu
 Aery,, D'Vonte Keon,---,dvonte.aery@mavs.uta.edu
-Afshan,Jabeen Khatoon, Fn,---,fn.afshanjabeenkha@mavs.uta.edu
-Afshar,Bakeshloo, Khashayar,---,khashayar.afsharbakeshloo@mavs.uta.edu
-Afshar,Mohajer, Mahyar,---,mahyar.afsharmohajer@mavs.uta.edu
-Afshar,, Monika P,---,monika.afshar@mavs.uta.edu
-Afsheen,,Jamal,---,afsheen.jamal@mavs.uta.edu
-Afshin,,Hatami,---,afshin.hatami@mavs.uta.edu
-Afsoon,,Nicknam,---,afsoon.nicknam@mavs.uta.edu
-Aftab,, Zeeshan,---,zeeshan.aftab@mavs.uta.edu
-Aftuck,, Martin E,---,martin.aftuck@mavs.uta.edu
-Afulezi,, Chioma,---,chioma.afulezi@mavs.uta.edu
-Afzal,, Ameera Adil,---,ameera.afzal@mavs.uta.edu
-Afzal,, Hafsah A,---,hafsah.afzal@mavs.uta.edu
-Afzal,, Hasan Adil,---,hasan.afzal@mavs.uta.edu
+Aery,, D'Vonte Keon,---,dvonte.aery@mavs.uta.edu
+Aery,, D'Vonte Keon,---,dvonte.aery@mavs.uta.edu
+Aery,, D'Vonte Keon,---,dvonte.aery@mavs.uta.edu
+Aery,, D'Vonte Keon,---,dvonte.aery@mavs.uta.edu
+Aery,, D'Vonte Keon,---,dvonte.aery@mavs.uta.edu
+Aery,, D'Vonte Keon,---,dvonte.aery@mavs.uta.edu
+Aery,, D'Vonte Keon,---,dvonte.aery@mavs.uta.edu
+Aery,, D'Vonte Keon,---,dvonte.aery@mavs.uta.edu
+Aery,, D'Vonte Keon,---,dvonte.aery@mavs.uta.edu
+Aery,, D'Vonte Keon,---,dvonte.aery@mavs.uta.edu
+Aery,, D'Vonte Keon,---,dvonte.aery@mavs.uta.edu
+Aery,, D'Vonte Keon,---,dvonte.aery@mavs.uta.edu
+Aery,, D'Vonte Keon,---,dvonte.aery@mavs.uta.edu
 Agada,, Azu E,---,azu.agada@mavs.uta.edu
 Agada,, Chinyere A,---,chinyere.agada@mavs.uta.edu
 Agada,, Daniel Attai,---,daniel.agada@mavs.uta.edu
@@ -1849,18 +1845,19 @@ Agers,, Tommi B,---,tommi.agers@mavs.uta.edu
 Aggarwal,, Ankur,---,ankur.aggarwal@mavs.uta.edu
 Aggarwal,, Mohit,---,mohit.aggarwal@mavs.uta.edu
 Aggarwal,, Omar,---,omar.aggarwal@mavs.uta.edu
-Agor,, Jeremy S,DIRECTOR*,agor@uta.edu
-Agora,Moorthi, Lakshmi N,---,lakshmi.agoramoorthi@mavs.uta.edu
-Agorichas,, Katrina Leeann,---,katrina.webb@mavs.uta.edu
-Agoro,, Sherifat Oluwakemi,---,sherifat.agoro@mavs.uta.edu
-Agostino,, Rachel Louise,---,rachel.agostino@mavs.uta.edu
-Agosto,, Andres,---,andres.agosto@mavs.uta.edu
-Agpalo,, Aprilynn Arevalo,---,aprilynn.agpalo@mavs.uta.edu
-Agran,, Cara A,---,cara.agran@mavs.uta.edu
-Agrawal,, Abhinav,---,abhinav.agrawal@mavs.uta.edu
-Agrawal,, Abhishek,---,abhishek.agrawal@mavs.uta.edu
-Agrawal,, Aditi S,---,aditi.agrawal@mavs.uta.edu
-Agrawal,, Aditya,---,aditya.agrawal@mavs.uta.edu
+Aggarwal,, Surbhi,---,surbhi.aggarwal@mavs.uta.edu
+Aggas,, Selina N,---,selina.aggas@mavs.uta.edu
+Agger,, Ben,PROFESSOR,ben.agger@uta.edu
+Agger-Shelton,, Oliver D,---,oliver.agger-shelton@mavs.uta.edu
+Agger-shelton,, Sarah,---,sarah.aggershelton@mavs.uta.edu
+Aggor,, Eli Afua,---,eli.aggor@mavs.uta.edu
+Aggrey,, Fitnat,---,fitnat.aggrey@mavs.uta.edu
+Aggrey,, Johnathan,---,johnathan.aggrey@mavs.uta.edu
+Aggul,, Mustafa,---,mustafa.aggul@mavs.uta.edu
+Agha,, Charles,---,charles.agha@mavs.uta.edu
+Agha,, Mahnoor Muneer,---,mahnoor.agha@mavs.uta.edu
+Agha,, Sarah B,---,sarah.agha@mavs.uta.edu
+Agha,, Shahrukh Muneer,---,shahrukh.agha@mavs.uta.edu
 Agrawal,, Akshat,---,akshat.agrawal2@mavs.uta.edu
 Agrawal,, Ankit,---,ankit.agrawal@mavs.uta.edu
 Agrawal,, Ayush Manish,---,ayushmanish.agrawal@mavs.uta.edu
@@ -1940,16 +1937,18 @@ Aguero,, Sarah Jane,---,sarah.aguero@mavs.uta.edu
 Aguero,, Yvonne,---,yvonne.aguero@mavs.uta.edu
 Aguero-Chavez,, Israel,---,israel.aguero-chavez@mavs.uta.edu
 Agugua,, Augustine Onyewuchi,---,augustine.agugua@mavs.uta.edu
-Aguilar,, Erica,---,erica.aguilar@mavs.uta.edu
-Aguilar,, Erika Nicole,---,---
-Aguilar,, Ernest Anthony,---,ernest.aguilar@mavs.uta.edu
-Aguilar,, Esmeralda,---,esmeralda.aguilar@mavs.uta.edu
-Aguilar,, Esteban,---,esteban.aguilar@mavs.uta.edu
-Aguilar,, Eulona Cordova,---,eulona.aguilar@mavs.uta.edu
-Aguilar,, Fernando,---,fernando.aguilar@mavs.uta.edu
-Aguilar,, Francisco,---,francisco.aguilar@mavs.uta.edu
-Aguilar,, Gabino M,---,gabino.aguilar@mavs.uta.edu
-Aguilar,, Gabrielle N,---,gabrielle.aguilar@mavs.uta.edu
+Aguh,, Nancy,---,nancy.aguh@mavs.uta.edu
+Aguiar,, Cindy,---,cindy.aguiar@mavs.uta.edu
+Aguiar,, Jose Luis,---,jose.aguiar@mavs.uta.edu
+Aguiar,, Julia A,---,julia.aguiar@mavs.uta.edu
+Aguila,, Angel Arodi,---,angel.aguila@mavs.uta.edu
+Aguila,, Claudia A,---,claudia.aguila@mavs.uta.edu
+Aguila,, Laurel Eades,---,laurel.aguila@mavs.uta.edu
+Aguila,, Rosalys,---,rosalys.aguila@mavs.uta.edu
+Aguilar,Aquino, Bonifacio,---,bonifacio.aguilaraquino@mavs.uta.edu
+Aguilar,Barreiro, Nadina,---,nadina.aguilarbarreiro@mavs.uta.edu
+Aguilar,cuevas, Jessica,---,jessica.aguilarcuevas@mavs.uta.edu
+Aguilar,Duelos, Jason,---,jason.aguilarduelos@mavs.uta.edu
 Aguilar,, Gisselle,---,gisselle.aguilar@mavs.uta.edu
 Aguilar,, Graciela,---,graciela.aguilar@mavs.uta.edu
 Aguilar,, Iris Cruz,---,iris.aguilar@mavs.uta.edu
@@ -2030,14 +2029,16 @@ Aguilar-Leiva,, Wendy Lizeth,---,wendy.aguilar-leiva@mavs.uta.edu
 Aguilera,, Abigail,---,abigail.aguilera@mavs.uta.edu
 Aguilera,, Amanda J,---,amanda.aguilera@mavs.uta.edu
 Aguilera,, Anthony J,---,anthony.aguilera@mavs.uta.edu
-Aguirre,, Blanca,---,blanca.aguirre@mavs.uta.edu
-Aguirre,, Brandon J,---,brandon.aguirre@mavs.uta.edu
-Aguirre,, Carina F,---,carina.aguirre@mavs.uta.edu
-Aguirre,, Carly Joanna,---,carly.aguirre@mavs.uta.edu
-Aguirre,, Cesar Eduardo,---,cesar.aguirre@mavs.uta.edu
-Aguirre,, Christina A,---,christina.aguirre@mavs.uta.edu
-Aguirre,, Christopher M,---,christopher.aguirre@mavs.uta.edu
-Aguirre,, Clara,---,clara.aguirre@mavs.uta.edu
+Aguilera,, Cesar,---,cesar.aguilera@mavs.uta.edu
+Aguilera,, Claudia Andrea,---,claudia.aguilera@mavs.uta.edu
+Aguilera,, Daniel,---,daniel.aguilera@mavs.uta.edu
+Aguilera,, Efrain,---,efrain.aguilera@mavs.uta.edu
+Aguilera,, Geovanni Eddie,---,geovanni.aguilera@mavs.uta.edu
+Aguilera,, Jacob A,Police Cadet,jacoba@uta.edu
+Aguilera,, Jaime,---,jaime.aguilera@mavs.uta.edu
+Aguilera,, Jesus,---,jesus.aguilera@mavs.uta.edu
+Aguilera,, Joanna,---,joanna.aguilera@mavs.uta.edu
+Aguilera,, Jose L,---,jose.aguilera@mavs.uta.edu
 Aguirre,, Clarissa A,---,clarissa.aguirre@mavs.uta.edu
 Aguirre,, Dalia A,---,dalia.aguirre@mavs.uta.edu
 Aguirre,, David A,---,david.aguirre@mavs.uta.edu
@@ -2119,13 +2120,14 @@ Agustin,,Ramirez,---,agustin.ramirez@mavs.uta.edu
 Agustin,, Minerva,---,minerva.agustin@mavs.uta.edu
 Agustinus,, Hendra,---,hendra.agustinus@mavs.uta.edu
 Aguwa,, Kassidi D,---,kassidi.aguwa@mavs.uta.edu
-Ahmad,K,Abu-anbar,---,ahmad.abu-anbar@mavs.uta.edu
-Ahmad,K,Zughbar,---,---
-Ahmad,,Mohamad,---,ahmad.mohamad@mavs.uta.edu
-Ahmad,N,Albokhari,---,ahmad.albokhari@mavs.uta.edu
-Ahmad,N,Mohammad,---,ahmad.mohammad@mavs.uta.edu
-Ahmad,,Nassif,---,ahmad.nassif@mavs.uta.edu
-Ahmad,,Odeh,---,ahmad.odeh@mavs.uta.edu
+Aguwa,, Velmon,---,velmon.aguwa@mavs.uta.edu
+Agwagom,, Jennifer,---,jennifer.agwagom@mavs.uta.edu
+Agwagom,, Lynda I,---,lynda.agwagom@mavs.uta.edu
+Agwaife,, Beverly O,---,beverly.agwaife@mavs.uta.edu
+Agwaife,, Chioma R,---,chioma.agwaife@mavs.uta.edu
+Agwaife,, Stacy,---,stacy.agwaife@mavs.uta.edu
+Agwanihu,, Maryann Annette,---,maryann.agwanihu@mavs.uta.edu
+Agwaramgbo,, Kameshia C,---,kameshia.agwaramgbo@mavs.uta.edu
 Ahmad,,Rifai,---,ahmad.rifai@mavs.uta.edu
 Ahmad,S,Albaqsami,---,ahmad.albaqsami@mavs.uta.edu
 Ahmad,, Abdirashid H,---,abdirashid.ahmad@mavs.uta.edu
@@ -2193,30 +2195,27 @@ Ahmed,T,Cherif,---,ahmed.cherif@mavs.uta.edu
 Ahmed,T,Coulibaly,---,ahmed.coulibaly@mavs.uta.edu
 Ahmed,, Aaya F,---,aaya.ahmed@mavs.uta.edu
 Ahmed,, Abdelhameed M,---,abdelhameed.ahmed@mavs.uta.edu
-Ahmed,, Abdullahi Abdiwahab,---,abdullahi.ahmed@mavs.uta.edu
+Ahmed,, Abdullahi Abdiwahab,---,---
 Ahmed,, Afwan,---,afwan.ahmed@mavs.uta.edu
 Ahmed,, Afzal Uddin,---,afzal.ahmed@mavs.uta.edu
 Ahmed,, Ahmed A,---,ahmed.ahmed@mavs.uta.edu
 Ahmed,, Aiman Musa,---,aiman.ahmed@mavs.uta.edu
 Ahmed,, Ali M,---,ali.ahmed@mavs.uta.edu
 Ahmed,, Amidu A,---,amidu.ahmed@mavs.uta.edu
-Ahmed,, Aminah Maree,---,---
+Ahmed,, Aminah Maree,---,aminah.ahmed@mavs.uta.edu
 Ahmed,, Amran H,---,amran.ahmed@mavs.uta.edu
 Ahmed,, Anam A,---,anam.ahmed@mavs.uta.edu
 Ahmed,, Anas,---,anas.ahmed@mavs.uta.edu
 Ahmed,, Annus A,---,annus.ahmed@mavs.uta.edu
 Ahmed,, Armani,---,armani.ahmed@mavs.uta.edu
 Ahmed,, Ashef Kamal,---,ashef.ahmed@mavs.uta.edu
-Ahmed,, Sadia Ali,---,sadia.ahmed@mavs.uta.edu
-Ahmed,, Safwan,---,safwan.ahmed@mavs.uta.edu
-Ahmed,, Saif,---,saif.ahmed@mavs.uta.edu
-Ahmed,, Salman Aziz,---,salman.ahmed@mavs.uta.edu
-Ahmed,, Samer,---,samer.ahmed@mavs.uta.edu
-Ahmed,, Samie,---,samie.ahmed@mavs.uta.edu
-Ahmed,, Samrin,---,samrin.ahmed@mavs.uta.edu
-Ahmed,, Sara,---,sara.ahmed@mavs.uta.edu
-Ahmed,, Shabnam A,---,shabnam.ahmed@mavs.uta.edu
-Ahmed,, Shadman,---,shadman.ahmed@mavs.uta.edu
+Ahmed,, Asif,---,asif.ahmed0@mavs.uta.edu
+Ahmed,, Awais,---,awais.ahmed@mavs.uta.edu
+Ahmed,, Ayman,---,ayman.ahmed@mavs.uta.edu
+Ahmed,, Bilawal S,---,bilawal.ahmed@mavs.uta.edu
+Ahmed,, Chandrama,---,chandrama.ahmed@mavs.uta.edu
+Ahmed,, Deema Salih,---,deema.ahmed@mavs.uta.edu
+Ahmed,, Emran,---,emran.ahmed@mavs.uta.edu
 Ahmed,, Shaheer,---,shaheer.ahmed@mavs.uta.edu
 Ahmed,, Shahien A,---,shahien.ahmed@mavs.uta.edu
 Ahmed,, Shahina A,---,shahina.ahmed@mavs.uta.edu
@@ -2276,7 +2275,7 @@ Ahram,,Kim,---,ahram.kim@mavs.uta.edu
 Ahrend,, Eric Ryan,---,eric.ahrend@mavs.uta.edu
 Ahrenhold,, Amy Lyn,---,amy.ahrenhold@mavs.uta.edu
 Ahrens,, Branden J,---,branden.ahrens@mavs.uta.edu
-Ahrens,, Dayla Sue,---,dayla.ahrens@mavs.uta.edu
+Ahrens,, Dayla Sue,---,---
 Ahrens,, Elizabeth K,---,elizabeth.ahrens@mavs.uta.edu
 Ahrens,, Justin L,---,justin.ahrens@mavs.uta.edu
 Ahrens,, Lisa M,---,lisa.ahrens@mavs.uta.edu
@@ -2295,18 +2294,15 @@ Ahuja,, Suparna,---,suparna.ahuja@mavs.uta.edu
 Ahumada,, Arnulfo,---,arnulfo.ahumada@mavs.uta.edu
 Ahumada,, Bryan,---,bryan.ahumada@mavs.uta.edu
 Ahumada,, Evelyn,---,evelyn.ahumada@mavs.uta.edu
-Aimee,N,Followill,---,aimee.followill@mavs.uta.edu
-Aimee,,Pass,---,aimee.pass@mavs.uta.edu
-Aimee,,Ugarte,---,aimee.ugarte@mavs.uta.edu
-Aimee,, Nash N,---,nash.aimee@mavs.uta.edu
-Aimes,, Adrienne Linette,---,adrienne.aimes@mavs.uta.edu
-Aimes,, Christopher S,---,christopher.aimes@mavs.uta.edu
-Aimi,,Ito,---,aimi.ito@mavs.uta.edu
-Aimie,C,Garcia,---,aimie.garcia@mavs.uta.edu
-Ai-my,N,Tran,---,ai-my.tran@mavs.uta.edu
-Aina,, Stephanie,---,stephanie.aina@mavs.uta.edu
-Aina,, Tiffany,---,tiffany.aina@mavs.uta.edu
-Ainampudi,, Raviteja,---,raviteja.ainampudi@mavs.uta.edu
+Ahumada,, Ian Martin,---,ian.ahumada@mavs.uta.edu
+Ahumada,, Luz,---,luz.ahumada@mavs.uta.edu
+Ahumada,, Susan Bailey,---,susan.ahumada@mavs.uta.edu
+Ahuna,, Chinonso A,---,chinonso.ahuna@mavs.uta.edu
+Ahuta,, Wilkins,---,wilkins.ahuta@mavs.uta.edu
+Ahuyon,, Blanca Y,---,blanca.ahuyon@mavs.uta.edu
+Ahwinahwi,, Leroy S,---,leroy.ahwinahwi@mavs.uta.edu
+Ai,P,Dang tran,---,ai.dangtran@mavs.uta.edu
+Ai,, Qianxiang,---,qianxiang.ai@mavs.uta.edu
 Ainanshe,, Najma,---,najma.ainanshe@mavs.uta.edu
 Ainapurapu,, Anoop N,---,anoop.ainapurapu@mavs.uta.edu
 Ainsworth,, Aaron J,---,aaron.ainsworth@mavs.uta.edu
@@ -2381,19 +2377,18 @@ Ajalla,, Uchenna C,---,uchennachinoso.ajalla@mavs.uta.edu
 Ajamajebi,, Oluwabimpe O,---,oluwabimpe.ajamajebi@mavs.uta.edu
 Ajamian,, Diane H,---,diane.ajamian@mavs.uta.edu
 Ajang,D,Bior,---,ajang.bior@mavs.uta.edu
-Ajinkya,V,Somkuwar,---,ajinkya.somkuwar@mavs.uta.edu
-Ajit,A,Menge,---,ajit.menge@mavs.uta.edu
-Ajit,,Chakrapani,---,ajit.chakrapani@mavs.uta.edu
-Ajit,G,Balakrishnan kannan,---,ajit.balakrishnankannan@mavs.uta.edu
-Ajit,K,Rajak,---,ajit.rajak@mavs.uta.edu
-Ajit,Kumar, Abhilash,---,abhilash.ajitkumar@mavs.uta.edu
-Ajit,Kumar, Anju,---,anju.ajitkumar@mavs.uta.edu
-Ajit,nataraj,Chandrasekar,---,ajitnataraj.chandrasekar@mavs.uta.edu
-Ajit,P,Chavan,---,ajit.chavan@mavs.uta.edu
-Ajitha,,Prakasan,---,ajitha.prakasan@mavs.uta.edu
-Ajitpal,,Singh,---,ajitpal.singh@mavs.uta.edu
-Ajiwe,, Nneoma W,---,nneoma.ajiwe@mavs.uta.edu
-Ajjarani,Chandrappa, Ajith,---,ajith.ajjaranichandra@mavs.uta.edu
+Ajani,, Areesha A,---,areesha.ajani@mavs.uta.edu
+Ajani,, Falaknaaz Parwez,---,falaknaaz.ajani@mavs.uta.edu
+Ajani,, Sahil,---,sahil.ajani@mavs.uta.edu
+Ajani,, Sarah A,---,sarah.ajani@mavs.uta.edu
+Ajanoh,, Pelkins Mbacham,---,pelkins.ajanoh@mavs.uta.edu
+Ajanwachuku,, Margaret Ugwu,---,margaret.ajanwachuku@mavs.uta.edu
+Ajavon,, Cynthia Cecile Florenc,---,cynthia.ajavon@mavs.uta.edu
+Ajay,,Anthony,---,ajay.anthony@mavs.uta.edu
+Ajay,B,Mishra,---,ajay.mishra@mavs.uta.edu
+Ajay,,Balasubramanian,---,ajay.balasubramanian@mavs.uta.edu
+Ajay,,Chahar,---,ajay.chahar@mavs.uta.edu
+Ajay,Mahalinga,swamy,---,ajay.mahalingaswamy@mavs.uta.edu
 Ajjarapu,, Pranava Sowmya,---,pranavasowm.ajjarapu@mavs.uta.edu
 Ajlouni,, Akram S,---,akram.ajlouni@mavs.uta.edu
 Ajmani,, Shashwat,---,shashwat.ajmani@mavs.uta.edu
@@ -2424,7 +2419,7 @@ Akabusi,, Ikenna Stephen,---,ikenna.akabusi@mavs.uta.edu
 Akachukwu,, Chizoba Edith,---,chizoba.akachukwu@mavs.uta.edu
 Akadirimathys,, Elmourichid,---,elmourichid.akadirimathys@mavs.uta.edu
 Akaeke,, Ogochukwu E,---,ogochukwu.akaeke@mavs.uta.edu
-Aka-elloh,, Estelle-olivia,---,estelle.aka-elloh@mavs.uta.edu
+Aka-elloh,, Estelle-olivia,---,---
 Aka-elloh,, Guy martial xavier,---,guy.aka-elloh@mavs.uta.edu
 Akafzade,, Hussein,---,hussein.akafzade@mavs.uta.edu
 Akagha,, Chiekezi,---,chiekezi.akagha@mavs.uta.edu
@@ -2439,7 +2434,7 @@ Akaluso,, Nneamaka I,---,nneamaka.akaluso@mavs.uta.edu
 Akamnonu,, Anthony Ikechuwku,---,anthony.akamnonu@mavs.uta.edu
 Akamnonu,, John Chukwuemeka,---,john.akamnonu@mavs.uta.edu
 Akamnonu,, Patricia,---,patricia.akamnonu@mavs.uta.edu
-Akamo,, Ajibola I,---,---
+Akamo,, Ajibola I,---,ajibola.akamo@mavs.uta.edu
 Akamo,, Quadri Adewale,---,quadri.akamo@mavs.uta.edu
 Akamou,, Hamidat N'Cho J-D'A,---,hamidat.akamou@mavs.uta.edu
 Akamou,, Hamidat N'Cho J-D'A,---,hamidat.akamou@mavs.uta.edu
@@ -2466,6 +2461,34 @@ Akamou,, Hamidat N'Cho J-D'A,---,hamidat.akamou@mavs.uta.edu
 Akamou,, Hamidat N'Cho J-D'A,---,hamidat.akamou@mavs.uta.edu
 Akamou,, Hamidat N'Cho J-D'A,---,hamidat.akamou@mavs.uta.edu
 Akamou,, Hamidat N'Cho J-D'A,---,hamidat.akamou@mavs.uta.edu
+Akamou,, Hamidat N'Cho J-D'A,---,hamidat.akamou@mavs.uta.edu
+Akamou,, Hamidat N'Cho J-D'A,---,hamidat.akamou@mavs.uta.edu
+Akamou,, Hamidat N'Cho J-D'A,---,hamidat.akamou@mavs.uta.edu
+Akamou,, Hamidat N'Cho J-D'A,---,hamidat.akamou@mavs.uta.edu
+Akamou,, Hamidat N'Cho J-D'A,---,hamidat.akamou@mavs.uta.edu
+Akamou,, Hamidat N'Cho J-D'A,---,hamidat.akamou@mavs.uta.edu
+Akamou,, Hamidat N'Cho J-D'A,---,hamidat.akamou@mavs.uta.edu
+Akamou,, Hamidat N'Cho J-D'A,---,hamidat.akamou@mavs.uta.edu
+Akamou,, Hamidat N'Cho J-D'A,---,hamidat.akamou@mavs.uta.edu
+Akamou,, Hamidat N'Cho J-D'A,---,hamidat.akamou@mavs.uta.edu
+Akamou,, Hamidat N'Cho J-D'A,---,hamidat.akamou@mavs.uta.edu
+Akamou,, Hamidat N'Cho J-D'A,---,hamidat.akamou@mavs.uta.edu
+Akamou,, Hamidat N'Cho J-D'A,---,hamidat.akamou@mavs.uta.edu
+Akeeh,, Ignatius,---,ignatius.akeeh@mavs.uta.edu
+Akeem,S,Turnbull,---,akeem.turnbull@mavs.uta.edu
+Akeevia,Chutney,Jackson,---,akeevia.jackson@mavs.uta.edu
+Akeju,, Christopher F,---,christopher.akeju@mavs.uta.edu
+Akel,, Mahmud A,---,mahmud.akel@mavs.uta.edu
+Akele,, Steve Omorotionmwan,---,steve.akele@mavs.uta.edu
+Akella,, Bhanuprakash,---,bhanuprakash.akella@mavs.uta.edu
+Akenga,, Stephanie Bonareri,---,stephanie.akenga@mavs.uta.edu
+Akepati,, Pranay Reddy,---,pranayreddy.akepati@mavs.uta.edu
+Akere,, Akinwunmi A,---,akinwunmi.akere@mavs.uta.edu
+Akeredolu,, Adebola I,---,adebola.akeredolu@mavs.uta.edu
+Akerman,, Janett M,---,janett.akerman@mavs.uta.edu
+Akers,, Christopher M,---,christopher.akers@mavs.uta.edu
+Akers,, Donna L,DIRECTOR*,donna.akers@uta.edu
+Akers,, Erin P,---,erin.akers@mavs.uta.edu
 Akers,, Jeffrey Charles,---,jeffrey.akers@mavs.uta.edu
 Akers,, Nathan Joseph,---,nathan.akers@mavs.uta.edu
 Akers,, Timothy B,---,timothy.akers@mavs.uta.edu
@@ -2535,21 +2558,20 @@ Akin,, Ashley Elizabeth,---,ashley.akin@mavs.uta.edu
 Akin,, Cheryl A,---,cheryl.akin@mavs.uta.edu
 Akin,, Jessica Colleen,---,jessica.akin@mavs.uta.edu
 Akin,, Katherine,---,katherine.akin68@mavs.uta.edu
-Akin,, Kimberly Heather,---,kimberly.akin@mavs.uta.edu
-Akin,, Whitney Rae,---,whitney.akin@mavs.uta.edu
-Akinbola,, Morufat A,---,morufat.akinbola@mavs.uta.edu
-Akinbolu,, Latifa O,---,latifa.akinbolu@mavs.uta.edu
-Akinboro,, Akinbobola I,---,akinbobola.akinboro@mavs.uta.edu
-Akinde,, Adeola Anuoluwapo,---,adeola.akinde@mavs.uta.edu
-Akinde,, Omolola K,---,omolola.akinde@mavs.uta.edu
-Akindebe,, Olubunmi O,---,olubunmi.fagbamiye@mavs.uta.edu
-Akindele,, Yetunde Omo,---,yetunde.akindele@mavs.uta.edu
-Akindoju,, Kolawole Kayode,---,kolawole.akindoju@mavs.uta.edu
-Akindoju,, Tolulope Motunrayo,---,tolulope.akindoju@mavs.uta.edu
-Akinfolarin,, Olaide O,---,olaide.akinfolarin@mavs.uta.edu
-Akingbade,, Eunice,---,eunice.akingbade@mavs.uta.edu
-Akingbade,, Ireti,---,ireti.akingbade@mavs.uta.edu
-Akiniz,, Batur,---,batur.akiniz@mavs.uta.edu
+Akinyemi,, John patrick O,---,johnpatrick.akinyemi@mavs.uta.edu
+Akinyemi,, Omolade B,---,omolade.akinyemi@mavs.uta.edu
+Akinyemi,, Ryan Tiawo,---,ryan.akinyemi@mavs.uta.edu
+Akinyemi,, Stacy I,---,stacy.akinyemi@mavs.uta.edu
+Akinyeye,, Eric T,---,eric.akinyeye@mavs.uta.edu
+Akinyeye,, Mowa M,---,mowa.akinyeye@mavs.uta.edu
+Akinyi,, Irene Brenda,---,irene.akinyi@mavs.uta.edu
+Akinyode,, Olumayowa Taiwo,---,mayowa.akinyode@mavs.uta.edu
+Akinyode,, Omolewa Moyosore,---,omolewa.akinyode@mavs.uta.edu
+Akiotu,, Steven Asemokhai,---,steven.akiotu@mavs.uta.edu
+Akissi,fulberte,A Koffi,---,akissifulberte.koffi@mavs.uta.edu
+Akita,,Joshi,---,akita.joshi@mavs.uta.edu
+Akitoyi,, Keffil,---,keffil.akitoyi@mavs.uta.edu
+Akiyoshi,, Maiko,---,maiko.akiyoshi@mavs.uta.edu
 Akkad,, Rana H,---,rana.akkad@mavs.uta.edu
 Akkad,, Razan,---,razan.akkad@mavs.uta.edu
 Akkad,, Ruba H,---,ruba.akkad@mavs.uta.edu
@@ -2619,20 +2641,18 @@ Akshay,Mothakapalli,nagaraj,---,akshay.mothakapallinagaraj@mavs.uta.edu
 Akshay,,Mysore,---,akshay.mysore@mavs.uta.edu
 Akshay,N,Chhabria,---,akshay.chhabria@mavs.uta.edu
 Akshay,P,Joshi,---,ajoshi@mavs.uta.edu
-Akshay,,Pithia,---,akshay.pithia@mavs.uta.edu
-Akshay,R,Kathin,---,akshay.kathin@mavs.uta.edu
-Akshay,R,Pandit,---,akshay.pandit@mavs.uta.edu
-Akshay,R,Sharma,---,akshay.sharma@mavs.uta.edu
-Akshay,R,Wardhane,---,akshay.wardhane@mavs.uta.edu
-Akshay,S,Gajendragadkar,---,akshay.gajendragadkar@mavs.uta.edu
-Akshay,S,Joshi,---,akshaysjoshi@mavs.uta.edu
-Akshay,S,Nambiar,---,akshay.nambiar@mavs.uta.edu
-Akshay,S,Saravanan,---,akshay.saravanan@mavs.uta.edu
-Akshay,,Shah,---,akshay.shah@mavs.uta.edu
-Akshay,,Talwar,---,akshay.talwar@mavs.uta.edu
-Akshay,U,Bangale,---,akshay.bangale@mavs.uta.edu
-Akshay,,Udupa,---,akshay.udupa@mavs.uta.edu
-Akshay,,Vyas,---,akshay.vyas@mavs.uta.edu
+Akwitti,, Chioma Ijeoma,---,chioma.akwitti@mavs.uta.edu
+Akwitti,, Oswald Chuks,---,oswald.akwitti@mavs.uta.edu
+Akwo-Adelowo,, Michael Besong,---,michael.akwo-adelowo@mavs.uta.edu
+Akwugo,O,Akagha,---,akwugo.akagha@mavs.uta.edu
+Al,,Alam,---,al.alam@mavs.uta.edu
+Al,Ameen, Mahdi Nasrullah,---,mahdi.al-ameen@mavs.uta.edu
+Al,Aohaid, Mohammed Ibrahim,---,mohammed.alaohaid@mavs.uta.edu
+Al,Asadi, Mohammed F,---,mohammed.alasadi@mavs.uta.edu
+Al,Atoum, Ghaida Jalal,---,ghaida.alatoum@mavs.uta.edu
+Al,Attili, Rashid Tayseer,---,rashid.alattili@mavs.uta.edu
+Al,badwi, Wesam,---,wesam.albadwi@mavs.uta.edu
+Al,Bakhit, Zaid Ghaleb Sharari,---,zaid.albakhit@mavs.uta.edu
 Al,baqshi, Yousif M,---,yousif.albaqshi@mavs.uta.edu
 Al,bataish, Ahmad F,---,ahmad.albataish@mavs.uta.edu
 Al,benali, Khalid,---,khalidjamal.albenali@mavs.uta.edu
@@ -2680,4 +2700,2123 @@ Al,samman, Mhd B,---,mhd.alsamman@mavs.uta.edu
 Al,Shareef, Kinana,---,kinana.alshareef@mavs.uta.edu
 Al,Shareefi, Hazim Malik,---,hazimmalik.alshareefi@mavs.uta.edu
 Al,shokan, Mahdi J,---,mahdi.alshokan@mavs.uta.edu
-Al,Shouani, Shatha,---,shatha.a
+Al,Shouani, Shatha,---,shatha.alshouani@mavs.uta.edu
+Al,Shukoor, Mohammed M,---,mohammed.alshukoor@mavs.uta.edu
+Al,Smadi, Lara,---,lara.alsmadi@mavs.uta.edu
+Al,Zaitoun, Mr Bashar,---,bashar.alzaitoun@mavs.uta.edu
+Ala,N,Ahmad,---,ala.ahmad@mavs.uta.edu
+Ala',W,Alkhaldi,---,ala.alkhaldi@mavs.uta.edu
+Ala',W,Alkhaldi,---,ala.alkhaldi@mavs.uta.edu
+Ala',W,Alkhaldi,---,ala.alkhaldi@mavs.uta.edu
+Ala',W,Alkhaldi,---,ala.alkhaldi@mavs.uta.edu
+Ala',W,Alkhaldi,---,ala.alkhaldi@mavs.uta.edu
+Ala',W,Alkhaldi,---,ala.alkhaldi@mavs.uta.edu
+Ala',W,Alkhaldi,---,ala.alkhaldi@mavs.uta.edu
+Ala',W,Alkhaldi,---,ala.alkhaldi@mavs.uta.edu
+Ala',W,Alkhaldi,---,ala.alkhaldi@mavs.uta.edu
+Ala',W,Alkhaldi,---,ala.alkhaldi@mavs.uta.edu
+Ala',W,Alkhaldi,---,ala.alkhaldi@mavs.uta.edu
+Ala',W,Alkhaldi,---,ala.alkhaldi@mavs.uta.edu
+Ala',W,Alkhaldi,---,ala.alkhaldi@mavs.uta.edu
+Ala',W,Alkhaldi,---,ala.alkhaldi@mavs.uta.edu
+Ala',W,Alkhaldi,---,ala.alkhaldi@mavs.uta.edu
+Ala',W,Alkhaldi,---,ala.alkhaldi@mavs.uta.edu
+Ala',W,Alkhaldi,---,ala.alkhaldi@mavs.uta.edu
+Ala',W,Alkhaldi,---,ala.alkhaldi@mavs.uta.edu
+Alali,, Mohammed,---,mohammed.alali@mavs.uta.edu
+Alalkim,Alzaabi, Ammar Hassan,---,ammar.alalkimalzaabi@mavs.uta.edu
+Alalla,, Sandeep R,---,sandeep.alalla@mavs.uta.edu
+Alaluf,Liebling, Maia,---,maia.alalufliebling@mavs.uta.edu
+Alam,, Ali,---,ali.alam@mavs.uta.edu
+Alam,, Areeba,---,areeba.alam@mavs.uta.edu
+Alam,, Areesha,---,areesha.alam@mavs.uta.edu
+Alam,, Asad,---,asad.alam@mavs.uta.edu
+Alam,, Asfandyar,---,asfandyar.alam@mavs.uta.edu
+Alam,, Avais,---,avais.alam@mavs.uta.edu
+Alam,, Jawed,---,jawed.alam@mavs.uta.edu
+Alam,, K.f. I,---,k.alam@mavs.uta.edu
+Alam,, Kazi M,---,kazimohammadmonirul.alam@mavs.uta.edu
+Alam,, Mariam,---,mariam.alam@mavs.uta.edu
+Alam,, Maryam,---,maryam.alam@mavs.uta.edu
+Alam,, Md Jobair Bin,---,mdjobair.alam@mavs.uta.edu
+Alam,, Md Shahriar Al,---,mdshahriar.alam@mavs.uta.edu
+Alam,, Md Zahangir,---,mdzahangir.alam@mavs.uta.edu
+Alam,, Md. Zahidul,---,malam@mavs.uta.edu
+Alam,, Mohammad Jahangir,---,mohammadjalam@mavs.uta.edu
+Alam,, Mohammed R,---,mohammed.alam@mavs.uta.edu
+Alam,, Mustafa N,---,mustafa.alam@mavs.uta.edu
+Alam,, Rafiul,---,rafiul.alam@mavs.uta.edu
+Alam,, Sayera Aniqa,---,sayera.alam@mavs.uta.edu
+Alam,, Shahriar Nashad,---,shahriar.alam@mavs.uta.edu
+Alam,, Shuvrima,---,shuvrima.alam@mavs.uta.edu
+Alam,, Tasnia Naz,---,tasnia.alam@mavs.uta.edu
+Alam,, Zaima Momo,---,zaima.alam@mavs.uta.edu
+Alam,, Zeenat S,---,zeenat.alam@mavs.uta.edu
+Alam,, Zoia I,---,zoia.alam@mavs.uta.edu
+Al-amasi,, Omar,---,omar.al-amasi@mavs.uta.edu
+Alameda,, Don Miguel,---,don.alameda@mavs.uta.edu
+Alameda,, William R,---,william.alameda@mavs.uta.edu
+Alameddin,, Najia,---,najia.alameddin@mavs.uta.edu
+Alameddin,, Nora,---,nora.alameddin@mavs.uta.edu
+Alameddin,, Omar,---,omar.alameddin@mavs.uta.edu
+Alameen,, Tanita Tasneem,---,tanita.alameen@mavs.uta.edu
+Alameri,, Saleh M,---,saleh.alameri@mavs.uta.edu
+Alameri,, Yamama W,---,yamama.alameri@mavs.uta.edu
+Alamgir,, Farhan,---,farhan.alamgir@mavs.uta.edu
+Alami,, Sameh A,Accountant II,alami@exchange.uta.edu
+Alamia,, Arlette Abigail,---,arlette.hinojosa@mavs.uta.edu
+Alamilla,, Cesar,---,cesar.alamilla@mavs.uta.edu
+Alammary,, Barig,---,barig.alammary@mavs.uta.edu
+Alammary,, Shay,---,shay.alammary@mavs.uta.edu
+Alamoodi,, Mohammed Omar,---,mohammed.alamoodi@mavs.uta.edu
+Alamos,, Daniel E,---,daniel.alamos@mavs.uta.edu
+Alampally,, Kishore,---,kishore.alampally@mavs.uta.edu
+Alamprese,, Erica Lynn,---,erica.alamprese@mavs.uta.edu
+Alamrew,, Debritu,---,debritu.alamrew@mavs.uta.edu
+Alamri,, Hussain A,---,hussain.alamri@mavs.uta.edu
+Alamri,, Mohammed S,---,mohammed.alamri@mavs.uta.edu
+Alamuru,, Venkata Sathya Aparanjitha,---,aparanjitha.alamuru@mavs.uta.edu
+Alan,A,Davis,---,alan.davis@mavs.uta.edu
+Alan,A,Hernandez,---,alan.hernandez@mavs.uta.edu
+Alan,A,Kirkland,---,alan.kirkland@mavs.uta.edu
+Alan,A,Ramirez,---,alan.ramirez@mavs.uta.edu
+Alan,,Comple,---,alan.comple@mavs.uta.edu
+Alan,D,Cox,---,alan.cox@mavs.uta.edu
+Alan,D,De anda,---,alan.deanda@mavs.uta.edu
+Alan,D,Halter,---,alan.halter@mavs.uta.edu
+Alan,D,Williams,---,alan.williams@mavs.uta.edu
+Alan,F,Oseguera,---,alan.oseguera@mavs.uta.edu
+Alan,G,Cuellar,---,alan.cuellar@mavs.uta.edu
+Alan,J,Anthony,---,alan.anthony@mavs.uta.edu
+Alan,J,Chen,---,alan.chen@mavs.uta.edu
+Alan,J,Lennard,---,alan.lennard@mavs.uta.edu
+Alan,J,Winters,---,alan.winters@mavs.uta.edu
+Alan,K,Banks,---,alan.banks@mavs.uta.edu
+Alan,,Koshy,---,alan.koshy@mavs.uta.edu
+Alan,L,Berryman,---,alan.berryman@mavs.uta.edu
+Alan,L,Gonzalez,---,alan.gonzalez@mavs.uta.edu
+Alan,L,Moore,---,alan.moore@mavs.uta.edu
+Alan,,Lloyd,---,alan.lloyd@mavs.uta.edu
+Alan,,Lomelin,---,alan.lomelin@mavs.uta.edu
+Alan,,Ly,---,alan.ly@mavs.uta.edu
+Alan,M,Falleur,---,alan.falleur@mavs.uta.edu
+Alan,M,Gregory,---,alan.gregory@mavs.uta.edu
+Alan,M,Hayes,---,alan.hayes@mavs.uta.edu
+Alan,M,Reis,---,alan.reis@mavs.uta.edu
+Alan,M,Rodriguez,---,alan.rodriguez@mavs.uta.edu
+Alapati,, Anuja,---,anuja.alapati@mavs.uta.edu
+Alapati,, Mouli Naga Venkata Siva Sandeep,---,moulinv.alapati@mavs.uta.edu
+Alapati,, Priytam,---,priytam.alapati@mavs.uta.edu
+Alaquinez,, Destiny N,---,destiny.alaquinez@mavs.uta.edu
+Alaraj,, Sami,---,sami.alaraj@mavs.uta.edu
+Alaran,, Yasmin Ayoka,---,yasmin.alaran@mavs.uta.edu
+Alarape,, Adetoun Oluwatobi,---,adetoun.alarape@mavs.uta.edu
+Alarcon,, Abraham,---,abraham.alarcon@mavs.uta.edu
+Alarcon,, Alexa,---,alexa.alarcon@mavs.uta.edu
+Alarcon,, Andrew S,---,andrew.alarcon@mavs.uta.edu
+Alarcon,, Daisy Y,---,daisy.alarcon@mavs.uta.edu
+Alarcon,, Edward R,---,edward.alarcon@mavs.uta.edu
+Alarcon,, Flora,---,flora.alarcon@mavs.uta.edu
+Alarcon,, Jose M,---,jose.alarcon@mavs.uta.edu
+Alarcon,, Mary Lee,---,mary.alarcon@mavs.uta.edu
+Al-areek,, Yoseph A,---,yoseph.al-areek@mavs.uta.edu
+Alas,, Amanda Eunice,---,amanda.alasramos@mavs.uta.edu
+Alas,, Brian S,---,brian.alas@mavs.uta.edu
+Alaseye,K,Yero,---,alaseye.yero@mavs.uta.edu
+Alasiri,, Yazeed A,---,yazeed.alasiri@mavs.uta.edu
+Alasmari,, Abdullah,---,abdullah.alasmari@mavs.uta.edu
+Alasory,,Traore,---,alasory.traore@mavs.uta.edu
+Alassaf,, Ibrahim Mansour,---,ibrahim.alassaf@mavs.uta.edu
+Al-Assi,, Dana,---,dana.al-assi@mavs.uta.edu
+Al-Assi,, Kenda,---,kenda.al-assi@mavs.uta.edu
+Alasty,, Mohsen,---,mohsen.alasty@mavs.uta.edu
+Alateibi,, Nayef A,---,nayef.alateibi@mavs.uta.edu
+Alatise,, Dasola Sherifat,---,dasola.alatise@mavs.uta.edu
+Alatishe,, Murtadha A,---,murtadha.alatishe@mavs.uta.edu
+Alatorre,, Alexander J,---,alexander.alatorre@mavs.uta.edu
+Alatrash,, Nagham,---,nagham.alatrash@mavs.uta.edu
+Alattas,, Abdullah H,---,abdullah.alattas@mavs.uta.edu
+Alattas,, Ahmed H,---,ahmedhamza.alattas@mavs.uta.edu
+Alattas,, Amin O,---,amin.alattas@mavs.uta.edu
+Al-attas,, Omar H,---,omar.al-attas@mavs.uta.edu
+Alattry,, Amany A,---,amany.alattry@mavs.uta.edu
+Alava,, Amber B,---,amber.alava@mavs.uta.edu
+Alava,, Christa B,---,christa.alava@mavs.uta.edu
+Alavalapadu,, Aparna,---,aparna.alavalapadu@mavs.uta.edu
+Alavalapati,, Karthikreddy,---,karthikreddy.alavalapati@mavs.uta.edu
+Alavi,, Ashley B,---,ashley.alavi@mavs.uta.edu
+Alavi,, Hoda,---,hoda.alavi@mavs.uta.edu
+Alavi,, Jennifer Jill,---,jennifer.alavi@mavs.uta.edu
+Alavi,, Kambiz,PROFESSOR,alavi@exchange.uta.edu
+Alavi,, Kiana,---,kiana.alavi@mavs.uta.edu
+Alavi,, Mojtaba,---,mojtaba.alavi@mavs.uta.edu
+Alavi,, Seyed Mohamd Hadi,---,seyedmohamd.alavi@mavs.uta.edu
+Alavi,, Tara,---,tara.alavi@mavs.uta.edu
+Alavi,, Zachros H,---,zachros.alavi@mavs.uta.edu
+Alawadat,, Rami M,IT SYSTEM MANAGER II,rami@uta.edu
+Alawadat,, Tatiana Mikhailovna,---,tatiana.koptseva@mavs.uta.edu
+Al-awadi,, Sarah,---,sarah.al-awadi@mavs.uta.edu
+Alawaji,, Musaab A,---,musaab.alawaji@mavs.uta.edu
+Alawi,, Aoday Hatem,---,aoday.alawi@mavs.uta.edu
+Alayna,M,Fritz,---,alayna.fritz@mavs.uta.edu
+Alayshi,, Hajari A,---,hajari.alayshi@mavs.uta.edu
+Al-azemi,, Rashed,---,rashed.al-azemi@mavs.uta.edu
+Al'Aziz,, Kosg,---,malik.aziz@mavs.uta.edu
+Al'Aziz,, Kosg,---,malik.aziz@mavs.uta.edu
+Al'Aziz,, Kosg,---,malik.aziz@mavs.uta.edu
+Al'Aziz,, Kosg,---,malik.aziz@mavs.uta.edu
+Al'Aziz,, Kosg,---,malik.aziz@mavs.uta.edu
+Al'Aziz,, Kosg,---,malik.aziz@mavs.uta.edu
+Al'Aziz,, Kosg,---,malik.aziz@mavs.uta.edu
+Al'Aziz,, Kosg,---,malik.aziz@mavs.uta.edu
+Al'Aziz,, Kosg,---,malik.aziz@mavs.uta.edu
+Al'Aziz,, Kosg,---,malik.aziz@mavs.uta.edu
+Al'Aziz,, Kosg,---,malik.aziz@mavs.uta.edu
+Al'Aziz,, Kosg,---,malik.aziz@mavs.uta.edu
+Al'Aziz,, Kosg,---,malik.aziz@mavs.uta.edu
+Al'Aziz,, Kosg,---,malik.aziz@mavs.uta.edu
+Al'Aziz,, Kosg,---,malik.aziz@mavs.uta.edu
+Al'Aziz,, Kosg,---,malik.aziz@mavs.uta.edu
+Al'Aziz,, Kosg,---,malik.aziz@mavs.uta.edu
+Al'Aziz,, Kosg,---,malik.aziz@mavs.uta.edu
+Al'Aziz,, Kosg,---,malik.aziz@mavs.uta.edu
+Al'Aziz,, Kosg,---,malik.aziz@mavs.uta.edu
+Al'Aziz,, Kosg,---,malik.aziz@mavs.uta.edu
+Al'Aziz,, Kosg,---,malik.aziz@mavs.uta.edu
+Al'Aziz,, Kosg,---,malik.aziz@mavs.uta.edu
+Albert,Y,Song,---,albert.song@mavs.uta.edu
+Albert,,Yih,---,albert.yih@mavs.uta.edu
+Albert,, Chad B,---,chad.albert@mavs.uta.edu
+Albert,, Deborah Gail,---,deborah.albert@mavs.uta.edu
+Albert,, Devon Nichole,---,devon.albert@mavs.uta.edu
+Albert,, Gessica K,Activity Assistant II,galbert@uta.edu
+Albert,, Herbert Eric,---,herbert.albert@mavs.uta.edu
+Albert,, Jason Joe,---,jason.albert@mavs.uta.edu
+Albert,, Kristyn Ann,---,kristyn.albert@mavs.uta.edu
+Albert,, Melissa A,---,melissa.albert@mavs.uta.edu
+Albert,, Rebecca Ann,---,rebecca.albert@mavs.uta.edu
+Albert,, Thomas T,---,albert.thomas@mavs.uta.edu
+Albert,, Zaida Rosa,---,zaida.albert@mavs.uta.edu
+Alberti,, Michael J,---,michael.alberti@mavs.uta.edu
+Alberti,, Thomas Sheldon,---,thomas.alberti@mavs.uta.edu
+Alberto,,Armijo,---,alberto.armijo@mavs.uta.edu
+Alberto,,Barrera,---,alberto.barrera@mavs.uta.edu
+Alberto,C,Huerta,---,alberto.huerta@mavs.uta.edu
+Alberto,Camacho,quevedo,---,alberto.camacho@mavs.uta.edu
+Alberto,,Cruz,---,alberto.cruz@mavs.uta.edu
+Alberto,De,la cruz,---,alberto.delacruz@mavs.uta.edu
+Alberto,,Garcia,---,alberto.garcia48@mavs.uta.edu
+Alberto,,Gonzalez,---,alberto.gonzalez@mavs.uta.edu
+Alberto,,Hurtado,---,alberto.hurtado@mavs.uta.edu
+Alberto,J,Luna,---,alberto.luna@mavs.uta.edu
+Alberto,,Lopez,---,alberto.lopez@mavs.uta.edu
+Alberto,,Martinez,---,alberto.martinez@mavs.uta.edu
+Alberto,,Muratalla,---,alberto.muratalla@mavs.uta.edu
+Alberto,N,Reyesmarquez,---,alberto.reyesmarquez@mavs.uta.edu
+Alberto,,Ramirez,---,alberto.ramirez@mavs.uta.edu
+Alberto,,Rodriguez,---,alberto.rodriguez@mavs.uta.edu
+Alberto,,Ruiz,---,alberto.ruiz@mavs.uta.edu
+Alberto,,Sandoval,---,alberto.sandoval@mavs.uta.edu
+Alberto,,Veliz,---,alberto.veliz@mavs.uta.edu
+Alberto,, Carl joseph I,---,carljoseph.alberto@mavs.uta.edu
+Alberto,, Dennis A,---,dennis.alberto@mavs.uta.edu
+Alberto,, Giovanni,---,giovanni.alberto@mavs.uta.edu
+Alberto,, Monica S,---,monica.alberto@mavs.uta.edu
+Alberto,, Nico Delacruz,---,nico.alberto@mavs.uta.edu
+Albertson,, Stephanie Christine,---,stephanie.albertson@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alberty,, D'Mario,---,dmario.alberty@mavs.uta.edu
+Alcala,, Ezequiel,---,ezequiel.alcala@mavs.uta.edu
+Alcala,, Jesus M,---,jesus.alcala@mavs.uta.edu
+Alcala,, Joe E,---,joe.alcala@mavs.uta.edu
+Alcala,, Jose M,---,jose.alcala@mavs.uta.edu
+Alcala,, Mark Daniel,---,mark.alcala@mavs.uta.edu
+Alcala,, Patricia,---,patricia.alcala@mavs.uta.edu
+Alcala,, Selene A,---,selene.alcala@mavs.uta.edu
+Alcala,, Sergio,---,sergio.alcala@mavs.uta.edu
+Alcala,, Sofia,---,sofia.hernandez@mavs.uta.edu
+Alcala,, Stephen Batey,---,stephen.alcala@mavs.uta.edu
+Alcala,, William Joseph,---,william.alcala@mavs.uta.edu
+Alcalan,, Fredrick B,---,fredrick.alcalan@mavs.uta.edu
+Alcalan,, Joshua A,---,joshua.alcalan@mavs.uta.edu
+Alcantar,, Alyssa Lynn,---,alyssa.alcantar@mavs.uta.edu
+Alcantar,, David,---,david.alcantar@mavs.uta.edu
+Alcantar,, Esmeralda,---,esmeralda.alcantar@mavs.uta.edu
+Alcantar,, Jose Andres,---,jose.alcantar@mavs.uta.edu
+Alcantar,, Nathalie J,---,nathalie.alcantar@mavs.uta.edu
+Alcantar,, Omar,---,omar.alcantar@mavs.uta.edu
+Alcantar,, Ryan J,---,ryan.alcantar@mavs.uta.edu
+Alcantara,, Daisy,---,daisy.alcantara@mavs.uta.edu
+Alcantara,, Johonny R,---,johonny.alcantara@mavs.uta.edu
+Alcaraz,, Crystal Deann,---,crystal.alcaraz@mavs.uta.edu
+Alcaraz,, Edgar E,---,edgar.alcaraz@mavs.uta.edu
+Alcaraz,, Jose Jesus,---,jose.alcaraz@mavs.uta.edu
+Alcaraz,, Kristen N,---,kristen.alcaraz@mavs.uta.edu
+Alcaraz,, Rodrigo,---,rodrigo.alcaraz@mavs.uta.edu
+Alcaraz,, Ruth Priscilla,---,ruth.alcaraz@mavs.uta.edu
+Alcaraz,, Sandy,---,sandy.alcaraz@mavs.uta.edu
+Alcaraz,, Scott P,---,scott.alcaraz@mavs.uta.edu
+Alcas,, Liliana Rocio,---,liliana.alcas@mavs.uta.edu
+Alcasey,, Sofia F,---,sofia.alcasey@mavs.uta.edu
+Alcazar,, Dayana M,---,dayana.alcazar@mavs.uta.edu
+Alcazar,, Gerard Antho Pamintuan,---,gerardantho.alcazar@mavs.uta.edu
+Alcazar,, Gustavo,---,gustavo.alcazar@mavs.uta.edu
+Alcazar,, Michael L,---,michael.alcazar@mavs.uta.edu
+Alcazar,, Veronica R,---,veronica.alcazar@mavs.uta.edu
+Alce,, Mona,---,mona.alce@mavs.uta.edu
+Alcibar,, Susan,---,susan.alcibar@mavs.uta.edu
+Alcivar,, Aileen Rachel,---,aileen.alcivar@mavs.uta.edu
+Alcivar,, Saily Michelle,---,saily.alcivar@mavs.uta.edu
+ALCO,,,---,alco@mavs.uta.edu
+Alcocer,, Christian Russell,---,christian.alcocer@mavs.uta.edu
+Alcocer,, Fernando G,---,fernando.alcocer@mavs.uta.edu
+Alcocer,, Jocelyne,---,jocelyne.alcocer@mavs.uta.edu
+Alcocer,, Joseph M,---,joseph.alcocer@mavs.uta.edu
+Alcock,, Angelle Anne,---,---
+Alcodray,, Amal,---,amal.alcodray@mavs.uta.edu
+Alcordo,, Kimberly,---,kimberly.alcordo@mavs.uta.edu
+Alcorn,, Ashley K,---,aalcorn@mavs.uta.edu
+Alcorn,, Brittinie Nicole,---,brittinie.alcorn@mavs.uta.edu
+Alcorn,, Corin Joy,---,corin.alcorn@mavs.uta.edu
+Alcorn,, Jessica L,---,jessica.alcorn@mavs.uta.edu
+Alcorn,, Kathryn B,---,kathryn.alcorn@mavs.uta.edu
+Alcorn,, Michelle Cherie,---,michelle.alcorn@mavs.uta.edu
+Alcorn,, Patricia Jo,---,patricia.alcorn@mavs.uta.edu
+Alcorn,, Ross C,---,ross.alcorn@mavs.uta.edu
+Alcorn,, Shae O,---,shae.alcorn@mavs.uta.edu
+Alcorn-Lewis,, Larna,---,larna.alcorn-lewis@mavs.uta.edu
+Alcorta,, Brisa E,---,brisa.alcorta@mavs.uta.edu
+Alcorta,, Diana,---,diana.alcorta@mavs.uta.edu
+Alcorta,, Laura L,---,laura.alcorta@mavs.uta.edu
+Alcorta,, Michelle N,---,michelle.alcorta@mavs.uta.edu
+Alcorta,, Sofia,---,sofia.alcorta@mavs.uta.edu
+Alcoser,, Loretta A,---,loretta.alcoser@mavs.uta.edu
+Alcover,, Amanda R,---,amanda.migura@mavs.uta.edu
+Alcozer,, Lissete April,---,lissete.alcozer@mavs.uta.edu
+Alcudia,, Angel Adriel,---,aalcudia@mavs.uta.edu
+Alcudia,, Angel J,---,angel.alcudia@mavs.uta.edu
+Aldaba,, Adolfo,---,adolfo.aldaba@mavs.uta.edu
+Aldaba,, Ana Maria,---,ana.aldaba@mavs.uta.edu
+Aldaba,, Loudethzel,---,loudethzel.aldaba@mavs.uta.edu
+Aldabaja,, Ali a,---,ali.aldabaja@mavs.uta.edu
+AlDabbas,, Omar Nadeem Abdel Rahman,---,omar.aldabbas@mavs.uta.edu
+Aldaco,, Amee Lauree,---,amee.aldaco@mavs.uta.edu
+Aldaco,, Katey,---,katey.aldaco@mavs.uta.edu
+Aldaco,, Wendy,---,wendy.aldaco@mavs.uta.edu
+Aldaham,, Abdulaziz A,---,abdulaziz.aldaham@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Mario A,---,mario.aldrete@mavs.uta.edu
+Aldrete,, Sasha G,---,---
+Aldrich,, Anna Marie,---,anna.aldrich@mavs.uta.edu
+Aldrich,, Lauren Elizabeth,---,lauren.aldrich@mavs.uta.edu
+Aldridge,, Amber Linn,---,amber.aldridge@mavs.uta.edu
+Aldridge,, Anne M,---,anne.aldridge@mavs.uta.edu
+Aldridge,, Aprill Y,---,aprill.aldridge@mavs.uta.edu
+Aldridge,, Davetta L,---,davetta.aldridge@mavs.uta.edu
+Aldridge,, Donna C,---,donna.aldridge@mavs.uta.edu
+Aldridge,, Heidi A,---,heidi.aldridge@mavs.uta.edu
+Aldridge,, Henderson,---,henderson.aldridge@mavs.uta.edu
+Aldridge,, Jasmin D,---,jasmin.aldridge@mavs.uta.edu
+Alejandra,G,Nevarez-velasquez,---,alejandra.nevarez-velasquez@mavs.uta.edu
+Alejandra,G,Rodriguez,---,alejandragrodriguez@mavs.uta.edu
+Alejandra,,Galvan,---,alejandra.galvan@mavs.uta.edu
+Alejandra,,Gandara,---,alejandra.gandara@mavs.uta.edu
+Alejandra,,Gonzalez,---,alejandra.gonzalez19@mavs.uta.edu
+Alejandra,,Guerrero,---,alejandra.guerrero@mavs.uta.edu
+Alejandra,,Guzman,---,alejandra.guzman@mavs.uta.edu
+Alejandra,,Hernandez,---,alejandra.hernandez49@mavs.uta.edu
+Alejandra,,Huerta,---,alejandra.huerta@mavs.uta.edu
+Alejandra,I,Sustaita,---,alejandra.sustaita@mavs.uta.edu
+Alejandra,J,Arellao,---,alejandra.arellao@mavs.uta.edu
+Alejandra,,Juarez,---,alejandra.juarez@mavs.uta.edu
+Alejandra,L,Hernandez,---,alejandra.hernandez@mavs.uta.edu
+Alejandra,,Lucio,---,alejandra.lucio@mavs.uta.edu
+Alejandra,M,Hill,---,alejandra.hill@mavs.uta.edu
+Alejandra,M,Marma-gutierrez,---,alejandra.marma-gutierrez@mavs.uta.edu
+Alejandra,M,Palomo,---,alejandra.palomo@mavs.uta.edu
+Alejandra,M,Rodarte,---,alejandra.rodarte@mavs.uta.edu
+Alejandra,M,Villegas,---,alejandra.villegas@mavs.uta.edu
+Alejandra,,Martinez,---,alejandra.martinez78@mavs.uta.edu
+Alejandra,,Medina,---,alejandra.medina@mavs.uta.edu
+Alejandra,N,Nieto,---,alejandra.nieto@mavs.uta.edu
+Alejandra,,Nevarez,---,alejandra.nevarez@mavs.uta.edu
+Alejandra,,Newell,---,alejandra.newell@mavs.uta.edu
+Alejandra,P,Avenia,---,alejandra.avenia@mavs.uta.edu
+Alejandra,,Quevedo,---,alejandra.quevedo@mavs.uta.edu
+Alejandra,S,Gonzalez,---,alejandrasgonzalez@mavs.uta.edu
+Alejandra,S,Ibarra-alvarez,---,alejandra.ibarra-alvarez@mavs.uta.edu
+Alejandra,,Sanchez,---,alejandra.sanchez@mavs.uta.edu
+Alejandra,V,Ortiz,---,alejandravortiz@mavs.uta.edu
+Alejandra,,Valencia,---,alejandra.valencia@mavs.uta.edu
+Alejandrda,,Terrazas,---,alejandrda.terrazas@mavs.uta.edu
+Alejandre,, Kimberly,---,kimberly.alejandre@mavs.uta.edu
+Alejandrina,,Aguirre,---,alejandrina.aguirre@mavs.uta.edu
+Alejandrina,,Cruz,---,alejandrina.cruz@mavs.uta.edu
+Alejandrio,G,Vasay,---,alejandrio.vasay@mavs.uta.edu
+Alejandro,A,Lozano,---,alejandroalozano@mavs.uta.edu
+Alejandro,,Alarcon,---,alejandro.alarcon@mavs.uta.edu
+Alejandro,,Ballin,---,alejandro.ballin@mavs.uta.edu
+Alejandro,,Becerra,---,alejandro.becerra@mavs.uta.edu
+Alejandro,,Cruz,---,alejandro.cruz29@mavs.uta.edu
+Alejandro,Davila,murra,---,alejandro.davilamurra@mavs.uta.edu
+Alejandro,,Eguizabal,---,alejandro.eguizabal@mavs.uta.edu
+Alejandro,,Esquivel-oliveros,---,alejandro.esquivel-oliveros@mavs.uta.edu
+Alejandro,,Hernandez,---,alejandro.hernandez@mavs.uta.edu
+Alejandro,J,Cano,---,alejandro.cano@mavs.uta.edu
+Alejandro,J,Ramirez,---,alejandrojramirez@mavs.uta.edu
+Alejandro,,Lopez,---,alejandro.lopez@mavs.uta.edu
+Alejandro,M,Ugarte,---,alejandro.ugarte@mavs.uta.edu
+Alejandro,,Maciel,---,alejandro.maciel@mavs.uta.edu
+Alejandro,,Medina,---,alejandro.medina@mavs.uta.edu
+Alejandro,,Montalvo,---,alejandro.montalvo@mavs.uta.edu
+Alejandro,,Morales,---,alejandro.morales@mavs.uta.edu
+Alejandro,O,Santiago,---,alejandro.santiago@mavs.uta.edu
+Alejandro,,Olmos,---,alejandro.olmos@mavs.uta.edu
+Alejandro,,Ortega,---,alejandro.ortega@mavs.uta.edu
+Alejandro,,Paez,---,alejandro.paez@mavs.uta.edu
+Alejandro,,Perales,---,alejandro.perales@mavs.uta.edu
+Alejandro,,Perez,---,alejandro.perez@mavs.uta.edu
+Alejandro,R,Delgado,---,alejandro.delgado@mavs.uta.edu
+Alejandro,R,Gonzalez,---,alejandro.gonzalez@mavs.uta.edu
+Alejandro,R,Vasquez,---,alejandro.vasquez@mavs.uta.edu
+Alejandro,,Rodriguez,---,alejandro.rodriguez@mavs.uta.edu
+Alejandro,S,Najera,---,alejandro.najera@mavs.uta.edu
+Alejandro,T,Escorza,---,alejandro.escorza@mavs.uta.edu
+Alejandro,,Valenciano,---,alejandro.valenciano@mavs.uta.edu
+Alejandro,Vital,soto,---,alejandro.vitalsoto@mavs.uta.edu
+Alejandro,, Alma,---,alma.alejandro@mavs.uta.edu
+Alejandro,, Gustavo,---,gustavo.alejandro@mavs.uta.edu
+Alejandro,, John paul B,---,johnpaul.alejandro@mavs.uta.edu
+Alejandro,, Justine,---,justine.alejandro@mavs.uta.edu
+Alejandro,, Luisa Camille Bumatay,---,luisacamill.alejandro@mavs.uta.edu
+Alejandro,, Ruperto,---,ruperto.alejandro@mavs.uta.edu
+Alejo,a,Garnica,---,alejo.garnica@mavs.uta.edu
+Alejo,L,Garcia,---,alejo.garcia@mavs.uta.edu
+Alejo,, Alexander B,---,alexander.alejo@mavs.uta.edu
+Alemu,, Samrawit Kinfemichael,---,samrawit.alemu@mavs.uta.edu
+Alen,,Sebastian,---,alen.sebastian@mavs.uta.edu
+Alena,F,Leseten,---,alena.leseten@mavs.uta.edu
+Alena,,Karkoskova,---,alena.karkoskova@mavs.uta.edu
+Alena,V,Gething,---,alena.gething@mavs.uta.edu
+Alenazi,, Fayez Abdullah,---,fayez.alenazi@mavs.uta.edu
+Alenezi,, Omar M,---,omar.alenezi@mavs.uta.edu
+Aleni,L,Cervantes,---,aleni.cervantes@mavs.uta.edu
+Alerna,H,Clarke,---,alerna.clarke@mavs.uta.edu
+Alero,,Joe,---,alero.joe@mavs.uta.edu
+Ales,, Kimberlee Anne,---,kimberlee.ales@mavs.uta.edu
+Alesa,L,Myers,---,alesa.myers@mavs.uta.edu
+Alesawi,, Sami Marzook,---,sami.alesawi@mavs.uta.edu
+Alesha,D,Turner,---,alesha.turner@mavs.uta.edu
+Alesha,,Mclennan,---,alesha.mclennan@mavs.uta.edu
+Alesha,R,Coates,---,alesha.coates@mavs.uta.edu
+Aleshire,, Jonathan D,---,jonathan.aleshire@mavs.uta.edu
+Alesia,N,Hernandez,---,alesia.hernandez@mavs.uta.edu
+Alessandra,,Gonzalez-rivera,---,alessandra.gonzalez-rivera@mavs.uta.edu
+Alessandra,K,Laifer,---,alessandra.laifer@mavs.uta.edu
+Alessandra,M,Andonie,---,alessandra.andonie@mavs.uta.edu
+Alessandra,Y,Andrade-merrow,---,alessandra.andrade-merrow@mavs.uta.edu
+Alessandro,, James Taylor,---,james.alessandro@mavs.uta.edu
+Alessio,, Jordan C,---,jordan.alessio@mavs.uta.edu
+Aleti,, Mounika,---,mounika.aleti@mavs.uta.edu
+Aleti,, Praveena,---,praveena.aleti@mavs.uta.edu
+Aletor,, Irene Ejodamen,---,irene.aletor@mavs.uta.edu
+Aletra,L,Cameron,---,aletra.cameron@mavs.uta.edu
+Alewine,, Melissa N,---,melissa.alewine@mavs.uta.edu
+Alex,A,Asea,---,alex.asea@mavs.uta.edu
+Alex,A,Hook,---,alex.hook@mavs.uta.edu
+Alex,A,Moushegian,---,alex.moushegian@mavs.uta.edu
+Alex,,Ajin,---,alex.ajin@mavs.uta.edu
+Alex,B,Hall,---,alex.hall@mavs.uta.edu
+Alex,,Berry,---,alex.berry@mavs.uta.edu
+Alex,C,Cervantes,---,alex.cervantes@mavs.uta.edu
+Alex,C,Haines,---,alex.haines@mavs.uta.edu
+Alex,C,Holland,---,alex.holland@mavs.uta.edu
+Alex,C,Ward,---,alex.ward@mavs.uta.edu
+Alex,C,Whisenhunt,---,alex.whisenhunt@mavs.uta.edu
+Alex,,Chu,---,alex.chu@mavs.uta.edu
+Alex,D,Gustafson,---,alex.gustafson@mavs.uta.edu
+Alex,,Dandridge,---,alex.dandridge@mavs.uta.edu
+Alex,E,Mendoza,---,alex.mendoza@mavs.uta.edu
+Alex,G,Dick,---,alex.dick@mavs.uta.edu
+Alex,G,Godwin,---,alex.godwin@mavs.uta.edu
+Alex,G,Moozhayil,---,alex.moozhayil@mavs.uta.edu
+Alex,,Gonzalez,---,alex.gonzalez@mavs.uta.edu
+Alex,H,Kim,---,alex.kim@mavs.uta.edu
+Alex,H,Oh,---,alex.oh@mavs.uta.edu
+Alex,I,Cacho,---,alex.cacho@mavs.uta.edu
+Alex,J,Bonnette,---,alex.bonnette@mavs.uta.edu
+Alex,J,Coleman,---,alex.coleman@mavs.uta.edu
+Alex,J,Dagel,---,alex.dagel@mavs.uta.edu
+Alex,J,Grivon,---,alex.grivon@mavs.uta.edu
+Alex,J,Kamego,---,alex.kamego@mavs.uta.edu
+Alex,J,Lahr,---,alex.lahr@mavs.uta.edu
+Alex,J,Sides,---,alex.sides@mavs.uta.edu
+Alex,K,Boren,---,alex.boren@mavs.uta.edu
+Alex,K,Gottleaber,---,alex.gottleaber@mavs.uta.edu
+Alex,K,Sparks,---,alex.sparks@mavs.uta.edu
+Alex,K,Svay,---,alex.svay@mavs.uta.edu
+Alex,L,Laufer,---,alex.laufer@mavs.uta.edu
+Alex,L,Mondragon,---,alex.mondragon@mavs.uta.edu
+Alex,L,Walker,---,alex.walker@mavs.uta.edu
+Alex,,Love,---,alex.love@mavs.uta.edu
+Alex,M,Burger,---,alex.burger@mavs.uta.edu
+Alex,M,Kline,---,alex.kline@mavs.uta.edu
+Alex,M,Mutahi,---,alex.mutahi@mavs.uta.edu
+Alex,M,Parrill,---,alex.parrill@mavs.uta.edu
+Alex,M,Wagner,---,alex.wagner@mavs.uta.edu
+Alex,,Mathew,---,alex.mathew@mavs.uta.edu
+Alex,N,Pickard,---,alex.pickard@mavs.uta.edu
+Alex,N,Valladares,---,alex.valladares@mavs.uta.edu
+Alex,N,Westerman,---,alex.westerman@mavs.uta.edu
+Alexander,B,Olivares,---,alexander.olivares@mavs.uta.edu
+Alexander,Blamic, Richard Joshua,---,richard.alexanderblamic@mavs.uta.edu
+Alexander,,Blough,---,alexander.blough@mavs.uta.edu
+Alexander,,Butinov,---,alexander.butinov@mavs.uta.edu
+Alexander,C,Ashton,---,alexander.ashton@mavs.uta.edu
+Alexander,C,Bihm,---,alexander.bihm@mavs.uta.edu
+Alexander,C,Fejer,---,alexander.fejer@mavs.uta.edu
+Alexander,C,Lozano,---,alexander.lozano@mavs.uta.edu
+Alexander,C,Malito,---,alexander.malito@mavs.uta.edu
+Alexander,C,Mallari-valfre,---,alexander.mallari-valfre@mavs.uta.edu
+Alexander,C,Raasch,---,alexander.raasch@mavs.uta.edu
+Alexander,C,Walker,---,alexander.walker@mavs.uta.edu
+Alexander,,Contreras,---,alexander.contreras@mavs.uta.edu
+Alexander,D,Ghobadimanesh,---,alexander.ghobadimanesh@mavs.uta.edu
+Alexander,D,King,---,alexander.king@mavs.uta.edu
+Alexander,E,Cartier,---,alexander.cartier@mavs.uta.edu
+Alexander,E,Gradev,---,alexander.gradev@mavs.uta.edu
+Alexander,E,Kenerley,---,alexander.kenerley@mavs.uta.edu
+Alexander,E,Pages,---,alexander.pages@mavs.uta.edu
+Alexander,,Ehresmann,---,alexander.ehresmann@mavs.uta.edu
+Alexander,F,Deardorff,---,alexander.deardorff@mavs.uta.edu
+Alexander,F,Donaghy,---,alexander.donaghy@mavs.uta.edu
+Alexander,F,Fatum,---,alexander.fatum@mavs.uta.edu
+Alexander,F,Schrapps,---,alexander.schrapps@mavs.uta.edu
+Alexander,F,Shafiey,---,alexander.shafiey@mavs.uta.edu
+Alexander,F,Webb,---,alexander.webb@mavs.uta.edu
+Alexander,G,Atchley,---,alexander.atchley@mavs.uta.edu
+Alexander,G,Faulconer,---,alexander.faulconer@mavs.uta.edu
+Alexander,G,Hall,---,alexander.hall@mavs.uta.edu
+Alexander,G,Hughes,---,alexander.hughes@mavs.uta.edu
+Alexander,G,Steadman,---,alexander.steadman@mavs.uta.edu
+Alexander,,Gates,---,alexander.gates@mavs.uta.edu
+Alexander,,Gontier,---,alexander.gontier@mavs.uta.edu
+Alexander,H,York,---,alexander.york@mavs.uta.edu
+Alexander,,Hayman,---,alexander.hayman@mavs.uta.edu
+Alexander,J,Anderson,---,alexanderjanderson@mavs.uta.edu
+Alexander,J,Artymovich,---,alexander.artymovich@mavs.uta.edu
+Alexander,J,Bustillos,---,alexander.bustillos@mavs.uta.edu
+Alexander,J,Klein,---,alexander.klein@mavs.uta.edu
+Alexander,J,Lomangino,---,alexander.lomangino@mavs.uta.edu
+Alexander,J,Martin,---,alexander.martin@mavs.uta.edu
+Alexander,J,Nelson-fryar,---,alexander.nelson-fryar@mavs.uta.edu
+Alexander,J,Sledz,---,alexander.sledz@mavs.uta.edu
+Alexander,J,Smith,---,alexanderjsmith@mavs.uta.edu
+Alexander,J,Stockton,---,alexander.stockton@mavs.uta.edu
+Alexander,J,Szabo,---,alexander.szabo@mavs.uta.edu
+Alexander,J,Wilkins,---,alexander.wilkins@mavs.uta.edu
+Alexander,K,Adams,---,alexander.adams@mavs.uta.edu
+Alexander,K,Bergsneider,---,alexander.bergsneider@mavs.uta.edu
+Alexander,L,Christensen,---,alexander.christensen@mavs.uta.edu
+Alexander,L,Dejong,---,alexander.dejong@mavs.uta.edu
+Alexander,L,Littlepage,---,---
+Alexander,L,Pendergrass,---,alexander.pendergrass@mavs.uta.edu
+Alexander,,Lambert,---,alexander.lambert@mavs.uta.edu
+Alexander,M,Filzow-perez,---,alexander.filzow-perez@mavs.uta.edu
+Alexander,M,Fuller,---,alexander.fuller@mavs.uta.edu
+Alexander,M,Galvan,---,alexander.galvan@mavs.uta.edu
+Alexander,M,Hernandez,---,alexander.hernandez@mavs.uta.edu
+Alexander,M,Holland,---,alexander.holland@mavs.uta.edu
+Alexander,M,Ledesma,---,alexander.ledesma@mavs.uta.edu
+Alexander,M,Nichols,---,alexander.nichols@mavs.uta.edu
+Alexander,M,Watkins,---,alexander.watkins@mavs.uta.edu
+Alexander,M,Werner,---,alexander.werner@mavs.uta.edu
+Alexander,N,Raisch,---,alexander.raisch@mavs.uta.edu
+Alexander,P,Benat,---,alexander.benat@mavs.uta.edu
+Alexander,P,Brown,---,alexander.brown@mavs.uta.edu
+Alexander,P,Clark,---,alexander.clark@mavs.uta.edu
+Alexander,P,Onyina,---,alexander.onyina@mavs.uta.edu
+Alexander,Q,Mcquirter,---,alexander.mcquirter@mavs.uta.edu
+Alexander,R,Rodriguez,---,alexander.rodriguez@mavs.uta.edu
+Alexander,R,Wallace,---,alexander.wallace@mavs.uta.edu
+Alexander,,Ramirez,---,alexander.ramirez@mavs.uta.edu
+Alexander,,Robinson,---,alexander.robinson@mavs.uta.edu
+Alexander,S,Holdford,---,alexander.holdford@mavs.uta.edu
+Alexander,, Daniel J,---,daniel.alexander@mavs.uta.edu
+Alexander,, Darius D,---,darius.alexander@mavs.uta.edu
+Alexander,, David K,---,david.alexander@mavs.uta.edu
+Alexander,, Deborah A,---,deborah.alexander@mavs.uta.edu
+Alexander,, Don T,---,don.alexander@mavs.uta.edu
+Alexander,, Donald Caleb,---,donald.alexander@mavs.uta.edu
+Alexander,, Doyle Lance,---,doyle.alexander@mavs.uta.edu
+Alexander,, Dustin W,---,dustin.alexander@mavs.uta.edu
+Alexander,, Elaine H.T.,---,elaine.alexander@mavs.uta.edu
+Alexander,, Elsinore M,---,elsinore.alexander@mavs.uta.edu
+Alexander,, Emanual D,---,emanual.alexander@mavs.uta.edu
+Alexander,, Emily Jane,---,emily.alexander@mavs.uta.edu
+Alexander,, Eric A,---,eric.alexander@mavs.uta.edu
+Alexander,, Garrett C,---,garrett.alexander@mavs.uta.edu
+Alexander,, Gary D,---,gary.alexander@mavs.uta.edu
+Alexander,, Gay Lynn,---,gay.alexander@mavs.uta.edu
+Alexander,, Ginny K,---,ginny.alexander@mavs.uta.edu
+Alexander,, Hannah,---,hannah.alexander@mavs.uta.edu
+Alexander,, Heather M,---,heather.alexander@mavs.uta.edu
+Alexander,, Ivan Z,---,ivan.alexander@mavs.uta.edu
+Alexander,, Jaclyn D,---,jaclyn.alexander@mavs.uta.edu
+Alexander,, Jaimie A,---,jaimie.alexander@mavs.uta.edu
+Alexander,, Jamara R,---,jamara.alexander@mavs.uta.edu
+Alexander,, James,---,jamesmalexander@mavs.uta.edu
+Alexander,, Jamie A,---,jamieaalexander@mavs.uta.edu
+Alexander,, Jamie L,---,jamie.alexander@mavs.uta.edu
+Alexander,, Jasmine,---,jasmine.alexander95@mavs.uta.edu
+Alexander,, Jayson Vowell,---,jayson.alexander@mavs.uta.edu
+Alexander,, Jeannette Sarah,---,jeannette.alexander@mavs.uta.edu
+Alexander,, Jehnna M,---,jehnna.alexander@mavs.uta.edu
+Alexander,, Jennifer Jo,---,jennifer.alexander@mavs.uta.edu
+Alexander,, Jennifer L,---,jenniferlalexander@mavs.uta.edu
+Alexander,, Jerry,---,jerry.alexander@mavs.uta.edu
+Alexander,, Jessica D,---,jessica.alexander@mavs.uta.edu
+Alexander,, Jessica Leeann,---,jessica.alexander2@mavs.uta.edu
+Alexander,, Jill-Nicole,---,jill.mccormick@mavs.uta.edu
+Alexander,, John,---,john.alexander@mavs.uta.edu
+Alexander,, Jonathan M,---,jonathan.alexander@mavs.uta.edu
+Alexander,, Josh K,---,josh.alexander@mavs.uta.edu
+Alexander,, Juliet Rose,---,juliet.alexander@mavs.uta.edu
+Alexander,, Kamera,---,kamera.alexander@mavs.uta.edu
+Alexander,, Kamitra Desha,---,kamitra.alexander@mavs.uta.edu
+Alexander,, Kaneta Y,---,kaneta.alexander@mavs.uta.edu
+Alexander,, Karen D,---,kalexander@mavs.uta.edu
+Alexander,, Kendra L,---,kendra.alexander@mavs.uta.edu
+Alexander,, Kenneth W,---,kenneth.alexander@mavs.uta.edu
+Alexander,, Keyundra L,---,keyundra.alexander@mavs.uta.edu
+Alexander,, Kimberly A,---,kimberly.alexander-oates@mavs.uta.edu
+Alexander,, Kimberly Monique,---,kimberly.alexander@mavs.uta.edu
+Alexander,, Kimberly Scharon,---,kimberly.alexander2@mavs.uta.edu
+Alexander,, Kristie Lynne,---,kristie.alexander@mavs.uta.edu
+Alexander,, Kristin L,---,kristin.alexander@mavs.uta.edu
+Alexander,, Kyle W,---,kyle.alexander@mavs.uta.edu
+Alexander,, Kylie N,---,kylie.alexander@mavs.uta.edu
+Alexander,, Lakeisha T,---,lakeisha.alexander@mavs.uta.edu
+Alexander,, LaTesha Monique,---,latesha.alexander@mavs.uta.edu
+Alexander,, Latonya,---,latonya.alexander@mavs.uta.edu
+Alexander,, Latrisha Chanelle,Administrative Assistant I,latrisha.alexander@uta.edu
+Alexander,, Laura Ashley,---,lauraaalexander@mavs.uta.edu
+Alexander,, Laura B,---,laura.alexander@mavs.uta.edu
+Alexander,, Lauren Elise,---,lauren.alexander2@mavs.uta.edu
+Alexander,, Lexi A,---,lexi.alexander@mavs.uta.edu
+Alexander,, Lisa M,---,lisa.alexander@mavs.uta.edu
+Alexander,, Mary Crawford,---,marycalexander@mavs.uta.edu
+Alexander,, Melanie Margaret,---,melanie.alexander@mavs.uta.edu
+Alexander,, Michael S,---,michael.alexander@mavs.uta.edu
+Alexander,, Micheal S,---,micheal.alexander@mavs.uta.edu
+Alexander,, Miki Gail,---,miki.bennett@mavs.uta.edu
+Alexander,, Monica Ruth,---,monica.alexander@mavs.uta.edu
+Alexander,, Monique,---,monique.alexander@mavs.uta.edu
+Alexander,, Morgan D,---,morgan.alexander@mavs.uta.edu
+Alexander,, Ms LaTesha Monique,Student Assistant,latesha.alexander@uta.edu
+Alexander,, Natalie Summer,---,natalie.alexander@mavs.uta.edu
+Alexandra,D,Mcfadden,---,alexandra.mcfadden@mavs.uta.edu
+Alexandra,D,Negron,---,alexandra.negron@mavs.uta.edu
+Alexandra,E,Cournoyer,---,alexandra.cournoyer@mavs.uta.edu
+Alexandra,E,Gaston,---,alexandra.gaston@mavs.uta.edu
+Alexandra,E,Janecek,---,alexandra.janecek@mavs.uta.edu
+Alexandra,E,Kunert,---,alexandra.kunert@mavs.uta.edu
+Alexandra,E,Spraberry,---,alexandra.spraberry@mavs.uta.edu
+Alexandra,E,Valentine,---,alexandra.valentine@mavs.uta.edu
+Alexandra,G,Aguirre,---,alexandra.aguirre@mavs.uta.edu
+Alexandra,G,Espinoza,---,alexandra.espinoza@mavs.uta.edu
+Alexandra,G,Rodarte,---,alexandra.rodarte@mavs.uta.edu
+Alexandra,,Garcia,---,alexandra.garcia30@mavs.uta.edu
+Alexandra,H,Hogarth,---,alexandra.hogarth@mavs.uta.edu
+Alexandra,J,Blue,---,alexandra.blue@mavs.uta.edu
+Alexandra,J,Chandler,---,alexandra.chandler@mavs.uta.edu
+Alexandra,J,Gambrell,---,alexandra.gambrell@mavs.uta.edu
+Alexandra,J,Harayda,---,alexandra.harayda@mavs.uta.edu
+Alexandra,J,Law,---,alexandra.law@mavs.uta.edu
+Alexandra,K,Davis,---,alexandrakdavis@mavs.uta.edu
+Alexandra,,Krawer-klemmer,---,alexandra.krawer-klemmer@mavs.uta.edu
+Alexandra,L,Buckman,---,alexandra.buckman@mavs.uta.edu
+Alexandra,L,Maas,---,alexandra.maas@mavs.uta.edu
+Alexandra,L,Matson,---,alexandra.matson@mavs.uta.edu
+Alexandra,L,Morrison,---,alexandra.morrison@mavs.uta.edu
+Alexandra,L,Parkey,---,alexandra.parkey@mavs.uta.edu
+Alexandra,L,Ward,---,alexandra.ward@mavs.uta.edu
+Alexandra,M,Campbell,---,alexandra.campbell@mavs.uta.edu
+Alexandra,M,Cerda,---,alexandra.cerda@mavs.uta.edu
+Alexandra,M,Chaheine,---,alexandra.chaheine@mavs.uta.edu
+Alexandra,M,Chavarria,---,alexandra.chavarria@mavs.uta.edu
+Alexandra,M,Edge,---,alexandra.edge@mavs.uta.edu
+Alexandra,M,Gutierrez,---,agutierrez@mavs.uta.edu
+Alexandra,M,Horcher,---,alexandra.horcher@mavs.uta.edu
+Alexandra,M,Inglish,---,alexandra.inglish@mavs.uta.edu
+Alexandra,M,Ortega,---,alexandra.ortega@mavs.uta.edu
+Alexandra,M,Seery,---,alexandra.seery@mavs.uta.edu
+Alexandra,M,Torres,---,alexandra.torres@mavs.uta.edu
+Alexandra,M,Trolley,---,alexandra.trolley@mavs.uta.edu
+Alexandra,,Mcbryant,---,alexandra.mcbryant@mavs.uta.edu
+Alexandra,N,Garcia,---,alexandrangarcia@mavs.uta.edu
+Alexandra,N,Hembree,---,alexandra.hembree@mavs.uta.edu
+Alexandra,N,Kelley,---,alexandra.kelley@mavs.uta.edu
+Alexandra,N,Oswald,---,alexandra.oswald@mavs.uta.edu
+Alexandra,N,Stuart,---,alexandra.stuart@mavs.uta.edu
+Alexandra,N,Thibeaux,---,alexandra.thibeaux@mavs.uta.edu
+Alexandra,N,Vernon,---,alexandra.vernon@mavs.uta.edu
+Alexandra,N,Welch-quarm,---,alexandra.welch-quarm@mavs.uta.edu
+Alexandra,,Padilla,---,alexandra.padilla@mavs.uta.edu
+Alexandra,,Perez,---,alexandra.perez@mavs.uta.edu
+Alexandra,R,Arredondo,---,alexandra.arredondo@mavs.uta.edu
+Alexandra,R,Hamilton,---,alexandra.hamilton@mavs.uta.edu
+Alexandra,R,Maedgen,---,alexandra.maedgen@mavs.uta.edu
+Alexandra,R,Ortiz,---,alexandra.ortiz@mavs.uta.edu
+Alexandra,Ramirez,fuentes,---,alexandra.ramirezfuentes@mavs.uta.edu
+Alexandra,,Silva,---,asilva@mavs.uta.edu
+Alexandra,,Sprinkles,---,alexandra.sprinkles@mavs.uta.edu
+Alexandra,T,Altvater,---,alexandra.altvater@mavs.uta.edu
+Alexandra,T,Kugelman,---,alexandra.kugelman@mavs.uta.edu
+Alexandra,T,Mielke,---,alexandra.mielke@mavs.uta.edu
+Alexandra,V,Shion,---,alexandra.shion@mavs.uta.edu
+Alexandra,,Vasquez,---,alexandra.vasquez@mavs.uta.edu
+Alexandra,Z,Wilkins,---,alexandra.wilkins@mavs.uta.edu
+Alexandrakis,, Georgios,ASSOCIATE PROFESSOR,alexand@exchange.uta.edu
+Alexandre,M,Bengston,---,alexandre.bengston@mavs.uta.edu
+Alexandre,N,Ishikawa,---,alexandre.ishikawa@mavs.uta.edu
+Alexandre,, Edwidge Serge,---,edwidge.alexandre@mavs.uta.edu
+Alexandre,, Yolanda L,---,yolanda.alexandre@mavs.uta.edu
+Alexandrea,M,Dean,---,alexandrea.dean@mavs.uta.edu
+Alexandrea,M,Dickens,---,alexandrea.dickens@mavs.uta.edu
+Alexandria,A,Emerson,---,alexandria.emerson@mavs.uta.edu
+Alexandria,A,Graziano,---,alexandria.graziano@mavs.uta.edu
+Alexandria,A,Polk,---,alexandria.polk@mavs.uta.edu
+Alexis,E,Serafin,---,alexis.serafin@mavs.uta.edu
+Alexis,E,Sherwood,---,alexis.sherwood@mavs.uta.edu
+Alexis,,Enriquez,---,alexis.enriquez@mavs.uta.edu
+Alexis,F,Robinson,---,alexis.robinson@mavs.uta.edu
+Alexis,H,Sanchez,---,alexis.sanchez@mavs.uta.edu
+Alexis,,Harlan,---,alexis.harlan@mavs.uta.edu
+Alexis,,Iracheta,---,alexis.iracheta@mavs.uta.edu
+Alexis,J,Bejaran,---,alexis.bejaran@mavs.uta.edu
+Alexis,J,Suttles,---,alexis.suttles@mavs.uta.edu
+Alexis,,Jones,---,alexis.jones13@mavs.uta.edu
+Alexis,K,Torres,---,alexisktorres@mavs.uta.edu
+Alexis,L,Bixler,---,alexis.bixler@mavs.uta.edu
+Alexis,L,Deignan,---,alexis.deignan@mavs.uta.edu
+Alexis,L,Ned,---,alexis.ned@mavs.uta.edu
+Alexis,L,Tipton,---,alexis.tipton@mavs.uta.edu
+Alexis,,Lewis,---,alexis.lewis@mavs.uta.edu
+Alexis,,Loya,---,alexis.loya@mavs.uta.edu
+Alexis,,Lozano,---,alexis.lozano@mavs.uta.edu
+Alexis,M,Cox,---,alexis.cox@mavs.uta.edu
+Alexis,M,Herrod,---,alexis.herrod@mavs.uta.edu
+Alexis,M,Jankowski,---,alexis.jankowski@mavs.uta.edu
+Alexis,M,Matthews,---,alexis.matthews@mavs.uta.edu
+Alexis,M,Obarr,---,alexis.obarr@mavs.uta.edu
+Alexis,M,Reado,---,alexis.reado@mavs.uta.edu
+Alexis,M,Riggs,---,alexis.riggs@mavs.uta.edu
+Alexis,M,Salinas,---,alexis.salinas@mavs.uta.edu
+Alexis,,Mendoza,---,alexis.mendoza@mavs.uta.edu
+Alexis,,Miranda,---,alexis.miranda@mavs.uta.edu
+Alexis,,Moreno,---,alexis.moreno@mavs.uta.edu
+Alexis,N,Glasco,---,alexis.glasco@mavs.uta.edu
+Alexis,N,Hendricks,---,alexis.hendricks@mavs.uta.edu
+Alexis,N,Krivit,---,alexis.krivit@mavs.uta.edu
+Alexis,N,Maldonado,---,alexis.maldonado@mavs.uta.edu
+Alexis,N,Richter,---,alexis.richter@mavs.uta.edu
+Alexis,N,Wawrzynski,---,alexis.wawrzynski@mavs.uta.edu
+Alexis,,Nelson,---,alexis.nelson@mavs.uta.edu
+Alexis,Nicole,Johnson,---,alexisnjohnson@mavs.uta.edu
+Alexis,P,Gabaldon,---,alexis.gabaldon@mavs.uta.edu
+Alexis,,Perry,---,alexis.perry@mavs.uta.edu
+Alexis,,Popovic,---,alexis.popovic@mavs.uta.edu
+Alexis,,Rodriguez,---,alexis.rodriguez@mavs.uta.edu
+Alexis,S,Lampkin,---,alexis.lampkin@mavs.uta.edu
+Alexis,V,Cabrales,---,alexis.cabrales@mavs.uta.edu
+Alexis,,Velazquez,---,alexis.velazquez@mavs.uta.edu
+Alexis,,Vences,---,alexis.vences@mavs.uta.edu
+Alexis,,Vick,---,alexis.vick@mavs.uta.edu
+Alexis,, Deborah Elezabeth,---,deborah.alexis@mavs.uta.edu
+Alexis,, Gwenis Joanne,---,gwenis.alexis@mavs.uta.edu
+Alexis,, Melissa,---,melissa.alexis@mavs.uta.edu
+Alexis,, Miranda Shanice,---,miranda.alexis@mavs.uta.edu
+Alexsis,N,Page,---,alexsis.page@mavs.uta.edu
+Alexus,B,Reed,---,alexus.reed@mavs.uta.edu
+Alexus,,Laster,---,alexus.laster@mavs.uta.edu
+Alexus,,Petty,---,alexus.petty@mavs.uta.edu
+Alexxus,L,Payne,---,alexxus.payne@mavs.uta.edu
+Alexy,E,Pagan,---,alexy.pagan@mavs.uta.edu
+Aley,, Erin D,---,erin.aley@mavs.uta.edu
+Aleyas,S,Kulamadayil,---,aleyas.kulamadayil@mavs.uta.edu
+Aleyda,B,Castillo,---,aleyda.castillo@mavs.uta.edu
+Aleyda,,Ysquierdo,---,aleyda.ysquierdo@mavs.uta.edu
+Aleyia,, Ali,---,ali.aleyia@mavs.uta.edu
+Alezandra,,Martinez,---,alezandra.martinez@mavs.uta.edu
+Alf,T,Rylander,---,alf.rylander@mavs.uta.edu
+Alf,, Ashley Marie,---,ashley.alf@mavs.uta.edu
+Alfaifi,, Yahya Ahmed Y,---,yahya.alfaifi@mavs.uta.edu
+Alfaihani,, Mohammed F,---,mohammed.alfaihani@mavs.uta.edu
+Alfaisal,, Faisal J,---,faisal.alfaisal@mavs.uta.edu
+Alfaiz,, Meshaal Saleh,---,meshaal.alfaiz@mavs.uta.edu
+Alfallo,Penaloza, Jorge Omar,---,jorge.alfallopenaloza@mavs.uta.edu
+Alfano,, Ashley M,---,ashley.alfano@mavs.uta.edu
+Alfano,, Yoely M,---,yoely.alfano@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alford,, Sh'Niqua Lynette,---,shniqua.alford@mavs.uta.edu
+Alhatem,, Zainab Hatem Siham,---,zainab.alhatem@mavs.uta.edu
+Al-Hatllan,, Emira Rashed,---,emira.alhatllan@mavs.uta.edu
+Alhawash,, Iman I,---,iman.alhawash@mavs.uta.edu
+Alhayek,, Alaaedeen I,---,alaaedeen.alhayek@mavs.uta.edu
+Alhejaili,, Abdulelah A,---,abdulelah.alhejaili@mavs.uta.edu
+Alheji,, Yazed ali,---,yazedali.alheji@mavs.uta.edu
+Alhelo,, Salem Nayel,---,salem.alhelo@mavs.uta.edu
+Alherbi,, Athraa,---,athraa.alherbi@mavs.uta.edu
+Alheri,, Aserda,---,aserda.alheri@mavs.uta.edu
+Alhesan,, Deema,---,deema.alhesan@mavs.uta.edu
+Alheshibri,, Muidh H,---,muidh.alheshibri@mavs.uta.edu
+Alhmzani,, Abdullah F,---,abdullah.alhmzani@mavs.uta.edu
+Alhokail,, Ibrahim M,---,ibrahim.alhokail@mavs.uta.edu
+Alhomaidat,, Fadi Abdallah Mousa,---,fadi.alhomaidat@mavs.uta.edu
+Alhoqail,, Saad Abdulaziz,---,saad.alhoqail@mavs.uta.edu
+Alhotari,, Abdulkareem Riad,---,abdulkareem.alhotari@mavs.uta.edu
+Alhotari,, Muna Riad,---,muna.alhotari@mavs.uta.edu
+Alhoutary,, Ahmad Riyad,---,ahmad.alhoutary@mavs.uta.edu
+Alhumhum,, Norah M,---,norah.alhumhum@mavs.uta.edu
+Alhuqayl,, Dalal Abdulrazaq,---,dalal.alhuqayl@mavs.uta.edu
+Alhussin,Alsaud, Fowzy,---,fowzy.alhussinalsaud@mavs.uta.edu
+Alhuthali,, Abdullah A,---,abdullah.alhuthali@mavs.uta.edu
+Alhuwaity,, Naif S,---,naif.alhuwaity@mavs.uta.edu
+Alhwairiny,, Adil,---,adil.alhwairiny@mavs.uta.edu
+Ali,A,Almadan,---,ali.almadan@mavs.uta.edu
+Ali,A,Zeb,---,ali.zeb@mavs.uta.edu
+Ali,Al,zahrani,---,ali.alzahrani@mavs.uta.edu
+Ali,,Alasmari,---,ali.alasmari@mavs.uta.edu
+Ali,,Alsabti,---,ali.alsabti@mavs.uta.edu
+Ali,Ameri,mahabadi,---,ali.amerimahabadi@mavs.uta.edu
+Ali,,Asaei,---,ali.asaei@mavs.uta.edu
+Ali,,Asghar,---,ali.asghar@mavs.uta.edu
+Ali,asghar,Ayaz,---,aliasghar.ayaz@mavs.uta.edu
+Ali,B,Sohail,---,ali.sohail@mavs.uta.edu
+Ali,,Baladi,---,ali.baladi@mavs.uta.edu
+Ali,G,Kocan,---,ali.kocan@mavs.uta.edu
+Ali,,Gokal,---,ali.gokal@mavs.uta.edu
+Ali,,Guzman,---,ali.guzman@mavs.uta.edu
+Ali,H,Alibrahim,---,ali.alibrahim@mavs.uta.edu
+Ali,H,Alnasser,---,ali.alnasser@mavs.uta.edu
+Ali,H,El hajj,---,ali.elhajj@mavs.uta.edu
+Ali,H,Elaydi,---,ali.elaydi@mavs.uta.edu
+Ali,H,Rizvi,---,ali.rizvi@mavs.uta.edu
+Ali,,Hakimian,---,ali.hakimian@mavs.uta.edu
+Ali,,Hosseini,---,ali.hosseini@mavs.uta.edu
+Ali,hussain,N Irfan hussain,---,alihussain.irfanhussain@mavs.uta.edu
+Ali,K,Agha,---,ali.agha@mavs.uta.edu
+Ali,K,Khanian,---,ali.khanian@mavs.uta.edu
+Ali,,Kalanaki,---,ali.kalanaki@mavs.uta.edu
+Ali,Kashefi,kaviani,---,ali.kashefikaviani@mavs.uta.edu
+Ali,Khan, Zeeshan,---,zeeshan.alikhan@mavs.uta.edu
+Ali,,Louangrath,---,ali.louangrath@mavs.uta.edu
+Ali,M,Kassam,---,ali.kassam@mavs.uta.edu
+Ali,M,Kim,---,ali.kim@mavs.uta.edu
+Ali,,Masoudi,---,ali.masoudi@mavs.uta.edu
+Ali,,Mohammed-ali,---,ali.mohammed-ali@mavs.uta.edu
+Ali,,Moilimo,---,ali.moilimo@mavs.uta.edu
+Ali,,Omeis,---,ali.omeis@mavs.uta.edu
+Ali,R,Faruqui,---,ali.faruqui@mavs.uta.edu
+Ali,S,Alghanim,---,ali.alghanim@mavs.uta.edu
+Ali,,Tariq,---,ali.tariq@mavs.uta.edu
+Ali,Tayyebi,khameneh,---,ali.tayyebikhameneh@mavs.uta.edu
+Ali,,Tran,---,ali.tran@mavs.uta.edu
+Ali,,Unwala,---,ali.unwala@mavs.uta.edu
+Ali,,Zahid,---,ali.zahid@mavs.uta.edu
+Ali,, Aamir A,---,aamir.ali@mavs.uta.edu
+Ali,, Abdel Rahman Hikmat,---,abdelrahman.ali@mavs.uta.edu
+Ali,, Abdusemed K,---,abdusemed.ali@mavs.uta.edu
+Ali,, Abrar,---,abrar.ali@mavs.uta.edu
+Ali,, Michele Marie,---,michele.ali@mavs.uta.edu
+Ali,, Mir Faisal,---,mir.ali2@mavs.uta.edu
+Ali,, Mir H,---,mirhali@mavs.uta.edu
+Ali,, Mir M,---,mirmali@mavs.uta.edu
+Ali,, Mir S,---,mir.ali@mavs.uta.edu
+Ali,, Mohamad A,---,mohamad.ali@mavs.uta.edu
+Ali,, Mohammad,---,mohammad.ali@mavs.uta.edu
+Ali,, Mohammed,---,mohammed.ali60@mavs.uta.edu
+Ali,, Mona M,---,mona.ali@mavs.uta.edu
+Ali,, Muhammad D,---,muhammad.ali2@mavs.uta.edu
+Ali,, Muhammad O,---,muhammad.ali@mavs.uta.edu
+Ali,, Mumtaz M,---,mumtaz.ali@mavs.uta.edu
+Ali,, Nadia T,---,nadia.ali@mavs.uta.edu
+Ali,, Nargis R,---,nargis.ali@mavs.uta.edu
+Ali,, Nebil Mohammed,---,nebil.ali@mavs.uta.edu
+Ali,, Nida,---,nida.ali@mavs.uta.edu
+Ali,, Osman Ismail,---,osman.ali@mavs.uta.edu
+Ali,, Qasim Juzar,---,qasim.ali@mavs.uta.edu
+Ali,, Qudsia Banoo,---,qudsia.ali@mavs.uta.edu
+Ali,, Rabab R,---,rabab.ali@mavs.uta.edu
+Ali,, Rafiu M,---,rafiu.ali@mavs.uta.edu
+Ali,, Roheen H,---,roheen.ali@mavs.uta.edu
+Ali,, Rukhsana,---,rukhsana.ali@mavs.uta.edu
+Ali,, Saihara N,---,saihara.ali@mavs.uta.edu
+Ali,, Saima Tariq,---,saima.ali@mavs.uta.edu
+Ali,, Salman Aziz,---,salman.ali@mavs.uta.edu
+Ali,, Sameen,---,sameen.ali@mavs.uta.edu
+Ali,, Samreen,---,samreen.ali@mavs.uta.edu
+Ali,, Sana H,---,sana.ali@mavs.uta.edu
+Ali,, Sania,---,sania.ali@mavs.uta.edu
+Ali,, Sarah,---,sarah.ali@mavs.uta.edu
+Ali,, Sayed Ashif,---,sayed.ali@mavs.uta.edu
+Ali,, Shanila B,---,shanila.ali@mavs.uta.edu
+Ali,, Sharish,---,sharish.ali@mavs.uta.edu
+Ali,, Sharmeen I,---,sharmeen.ali@mavs.uta.edu
+Ali,, Sikander M,---,sikander.ali@mavs.uta.edu
+Ali,, Sofian,---,sofian.ali@mavs.uta.edu
+Ali,, Suhail B,---,suhail.ali@mavs.uta.edu
+Ali,, Suriyya,---,suriyya.ali@mavs.uta.edu
+Ali,, Syed A,---,saali@mavs.uta.edu
+Ali,, Syed Hamza,---,syedhamza.ali@mavs.uta.edu
+Ali,, Syed Huzaif,---,syedhali@mavs.uta.edu
+Ali,, Syed Irtaza,---,syediali@mavs.uta.edu
+Ali,, Syed M,---,sali@mavs.uta.edu
+Ali,, Syed O,---,syed.ali@mavs.uta.edu
+Ali,, Syed Saqib,---,syedsaqib.ali@mavs.uta.edu
+Ali,, Umair Murad,---,umear.ali@mavs.uta.edu
+Ali,, Wajed,---,wajed.ali@mavs.uta.edu
+Ali,, Waqas,---,waqas.ali@mavs.uta.edu
+Ali,, Yousef T,---,yousef.ali@mavs.uta.edu
+Ali,, Zahra R,CASUAL EMPLOYEE DED,azahra@exchange.uta.edu
+Ali,, Zainab Fatima,---,zainab.ali@mavs.uta.edu
+Ali,, Zara,---,zara.ali@mavs.uta.edu
+Ali,, Zeba,---,zeba.ali@mavs.uta.edu
+Ali,, Zohra Nasir,---,zohra.ali@mavs.uta.edu
+Ali,, Zulaykah,---,zulaykah.ali@mavs.uta.edu
+Alia,S,Haro,---,alia.haro@mavs.uta.edu
+Aliabadi,Farahani, Ashkan,---,ashkan.aliabadifarahani@mavs.uta.edu
+Ali-abidi,, Syed raza,---,syedraza.ali-abidi@mavs.uta.edu
+Aliaga,, Kelly S,---,kelly.aliaga@mavs.uta.edu
+Aliaga,, Miriam R,---,miriam.aliaga@mavs.uta.edu
+Aliahmad,, Melhem A,---,melhem.aliahmad@mavs.uta.edu
+Aliakbar,, Mohammed,---,mohammed.aliakbar@mavs.uta.edu
+Ali-amin,A,Ali,---,ali-amin.ali@mavs.uta.edu
+Alias,, Basil p,---,basil.alias@mavs.uta.edu
+Aliasgar,A,Arsiwalla,---,aliasgar.arsiwalla@mavs.uta.edu
+Aliasgar,M,Ginwala,---,aliasgar.ginwala@mavs.uta.edu
+Aliasgar,S,Katabjiwala,---,aliasgar.katabjiwala@mavs.uta.edu
+Alicia,M,Lisset,---,alicia.lisset@mavs.uta.edu
+Alicia,M,Luther,---,alicia.luther@mavs.uta.edu
+Alicia,M,Mullins,---,alicia.mullins@mavs.uta.edu
+Alicia,M,Pirtle,---,alicia.pirtle@mavs.uta.edu
+Alicia,M,Robertson,---,alicia.robertson@mavs.uta.edu
+Alicia,M,Sanchez,---,alicia.sanchez@mavs.uta.edu
+Alicia,M,Springer,---,alicia.springer@mavs.uta.edu
+Alicia,M,Torres,---,alicia.torres@mavs.uta.edu
+Alicia,N,Smith,---,alicia.smith@mavs.uta.edu
+Alicia,N,Washington,---,alicia.washington@mavs.uta.edu
+Alicia,N,Watt,---,alicia.watt@mavs.uta.edu
+Alicia,,Novoa,---,alicia.novoa@mavs.uta.edu
+Alicia,R,Jackson,---,alicia.jackson@mavs.uta.edu
+Alicia,R,Lybrand,---,alicia.lybrand@mavs.uta.edu
+Alicia,,Rood,---,alicia.rood@mavs.uta.edu
+Alicia,S,Farmer,---,alicia.farmer@mavs.uta.edu
+Alicia,S,Harrington,---,alicia.harrington@mavs.uta.edu
+Alicia,S,Hoy,---,alicia.hoy@mavs.uta.edu
+Alicia,,Sanchez,---,alicia.sanchez63@mavs.uta.edu
+Alicia,T,Nguyen,---,alicia.nguyen@mavs.uta.edu
+Alicia,V,Garcia,---,alicia.garcia@mavs.uta.edu
+Alicia,,Wamsley,---,alicia.wamsley@mavs.uta.edu
+Alicia,,Wigfall,---,alicia.wigfall@mavs.uta.edu
+Alician,R,Hall,---,alician.hall@mavs.uta.edu
+Alicja,, Bondarowicz,---,bondarowicz.alicja@mavs.uta.edu
+Alickovic,, Amira,---,amira.alickovic@mavs.uta.edu
+Alidina,, Lindsay Marie,---,lindsay.alidina@mavs.uta.edu
+Alie,,Bounheuangvilay,---,---
+Alier,, John Garang,---,john.alier@mavs.uta.edu
+Aliese,M,Thompson,---,aliese.thompson@mavs.uta.edu
+Aliff,, Jamie L,---,jamie.aliff@mavs.uta.edu
+Aliff,, Ruby Darlene,---,ruby.aliffpadnick@mavs.uta.edu
+Alifya,,Dhanani,---,alifya.dhanani@mavs.uta.edu
+Aligeti,, Clarice,---,clarice.aligeti@mavs.uta.edu
+Alignay,, Vincent P,---,vincent.alignay@mavs.uta.edu
+Aligwekwe,, Doris A,---,doris.aligwekwe@mavs.uta.edu
+Alika,C,Carter,---,alika.carter@mavs.uta.edu
+Aliko,, Abaz,---,abaz.aliko@mavs.uta.edu
+Alikpo,, Chioma Janet,---,chioma.alikpo@mavs.uta.edu
+Alili,, Fatime,---,fatime.alili@mavs.uta.edu
+Alim,, Ghalia,---,ghalia.alim@mavs.uta.edu
+Alim,, Mohammad Ashrafuzzama,---,mohammad.alim@mavs.uta.edu
+Alimahomed,, Adnan S,---,adnan.alimahomed@mavs.uta.edu
+Alimamy,S,Macbailey,---,alimamy.macbailey@mavs.uta.edu
+Alimeneti,, Narasimha Reddy,---,narasimha.alimeneti@mavs.uta.edu
+Alimi,, Ramanou Akanni,---,ramanou.alimi@mavs.uta.edu
+Alimineti,, Vikas Reddy,---,vikasreddy.alimineti@mavs.uta.edu
+Alin,,Ardelean,---,alin.ardelean@mavs.uta.edu
+Alina,A,Williams,---,alina.williams@mavs.uta.edu
+Alina,,Abraham,---,alina.abraham@mavs.uta.edu
+Alina,,Gitnik,---,alina.gitnik@mavs.uta.edu
+Alina,L,Leung,---,alina.leung@mavs.uta.edu
+Alina,,Lopez,---,alina.lopez@mavs.uta.edu
+Alina,M,Toma,---,alina.toma@mavs.uta.edu
+Alina,,Monir,---,alina.monir@mavs.uta.edu
+Alina,,Monzon,---,alina.monzon@mavs.uta.edu
+Alina,N,Solorio,---,alina.solorio@mavs.uta.edu
+Alina,,Poenaru,---,alina.poenaru@mavs.uta.edu
+Alina,,Qureshi,---,alina.qureshi@mavs.uta.edu
+Alina,,Upreti,---,alina.upreti@mavs.uta.edu
+Alina,Y,Butt,---,alina.butt@mavs.uta.edu
+Aline,K,Oliveira,---,aline.oliveira@mavs.uta.edu
+Aline,T,Lowry,---,aline.lowry@mavs.uta.edu
+Aline,U,Niyonteze,---,aline.niyonteze@mavs.uta.edu
+Alinsub,, Vanessa B,---,maria.alinsub@mavs.uta.edu
+Alipour,, Amber D,---,amber.alipour@mavs.uta.edu
+Alipour,, Mohammadhoss,---,mohammadhoss.alipour@mavs.uta.edu
+Alissa,A,Ferguson,---,alissa.ferguson@mavs.uta.edu
+Alissa,A,Washington,---,alissa.washington@mavs.uta.edu
+Alissa,,Gourley,---,alissa.gourley@mavs.uta.edu
+Alissa,M,Sutton,---,alissa.sutton@mavs.uta.edu
+Alisse,N,Lancaster,---,alisse.lancaster@mavs.uta.edu
+Aliu,, Hassan Olusegun,---,hassan.aliu@mavs.uta.edu
+Aliu,, Kujtim,---,kujtim.aliu@mavs.uta.edu
+Aliu,, Shkelqim,---,shkelqim.aliu@mavs.uta.edu
+Aliu,, Skender,---,skender.aliu@mavs.uta.edu
+Alivia,N,Dalli,---,alivia.dalli@mavs.uta.edu
+Alix,A,Desamours,---,alix.desamours@mavs.uta.edu
+Alix,B,Anopol,---,alix.anopol@mavs.uta.edu
+Alix,D,Thomas,---,alix.thomas@mavs.uta.edu
+Alix,, Elboni Lashonna,---,elboni.alix@mavs.uta.edu
+Alix,, Michael,---,michael.alix@mavs.uta.edu
+Alix,, Robert Richard,---,robert.alix@mavs.uta.edu
+Alixahndrea,E,Mashburn,---,alixahndrea.mashburn@mavs.uta.edu
+Aliya,A,Dhanani,---,aliya.dhanani@mavs.uta.edu
+Aliya,A,Qureshi,---,aliya.qureshi@mavs.uta.edu
+Aliyari,, Fatemeh,---,fatemeh.aliyari@mavs.uta.edu
+Aliyu,, Kolapo D,---,kolapo.aliyu@mavs.uta.edu
+Aliza,A,Ali muhammad,---,aliza.alimuhammad@mavs.uta.edu
+Aliza,M,Auces,---,aliza.auces@mavs.uta.edu
+Alizadeh,, Babak,---,babak.alizadeh@mavs.uta.edu
+Alizzi,, Sonia Zapata,---,sonia.alizzi@mavs.uta.edu
+Aljaafreh,, Motasem Tawfig Zaal,---,motasem.aljaafreh@mavs.uta.edu
+Al-Jabali,, Ala Jalal,---,ala.al-jabali@mavs.uta.edu
+Aljadael,, Leila,---,leila.aljadael@mavs.uta.edu
+Aljafri,, Mohammed Abdullah,---,mohammed.aljafri@mavs.uta.edu
+Al-Janabi,, Husham Atalla Mohammed,---,husham.al-janabi@mavs.uta.edu
+Aljassar,, Ayedh F.A.M.,---,ayedh.aljassar@mavs.uta.edu
+Aljawini,, Abdullah N,---,abdullah.aljawini@mavs.uta.edu
+Aljazi,, Abdalkareem Mohammed Fahid,---,abdalkareem.aljazi@mavs.uta.edu
+Aljean,antho,M Santos,---,aljeanantho.santos@mavs.uta.edu
+Aljedani,, Omar Naji G,---,omar.aljedani@mavs.uta.edu
+Aljehani,, Aisha H,---,aisha.aljehani@mavs.uta.edu
+Aljeshi,, Lamees G,---,lamees.aljeshi@mavs.uta.edu
+Aljohnson,, Amy Lynn,---,amy.aljohnson@mavs.uta.edu
+Aljoufi,, Al-Hanouf Tariq,---,alhanouf.aljoufi@mavs.uta.edu
+Aljoufi,, Bilqis Tariq N.,---,bilqis.aljoufi@mavs.uta.edu
+Al-Jubori,, Hayder,---,hayder.al-jubori@mavs.uta.edu
+AlJuhaif,, Hussain Hadi A,---,hussain.aljuhaif@mavs.uta.edu
+Alka,K,Patel,---,alka.patel@mavs.uta.edu
+Alkaltham,, Laith Mousa,---,laith.alkaltham@mavs.uta.edu
+Alkalthami,, Mohammad,---,mohammad.alkalthami@mavs.uta.edu
+Alkam,, Nadia H,---,nadia.alkam@mavs.uta.edu
+Alkandari,, Mr Ahmad Saad Yousef A,---,ahmad.alkandari@mavs.uta.edu
+Alkandari,, Waleed D,---,waleed.alkandari@mavs.uta.edu
+Alkandary,, Dhary S Y A A,---,dhary.alkandary@mavs.uta.edu
+Alkarem,, Rana K,---,rana.alkarem@mavs.uta.edu
+Alkasasbeh,, Maha R,---,maha.alkasasbeh@mavs.uta.edu
+Al-Kassab,, Enas,---,enas.al-kassab@mavs.uta.edu
+Alkassar,, Jenan-Hanefa Nabil,---,jenan-hanefa.alkassar@mavs.uta.edu
+Al-Kassem,, Burak Ibrahim,---,burak.al-kassem@mavs.uta.edu
+Alkatheri,, Shahrazad Hussein A,---,shahrazad.alkatheri@mavs.uta.edu
+Al-Katheri,, Sultan Ahmed Taleb,---,sultan.alkatheri@mavs.uta.edu
+Alkawi,, Mhd Haitham,---,mhdhaitham.alkawi@mavs.uta.edu
+Alkazzaz,, Sirine,CASUAL EMPLOYEE DED,sirine.alkazzaz@uta.edu
+Alkhafaji,, Maha S,CASUAL EMPLOYEE (NON-EXEMPT),mahaa@uta.edu
+Alkhalaf,, Fedaa A,---,fedaa.alkhalaf@mavs.uta.edu
+Alkhaldi,, Fahad Dawas,---,fahad.alkhaldi@mavs.uta.edu
+Alkhaldi,, Hanof Dawas M,---,hanof.alkhaldi@mavs.uta.edu
+Alkhaldi,, Meshari,---,meshari.alkhaldi@mavs.uta.edu
+Alkhaldi,, Noura Dawas M,---,noura.alkhaldi@mavs.uta.edu
+Al-Khalil,, Abeer Briana,---,abeer.al-khalil@mavs.uta.edu
+Alkhamees,, Abdulkareem M,---,abdulkareem.alkhamees@mavs.uta.edu
+Allarry,,Daniels,---,allarry.daniels@mavs.uta.edu
+Allaundra,D,Zeno,---,allaundra.zeno@mavs.uta.edu
+Allbritten,, Mindy Lynn,---,mindy.allbritten@mavs.uta.edu
+Allbritton,, Karen Jean,---,karen.allbritton@mavs.uta.edu
+Allbritton,, Marisa J,---,marisa.allbritton@mavs.uta.edu
+Allbritton,, Meghan Joann,---,meghan.allbritton@mavs.uta.edu
+Allbritton,, Sara Morgan,---,sara.allbritton@mavs.uta.edu
+Allbritton,, Stephaniel D,---,stephanie.dhalla@mavs.uta.edu
+Allday,, Dottie Leona,---,dottie.allday@mavs.uta.edu
+Alldredge,, Bryan J,---,bryan.alldredge@mavs.uta.edu
+Alldredge,, James M,---,james.alldredge@mavs.uta.edu
+Alldredge,, Julia L,---,julia.alldredge@mavs.uta.edu
+Alldredge,, Sarah E,---,sarah.alldredge@mavs.uta.edu
+Alldritt,, Ryan J,---,ryan.alldritt@mavs.uta.edu
+Allec,, Sean M,---,sean.allec@mavs.uta.edu
+Allece,L,Merchant,---,allece.merchant@mavs.uta.edu
+Allee,, Kevin S,---,kevin.allee@mavs.uta.edu
+Alleen,, Brooklynn P,---,brooklynn.alleen@mavs.uta.edu
+Alleger,, Geoffrey B,---,geoffrey.alleger@mavs.uta.edu
+Allegra,C,Benz,---,allegra.benz@mavs.uta.edu
+Allegretto,, Lynn L,---,lynn.allegretto@mavs.uta.edu
+Alleman,, Samuel A,---,samuel.alleman@mavs.uta.edu
+Allemand,, Andrew J,---,andrew.allemand@mavs.uta.edu
+Allemang,, Tree L,---,tree.allemang@mavs.uta.edu
+Allen,A,Shaibani,---,allen.shaibani@mavs.uta.edu
+Allen,,Brown,---,allen.brown@mavs.uta.edu
+Allen,C,Wright,---,allen.wright@mavs.uta.edu
+Allen,D,Crawford,---,allen.crawford@mavs.uta.edu
+Allen,Figueroa,rivera,---,allen.figueroarivera@mavs.uta.edu
+Allen,G,Bagaoisan,---,allen.bagaoisan@mavs.uta.edu
+Allen,J,Brittain,---,allen.brittain@mavs.uta.edu
+Allen,J,Henley,---,allen.henley@mavs.uta.edu
+Allen,J,Kathryn,---,allen.kathryn@mavs.uta.edu
+Allen,L,Tsai,---,allen.tsai@mavs.uta.edu
+Allen,M,Akheituame,---,allen.akheituame@mavs.uta.edu
+Allen,N,Rivera,---,allen.rivera@mavs.uta.edu
+Allen,P,Thomas,---,allen.thomas@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,Pierce, Lakyn Lerae',---,lakyn.allenpierce@mavs.uta.edu
+Allen,, Christa J,---,christa.allen@mavs.uta.edu
+Allen,, Christian H,---,christian.allen@mavs.uta.edu
+Allen,, Christian J,---,christianjallen@mavs.uta.edu
+Allen,, Christie Lynn,---,christie.allen@mavs.uta.edu
+Allen,, Christina M,---,christina.allen@mavs.uta.edu
+Allen,, Christopher C,---,christopher.allen2@mavs.uta.edu
+Allen,, Christopher J,---,christopher.allen@mavs.uta.edu
+Allen,, Christopher P,---,christopherpallen@mavs.uta.edu
+Allen,, Christopher T,---,christophertallen@mavs.uta.edu
+Allen,, Christy,---,christy.allen@mavs.uta.edu
+Allen,, Cierra Nicole,---,cierra.allen@mavs.uta.edu
+Allen,, Cole,---,cole.allen@mavs.uta.edu
+Allen,, Contrell L,---,contrell.allen@mavs.uta.edu
+Allen,, Copper L,---,copper.allen@mavs.uta.edu
+Allen,, Cora M,---,cora.allen@mavs.uta.edu
+Allen,, Corey D,---,corey.allen@mavs.uta.edu
+Allen,, Courtney,---,courtney.allen43@mavs.uta.edu
+Allen,, Craig C,---,craig.allen@mavs.uta.edu
+Allen,, Crystal Gail,---,crystal.allen2@mavs.uta.edu
+Allen,, Cybil I,---,cybil.allen@mavs.uta.edu
+Allen,, Cynthia W,Accounting Clerk III,cwallen@exchange.uta.edu
+Allen,, Dakota Wayne,---,dakota.allen@mavs.uta.edu
+Allen,, Dana M,---,dana.allen@mavs.uta.edu
+Allen,, Dango M,---,dango.allen@mavs.uta.edu
+Allen,, Daniel Raymond,---,danielrallen@mavs.uta.edu
+Allen,, Daniel T,---,daniel.allen@mavs.uta.edu
+Allen,, Danielle L,---,danielle.allen@mavs.uta.edu
+Allen,, Daphne Taylor,---,daphne.allen@mavs.uta.edu
+Allen,, David B,---,david.allen@mavs.uta.edu
+Allen,, David M,---,davidmallen@mavs.uta.edu
+Allen,, David Philip,---,davidpallen@mavs.uta.edu
+Allen,, Dawn D,---,dawn.allen@mavs.uta.edu
+Allen,, DeAnte D,---,deante.allen@mavs.uta.edu
+Allen,, Delaney N,---,delaney.allen@mavs.uta.edu
+Allen,, Devan J,ASST DIR of GOV & COM REL,devan.allen@uta.edu
+Allen,, Devon D,---,devon.allen@mavs.uta.edu
+Allen,, Dominique Nicole,---,dominique.allen@mavs.uta.edu
+Allen,, Douglas Taurus,---,douglas.allen@mavs.uta.edu
+Allen,, Dustin R,---,dustin.allen@mavs.uta.edu
+Allen,, Elisabeth Diane,---,elisabeth.allen@mavs.uta.edu
+Allen,, Elizabeth Ann,---,elizabeth.allen2@mavs.uta.edu
+Allen,, Elizabeth Butler,---,elizabeth.allen@mavs.uta.edu
+Allen,, Emily,---,emily.allen21@mavs.uta.edu
+Allen,, Eric Steven,---,eric.allen@mavs.uta.edu
+Allen,, Evan W,---,evan.allen@mavs.uta.edu
+Allen,, Evelma Brown,---,evelma.allen@mavs.uta.edu
+Allen,, Fairy Belle,Accountant III,fairy.allen@uta.edu
+Allen,, Flesicha,---,flesicha.allen@mavs.uta.edu
+Allen,, Francoise N,---,francoise.allen@mavs.uta.edu
+Allen,, Frank B,---,frank.allen@mavs.uta.edu
+Allen,, Gary Lee,---,gary.allen@mavs.uta.edu
+Allen,, Gina Nicolette,---,gina.allen@mavs.uta.edu
+Allen,, Gregory Benjamin,---,gregory.allen@mavs.uta.edu
+Allen,, Haley,---,haley.allen@mavs.uta.edu
+Allen,, Holly N,---,holly.allen@mavs.uta.edu
+Allen,, Ian M,---,ian.allen@mavs.uta.edu
+Allen,, Jacob Robert,---,jacobrallen@mavs.uta.edu
+Allen,, Jacob Wayne,---,jacob.allen@mavs.uta.edu
+Allen,, Jaime L,---,jaime.allen@mavs.uta.edu
+Allen,, James Arthur,---,jaallen@mavs.uta.edu
+Allen,, James Douglas,Library Associate,jayd@uta.edu
+Allen,, James L,---,jameslallen@mavs.uta.edu
+Allen,, James M,---,jamesmallen@mavs.uta.edu
+Allen,, James T,---,jamestallen@mavs.uta.edu
+Allen,, Jasmine Marie,---,jasmine.allen@mavs.uta.edu
+Allen,, Leslie G,---,lesliegallen@mavs.uta.edu
+Allen,, Leslie Renee,---,leslie.allen@mavs.uta.edu
+Allen,, Linda L,---,linda.allen@mavs.uta.edu
+Allen,, Lindsey N,---,lindsey.allen@mavs.uta.edu
+Allen,, Lisa McCauley,---,lisa.allen@mavs.uta.edu
+Allen,, Lori D,---,loridallen@mavs.uta.edu
+Allen,, Lori J,---,lori.allen@mavs.uta.edu
+Allen,, Lyndsay Kaye,---,lyndsay.allen@mavs.uta.edu
+Allen,, Madeleine Reidy,---,madeleine.allen@mavs.uta.edu
+Allen,, Mandi E,---,mandi.allen@mavs.uta.edu
+Allen,, Margaret A,---,margaret.allen@mavs.uta.edu
+Allen,, Mario D,---,mario.allen@mavs.uta.edu
+Allen,, Mark A,---,mark.allen@mavs.uta.edu
+Allen,, Mark C,---,mallen@mavs.uta.edu
+Allen,, Marquis D,---,marquis.allen@mavs.uta.edu
+Allen,, Mary,---,mary.allen2@mavs.uta.edu
+Allen,, Matt Daniel,---,matt.allen@mavs.uta.edu
+Allen,, Maverick W,---,maverick.allen@mavs.uta.edu
+Allen,, Max,---,max.allen@mavs.uta.edu
+Allen,, Megan L,---,megan.allen@mavs.uta.edu
+Allen,, Melissa E,---,melissa.allen@mavs.uta.edu
+Allen,, Michael Alexander,---,michaelaallen@mavs.uta.edu
+Allen,, Michael Craig,---,michaelcallen@mavs.uta.edu
+Allen,, Michele A,---,michele.allen@mavs.uta.edu
+Allen,, Mikalyn Lin,---,mikalyn.allen@mavs.uta.edu
+Allen,, Mitchell W,---,mitchell.allen@mavs.uta.edu
+Allen,, Modupe Adetutu,---,modupe.allen@mavs.uta.edu
+Allen,, Molly Ryan,---,molly.allen@mavs.uta.edu
+Allen,, Monica A,---,monica.allen@mavs.uta.edu
+Allen,, Monica Marie,---,monicamallen@mavs.uta.edu
+Allen,, Morris T,---,morris.allen@mavs.uta.edu
+Allen,, Myriah Adonia Jo,---,myriah.allen@mavs.uta.edu
+Allen,, Nadia A,---,nadia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Na'kecia R,---,nakecia.allen@mavs.uta.edu
+Allen,, Victoria Hopkins,---,vallen@mavs.uta.edu
+Allen,, Wellington R,---,wellington.allen@mavs.uta.edu
+Allen,, Whitney Nicole,---,whitney.allen@mavs.uta.edu
+Allen,, William Roland Iii,---,williamrallen@mavs.uta.edu
+Allen,, William T,---,william.allen@mavs.uta.edu
+Allen,, Winston R,---,winston.allen@mavs.uta.edu
+Allen,, Yolanda Marchal,---,yolanda.allen@mavs.uta.edu
+Allen,, Zachary J,---,zachary.allen@mavs.uta.edu
+Allen,, Zane Ashleigh,---,zane.allen@mavs.uta.edu
+Allen,, Zaren,---,zaren.allen@mavs.uta.edu
+Allende,, Christine M,---,christine.allende@mavs.uta.edu
+Allende,, Francisco O,---,francisco.allende@mavs.uta.edu
+Allen-edmond,, Alesia D,---,alesia.allen-edmond@mavs.uta.edu
+Allenki,, Roja,---,roja.allenki@mavs.uta.edu
+Allen-Kiracofe,, Deloris Maire,---,deloris.higgins@mavs.uta.edu
+Allen-Pena,, Alexandra Leigh,---,alexandra.allen-pena@mavs.uta.edu
+Allenson,, Britagnie,---,britagnie.allenson@mavs.uta.edu
+Allen-Thompson,, Joshua Christian,---,joshua.allen-thompson@mavs.uta.edu
+Alles,, Harsha A,---,harsha.alles@mavs.uta.edu
+Alles,, Kendall Kay,---,kendall.alles@mavs.uta.edu
+Alletto,, Christina M,---,christina.alletto@mavs.uta.edu
+Alley,, Byron G,---,byron.alley@mavs.uta.edu
+Alley,, Hannah,---,hannah.alley@mavs.uta.edu
+Alley,, Jill Hodge,---,jill.alley@mavs.uta.edu
+Alley,, Kristen D,---,kristen.alley@mavs.uta.edu
+Alley,, Mary K,---,marykcarter@mavs.uta.edu
+Alley,, Troy C,---,troy.alley@mavs.uta.edu
+Alleyne,, Marcia Chevone,---,marcia.alleyne@mavs.uta.edu
+Alleyne,, Mark Stanislaus,---,mark.alleyne@mavs.uta.edu
+Alleyne,, Nicola M,---,nicola.alleyne@mavs.uta.edu
+Allgire,, Amber-Laine,---,amber-laine.mcgeath@mavs.uta.edu
+Allgire,, Daniel M,---,daniel.allgire@mavs.uta.edu
+Allgood,, Carson,---,carson.allgood@mavs.uta.edu
+Allgood,, Dustin K,---,dustin.allgood@mavs.uta.edu
+Allgood,, Jana L,---,jana.thurman@mavs.uta.edu
+Allgood,, Jeremy A,---,jeremy.allgood@mavs.uta.edu
+Allgood,, Samuel Taylor,---,samuel.allgood@mavs.uta.edu
+Alli,G,Binger,---,alli.binger@mavs.uta.edu
+Alli,O,Oshun,---,alli.oshun@mavs.uta.edu
+Alli,Shaik Aleemuddin, Azraa Raihan,---,azraaraihan.allishaikaleemu@mavs.uta.edu
+Alli,, Kolawole O,---,kolawole.alli@mavs.uta.edu
+Alli,, Obafemi Adewunmi,---,obafemi.alli@mavs.uta.edu
+Alli,, Olusegun Fifelomo,---,olusegun.alli@mavs.uta.edu
+Alli,, Oreoluwa Folashade,---,oreoluwa.alli@mavs.uta.edu
+Alli,, Tunde&apos;,---,tunde.alli@mavs.uta.edu
+Alliaj,, Nertila,---,nertila.alliaj@mavs.uta.edu
+Allie,J,Dekoker,---,allie.dekoker@mavs.uta.edu
+Allie,L,Welch,---,allie.welch@mavs.uta.edu
+Allie,M,Evans,---,allie.evans@mavs.uta.edu
+Allie,,Shulman,---,allie.shulman@mavs.uta.edu
+Allie,, Steven C,---,steven.allie@mavs.uta.edu
+Alligood,, April Ann,---,april.alligood@mavs.uta.edu
+Allina,L,Espinosa,---,allina.espinosa@mavs.uta.edu
+Alliona,M,Fay,---,alliona.fay@mavs.uta.edu
+Alliot,, Bertha L,---,bertha.alliot@mavs.uta.edu
+Allison,A,Dietz,---,allison.dietz@mavs.uta.edu
+Allison,A,Haire,---,allison.haire@mavs.uta.edu
+Allison,A,Knostman,---,allison.knostman@mavs.uta.edu
+Allison,A,Nance,---,allison.nance@mavs.uta.edu
+Allison,A,Paul,---,allison.paul@mavs.uta.edu
+Allison,A,Sawyer,---,allison.sawyer@mavs.uta.edu
+Allison,A,Stampahar,---,allison.stampahar@mavs.uta.edu
+Allison,R,Bryant,---,allison.bryant@mavs.uta.edu
+Allison,R,Buxkemper,---,allison.buxkemper@mavs.uta.edu
+Allison,R,Williams,---,allison.williams@mavs.uta.edu
+Allison,,Rael,---,allison.rael@mavs.uta.edu
+Allison,,Royland,---,allison.royland@mavs.uta.edu
+Allison,S,Rodger,---,allison.rodger@mavs.uta.edu
+Allison,W,Tse,---,allison.tse@mavs.uta.edu
+Allison,W,Veale,---,allison.veale@mavs.uta.edu
+Allison,,Wheeler,---,allison.wheeler@mavs.uta.edu
+Allison,, Adrianne,---,adrianne.allison@mavs.uta.edu
+Allison,, Alexandra Gail,---,alexandra.allison@mavs.uta.edu
+Allison,, Ashley,---,ashley.allison@mavs.uta.edu
+Allison,, Cathryn L,---,cathryn.allison@mavs.uta.edu
+Allison,, Christie N,---,christie.allison@mavs.uta.edu
+Allison,, Colin L,---,---
+Allison,, Debra L,---,debra.allison@mavs.uta.edu
+Allison,, Desirae Nicole,---,desirae.allison@mavs.uta.edu
+Allison,, Ellen Cathleena,---,ellen.allison@mavs.uta.edu
+Allison,, Gajownik D,---,gajownik.allison@mavs.uta.edu
+Allison,, Genevieve E,---,genevieve.allison@mavs.uta.edu
+Allison,, Gretchen Ross,---,gretchen.allison@mavs.uta.edu
+Allison,, Jackie E,---,jackie.allison@mavs.uta.edu
+Allison,, Jackie Leigh,---,jackie.allison2@mavs.uta.edu
+Allison,, Jennifer Denise,---,jallison@mavs.uta.edu
+Allison,, Justin Williams,---,justin.allison@mavs.uta.edu
+Allison,, Katherine Nicole,---,katherine.allison@mavs.uta.edu
+Allison,, Kimberly Gay,---,kallison@mavs.uta.edu
+Allison,, Kimberly Paige,---,kimberly.allison@mavs.uta.edu
+Allison,, Kristi Kay,---,kristi.allison@mavs.uta.edu
+Allison,, Laporsha J,---,laporsha.allison@mavs.uta.edu
+Allison,, Lindsay M,---,lindsay.allison@mavs.uta.edu
+Allison,, Maria Andrea,---,maria.allison@mavs.uta.edu
+Allison,, Morgan Rhae,---,morgan.allison@mavs.uta.edu
+Allison,, Nick R,---,nick.allison@mavs.uta.edu
+Allison,, Patrick B,---,patrick.allison@mavs.uta.edu
+Allison,, Ria Desion,---,ria.allison@mavs.uta.edu
+Allison,, Ryan Lynne,---,ryan.allison@mavs.uta.edu
+Allison,, Samantha M,---,samantha.allison@mavs.uta.edu
+Allison,, Sara Lynn,---,sara.allison@mavs.uta.edu
+Allison,, Shaquita N,---,shaquita.allison@mavs.uta.edu
+Allison,, Sheila L,---,sheila.allison@mavs.uta.edu
+Allison,, Shelby D,---,shelby.allison@mavs.uta.edu
+Allison,, Sophia Ogechi,---,sophia.allison@mavs.uta.edu
+Allison-coleman,, Kanika E,---,kanika.allisoncoleman@mavs.uta.edu
+Allison-Quick,, Eunice Mary,---,eunice.allison-quick@mavs.uta.edu
+Allissa,M,Chase,---,allissa.chase@mavs.uta.edu
+Alliu,, Abigail A,---,abigail.alliu@mavs.uta.edu
+Allivand,, April,---,april.allivand@mavs.uta.edu
+Allman,, James W,---,james.allman@mavs.uta.edu
+Allman,, JungAe,---,jungae.lee@mavs.uta.edu
+Allman,, Robin Lynne,---,robin.allman@mavs.uta.edu
+Allman,, Shayla J.,---,shayla.cox@mavs.uta.edu
+Allman,, Stephen A,---,stephen.allman@mavs.uta.edu
+Allman,, Tod J,---,tod.allman@mavs.uta.edu
+Allmon,, Christina M,---,christina.allmon@mavs.uta.edu
+Allmon,, Neal E,---,neal.allmon@mavs.uta.edu
+Allmon,, Ramahd V,---,ramahd.allmon@mavs.uta.edu
+Allmond,, Crystal S,---,crystal.allmond@mavs.uta.edu
+Allmond,, Karen S,CLINICAL ASSISTANT PROFESSOR,kallmond@exchange.uta.edu
+Allogho,Mezui Me Ntolo, Allogho,---,allogho.alloghomezuimen@mavs.uta.edu
+Allonby,, Rachel K,---,rachel.allonby@mavs.uta.edu
+Alma,P,Exiga,---,alma.exiga@mavs.uta.edu
+Alma,,Quintero,---,alma.quintero@mavs.uta.edu
+Alma,R,Mariano,---,alma.mariano@mavs.uta.edu
+Alma,R,Waterbury,---,alma.waterbury@mavs.uta.edu
+Alma,,Rodriguez,---,alma.rodriguez93@mavs.uta.edu
+Alma,S,Moreno-portillo,---,alma.moreno-portillo@mavs.uta.edu
+Alma,,Suarez,---,alma.suarez@mavs.uta.edu
+Alma,V,Martinez,---,alma.martinez@mavs.uta.edu
+Almack,, Jacob D,---,jacob.almack@mavs.uta.edu
+Almadani,, Rania Mazen,---,rania.almadani@mavs.uta.edu
+Al-Madhaji,, Ammar A,---,ammar.almadhaji@mavs.uta.edu
+Almaguer,, Adrian,---,adrian.almaguer@mavs.uta.edu
+Almaguer,, Anna M,---,anna.almaguer@mavs.uta.edu
+Almaguer,, Daisy,---,daisy.almaguer@mavs.uta.edu
+Almaguer,, Diana,---,diana.almaguer@mavs.uta.edu
+Almaguer,, Erica,---,erica.almaguer@mavs.uta.edu
+Almaguer,, Fraileer,---,fraileer.almaguer@mavs.uta.edu
+Almaguer,, Johana,---,johana.almaguer@mavs.uta.edu
+Almaguer,, Jordan,---,jordan.almaguer@mavs.uta.edu
+Almaguer,, Miguel Angel,---,miguel.almaguer@mavs.uta.edu
+Almaguer,, Omar,---,omar.almaguer@mavs.uta.edu
+Almaguer,, Sara E,---,sara.almaguer@mavs.uta.edu
+Almaguer,, Xavier D,---,xavier.almaguer@mavs.uta.edu
+Almaguer-Alfaro,, Jacklyn,---,jacklyn.almaguer-alfaro@mavs.uta.edu
+Almahal,, Rashed,---,rashed.almahal@mavs.uta.edu
+Almahamedh,, Ali Hassan H,---,ali.almahamedh@mavs.uta.edu
+Almahasnah,, Ali saeed m.,---,ali.almahasnah@mavs.uta.edu
+Almahmoud,, Faisal ibrahim,---,faisal.almahmoud@mavs.uta.edu
+Almajed,, Amani Mohammad A,---,amanimohammad.almajed@mavs.uta.edu
+Almajed,, Yazeed Hasan M,---,yazeed.almajed@mavs.uta.edu
+Almakrami,, Mohammed Jafar A,---,mohammed.almakrami@mavs.uta.edu
+Almalki,, Abdulrhman Abdullah S,---,abdulrhman.almalki@mavs.uta.edu
+Almalki,, Hussain Ateeq Z,---,hussain.almalki@mavs.uta.edu
+Almalki,, Meshal Abdullah S,---,meshal.almalki@mavs.uta.edu
+Almallah,, Bethanna Waleed,---,bethanna.almallah@mavs.uta.edu
+Alman,, Dylan H,---,dylan.alman@mavs.uta.edu
+Almand,, Jared R,---,jared.almand@mavs.uta.edu
+Almand,, Jonathan Austin,---,jonathan.almand@mavs.uta.edu
+Almand,, Lauren M,---,lauren.almand@mavs.uta.edu
+Al-Mansouri,, Mohammed A,---,mohammed.al-mansouri@mavs.uta.edu
+Almansur,, Jonathan Maher,---,jonathan.almansur@mavs.uta.edu
+Almanza,lopez, Yesenia,---,yesenia.almanzalopez@mavs.uta.edu
+Almanza,, Angela,---,angela.almanza@mavs.uta.edu
+Almanza,, Armando,---,armando.almanza@mavs.uta.edu
+Almanza,, Berenice,---,berenice.navarrete@mavs.uta.edu
+Almanza,, Edna Lea,---,edna.almanza@mavs.uta.edu
+Almanza,, Jocelyn,---,jocelyn.almanza@mavs.uta.edu
+Almanza,, Joe N,---,joe.almanza@mavs.uta.edu
+Almanza,, Juan Manuel,---,juan.almanza@mavs.uta.edu
+Almanza,, Luis Enrique,---,luis.almanza@mavs.uta.edu
+Almanza,, Marisela,---,marisela.almanza@mavs.uta.edu
+Almanza,, Mitchell M,---,mitchell.almanza@mavs.uta.edu
+Almanza,, Ricardo,---,ricardo.almanza@mavs.uta.edu
+Almanza,, Roberto,---,roberto.almanza@mavs.uta.edu
+Almanzar,, Gisselle Marie,---,gisselle.almanzar@mavs.uta.edu
+Almanzar,, Victoria E,---,victoria.almanzar@mavs.uta.edu
+Almaraz,Dominguez, Marisol,---,marisol.almarazdominguez@mavs.uta.edu
+Almaraz,, Bobby,---,bobby.almaraz@mavs.uta.edu
+Almaraz,, Claudia,---,claudia.almaraz@mavs.uta.edu
+Almaraz,, Desiree Monique,---,desiree.almaraz@mavs.uta.edu
+Almomani,, Yazan Shaher Mohammad,---,yazan.almomani@mavs.uta.edu
+Almon,, Ashley E,---,ashley.almon@mavs.uta.edu
+Almon,, Pamela Katherine,---,pamela.almon@mavs.uta.edu
+Almon,, Rachael L,---,rachael.almon@mavs.uta.edu
+Almond,, Savannah,---,savannah.almond@mavs.uta.edu
+Almorado,, Yvonne Marie,---,yvonnemarie.almorado@mavs.uta.edu
+Almore,, Christina,---,christina.almore@mavs.uta.edu
+Almotairi,, Mousa Aaiedh,---,mousa.almotairi@mavs.uta.edu
+Almoula,, Taral Samir,---,taral.almoula@mavs.uta.edu
+Almour,, Richard C,---,richard.almour@mavs.uta.edu
+Almousa,, Motab T,---,motab.almousa@mavs.uta.edu
+Almousli,, Fryal M.Tarek,---,fryal.almousli@mavs.uta.edu
+Almquist,, Anna K,---,anna.almquist@mavs.uta.edu
+Almquist,, Sarah Elizabeth,---,sarah.almquist@mavs.uta.edu
+Almquist,, Tiffany Marie,---,tiffany.almquist@mavs.uta.edu
+Almryde,, Christopher Ryan,---,christopher.almryde@mavs.uta.edu
+Almselih,, Ali Saleem Yaseen,---,ali.almselih@mavs.uta.edu
+Almuallem,, Hytham Abdullah S,---,hytham.almuallem@mavs.uta.edu
+Almubarak,, Maram,---,maram.almubarak@mavs.uta.edu
+Almubayei,, Dalal S,---,dalal.almubayei@mavs.uta.edu
+Almubiadin,, Mohamed A,---,mohamed.almubiadin@mavs.uta.edu
+Almuhamd,, Ali S,---,ali.almuhamd@mavs.uta.edu
+Almuhattab,, Abdulrahman,---,abdulrahman.almuhattab@mavs.uta.edu
+Almuhtadi,, Rami,---,rami.almuhtadi@mavs.uta.edu
+Almujalli,, Naif Abdullah M,---,naif.almujalli@mavs.uta.edu
+Almukhaytah,, Mohammed Abdullah,---,mohammed.almukhaytah@mavs.uta.edu
+Almutairi,, Abdulaziz A,---,abdulaziz.almutairi@mavs.uta.edu
+Almutairi,, Abdullah S,---,abdullah.almutairi@mavs.uta.edu
+Almutairi,, Khalid Hussain,---,khalid.almutairi@mavs.uta.edu
+Almutairi,, Naif Mohammed L,---,naif.almutairi@mavs.uta.edu
+Al-mutairi,, Yasir H,---,yasir.al-mutairi@mavs.uta.edu
+Almuthanna,A,Obeidat,---,almuthanna.obeidat@mavs.uta.edu
+Almuzaini,, Hanin F,---,hanin.almuzaini@mavs.uta.edu
+Alnahhas,, Zabia,---,zabia.alnahhas@mavs.uta.edu
+Alnajjar,, Bashar A,---,bashar.alnajjar@mavs.uta.edu
+AlNajjar,, Hashem,---,hashem.alnajjar@mavs.uta.edu
+Alnajjar,, Hefzi,---,hefzi.alnajjar@mavs.uta.edu
+Alnakhli,, Hayam Qasem S,---,hayam.alnakhli@mavs.uta.edu
+Alnamah,, Aieman A,---,aieman.alnamah@mavs.uta.edu
+Alnamah,, Nassir A,---,nassir.alnamah@mavs.uta.edu
+Alnaser,, Khaled Adeeb Mohammed,---,khaled.alnaser@mavs.uta.edu
+Alnasser,, Ahmad Hussain,---,ahmad.alnasser@mavs.uta.edu
+Alnasser,, Hussain ali,---,hussain.alnasser@mavs.uta.edu
+Alnasser,, Nasser Abdulmohsen,---,nasser.alnasser@mavs.uta.edu
+Alnoaim,, Abdulaziz Jamal A.,---,abdualaziz.alnoaim@mavs.uta.edu
+Al-nobani,, Omar O,---,omar.al-nobani@mavs.uta.edu
+Alobaid,, Omar A,---,omar.alobaid@mavs.uta.edu
+Alobaidi,, Ghid Basil,---,ghid.alobaidi@mavs.uta.edu
+Aloffe,, Noor Dallas Jamal,---,noordallas.aloffe@mavs.uta.edu
+Alois,, Louis Judson,Guard/Public Safety Officer,lalois@exchange.uta.edu
+Alok,,Jain,---,alok.jain@mavs.uta.edu
+Alok,,Shrestha,---,alok.shrestha@mavs.uta.edu
+Alokoa,, Elizabeth M,---,elizabeth.alokoa@mavs.uta.edu
+Alomaja,, Bunkola Priscillia,---,bunkola.alomaja@mavs.uta.edu
+Alomar,, Nawaf ibrahim m,---,nawaf.alomar@mavs.uta.edu
+Alomari,, Mohammad Mahmoud,---,mohammad.alomari@mavs.uta.edu
+Alomari,, Rafat Ahmmad,---,rafat.alomari@mavs.uta.edu
+Alondra,,Cabrales,---,alondra.cabrales@mavs.uta.edu
+Alondra,,Castillo,---,alondra.castillo@mavs.uta.edu
+Alphin,, Samantha,---,samantha.alphin@mavs.uta.edu
+Alphonse,jopseph raj, Alex prative R,---,alexprativerajkumar.alphonsejosephraj@mavs.uta.edu
+Alphonse,,Zoungrana,---,alphonse.zoungrana@mavs.uta.edu
+Alphonse,, Noel R,---,noel.alphonse@mavs.uta.edu
+Alphonse,, Priyatharshi,---,priyatharshi.alphonse@mavs.uta.edu
+Alphonsine,M,Ugochukwu,---,alphonsine.ugochukwu@mavs.uta.edu
+Alphonso,, Marshbarthol,---,marshbarthol.alphonso@mavs.uta.edu
+Alpuerto,, Jacob J,---,jacob.alpuerto@mavs.uta.edu
+Alpuerto,, Lance,---,lance.alpuerto@mavs.uta.edu
+Alpyeyeva,, Oksana,---,oksana.alpyeyeva@mavs.uta.edu
+Al-qadhi,, Talal A,---,talal.al-qadhi@mavs.uta.edu
+Alqadhibi,, Khalid Sulaiman D,---,khalid.alqadhibi@mavs.uta.edu
+Alqahtani,, Afnan Nasser T,---,afnan.alqahtani@mavs.uta.edu
+Alqahtani,, Fai Nasser T,---,fai.alqahtani@mavs.uta.edu
+Alqahtani,, Mohammed F.,---,mohammed.alqahtani@mavs.uta.edu
+Alqahtani,, Rawan Nasser T,---,rawan.alqahtani@mavs.uta.edu
+Alqahtani,, Saeed Abdullah S,---,saeed.alqahtani@mavs.uta.edu
+Alqahtani,, Tasneem Bandar M,---,tasneem.alqahtani@mavs.uta.edu
+Al-Qaissey,, Ali,---,ali.al-qaissey@mavs.uta.edu
+Al-Qalawi,, Azzam H,---,azzam.al-qalawi@mavs.uta.edu
+Alqannas,, Musaed Khalid A,---,musaed.alqannas@mavs.uta.edu
+Al-Qasem,, Ayah N,---,ayah.al-qasem@mavs.uta.edu
+Al-qasem,, Jaida,---,jaida.alqasem@mavs.uta.edu
+Al-qasem,, Sari K,---,sari.alqasem@mavs.uta.edu
+Alqatari,, Jafar Hisham,---,jafar.alqatari@mavs.uta.edu
+Alqatifi,, Hussain Yousef,---,hussain.alqatifi@mavs.uta.edu
+Alqaudi,, Bakur A,---,bakur.alqaudi@mavs.uta.edu
+Alqaysi,, Ahmed H,---,ahmed.alqaysi@mavs.uta.edu
+Alqaysi,, Sarmad,---,sarmad.alqaysi@mavs.uta.edu
+Alquhtani,, Saad Mohammed A,---,saad.alquhtani@mavs.uta.edu
+Alquist,, Justin,---,justin.alquist@mavs.uta.edu
+Alraba,, Anwar fawaz,---,anwar.alraba@mavs.uta.edu
+Alrabbat,, Ayah,---,ayah.alrabbat@mavs.uta.edu
+Alradadi,, Mohammed Muhsen Ma,---,mohammed.alradadi@mavs.uta.edu
+Alradwan,, Tarik A,---,tarik.alradwan@mavs.uta.edu
+Alramadhan,, Mustafa Habib,---,mustafa.alramadhan@mavs.uta.edu
+Alrashdan,, Atheer,---,atheer.alrashdan@mavs.uta.edu
+Alrashdan,, Mahir D,---,mahir.alrashdan@mavs.uta.edu
+Alrashdi,, Naif,---,naif.alrashdi@mavs.uta.edu
+Alrashdi,, Saud,---,saud.alrashdi@mavs.uta.edu
+Alrashed,, Mohammed Abdulaziz S,---,mohammed.alrashed@mavs.uta.edu
+Alrasheed,, Aljoharah,---,aljoharah.alrasheed@mavs.uta.edu
+Alrasheed,, Jarah Fawzi,---,jarah.alrasheed@mavs.uta.edu
+Alrashidi,, Massoud Owihan,---,massoud.alrashidi@mavs.uta.edu
+Alrashidi,, Shaimaa SH M H A,---,shaimaa.alrashidi@mavs.uta.edu
+Alrayyani,, Mohammed Abdh,---,mohammed.alrayyani@mavs.uta.edu
+Alred,, Nancy Whitfield,---,nancy.alred@mavs.uta.edu
+Alrefaei,, Abdulrahman Yousif Y S M S,---,abdulrahman.alrefaei@mavs.uta.edu
+Alrefaei,, Yaqoub Y Y S M Alsayed,---,yaqoub.alrefaei@mavs.uta.edu
+Al-Refai,, Shaban A,---,shaban.al-refai@mavs.uta.edu
+Alric,A,Mumphrey,---,alric.mumphrey@mavs.uta.edu
+Alridge,, Patricia A,---,patricia.alridge@mavs.uta.edu
+Alrimawi,, Nader Hawari,---,nader.alrimawi@mavs.uta.edu
+Alrousan,, Sudi,---,sudi.alrousan@mavs.uta.edu
+Al-rousan,, Wared,---,wared.al-rousan@mavs.uta.edu
+Alrowaithy,, Mohammad H,---,mohammad.alrowaithy@mavs.uta.edu
+Alrumih,, Khalid Mohammed A,---,khalid.alrumih@mavs.uta.edu
+Alrushud,, Abdulaziz Mohammed R,---,abdulaziz.alrushud@mavs.uta.edu
+Alshathri,, Faisal Abdullatif A,---,faisal.alshathri@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Alshdiefat,, Ala''a S,---,alaa.alshdiefat@mavs.uta.edu
+Altenberg,, Jessica A,---,jessica.altenberg@mavs.uta.edu
+Altendorf,, Beth Nicole,---,beth.altendorf@mavs.uta.edu
+Altes,, Candice Ann,---,candice.altes@mavs.uta.edu
+Althawwad,, Abdullah,---,abdullah.althawwad@mavs.uta.edu
+Altheide,, Hannah M,---,hannah.altheide@mavs.uta.edu
+Altheria,G,Clark,---,altheria.clark@mavs.uta.edu
+Altherr,, Kathleen M,---,kathleen.altherr@mavs.uta.edu
+Altherr,, Nicole Diane,---,nicole.altherr@mavs.uta.edu
+Althof,, Jessica Denise,---,jessica.althof@mavs.uta.edu
+Althoff,, Bryon,---,bryon.althoff@mavs.uta.edu
+Althouse,, Kimberly K,---,kimberly.althouse@mavs.uta.edu
+Altimus,, Mitchell B,---,mitchell.altimus@mavs.uta.edu
+Altizer,, Anne Barrett,---,anne.altizer@mavs.uta.edu
+Altizer,, Ashleigh K,---,ashleigh.altizer@mavs.uta.edu
+Altizer,, Michael T,---,michael.altizer@mavs.uta.edu
+Altman,, Dottie L,---,dottie.kitchen@mavs.uta.edu
+Altman,, Garrett Michael,---,garrett.altman@mavs.uta.edu
+Altman,, Matthew H,---,matthew.altman@mavs.uta.edu
+Altman,, Russell Craig,---,russell.altman@mavs.uta.edu
+Altman,, Susan S,---,susan.altman@mavs.uta.edu
+Altmann,, Terri Lynn,---,terri.altmann@mavs.uta.edu
+Altom,, Hailey Megan,---,hailey.altom@mavs.uta.edu
+Altom,, Jaret M,---,jaret.altom@mavs.uta.edu
+Altom,, Leah Kay,---,leah.altom@mavs.uta.edu
+Altomare,, Edwin P,LECTURER,altomare@exchange.uta.edu
+Alton,D,Drayden,---,alton.drayden@mavs.uta.edu
+Alton,L,Phillips,---,alton.phillips@mavs.uta.edu
+Altoonian,, Derek D,---,derek.altoonian@mavs.uta.edu
+Altouqi,, Said,---,said.altouqi@mavs.uta.edu
+Altpeter,, Suzanne E,---,suzanne.altpeter@mavs.uta.edu
+Altschul,, Alexa L,---,alexa.altschul@mavs.uta.edu
+Altschul,, Carissa Anne,---,carissa.altschul@mavs.uta.edu
+Altum,, Elizabeth Melelani,---,elizabeth.altum@mavs.uta.edu
+Altun,, Tuncay,---,tuncay.altun@mavs.uta.edu
+Alturaifi,, Mohammed D,---,mohammed.alturaifi@mavs.uta.edu
+Alturk,, Iman,---,iman.alturk@mavs.uta.edu
+Alturk,, Manal S,---,manal.alturk@mavs.uta.edu
+Alturk,, Tamara,---,tamara.alturk@mavs.uta.edu
+Alturki,, Maram Ibrahim A,---,maram.alturki@mavs.uta.edu
+Altuwaijri,, Essam Ahmad,---,essam.altuwaijri@mavs.uta.edu
+Alucho,, Ferdinand Emeka,---,ferdinand.alucho@mavs.uta.edu
+Aluede,, Joseph E,---,joseph.aluede@mavs.uta.edu
+Aluede,, Omosigho,---,omosigho.aluede@mavs.uta.edu
+Alugubelly,, Bharath Reddy,---,bharathredd.alugubelly@mavs.uta.edu
+Aluku,, Ange-michel P,---,ange-michel.aluku@mavs.uta.edu
+Alumbaugh,, Austin J,---,austin.alumbaugh@mavs.uta.edu
+Alummoottil,, Renooka Murli,---,renooka.alummoottil@mavs.uta.edu
+Aluotto,, Melanie Lynn,---,melanie.aluotto@mavs.uta.edu
+Aluri,, Jackson Olive,---,jacksonolive.aluri@mavs.uta.edu
+Aluru,, Praneeth,---,praneeth.aluru@mavs.uta.edu
+Alusick,, Kathleen M,---,kathleen.alusick@mavs.uta.edu
+Alusina,D,Taylor-kamara,---,alusina.taylor-kamara@mavs.uta.edu
+Alutaibi,, Abdula motlak f,---,abdulamotlakf.alutaibi@mavs.uta.edu
+Alutius,, Sharayah Amber,---,sharayah.alutius@mavs.uta.edu
+Aluvala,, Satish Kumar R,---,satishkumar.aluvala@mavs.uta.edu
+Alva,, Amelia R,---,amelia.alva@mavs.uta.edu
+Alvarado,, Jorge,---,jorge.alvarado@mavs.uta.edu
+Alvarado,, Jose F,---,jose.alvarado@mavs.uta.edu
+Alvarado,, Josue,---,josue.alvarado@mavs.uta.edu
+Alvarado,, Kaitlyn M,---,kaitlyn.alvarado@mavs.uta.edu
+Alvarado,, Karen M,---,karen.alvarado@mavs.uta.edu
+Alvarado,, Katherine,---,katherine.alvarado@mavs.uta.edu
+Alvarado,, Kathryn,---,kathryn.alvarado@mavs.uta.edu
+Alvarado,, Kelly,---,kelly.alvarado@mavs.uta.edu
+Alvarado,, Kristal Rene,---,kristal.alvarado@mavs.uta.edu
+Alvarado,, Kristi Michelle,---,kristi.alvarado@mavs.uta.edu
+Alvarado,, Kristina,---,kristina.alvarado@mavs.uta.edu
+Alvarado,, Krystal M,---,krystal.alvarado@mavs.uta.edu
+Alvarado,, Leonel,---,leonel.alvarado@mavs.uta.edu
+Alvarado,, Leslie,---,leslie.alvarado@mavs.uta.edu
+Alvarado,, Liononette Lyndercilla,---,liononette.alvarado@mavs.uta.edu
+Alvarado,, Lisette,---,lisette.alvarado@mavs.uta.edu
+Alvarado,, Lissandra,---,lissandra.alvarado@mavs.uta.edu
+Alvarado,, Lizette B,---,lizette.alvarado@mavs.uta.edu
+Alvarado,, Luis A,---,luis.alvarado@mavs.uta.edu
+Alvarado,, Luis Carlos,---,luiscalvarado@mavs.uta.edu
+Alvarado,, Manuel O,---,manuel.alvarado@mavs.uta.edu
+Alvarado,, Marco A,---,marco.alvarado@mavs.uta.edu
+Alvarado,, Maria,---,maria.alvarado@mavs.uta.edu
+Alvarado,, Marisol,---,marisol.alvarado@mavs.uta.edu
+Alvarado,, Melanie S,---,melanie.alvarado@mavs.uta.edu
+Alvarado,, Melinda Ann,---,melinda.alvarado@mavs.uta.edu
+Alvarado,, Melissa A,---,melissa.alvarado@mavs.uta.edu
+Alvarado,, Mellissa,---,mellissa.alvarado@mavs.uta.edu
+Alvarado,, Mercy,---,mercy.alvarado@mavs.uta.edu
+Alvarado,, Michelle,---,michelle.alvarado@mavs.uta.edu
+Alvarado,, Miss Rebeca,---,rebeca.alvarado@mavs.uta.edu
+Alvarado,, Monet R,---,monet.alvarado@mavs.uta.edu
+Alvarado,, Monica,---,monica.alvarado@mavs.uta.edu
+Alvarado,, Naomi,---,naomi.alvarado2@mavs.uta.edu
+Alvarado,, Nathalie Yvette,---,nathalie.alvarado@mavs.uta.edu
+Alvarado,, Neftalif,---,neftalif.alvarado@mavs.uta.edu
+Alvarado,, Nicole Aisha,---,nicole.alvarado@mavs.uta.edu
+Alvarado,, Norma M,---,norma.alvarado@mavs.uta.edu
+Alvarado,, Patricia Antonia,---,patricia.alvarado@mavs.uta.edu
+Alvarado,, Pedro O,---,pedro.alvarado@mavs.uta.edu
+Alvarado,, Rafael,---,rafael.alvarado@mavs.uta.edu
+Alvarado,, Ramon,---,ramon.alvarado@mavs.uta.edu
+Alvarado,, Raquel,---,raquel.alvarado2@mavs.uta.edu
+Alvarado,, Raul,---,raul.alvarado@mavs.uta.edu
+Alvarado,, Rene Delossantos,---,rene.alvarado@mavs.uta.edu
+Alvarado,, Robert W,---,ralvarado@mavs.uta.edu
+Alvarado,, Rosario,---,rosario.alvarado@mavs.uta.edu
+Alvarado,, Samuel A,---,samuel.alvarado@mavs.uta.edu
+Alvarado,, Sarai A,---,sarai.alvarado@mavs.uta.edu
+Alvarado,, Sergio,---,sergio.alvarado2@mavs.uta.edu
+Alvarado,, Sonia E,---,sonia.alvarado@mavs.uta.edu
+Alvarado,, Stefan Blake,---,stefan.alvarado@mavs.uta.edu
+Alvarado,, Susan K,---,susan.alvarado@mavs.uta.edu
+Alvarado,, Theresa N,---,theresa.alvarado@mavs.uta.edu
+Alvarado,, Uriel,---,uriel.alvarado@mavs.uta.edu
+Alvarez,, Diana K,---,diana.alvarez@mavs.uta.edu
+Alvarez,, Edgar,---,edgar.alvarez@mavs.uta.edu
+Alvarez,, Edward,---,edward.alvarez@mavs.uta.edu
+Alvarez,, Elconure A.S.,---,elconure.hill@mavs.uta.edu
+Alvarez,, Eldom,---,eldom.alvarez@mavs.uta.edu
+Alvarez,, Elena Agueros,---,elena.alvarez@mavs.uta.edu
+Alvarez,, Elizabeth,---,elizabeth.alvarez90@mavs.uta.edu
+Alvarez,, Emily P,---,emily.alvarez@mavs.uta.edu
+Alvarez,, Enelly,---,enelly.alvarez@mavs.uta.edu
+Alvarez,, Estella Maria,---,estella.alvarez@mavs.uta.edu
+Alvarez,, Esther,---,esther.alvarez@mavs.uta.edu
+Alvarez,, Fidel,---,fidel.alvarez@mavs.uta.edu
+Alvarez,, Finette Julmeus,---,finette.alvarez@mavs.uta.edu
+Alvarez,, Francisco Javier,---,francisco.alvarez@mavs.uta.edu
+Alvarez,, Gina Angelic,---,gina.rosa@mavs.uta.edu
+Alvarez,, Gloria P,---,gloria.alvarez@mavs.uta.edu
+Alvarez,, Grace Elizabeth,---,grace.alvarez@mavs.uta.edu
+Alvarez,, Hector J,---,hector.alvarez@mavs.uta.edu
+Alvarez,, Isaac Lazarus,---,isaac.alvarez@mavs.uta.edu
+Alvarez,, Jacqueline,---,jacqueline.alvarez@mavs.uta.edu
+Alvarez,, Janet D,---,janet.alvarez@mavs.uta.edu
+Alvarez,, Jasmine L,---,jasmine.alvarez@mavs.uta.edu
+Alvarez,, Jennifer,Student Assistant,jennifer.alvarez@uta.edu
+Alvarez,, Jeremy Allen,---,jeremy.alvarez@mavs.uta.edu
+Alvarez,, Jeremy Gray,---,jeremygalvarez@mavs.uta.edu
+Alvarez,, Jessica,---,jessica.alvarez2@mavs.uta.edu
+Alvarez,, Jesus,---,jesus.alvarez@mavs.uta.edu
+Alvarez,, Jo A,---,jo.alvarez@mavs.uta.edu
+Alvarez,, Johnathan H,---,johnathan.alvarez@mavs.uta.edu
+Alvarez,, Jonathan,---,jonathan.alvarez93@mavs.uta.edu
+Alvarez,, Jonniesa,---,jonniesa.alvarez@mavs.uta.edu
+Alvarez,, Jose,---,jose.alvarez40@mavs.uta.edu
+Alvarez,, Josue J,---,josue.alvarez@mavs.uta.edu
+Alvarez,, Jovan,---,jovan.alvarez@mavs.uta.edu
+Alvarez,, Julia Arlene,---,julia.alvarez@mavs.uta.edu
+Alvarez,, Julia Lesly,---,julia.alvarez2@mavs.uta.edu
+Alvarez,, Julio F,---,julio.alvarez@mavs.uta.edu
+Alvarez,, Karla Liliana,---,karla.alvarez@mavs.uta.edu
+Alvarez,, Kimberly E,---,kimberly.alvarez@mavs.uta.edu
+Alvarez,, Kimberly I,---,kimberly.alvarez2@mavs.uta.edu
+Alvarez,, Lalaina M,---,lalaina.alvarez@mavs.uta.edu
+Alvarez,, Laura,---,laura.alvarez@mavs.uta.edu
+Alvarez,, Lauren A,---,lauren.alvarez@mavs.uta.edu
+Alvarez,, Leslie Michelle Lynn,---,leslie.alvarez@mavs.uta.edu
+Alvarez,, Lizbeth P,---,lizbeth.alvarez@mavs.uta.edu
+Alvarez,, Lucy,---,lucy.alvarez@mavs.uta.edu
+Alvarez,, Luis Arturo,---,luis.alvarez3@mavs.uta.edu
+Alvarez,, Luis J,---,---
+Alvarez,, Luis M,---,luis.alvarez@mavs.uta.edu
+Alvarez,, Luz Katherine,---,luz.alvarez@mavs.uta.edu
+Alvarez,, Maria J,---,maria.alvarez@mavs.uta.edu
+Alvarez,, Mariela T,---,mariela.alvarez@mavs.uta.edu
+Alvarez,, Marina A,---,marina.alvarez@mavs.uta.edu
+Alvarez,, Mario,---,mario.alvarez2@mavs.uta.edu
+Alvidrez,, Brenda S,---,brenda.alvidrez@mavs.uta.edu
+Alvidrez,, Elizabeth R,---,elizabeth.alvidrez@mavs.uta.edu
+Alvidrez,, Enriqueta,---,enriqueta.alvidrez@mavs.uta.edu
+Alvidrez,, Javier,---,javier.alvidrez@mavs.uta.edu
+Alvidrez,, Jesus M,---,jesus.alvidrez@mavs.uta.edu
+Alvin,,Andrews,---,alvin.andrews@mavs.uta.edu
+Alvin,B,John,---,alvin.john@mavs.uta.edu
+Alvin,D,Genzlinger,---,alvin.genzlinger@mavs.uta.edu
+Alvin,D,Nguyen,---,alvin.nguyen@mavs.uta.edu
+Alvin,J,Mason,---,alvin.mason@mavs.uta.edu
+Alvin,V,Abraham,---,alvin.abraham@mavs.uta.edu
+Alvina,,Momin,---,alvina.momin@mavs.uta.edu
+Alvine,N,Meotoho-eke,---,alvine.meotoho-eke@mavs.uta.edu
+Alvis,J,Jones,---,alvis.jones@mavs.uta.edu
+Alvis,S,Hall,---,alvis.hall@mavs.uta.edu
+Alvis,, Julia Elizabeth,---,julia.alvis@mavs.uta.edu
+Alviso,, Carla G,---,carla.alviso@mavs.uta.edu
+Alvito,A,Colasco,---,alvito.colasco@mavs.uta.edu
+Alvizo,, Fitima Kashaka,---,fitima.alvizo@mavs.uta.edu
+Alvizo,, Hector,---,hector.alvizo@mavs.uta.edu
+Alvord,, Ciandra,---,ciandra.alvord@mavs.uta.edu
+Alwa,, Vikas Reddy,---,vikasreddy.alwa@mavs.uta.edu
+Alwahibi,, Abdulelah S,---,abdulelah.alwahibi@mavs.uta.edu
+Alwajih,, Mohammed,---,mohammed.alwajih@mavs.uta.edu
+Alwakyly,, Jana Tareq M,---,jana.alwakyly@mavs.uta.edu
+Alwani,, Adib A,---,adib.alwani@mavs.uta.edu
+Alwardt,, Alan Anthony,---,alan.alwardt@mavs.uta.edu
+Alween,A,Varghese,---,alween.varghese@mavs.uta.edu
+Alwesaibie,, Emad Ali,---,emad.alwesaibie@mavs.uta.edu
+Alwin,,Jose,---,alwin.jose@mavs.uta.edu
+Alwosabai,, Raed T,---,raedtaher.alwosabai@mavs.uta.edu
+Aly,,Elmasry,---,aly.elmasry@mavs.uta.edu
+Al-Yafai,, Amal Ali,---,amal.al-yafai@mavs.uta.edu
+Al-Yafai,, Nada A,---,nada.al-yafai@mavs.uta.edu
+Alyami,, Khalid F,---,khalid.alyami@mavs.uta.edu
+Alyana,,Gerra,---,alyana.gerra@mavs.uta.edu
+Alyanna,B,Bondoc,---,alyanna.bondoc@mavs.uta.edu
+Alyari,, Babak,---,babak.alyari@mavs.uta.edu
+Alyazeed,A,Mouawad,---,alyazeed.mouawad@mavs.uta.edu
+Alyce,A,Fowler,---,alyce.fowler@mavs.uta.edu
+Alyce,T,Monroe,---,alyce.monroe@mavs.uta.edu
+Alycia,C,Barsness,---,alycia.barsness@mavs.uta.edu
+Alycia,,Calhoun,---,alycia.calhoun@mavs.uta.edu
+Alycia,K,Barrett,---,alycia.barrett@mavs.uta.edu
+Alyece,D,Urice,---,alyece.urice@mavs.uta.edu
+Alyil,Veedu, Dhruva,---,dhruva.veedu@mavs.uta.edu
+Alyousef,, Zainab Mohammed H,---,zainab.alyousef@mavs.uta.edu
+Alyse,N,Roy,---,alyse.roy@mavs.uta.edu
+Alysha,L,Spangler,---,alysha.spangler@mavs.uta.edu
+Alysha,R,Pierot,---,alysha.pierot@mavs.uta.edu
+Alyshia,,Remtula,---,alyshia.remtula@mavs.uta.edu
+Alysia,D,Osorio,---,alysia.osorio@mavs.uta.edu
+Alysia,N,Goff,---,alysia.goff@mavs.uta.edu
+Alyssa,R,Jones,---,alyssa.jones@mavs.uta.edu
+Alyssa,R,Katchinska,---,alyssa.katchinska@mavs.uta.edu
+Alyssa,R,Minnis,---,alyssa.minnis@mavs.uta.edu
+Alyssa,R,Morse,---,alyssa.morse@mavs.uta.edu
+Alyssa,R,Summers,---,alyssa.summers@mavs.uta.edu
+Alyssa,,Shelton,---,alyssa.shelton@mavs.uta.edu
+Alyssa,,Simpson,---,alyssa.simpson@mavs.uta.edu
+Alyssa,V,Bruno,---,alyssa.bruno@mavs.uta.edu
+Alyssia,R,Hamilton,---,alyssia.hamilton@mavs.uta.edu
+Alyssia,,Tirado,---,alyssia.tirado@mavs.uta.edu
+Alysson,M,Woytek,---,alysson.woytek@mavs.uta.edu
+Alzahrani,, Alaa Saad A,---,alaasaad.alzahrani@mavs.uta.edu
+Alzahrani,, Bandar Abdullah A,---,bandar.alzahrani@mavs.uta.edu
+Alzahrani,, Dhaifallah A,---,dhaifallah.alzahrani@mavs.uta.edu
+Alzahrani,, Mohammed Abdulrahman Y,---,mohammed.alzahrani@mavs.uta.edu
+Alzahrani,, Osammah S,---,osammah.alzahrani@mavs.uta.edu
+Alzahrani,, Rawa Ahmed M,---,rawa.alzahrani@mavs.uta.edu
+Alzahrani,, Saud M,---,saud.alzahrani@mavs.uta.edu
+Alzaitoun,, Alaa,---,alaa.zaitoun@mavs.uta.edu
+Alzaitoun,, Feras,---,feras.alzaitoun@mavs.uta.edu
+Alzate,, Angela Maria,---,angela.alzate@mavs.uta.edu
+Alzate,, Geovanny A,---,geovanny.alzate@mavs.uta.edu
+Alzate,, Sandra Patricia,---,sandra.alzate@mavs.uta.edu
+Alzghari,, Amna K,---,amna.alzghari@mavs.uta.edu
+Alzidan,, Amy Minwer,---,amy.alzidan@mavs.uta.edu
+Alzinati,, Zaina,---,zaina.alzinati@mavs.uta.edu
+Alziyaby,, Rotana Mutlag,---,rotana.alziyaby@mavs.uta.edu
+Alzubaidi,, Abdullah Omar A,---,abdullah.alzubaidi@mavs.uta.edu
+Alzugaiby,, Basim A,---,basim.alzugaiby@mavs.uta.edu
+Alzuhaili,, Nasim Majed,---,nasim.alzuhaili@mavs.uta.edu
+Alzuhairy,, Sumaya,---,sumaya.alzuhairy@mavs.uta.edu
+Ama,A,Baffoe-bonnie,---,ama.baffoe-bonnie@mavs.uta.edu
+Ama,K,Rahsaan-grandberry,---,ama.rahsaan-grandberry@mavs.uta.edu
+Ama,N,Addo,---,ama.addo@mavs.uta.edu
+Amaazee,, Toimbie Sih,---,toimbie.amaazee@mavs.uta.edu
+Amaba,, Christen Joy S,---,christenjoy.amaba@mavs.uta.edu
+Amada,, Sai Chand,---,saichand.amada@mavs.uta.edu
+Amadi,, Franklin O,---,franklin.amadi@mavs.uta.edu
+Amadi,, Helen Agwajinma,---,helen.amadi@mavs.uta.edu
+Amadi,, Juliet Chioma,---,juliet.amadi@mavs.uta.edu
+Amadi,, Nkechi C,---,nkechi.amadi@mavs.uta.edu
+Amadi,, Obinna Chidi,---,obinna.amadi@mavs.uta.edu
+Amadin,, Uhunoma,---,uhunoma.amadin@mavs.uta.edu
+Amadio,, Melissa D,---,melissa.amadio@mavs.uta.edu
+Amado,,Raquepo,---,amado.raquepo@mavs.uta.edu
+Amado,, Samuel,---,samuel.amado@mavs.uta.edu
+Amado,, Sherryl A,---,sherryl.amado@mavs.uta.edu
+Amador,Ponce, Raquel,---,raquel.amadorponce@mavs.uta.edu
+Amador,, Anita m,---,anita.amador@mavs.uta.edu
+Amador,, Bryan,---,bryan.amador@mavs.uta.edu
+Amador,, Carlos Alberto,---,carlos.amador@mavs.uta.edu
+Amador,, Christian G,---,christian.amador@mavs.uta.edu
+Amaloo,, Jason M,---,jason.amaloo@mavs.uta.edu
+Amalu,, Justina I,---,justina.amalu@mavs.uta.edu
+Aman,,Alok,---,aman.alok@mavs.uta.edu
+Aman,,Gautam,---,aman.gautam@mavs.uta.edu
+Aman,,Gupta,---,aman.gupta@mavs.uta.edu
+Aman,N,Prasla,---,aman.prasla@mavs.uta.edu
+Aman,R,Chaurasia,---,aman.chaurasia@mavs.uta.edu
+Aman,, Lynette,---,lynette.aman@mavs.uta.edu
+Aman,, Manzoor,---,manzoor.aman@mavs.uta.edu
+Aman,, Roshan,---,roshan.aman@mavs.uta.edu
+Amancio,, Kylie,---,kylie.amancio@mavs.uta.edu
+Amanda,A,Gibson,---,agibson@mavs.uta.edu
+Amanda,A,Lee,---,amandaalee@mavs.uta.edu
+Amanda,A,Poteet,---,amanda.poteet@mavs.uta.edu
+Amanda,A,Quintanilla,---,amanda.quintanilla@mavs.uta.edu
+Amanda,A,Sanchez,---,amandaasanchez@mavs.uta.edu
+Amanda,,Amenell,---,amanda.amenell@mavs.uta.edu
+Amanda,,Anway,---,amanda.anway@mavs.uta.edu
+Amanda,B,Benson,---,amanda.benson@mavs.uta.edu
+Amanda,B,Chamberlain,---,amanda.chamberlain@mavs.uta.edu
+Amanda,B,Clark,---,amandabclark@mavs.uta.edu
+Amanda,B,Clem,---,amanda.clem@mavs.uta.edu
+Amanda,B,Jarvis,---,ajarvis@mavs.uta.edu
+Amanda,B,Onorato,---,amanda.onorato@mavs.uta.edu
+Amanda,B,Parry,---,amanda.parry@mavs.uta.edu
+Amanda,B,Povilitus,---,amanda.povilitus@mavs.uta.edu
+Amanda,B,Thomas,---,amandabthomas@mavs.uta.edu
+Amanda,,Baquera,---,amanda.baquera@mavs.uta.edu
+Amanda,,Bohrer,---,amanda.bohrer@mavs.uta.edu
+Amanda,,Boudreaux,---,amanda.boudreaux@mavs.uta.edu
+Amanda,,Brewer,---,amanda.brewer94@mavs.uta.edu
+Amanda,C,Barnett,---,abarnett@mavs.uta.edu
+Amanda,C,Butcher,---,abutcher@mavs.uta.edu
+Amanda,C,Catron,---,acatron@mavs.uta.edu
+Amanda,C,Chung,---,amanda.chung@mavs.uta.edu
+Amanda,C,Claiborne,---,amanda.claiborne@mavs.uta.edu
+Amanda,C,De la vega,---,amanda.delavega@mavs.uta.edu
+Amanda,C,Detrick,---,amanda.detrick@mavs.uta.edu
+Amanda,C,Flores,---,amandacflores@mavs.uta.edu
+Amanda,C,Franks,---,amanda.franks@mavs.uta.edu
+Amanda,C,Gardner,---,agardner@mavs.uta.edu
+Amanda,C,Hamilton,---,amandachamilton@mavs.uta.edu
+Amanda,C,Harris,---,amanda.harris@mavs.uta.edu
+Amanda,C,Howard,---,amanda.howard@mavs.uta.edu
+Amanda,C,Lale,---,amanda.lale@mavs.uta.edu
+Amanda,C,Lea,---,amanda.lea@mavs.uta.edu
+Amanda,C,Sargent,---,amanda.sargent@mavs.uta.edu
+Amanda,C,Theriault,---,amanda.theriault@mavs.uta.edu
+Amanda,C,Venable,---,amanda.venable@mavs.uta.edu
+Amanda,,Camario,---,amanda.camario@mavs.uta.edu
+Amanda,,Carlson,---,amanda.carlson@mavs.uta.edu
+Amanda,J,Williams,---,amanda.williams@mavs.uta.edu
+Amanda,,Johnston,---,ajohnston@mavs.uta.edu
+Amanda,,Jones,---,amanda.jones40@mavs.uta.edu
+Amanda,K,Aker,---,amanda.aker@mavs.uta.edu
+Amanda,K,Avelar,---,aavelar@mavs.uta.edu
+Amanda,K,Costanzo,---,amanda.costanzo@mavs.uta.edu
+Amanda,K,Decker,---,amanda.decker@mavs.uta.edu
+Amanda,K,Greenlee,---,amanda.greenlee@mavs.uta.edu
+Amanda,K,Hrobuchak,---,amanda.hrobuchak@mavs.uta.edu
+Amanda,K,Johnson,---,amandakjohnson@mavs.uta.edu
+Amanda,K,Jones,---,amandakjones@mavs.uta.edu
+Amanda,K,Lambert,---,amanda.lambert@mavs.uta.edu
+Amanda,K,Mitchell,---,amandakmitchell@mavs.uta.edu
+Amanda,K,Moehringer,---,amanda.moehringer@mavs.uta.edu
+Amanda,K,Neagle,---,amanda.neagle@mavs.uta.edu
+Amanda,K,Patino,---,amanda.patino@mavs.uta.edu
+Amanda,K,Pereira,---,amanda.pereira@mavs.uta.edu
+Amanda,K,Schneider,---,amanda.schneider@mavs.uta.edu
+Amanda,K,Schryver,---,amanda.schryver@mavs.uta.edu
+Amanda,K,Schultz,---,amanda.schultz@mavs.uta.edu
+Amanda,K,Sherman,---,amanda.sherman@mavs.uta.edu
+Amanda,K,Shows,---,amanda.shows@mavs.uta.edu
+Amanda,K,Spring,---,amanda.spring@mavs.uta.edu
+Amanda,K,Stockman,---,amanda.stockman@mavs.uta.edu
+Amanda,K,Wysinger,---,amanda.wysinger@mavs.uta.edu
+Amanda,L,Ball,---,amanda.ball@mavs.uta.edu
+Amanda,L,Bertrand,---,amanda.bertrand@mavs.uta.edu
+Amanda,L,Beseda,---,amanda.beseda@mavs.uta.edu
+Amanda,L,Brooks,---,amanda.brooks@mavs.uta.edu
+Amanda,L,Burns,---,amanda.burns@mavs.uta.edu
+Amanda,L,Casciani,---,amanda.casciani@mavs.uta.edu
+Amanda,L,Castleberry,---,amanda.castleberry@mavs.uta.edu
+Amanda,L,Cerna,---,amanda.cerna@mavs.uta.edu
+Amanda,L,Chafton,---,amanda.chafton@mavs.uta.edu
+Amanda,L,Ching,---,amanda.ching@mavs.uta.edu
+Amanda,L,Crites,---,amanda.crites@mavs.uta.edu
+Amanda,L,Dinwiddie,---,amanda.dinwiddie@mavs.uta.edu
+Amanda,L,Draudt,---,amanda.draudt@mavs.uta.edu
+Amanda,L,Flowers,---,amanda.flowers@mavs.uta.edu
+Amanda,L,Frazier,---,amanda.frazier@mavs.uta.edu
+Amanda,L,French,---,amanda.french@mavs.uta.edu
+Amanda,L,Gardner,---,amanda.gardner@mavs.uta.edu
+Amanda,L,Guerrero,---,amanda.guerrero@mavs.uta.edu
+Amanda,L,Holt,---,amanda.holt@mavs.uta.edu
+Amanda,L,Jarvis,---,amanda.jarvis@mavs.uta.edu
+Amanda,L,Jones,---,amandaljones@mavs.uta.edu
+Amanda,L,Kragl,---,amanda.kragl@mavs.uta.edu
+Amanda,L,Lucas,---,amanda.lucas@mavs.uta.edu
+Amanda,L,Mcdonald,---,amandalmcdonald@mavs.uta.edu
+Amanda,L,Mollica,---,amanda.mollica@mavs.uta.edu
