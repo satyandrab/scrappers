@@ -7,8 +7,8 @@ from lxml import html
 from urlparse import urlparse, parse_qs
 import mechanize, cookielib, random, re, csv
 import time, sys
-#time_value = random.uniform(1.5, 2.5)
-time_value = 0
+time_value = random.uniform(1.5, 2.5)
+#time_value = 0
 
 state_url_file = open('data/state.txt', 'ab')
 profid_file = open('data/profid.txt', 'ab')
@@ -568,7 +568,7 @@ if __name__ == '__main__':
                 print "writing for state"
                 if len(state_code) > 0:
                     for gender in gender_list:
-                        for num in range(1, 100, 20):
+                        for num in range(1, 500, 20):
                             if len(state_codes) == 1:
                                 ga_female_th_url = 'https://therapists.psychologytoday.com/rms/prof_results.php?&state='+state_code+'&s=R&therapist_gender='+str(gender)+'&rec_next='+str(num)
                             else:
